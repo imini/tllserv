@@ -1,0 +1,11 @@
+<npc name="Zed" script="zed.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="153" head="115" body="114" legs="96" feet="115" addons="3"/>
+	<parameters>
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_farewell" value="J cfmjfwf nz cspuifs ibt ieefpo b tfdsfu txjudi tpnfxifsf." />
+		<parameter key="message_walkaway" value="J cfmjfwf nz cspuifs ibt ieefpo b tfdsfu txjudi tpnfxifsf." />
+	</parameters>
+	
+</npc>

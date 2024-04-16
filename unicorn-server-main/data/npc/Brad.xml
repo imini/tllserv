@@ -1,0 +1,24 @@
+<npc name="Brad" script="brad.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="130" head="114" body="106" legs="131" feet="114" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;lendan;brother;casteldine;royal airlines;king arturo;quest;name;offer" />
+		<parameter key="keyword_reply1" value="I am currently working for The Royal Airlines, as me and my brother Lendan call our business." />
+    <parameter key="keyword_reply2" value="Lendan is my brother. We're working together." />
+    <parameter key="keyword_reply3" value="My brother's name is Lendan." />
+    <parameter key="keyword_reply4" value="Casteldine is to the west. Just follow the dirt road." />
+    <parameter key="keyword_reply5" value="Me and my brother decided to seek a permission to open this travelling business. King Arturo approved, and today we are an important factor for travelling in Lithaton." />
+    <parameter key="keyword_reply6" value="I serve His Royal Highness." />
+    <parameter key="keyword_reply7" value="I heard the orcs had some base in the east." />
+    <parameter key="keyword_reply8" value="I'm glad to meet you. I'm Brad." />
+    <parameter key="keyword_reply9" value="For 75 gold coins I can fly you to Celeres." />
+    <parameter key="keyword_reply10" value="I can fly you to Celeres for 75 gold coins." />
+    
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome to the Royal Airlines, |PLAYERNAME|. May I be at your assistance?" />
+		<parameter key="message_farewell" value="Come back later, will you?" />
+		<parameter key="message_walkaway" value="Goodbye, then." />
+	</parameters>
+</npc>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Giant" nameDescription="a giant" race="blood" experience="2850" speed="290" manacost="0">
+  <health now="3900" max="3900"/>
+  <look type="55" head="0" body="0" legs="0" feet="0" corpse="2931"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="84" attack="59"/>
+    <attack name="lifedrain" interval="1000" chance="13" radius="6" target="0" min="-110" max="-180">
+      <attribute key="areaEffect" value="redshimmer"/>
+</attack>
+    <attack name="physical" interval="1000" chance="10" length="5" spread="0" min="-120" max="-260">
+      <attribute key="areaEffect" value="blackspark"/>
+    </attack>
+  </attacks>
+  <defenses armor="41" defense="50">
+    <defense name="speed" interval="1000" chance="7" speedchange="200" duration="2500">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+    <defense name="healing" interval="1000" chance="5" min="200" max="340">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="You're so little!"/>
+    <voice sentence="Are you lost?!"/>
+    <voice sentence="Crush the intruders!" yell="1"/>
+  </voices>
+  <loot capacity="900">
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2792" countmax="1" chance="1100"/>
+    <item id="2231" countmax="1" chance="7000"/>
+    <item id="2413" countmax="1" chance="15000"/>
+    <item id="2387" countmax="1" chance="1000"/>
+    <item id="2173" countmax="1" chance="500"/> amulet of loss
+    <item id="2393" countmax="1" chance="600"/> giant sword
+    <item id="2554" countmax="1" chance="6000"/>
+    <item id="2436" countmax="1" chance="1900"/> skull staff
+
+    <item id="2185" countmax="1" chance="800"/>
+    <item id="2415" countmax="1" chance="10"/> great axe
+    <item id="2379" countmax="1" chance="4000"/>
+      </inside>
+    </item>
+    <item id="2482" countmax="1" chance="3000"/>
+    <item id="2148" countmax="60" chance="70000"/>
+    <item id="2148" countmax="30" chance="50000"/>
+    <item id="2666" countmax="24" chance="40000"/>
+    <item id="2145" countmax="2" chance="4000"/>
+    <item id="2195" countmax="1" chance="400"/> boots of haste
+  </loot>
+</monster>

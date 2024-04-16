@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<monster name="Ghazbaran" tp="1" nameDescription="Ghazbaran" race="blood" experience="15000" speed="450" manacost="0">
+	<health now="25000" max="25000"/>
+	<look type="12" head="0" body="85" legs="97" feet="94" corpse="2916"/>
+	<targetchange interval="10000" chance="1"/>
+	<strategy attack="600" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>		
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag lightlevel="0"/>
+		<flag lightcolor="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+
+	<attacks>
+		<attack name="melee" interval="2000" min="-110" max="-800"/>
+		<attack name="manadrain" interval="2000" chance="12" radius="6" target="0" max="-450">
+		<attribute key="areaEffect" value="poff"/>
+		</attack>
+		 <attack name="lifedrain" interval="2000" chance="12" length="8" spread="0" min="-400" max="-600">
+     		 <attribute key="areaEffect" value="mortarea"/>
+   		 </attack>
+		<attack name="manadrain" interval="2000" chance="14" radius="6" target="0" min="-450" max="-950">
+		<attribute key="areaEffect" value="bluebubble"/>
+		</attack>
+		<attack name="strength" interval="2000" chance="11" radius="5" target="0" min="-300" max="-450">
+    		<attribute key="areaEffect" value="blackspark"/>
+   		 </attack>
+		<attack name="strength" interval="2000" chance="7" radius="6" target="0" min="-300" max="-450">
+    		<attribute key="areaEffect" value="yellowspark"/>
+   		 </attack>
+		<attack name="energy" interval="4000" chance="8" radius="4" target="0" min="-200" max="-300">
+    		<attribute key="areaEffect" value="energyarea"/>
+   		 </attack>
+		<attack name="Ghaz1" interval="2000" chance="20" radius="5" target="0" min="-20" max="-20"/>
+		<attack name="physical" interval="2000" chance="17" min="-300" max="-400" range="7">
+		<attribute key="shootEffect" value="whirlwindsword"/>
+		</attack>
+		</attacks>
+		<defenses armor="20" defense="30">
+		<defense name="ultimate healing" interval="6000" chance="110" min="1500" max="2300">
+		<attribute key="areaEffect" value="blackspark"/>
+		</defense>
+	</defenses>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="0"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+	<summons maxSummons="1">
+		<summon name="Deathslicer" interval="1000" chance="10"/>
+	</summons>
+
+	<voices interval="2000" chance="5">
+		<voice sentence="COME HERE AND DIE!"/>
+		<voice sentence="COME AND GIVE ME SOME AMUSEMENT"/>
+		<voice sentence="IS THAT THE BEST YOU HAVE TO OFFER, TIBIANS?"/>
+		<voice sentence="I AM GHAZBARAN OF THE TRIANGLE... AND I AM HERE TO CHALLENGE YOU ALL."/>
+	</voices>
+
+	<loot>
+		<item id="2160" countmax="3" chance1="50000" chancemax="10000"/> -- platinum coin
+		<item id="2514" chance="20000"/> -- mastermind shield
+		<item id="7431" chance="25000"/> -- demon bone
+  		  <item id="2278" countmax="3" chance="59000"/>
+		<item id="2179" chance="50000"/> -- gold ring
+		<item id="1987" chance="33333"> -- bag
+		<inside>
+		<item id="5943" chance="100000"/> -- Morgaroth's heart
+		</inside>
+		</item>
+	</loot>
+
+</monster>

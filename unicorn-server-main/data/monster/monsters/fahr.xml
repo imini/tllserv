@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fahr" nameDescription="a Fahr" race="blood" experience="400" speed="280" manacost="600">
+  <health now="450" max="450"/>
+  <look type="57" head="0" body="0" legs="0" feet="0" corpse="3058"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="20"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="50" attack="40"/>
+    <attack name="lifedrain" interval="2000" chance="30" range="1" min="-35" max="-60"/>
+    <attack name="poison" interval="2000" chance="35" length="2" spread="0" min="-40" max="-80">
+      <attribute key="areaEffect" value="dice"/>
+    </attack>
+  </attacks>
+  <defenses armor="28" defense="35">
+    <defense name="healing" interval="1000" chance="17" min="10" max="30">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="1000" chance="10" speedchange="110" duration="2000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="BRETHREN, BACK ME UP!"/>
+    <voice sentence="KILL THEM ALL!"/>
+    <voice sentence="COME TO OUR BROTHERHOOD, FOOL!" yell="1"/>
+  </voices>
+  <loot>
+ <item id="1987" chance="100000" > -- bag
+    <inside>
+      <item id="2151" chance="4090" countmax="2" /> -- talon
+      <item id="2485" chance="82838" /> -- doublet
+      <item id="2498" chance="50" /> -- rh
+      <item id="2235" chance="32011" /> -- molden cheese
+      <item id="2234" chance="51922" /> -- broken sword
+      <item id="2513" chance="31323" /> -- battle shield
+      <item id="2516" chance="1332" /> -- d shield
+      <item id="2511" chance="4221" /> -- brass shield
+    </inside>
+    </item>
+    <item id="2148" chance="70000" countmax="32" /> -- gold coin
+    <item id="2179" chance="4142" countmax="1" /> -- gold ring
+    <item id="2476" chance="1900" /> -- knight armor
+   <item id="2236" chance="8444" /> -- torn book
+   <item id="2231" chance="22322" /> -- bone
+     </loot>
+</monster>

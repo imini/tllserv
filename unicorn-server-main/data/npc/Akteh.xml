@@ -1,0 +1,30 @@
+<npc name="Akteh" script="akteh.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="145" head="114" body="114" legs="114" feet="114" addons="3"/>
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="altar of blood;activity;boreg;blood ogre;ogre;akteh;wise;hall of prophecy;blood coffin;allow;access" />
+		<parameter key="keyword_reply1" value="The Altar of Blood is the place where Boreg sacrifices his victims to the gods higher than him. It's stood empty for countless years, but now I can sense activity there again." />
+		<parameter key="keyword_reply2" value="Yes... I can sense vibrations from the Altar of Blood - Boreg is returning." />
+		<parameter key="keyword_reply3" value="He's the god of the Blood Ogres." />
+		<parameter key="keyword_reply4" value="Powerful creatures - the feed on blood, just like the vampires." />
+		<parameter key="keyword_reply5" value="I respect Ogres, but Blood Ogres even more." />
+		<parameter key="keyword_reply6" value="Do you bear ill-feeling toward my name, |PLAYERNAME|?" />
+		<parameter key="keyword_reply7" value="Haven't you heard about the old and wise one? He's an ancient warlock, very old man. He lives somewhere here, cannot remember exactly where. Anyways, he holds the key to the Hall of Prophecy." />
+		<parameter key="keyword_reply8" value="In the Hall of Knowledge the history behind the two Altars is carved in blood. It's also said that the Blood Coffin is located there... you see, I've never been allowed to go there." />
+		<parameter key="keyword_reply9" value="The eye of Boreg is resting in the Blood Coffin. Only the coffin itself wields enormous magical powers." />
+		<parameter key="keyword_reply10" value="I will only allow those who can successfully complete a test." />
+		<parameter key="keyword_reply11" value="I will only allow those who can successfully complete a test." />
+
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="What are you doing here?" />
+		<parameter key="message_farewell" value="Hah. Farewell, fool." />
+		<parameter key="message_walkaway" value="Good thing you are finally leaving." />
+
+	</parameters>
+
+
+</npc>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<monster name="Quara Predator" nameDescription="a quara predator" race="undead" experience="1600" speed="440">
+	<health now="2200" max="2200"/>
+	<look type="20" corpse="6067"/>
+	<targetchange speed="2000" chance="25"/>
+	<strategy attack="80" defense="10"/>
+
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+
+	<immunities>
+    <immunity energy1="1"/>
+    <immunity fire1="1"/>
+		<immunity physical="0"/>
+		<immunity energy="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="0"/>
+		<immunity drunk="0"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+	<attacks>
+		<attack name="melee" speed="2000" min="-100" max="-450"/>
+	</attacks>
+
+	<defenses armor="34" defense="42">
+		<defense name="healing" interval="2000" chance="20" min="150" max="250">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="14" speedchange="80" duration="20000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+
+	<voices speed="1000" chance="10">
+		<voice sentence="Rraaar!"/>
+	</voices>
+
+	<loot>
+<item id="1987" countmax="1">
+      <inside>
+		<item id="7378" countmax="7" chancemax="0" chance1="4500"/>
+		<item id="2226" chance="16000"/>
+		<item id="7368" countmax="2" chancemax="0" chance1="2300"/>
+		<item id="2387" chance="4500"/>
+      </inside>
+    </item>
+		<item id="2148" countmax="80" chancemax="0" chance1="70000"/>
+		<item id="2148" countmax="40" chancemax="0" chance1="60000"/>
+		<item id="2145" countmax="1" chancemax="0" chance1="3000"/>
+				<item id="2483" chance="5000"/>
+				<item id="2473" chance="6000"/>
+				<item id="5741" chance="300"/>
+	</loot>
+</monster>

@@ -1,0 +1,38 @@
+<npc name="Teprido Hagono" script="teprido hagono.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="130" head="114" body="126" legs="126" feet="0" addons="0"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;quest;book;copyright;celeres;casteldine;king arturo;dallheim;joseph;alfred;doc;zertic;sten;tommy;emma;hack sparry;alexander;jooko;jessica;liyana;churry;penim" />
+		<parameter key="keyword_reply1" value="I am currently the royal astrolog. Before this I used to write many books." />
+    		<parameter key="keyword_reply2" value="I am Teprido Hagono. If you are a reader you should know my name." />
+    		<parameter key="keyword_reply3" value="No, |PLAYERNAME|, I am quite poor and I have not anything to offer you for tasks." />
+    		<parameter key="keyword_reply4" value="I have no quest for you." />
+    		<parameter key="keyword_reply5" value="I have written several books, but now their copyrights are sold to the Celeres library." />
+    		<parameter key="keyword_reply6" value="Celeres has copyrighted my books for the time being." />
+    		<parameter key="keyword_reply7" value="I have lived in Celeres, but I moved after having sold all my books. The king hired me, you see." />
+    		<parameter key="keyword_reply8" value="Now I live in Castle Dine, I even have my own room downstairs." />
+    		<parameter key="keyword_reply9" value="The king is a nice person, you just need to get to know him." />
+    		<parameter key="keyword_reply10" value="How can we actually tell whether this man is from the enemy or not?" />
+    		<parameter key="keyword_reply11" value="Did you ever wonder what hides beneath the fancy clothes he wears? An enemy in disguise?" />
+    		<parameter key="keyword_reply12" value="Imagine how easy it would be to poison the food he serves and then kill a whole score of men in one night?" />
+    		<parameter key="keyword_reply13" value="This is one man who I actually can trust." />
+    		<parameter key="keyword_reply14" value="This man has actually proven himself trustworthy." />
+    		<parameter key="keyword_reply15" value="Don't you find it a bit strange that he moved from a remote island such as Hagal to our Casteldine? I just say, be aware with this man." />
+    		<parameter key="keyword_reply16" value="Why do you think he is nervous all the time? He knows something we other don't, of course." />
+    		<parameter key="keyword_reply17" value="I find it very strange that she refuses to talk to anyone else than Alexander." />
+    		<parameter key="keyword_reply18" value="He's a pirate. Our treasures are not safe as long as he's here." />
+    		<parameter key="keyword_reply19" value="Alexander might look innocent, but under the shell hides a demon in disguise." />
+    		<parameter key="keyword_reply20" value="His jokes are mortally boring." />
+    		<parameter key="keyword_reply21" value="I heard she and Liyana are planning an armageddon attack." />
+    		<parameter key="keyword_reply22" value="I heard she and Jessica are planning an armageddon attack." />
+    		<parameter key="keyword_reply23" value="His past makes this man insecure to keep in the castle." />
+    		<parameter key="keyword_reply24" value="An elf from Ashbere? Now, that must be crazy!" />
+    
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Aah. A visitor, interesting. What do you want me?" />
+		<parameter key="message_farewell" value="Bye, |PLAYERNAME|. Be careful in the ladder." />
+		<parameter key="message_walkaway" value="Be careful in the ladder." />
+	</parameters>
+</npc>

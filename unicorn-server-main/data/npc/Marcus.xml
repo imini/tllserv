@@ -1,0 +1,24 @@
+<npc name="Marcus" script="marcus.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="134" head="61" body="95" legs="113" feet="115" addons="0"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;smith" />
+		<parameter key="keyword_reply1" value="I am o' of those blacksmith' ye know." />
+		<parameter key="keyword_reply2" value="Bran' new sword, I've got for yeh, lil' guy. Shining." />
+		<parameter key="keyword_reply3" value="My smith th' is, yeh." />
+
+
+
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="swrod, 2376, 150" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Grunt! Wha' ya want, child?" />
+		<parameter key="message_farewell" value="Wat ya said?" />
+		<parameter key="message_walkaway" value="Puff?" />
+		<parameter key="message_buy" value="Wan buy a bran new sword fro me, eh? Only 150 shinin ones." />
+	</parameters>
+</npc>
+

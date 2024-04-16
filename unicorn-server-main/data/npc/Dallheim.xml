@@ -1,0 +1,45 @@
+<npc name="Dallheim" script="dallheim.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="129" head="21" body="21" legs="40" feet="116" addons="1"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;casteldine;adanac;tha'reen;ammunition;offer;paladin;king;arturo;natalon;adventure;dallrim;dustwit;brother;joseph;jooko;liyana;zertic;doc;emma;hack sparry;churry;skulldugger;laudegrance;collector;riddle" />
+		<parameter key="keyword_reply1" value="My occupation as I prefer to adress it is selling equipment for the nimble paladins." />
+    <parameter key="keyword_reply2" value="Dallheim comes from my father Dallrim." />
+    <parameter key="keyword_reply3" value="Truly a decent city, although I prefer Adanac. I am also curious how Tha'Reen must be like." />
+    <parameter key="keyword_reply4" value="Adanac is more silent, it's more my taste, you know." />
+    <parameter key="keyword_reply5" value="I have only been told about Tha'Reen. It is located on that island Dustwit." />
+    <parameter key="keyword_reply6" value="Feel free to ask me about the offers visible on the blackboards." />
+    <parameter key="keyword_reply7" value="I can offer you various distance weapons and ammunition." />
+    <parameter key="keyword_reply8" value="I, as my father Dallrim was, am a paladin. It's a very noble profession." />
+    <parameter key="keyword_reply9" value="Yeah... long live the king, I suppose." />
+    <parameter key="keyword_reply10" value="Yeah... long live the king, I suppose." />
+    <parameter key="keyword_reply11" value="Great man." />
+    <parameter key="keyword_reply12" value="Adventures are dangerous, I have learnt." />
+    <parameter key="keyword_reply13" value="Dallrim was my father. You don't know him, he is dead." />
+    <parameter key="keyword_reply14" value="It's that island to the far south-west. Tha'Reen is located there." />
+    <parameter key="keyword_reply15" value="I am so worried for my brother. I hope nothing has happened to him when he went onto his quest." /> 
+    <parameter key="keyword_reply16" value="Joseph is too elegant to enjoy life." />
+    <parameter key="keyword_reply17" value="Jooko is fun from times to times." />
+    <parameter key="keyword_reply18" value="Very handsome girl, indeed. I have dated her for soon one month." />
+    <parameter key="keyword_reply19" value="He scares me. He always walks around with that skull on his head." />
+    <parameter key="keyword_reply20" value="I hardly know him." />
+    <parameter key="keyword_reply21" value="Emma is very cute. But she never talks to me." />
+    <parameter key="keyword_reply22" value="I can hardly understand what he says." />
+    <parameter key="keyword_reply23" value="Chef Churry makes very fine food. His past is creepy though." />
+    <parameter key="keyword_reply24" value="That's the friendly ghoul living up in Laudegrance." />
+    <parameter key="keyword_reply25" value="The mountains in the south are truly astonishing." />
+	<parameter key="keyword_reply26" value="The king is collecting... items." />
+	<parameter key="keyword_reply27" value="Him? Hm, my father once mentioned a guy called John Riddle. I don't think that was his real name though, he just took it after having invented some cipher." />
+		<parameter key="keyword_reply26" value="His Royal Highness collects abacuses. Don't ask me why... I don't know." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="crossbow, 2455, 250;spear, 2389, 10;bow, 2456, 185;onyx arrow, 7365, 5;arrow, 2544, 2;piercing bolt, 7363, 4;bolt, 2543, 3" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello, there." />
+		<parameter key="message_farewell" value="See you, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Farewell then." />
+	</parameters>
+</npc>
+

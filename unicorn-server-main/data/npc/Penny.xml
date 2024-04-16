@@ -1,0 +1,23 @@
+<npc name="Penny" script="penny.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="141" head="115" body="114" legs="115" feet="50" addons="0"/>
+
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer" />
+		<parameter key="keyword_reply1" value="I'm trading these shining goods. Are you interested?" />
+		<parameter key="keyword_reply2" value="I'm Penny a jeweller." /> 
+		<parameter key="keyword_reply3" value="I can offer you extraordinary shining things.... just for you [winks]" /> 
+
+
+			<parameter key="module_shop" value="1" />
+			<parameter key="shop_sellable" value="small amethyst,2150,200;small diamond,2145,290;small emerald,2149,200;small ruby,2147,200;small sapphire,2146,200;black pearl,2144,180;white pearl,2143,160;talon,2151,200;golden mug, 2033, 55;golden nugget, 2157, 700" />
+			<parameter key="shop_buyable" value="small amethyst,2150,450;small diamond,2145,700;small emerald,2149,450;small ruby,2147,450;small sapphire,2146,450;black pearl,2144,560;white pearl,2143,500;talon,2151,900;golden mug, 2033, 280, 0;golden amulet, 2130, 4550" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Silence!" />
+		<parameter key="message_farewell" value="Hope to see you soon, darling." />
+		<parameter key="message_walkaway" value="Bye, dear |PLAYERNAME|." />
+	</parameters>
+</npc>

@@ -1,0 +1,48 @@
+<npc name="Rooster" script="rooster.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="132" head="9" body="7" legs="115" feet="50" addons="3"/>
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;celeres;zertic;dddad;spells;offer;pire vam;sheriff;natalon;lithaton;king arturo;quest;mage;casteldine;secret;scroll;dark;academy;forbidden;ventus;flantania;hercules;andrew;steve;stephanie;sigiric;creyo;fashion;giant spider silk;spool of yarn" />
+		<parameter key="keyword_reply1" value="I am a mage. I sell runes to my customers." />
+		<parameter key="keyword_reply2" value="Rooster is not my name, but my nickname. In fact, I don't know my real name. My parents never told me." />
+    		<parameter key="keyword_reply3" value="Celeres is where I live." />
+    		<parameter key="keyword_reply4" value="Zertic... isn't it that grand mage from Casteldine everyone is talking about?" />
+    		<parameter key="keyword_reply5" value="Magic is an amazing art, and I wish to never stop performing it." />
+    		<parameter key="keyword_reply6" value="I have no spells that I can teach. I know as a matter of fact that there exists certain spell scrolls which teaches its possessor magic. But this magic is not good. It's dark magic." />
+    		<parameter key="keyword_reply7" value="I can offer you various runes, everything from defensive to offensive." />
+    		<parameter key="keyword_reply8" value="Pire Vam is no match for me. I have countless runes and spells at my disposal." />
+    		<parameter key="keyword_reply9" value="I don't know the sheriff, but he seems to know me." />
+    		<parameter key="keyword_reply10" value="Natalon saved Casteldine from destruction." />
+    		<parameter key="keyword_reply11" value="Lithaton is named after some guy named Lith, or something. I read it in Casteldine a long time ago." />
+    		<parameter key="keyword_reply12" value="Hail the king!" />
+    		<parameter key="keyword_reply13" value="As a true mage my neverending quest is to search for the true secret of magic." />
+    		<parameter key="keyword_reply14" value="There are many mages around, but not many as good as I am." />
+    		<parameter key="keyword_reply15" value="I know Casteldine. I've been there." />
+    		<parameter key="keyword_reply16" value="The secrets of magic... is it dark magic?" />
+    		<parameter key="keyword_reply17" value="Have you heard of the scrolls... the spell scrolls? It teaches dark magic, although one may be imprisoned for talking about it. I have had a special permission to mention it from the sheriff, so I can tell everyone that the subject is taboo." />
+    		<parameter key="keyword_reply18" value="Dark magic is taboo here in Celeres. Only I and the sheriff are allowed to mention it. You shouldn't, you might end up in trouble." />
+    		<parameter key="keyword_reply19" value="The Celerian Academy is apparently some mystic party, whose intentions are to rule the city of Celeres in secrecy." />
+	  	<parameter key="keyword_reply20" value="Didn't he live here while ago?" />
+	  	<parameter key="keyword_reply21" value="I think he was the friend of Ventus." />	
+		<parameter key="keyword_reply22" value="That's where I get the fabric for my clothes." />	
+		<parameter key="keyword_reply23" value="Hercules is the one providing me with the fabric for my clothes." />	
+		<parameter key="keyword_reply24" value="Andrew is a simple boozer. I bet he'll die soon enough." />	
+		<parameter key="keyword_reply25" value="Steve is very lazy. I wonder if he has ever even had a job." />	
+		<parameter key="keyword_reply26" value="Stephanie is elegant, but she appears to have too little money to buy my fashion clothes." />	
+		<parameter key="keyword_reply27" value="Sigiric is old. Old as this land, probably." />	
+		<parameter key="keyword_reply28" value="He is a simple thief." />	
+		<parameter key="keyword_reply29" value="My clothes are top fashion." />	
+		<parameter key="keyword_reply30" value="I buy spools of yarn from Caroline. She makes them out of giant spider silk, she told me. They are of decent quality." />
+		<parameter key="keyword_reply31" value="I buy spools of yarn from Caroline. They are of decent quality." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello, customer." />
+		<parameter key="message_farewell" value="Goodbye, customer." />
+		<parameter key="message_walkaway" value="Farewell, customer." />
+	</parameters>
+
+
+</npc>

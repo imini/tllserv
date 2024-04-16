@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<npc name="Vlartjuh" script="Vlartjuh.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="68" head="0" body="0" legs="0" feet="0" />
+
+
+<parameters>
+
+<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="shadow cave;vlartjuh;adrian;remero;alfred;master" />
+		<parameter key="keyword_reply1" value="These giant cavities are often called the Shadow Caves. I don't know if that's their real name, though." />
+    <parameter key="keyword_reply2" value="Vlartjuh is my name. It's of transylvanian ascent." />
+    <parameter key="keyword_reply3" value="Adrian supported Remero's apocalypse theory, but was sadly executed for it. Secretly, I do support my master too." />
+    <parameter key="keyword_reply4" value="Remero is my master. He was a great magican, who unfortunately died when he tried to summon a nameless creature." />
+    <parameter key="keyword_reply5" value="Alfred was Remero's assistant." />
+    <parameter key="keyword_reply6" value="My master was and is Remero." />
+    <parameter key="idletime" value="200" />
+<parameter key="message_greet" value="Welcome to the Shadow Caves' crypt, |PLAYERNAME|."/>
+<parameter key="message_farewell" value="Farewell."/>
+<parameter key="message_walkaway" value="Run away, unworthy |PLAYERNAME|."/>
+</parameters>
+</npc>

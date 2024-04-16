@@ -1,0 +1,34 @@
+<npc name="Taa'Feal" script="Taa'Feal.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="51" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		
+    <parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="djinns;tha'reen;dustwit;alusir;req'ior;maloqua;falor;malos'iquar;marid;green;fighting spirit;enchanted chicken wing;sweat;magic sulphur;blue;magic;gatekeeper;job;commander;battle" />
+		<parameter key="keyword_reply1" value="We are the Djinns!" />
+    		<parameter key="keyword_reply2" value="Tha'Reen... hm, reminds me of humans. Don't speak so much about it, I'll get angry. You don't want that." />
+    		<parameter key="keyword_reply3" value="This continent belongs to Falor and the Efreet!" />
+    		<parameter key="keyword_reply4" value="Hehe, he is a little paranoid. He hates all humans and he believes the slightest flaw in his work will get him kicked from our family by Falor." />
+    		<parameter key="keyword_reply5" value="He sells and buys some magical stuff. Nothing we djinns needs actually, because our magic is already good enough." />
+    		<parameter key="keyword_reply6" value="I refer to adress him as the gate keeper... hahaha!" />
+    		<parameter key="keyword_reply7" value="He is my leader." />
+    		<parameter key="keyword_reply8" value="He sells equipment and so on. Worthless, if you ask me, the only thing we need is our magic and perhaps a djinn blade or two." />
+    		<parameter key="keyword_reply9" value="Don't speak of them unless you say you have killed them." />
+    		<parameter key="keyword_reply10" value="Disgusting foes, the blue djinns. I hate them." />
+    		<parameter key="keyword_reply11" value="Speak with our magic supplier Req'ior." />
+    		<parameter key="keyword_reply12" value="Speak with our magic supplier Req'ior." />
+    		<parameter key="keyword_reply13" value="Speak with our magic supplier Req'ior." />
+    		<parameter key="keyword_reply14" value="Speak with our magic supplier Req'ior." />
+    		<parameter key="keyword_reply15" value="Green djinns will rule the continent... and later the entire world." />
+    		<parameter key="keyword_reply16" value="My magic is great." />
+    		<parameter key="keyword_reply17" value="That's Maloqua. He always comes up with funny reasons to slay visitors, whether it's humans or flies." />
+    		<parameter key="keyword_reply18" value="I am the battle commander." />
+    		<parameter key="keyword_reply19" value="My job is truly of great importance and Falor has personally told me this." />
+    		<parameter key="keyword_reply20" value="My job is truly of great importance and Falor has personally told me this." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="A human!? Very well, I suppose Falor would have killed you if you wasn't welcome... so, what do you want, |PLAYERNAME|? " />
+		<parameter key="message_farewell" value="Stand down, soldier!" />
+		<parameter key="message_walkaway" value="Stand down, soldier!" />
+	</parameters>
+</npc>

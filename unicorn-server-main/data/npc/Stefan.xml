@@ -1,0 +1,47 @@
+<npc name="Stefan" script="stefan.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="9" head="0" body="0" legs="0" feet="0"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="offer;skull;corpse;body;necromancer;adanac;king arturo;celeres;paschendale;name;descent;death ring;quest;zathroth;dark magic;snare;orshabaal;ferumbras;godslayer;magic longsword;sheriff;dark artifact;religion;bazgla;job;spell scroll;tharos;archdemon;werewolf" />
+		<parameter key="keyword_reply1" value="I can sell you power rings, sword rings, axe rings, dwarven rings and club rings." />
+		<parameter key="keyword_reply2" value="No... no! You've got it totally wrong, I'm not a necromancer... no I'm not!" />
+		<parameter key="keyword_reply3" value="No... no! You've got it totally wrong, I'm not a necromancer... no I'm not!" />
+		<parameter key="keyword_reply4" value="No... no! You've got it totally wrong, I'm not a necromancer... no I'm not!" />
+    <parameter key="keyword_reply5" value="Alright then, |PLAYERNAME|, I confess. I am a necromancer - so what? I left Paschendale to start a normal life away from Zathroth." />
+    <parameter key="keyword_reply6" value="Adanac is a good city. I hope Zathroth will not find me here and unleash his wrath upon me." />
+    <parameter key="keyword_reply7" value="Arturo? King Arturo... uh, supposingly a kin... oh, he's the king." />
+    <parameter key="keyword_reply8" value="I travelled through Celeres, but the sheriff was chasing me out." />
+    <parameter key="keyword_reply9" value="I have actually lived in Paschendale, but I was became tired of the lifestyle of necromantic religion." />
+    <parameter key="keyword_reply10" value="I call myself Stefan now, but my real name used to be Bazgla." />
+    <parameter key="keyword_reply11" value="I am from Paschendale." />
+    <parameter key="keyword_reply12" value="Maybe, maybe, |PLAYERNAME|, I'll buy your death ring. But I prefer not to call it so, as I don't want to be recognized as a necromancer anymore. I prefer to call it a Zurul." />
+    <parameter key="keyword_reply13" value="In Paschendale I remember we sought for many treasures, but we were often unsuccessful. In extreme cases, we were even killed looking for them. I warn you, Paschendale is dangerous. More dangerous than many other places." />
+    <parameter key="keyword_reply14" value="Zathroth guided my path when I living my necromantic religion. Now, I have left him behind, and I hope he won't find me here and unleash his terrible wrath upon me." />
+    <parameter key="keyword_reply15" value="I know much about dark magic, but there's nothing I want to tell you. Dark magic is not good for you soul. It tears you apart from the inside. I have researched about many dark artifacts through my day, and they are all very unpleasant in one way or another." />
+    <parameter key="keyword_reply16" value="The snare, which actually isn't a normal snare, is something which is owned by the two magicans in Tharos. It is said that if you put the snare around your neck, you will instantly drop dead to the ground." />
+    <parameter key="keyword_reply17" value="Orshabaal is himself not counted as a dark artifact, but it's widely known thorughout the necromantic religion that his heart wields unspeakable power. Dark power." />
+    <parameter key="keyword_reply18" value="Ferumbras is as dark as one possible can get. It is said he was the creator of the dark snare." />
+    <parameter key="keyword_reply19" value="The godslayer, or the magic longsword as some prefer to call it, is often considered a dark artifact. It is believed that Zathroth himself has besat the sword. It is currently unknown where this sword is, but I believe the archdemons guards it in their hell pits." />
+    <parameter key="keyword_reply20" value="The magic longsword, or the godslayer as I prefer to call it, is a dark artifact which was forged by the ancient archdemons. It's current whereabouts are unknown to me, but it is supposingly heavily guarded by the archdemons." />
+    <parameter key="keyword_reply21" value="The sheriff chased me out of Celeres." />
+    <parameter key="keyword_reply22" value="There are many dark artifacts in our world. The godslayer and the dark snare are perhaps two of the most famous ones." />
+    <parameter key="keyword_reply23" value="The necromantic religion brings much pain and despair. Its god is Zathroth, and following him might not always be the best choice for you soul. I am not sure whether my soul is intact anymore." />
+    <parameter key="keyword_reply24" value="My name was Bazgla before I changed it to Stefan." />
+    <parameter key="keyword_reply25" value="I work as a seller of rings." />
+    <parameter key="keyword_reply26" value="Spell scrolls are ancient dark artifacts which teaches its possessor essential knowledge of certain dark magic. Some spell scrolls are heavily guarded by my old necromantic fellows in the Paschendale depths." />
+    <parameter key="keyword_reply27" value="Tharos is the ruin city in the Fields of Wilderness." />
+    <parameter key="keyword_reply28" value="The archdemons forged the Godslayer once. Its following whereabouts are many, and I believe even the humans have written books about its phenominal adventures. Its forgers, however, are said to live deep below Dustwit." />
+    <parameter key="keyword_reply29" value="Werewolves are considered to be using dark magic, thus dangerous of course." /> 
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="power ring, 2166, 45;sword ring, 2207, 650;axe ring, 2208, 650;club ring, 2209, 650;dwarven ring, 2213, 95;life ring,2168,1100" />
+    <parameter key="shop_sellable" value="zurul,6300,5000" />
+    
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Good bye. Have a nice day." />
+		<parameter key="message_walkaway" value="Next please." />
+	</parameters>
+</npc>
+

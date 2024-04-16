@@ -1,0 +1,34 @@
+<npc name="Fisherman" script="fisherman.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="131" head="85" body="97" legs="115" feet="82" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;boat;fishing;fishing rod;rod;fish;adanac;freddy;king arturo;ann;johanne;flynn;harzon;edwyn;ronny;agorn;norton;stefan;henry always;natalon" />
+		<parameter key="keyword_reply1" value="Job? Haha, I have not had a job since I was your age." />
+		<parameter key="keyword_reply2" value="No I wont sell my boat." />
+		<parameter key="keyword_reply3" value="I wish I could share one with you, but I'm poor you see.." />
+		<parameter key="keyword_reply4" value="I wish I could share one with you, but I'm poor you see.." />
+		<parameter key="keyword_reply5" value="I wish I could share one with you, but I'm poor you see.." />
+		<parameter key="keyword_reply6" value="I love fish, don't you?" />
+    <parameter key="keyword_reply7" value="Nice town." />
+    <parameter key="keyword_reply8" value="Nice guy." />
+    <parameter key="keyword_reply9" value="Bad guy." />
+    
+    <parameter key="keyword_reply10" value="Cute girl." />
+    <parameter key="keyword_reply11" value="Ugly girl." />
+    <parameter key="keyword_reply12" value="Kind guy." />
+    <parameter key="keyword_reply13" value="Old guy." />
+    <parameter key="keyword_reply14" value="Crazy guy." />
+    <parameter key="keyword_reply15" value="Recluse guy." />
+    <parameter key="keyword_reply16" value="Peculiar guy." />
+    <parameter key="keyword_reply17" value="Magic guy." />
+    <parameter key="keyword_reply18" value="Dark guy." />
+    <parameter key="keyword_reply19" value="Rich guy." />
+    <parameter key="keyword_reply20" value="Dead guy." />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello youngster!" />
+		<parameter key="message_farewell" value="Good bye, youngster and don't forget to read my exciting books about fishing!" />
+		<parameter key="message_walkaway" value="HEY, YOU SHOULD SAY BYE!" />
+	</parameters>
+</npc>

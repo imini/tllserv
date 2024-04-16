@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ninja Avenger" nameDescription="a ninja avenger" race="blood" experience="290" speed="230" manacost="450">
+  <health now="420" max="420"/>
+  <look type="152" head="114" body="38" legs="113" feet="95" corpse="3058" addons="3"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="20"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="52" attack="48"/>
+    <attack name="physical" interval="1000" chance="12" range="7" min="-28" max="-60">
+      <attribute key="shootEffect" value="throwingstar"/>
+    </attack>
+    <attack name="physical" interval="1000" chance="3" range="7" min="-70" max="-130">
+      <attribute key="shootEffect" value="redstar"/>
+    </attack>
+  </attacks>
+  <defenses armor="20" defense="40">
+    <defense name="speed" interval="1000" chance="9" speedchange="120" duration="5000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="8">
+    <voice sentence="Hello, my little prey!"/>
+    <voice sentence="Agilit, guide me toward victory!"/>
+    <voice sentence="Lets see what you've got."/>
+  </voices>
+  <loot capacity="500">
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2050" countmax="1" chance="23050"/> torch
+    <item id="5813" countmax="1" chance="1500"/> skull candle
+    <item id="5801" countmax="1" chance="330"/> key ring
+    <item id="2536" countmax="1" chance="50"/> medusa shield
+    <item id="2513" countmax="1" chance="7506"/> battle shield
+    <item id="7407" countmax="1" chance="150"/> haunted blade
+    <item id="5911" countmax="1" chance="500"/> red piece of cloth
+      </inside>
+    </item>
+    <item id="2148" countmax="60" chance="40000"/> gp
+    <item id="2148" countmax="40" chance="25000"/> gp
+    <item id="2666" countmax="2" chance="9000"/> meat
+    <item id="7368" countmax="2" chance="1000"/> assassin star
+    <item id="2463" countmax="1" chance="3800"/> plate armor
+    <item id="2479" countmax="1" chance="1300"/> strange helmet
+    <item id="2476" countmax="1" chance="200"/> knight armor
+  </loot>
+</monster>

@@ -1,0 +1,32 @@
+<npc name="Joan" script="joan.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="136" head="59" body="1" legs="115" feet="98" addons="1"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;flantania;lost lands;quest;hercules;gebby;christopher;riona;king flantan;king arturo;casteldine;mage;sword of fury;task" />
+		<parameter key="keyword_reply1" value="I'm a beginner mage." />
+		<parameter key="keyword_reply2" value="Joan, nice to meet you." /> 
+		<parameter key="keyword_reply3" value="I can offer you lifefluids, antidote runes and blueberries." /> 
+    <parameter key="keyword_reply4" value="We are currently situated on that island. It's serene and peaceful, and I like it." /> 
+    <parameter key="keyword_reply5" value="The Lost Lands are what we call our world, |PLAYERNAME|." /> 
+    <parameter key="keyword_reply6" value="I don't know much about adventurous things, but I recently read a book about some hidden item in the stables." /> 
+    <parameter key="keyword_reply7" value="Hercules is the local tanner. He is a man with a good all-round education. You should have a chat with him." /> 
+    <parameter key="keyword_reply8" value="Gebby is Hercules' sister. She sells and buys armors and weapons. Quite a nice girl." /> 
+    <parameter key="keyword_reply9" value="He serves lovely food at his bar, close to here." /> 
+    <parameter key="keyword_reply10" value="Bah. My neighbor." /> 
+    <parameter key="keyword_reply11" value="King Flantan lived for a long time ago, between Celero I and Celero II. He founded this village." /> 
+    <parameter key="keyword_reply12" value="King Arturo os the current king, and he rules from Casteldine." /> 
+    <parameter key="keyword_reply13" value="A decent city. I have been there only twice." /> 
+    <parameter key="keyword_reply14" value="I am becoming a mage, sooner or later." /> 
+    <parameter key="keyword_reply15" value="It can be seen on a small, unreachable island in the south-west. I've seen it myself." />
+	<parameter key="keyword_reply16" value="I am in need of {spiders} poison glands." />
+<parameter key="module_shop" value="1" />
+<parameter key="shop_buyable" value="life fluid,2006,40,10;blueberry,2677,1;antidote rune,2266,40,1" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, how can I help you? " />
+		<parameter key="message_farewell" value="Good bye, my sweetheart." />
+		<parameter key="message_walkaway" value="Don't you know pretentious habits?" />
+	</parameters>
+</npc>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<npc name="Agorn" script="agorn.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="153" head="0" body="58" legs="39" feet="114" addons="2"/>
+
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;mail;depot;name;casteldine;quest;natalon;adanac;tha'reen;celeres;lithaton;king arturo;sillybolt" />
+		<parameter key="keyword_reply1" value="I work in this depot, as a seller of parcels and letters." />
+		<parameter key="keyword_reply2" value="The mailing system works so that you are able to send parcels or letters to all the cities." />
+    <parameter key="keyword_reply3" value="If you don't know how the depot works, I will tell you. Just step infront of it, and you are able to store all your personal items in the depot box in front of you. It's perfectly safe." />
+    <parameter key="keyword_reply4" value="I am Agorn Sillybolt. Nice to meet you, too." />
+    <parameter key="keyword_reply5" value="You can send parcels and letters to Casteldine." />
+    <parameter key="keyword_reply6" value="I have heard an ancient ritual temple has been found in the old rotworm cave in the north part of this town. Perhaps there might be something exciting there." />
+    <parameter key="keyword_reply7" value="Natalon, the one who saved Casteldine from destruction, comes from this town. We are very proud of this." />
+    <parameter key="keyword_reply8" value="You are of course able to send parcels and letters to this city too." />
+    <parameter key="keyword_reply9" value="Tha'Reen is located on Duswit, in the far south. You may send parcels and letters to that city." />
+    <parameter key="keyword_reply10" value="Celeres is the city in the east. You can send parcels aswell as letters to this city." />
+    <parameter key="keyword_reply11" value="Lithaton is the main continent on which we stand at this very moment." />
+    <parameter key="keyword_reply12" value="I am the king loyal, of course." />
+    <parameter key="keyword_reply13" value="My last name is Sillybolt. I don't remember how my parents got it, but it wasn't their real name. They were paladins, by the way." />
+    
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="parcel, 2595, 15;letter, 2597, 10" />
+		
+				<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome to the Adanac depot." />
+		<parameter key="message_farewell" value="Have a nice day." />
+		<parameter key="message_walkaway" value="Goodbye." />
+	</parameters>
+</npc>

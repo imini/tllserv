@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<npc name="Joseph" script="joseph.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="132" head="114" body="132" legs="126" feet="115" addons="0"/>
+
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;mail;depot;casteldine;name;tha'reen;celeres;adanac;destination;king;arturo;dallheim;alfred;doc;zertic;tommy;emma;liyana;jessica;churry;jooko;alexander;terepido;riddle" />
+		<parameter key="keyword_reply1" value="I am the one responsible for this post office here in Casteldine. If you have questions about the mail system or the depots, just ask me." />
+		<parameter key="keyword_reply2" value="The mail system enables you to send and receive letters and parcels. You can buy them here if you want." />
+		<parameter key="keyword_reply3" value="The depots are very easy to use. Just step in front of them and you will find your items in them. They are free for everyone to use." />
+		<parameter key="keyword_reply4" value="You may of course send letters and parcels to this city aswell." />
+		<parameter key="keyword_reply5" value="It's my name." />
+		<parameter key="keyword_reply6" value="Tha'Reen is located to the far south-west on an island. You may send parcels and letters to this city." />
+		<parameter key="keyword_reply7" value="Celeres is far to the north. You may send parcels and letters to this city." />
+		<parameter key="keyword_reply8" value="Adanac is located in the far west. You may send parcels and letters to this city." />
+		<parameter key="keyword_reply9" value="Valid destinations for letters and parcels are Casteldine, Tha'Reen, Adanac and Celeres." />
+		<parameter key="keyword_reply10" value="Long live the king." />
+		<parameter key="keyword_reply11" value="Long live the king." />
+		<parameter key="keyword_reply12" value="He's a successful paladin." />
+		<parameter key="keyword_reply13" value="Alfred owns an inn, but his food is far from as good as chef Churry's. But admittedly, Churry's food is quite expensive." />
+		<parameter key="keyword_reply14" value="He is a good blacksmith." />
+		<parameter key="keyword_reply15" value="Bah. I don't like this man. He is always babbling about magic." />
+		<parameter key="keyword_reply16" value="Tommy is always afraid for something. It's a good laugh teasing him for that." />
+		<parameter key="keyword_reply17" value="Emma is a very strict girl, perhaps something for me?" />
+		<parameter key="keyword_reply18" value="One day she might merry me and Emma." />
+		<parameter key="keyword_reply19" value="Who is that?" />
+		<parameter key="keyword_reply20" value="Wow. His food is out of the ordinary. If you haven't tested it, I believe you should." />
+		<parameter key="keyword_reply21" value="His humour is not funny." />
+		<parameter key="keyword_reply22" value="He is a very good friend of me. We used to be adventurous and daring in the young days. Perhaps it's true, what people say, I have become a boring nobility." />
+		<parameter key="keyword_reply23" value="The man is a paranoid. But he writes good books." />
+		<parameter key="keyword_reply24" value="Ooh, yes, I have read about him. He invented the Celix Cipher. I'd ask a true master of math if I were you... that minotaur guy." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="parcel, 2595, 15;letter, 2597, 10" />
+		
+				<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hi, |PLAYERNAME|. May I help you somehow?" />
+		<parameter key="message_farewell" value="I will always be at your assistance." />
+		<parameter key="message_walkaway" value="Good bye, then." />
+		
+	</parameters>
+</npc>

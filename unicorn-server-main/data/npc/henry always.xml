@@ -1,0 +1,39 @@
+<npc name="Henry Always" script="henry always.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="132" head="77" body="64" legs="52" feet="95" addons="3"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;henry always;offer;apartments;valuable;adanac;king arturo;name;ann;ronny;fisherman;norton;agorn;jean;harzon;edwyn;oufit;addon;stefan" />
+		<parameter key="keyword_reply1" value="I am a jeweller." />
+		<parameter key="keyword_reply2" value="Always Henry Always!" /> 
+		<parameter key="keyword_reply3" value="I can offer you cosy apartments and shining valuables." /> 
+		<parameter key="keyword_reply4" value="If you want to buy one of my apartments, go ahead and do so." /> 
+		<parameter key="keyword_reply5" value="I trade talons, black and white pearls, small amethysts, sapphires, emeralds, diamonds and rubies." /> 
+    <parameter key="keyword_reply6" value="This is Adanac. I am so rich I could buy this town." /> 
+    <parameter key="keyword_reply7" value="Hail, hail. Fail." /> 
+    <parameter key="keyword_reply8" value="I am Henry Always." /> 
+    <parameter key="keyword_reply9" value="He obviously knows alot about dark magic." /> 
+    <parameter key="keyword_reply8" value="I am Henry Always." />
+    <parameter key="keyword_reply9" value="A young lady, doing nice business. One day she might perhaps be as successful as I am." />
+    <parameter key="keyword_reply10" value="Bah, scum." />
+    <parameter key="keyword_reply11" value="How can he make a living on fishing?" />
+    <parameter key="keyword_reply12" value="Hm. You better be careful with these sorcerer guys. You never know when they could produce a snake under your nose." />
+    <parameter key="keyword_reply13" value="I would never touch him without washing my hands immedinately after." />
+    <parameter key="keyword_reply14" value="Jean's food is of mediocre quality, but it's the only inn in Adanac so I don't really have any alternatives." />
+    <parameter key="keyword_reply15" value="Captain Harzon has done great things. Trust me." />
+    <parameter key="keyword_reply16" value="Wow. I wonder what is wrong with this guy." />
+    <parameter key="keyword_reply17" value="I bought it from Rooster from Celeres. It's top fashion." />
+    <parameter key="keyword_reply18" value="I bought it from Rooster from Celeres. It's top fashion." />
+    <parameter key="keyword_reply19" value="He seems to know much about dark magic and artifacts." />
+    <parameter key="idletime" value="200" />
+			<parameter key="module_shop" value="1" />
+			<parameter key="shop_sellable" value="small amethyst,2150,200;small diamond,2145,290;small emerald,2149,200;small ruby,2147,200;small sapphire,2146,200;black pearl,2144,180;white pearl,2143,160;talon,2151,200;" />
+			<parameter key="shop_buyable" value="small amethyst,2150,450;small diamond,2145,700;small emerald,2149,450;small ruby,2147,450;small sapphire,2146,450;black pearl,2144,560;white pearl,2143,500;talon,2151,900;ruby necklace,2133,3560" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Please feel welcome." />
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Bye, dear |PLAYERNAME|." />
+	</parameters>
+</npc>

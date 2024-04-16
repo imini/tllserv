@@ -1,0 +1,53 @@
+<npc name="Andrew" script="andrew.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="131" head="60" body="70" legs="97" feet="95" addons="0"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;booze;beer;wine;key;sheriff;celeres;casteldine;natalon;quest;dark magic;pire vam;king arturo;offer;name;alcohol;sigiric;caroline;stephanie;steve;lendan;rooster;johan;katie;dixi;creyo;sally;andrew" />
+		<parameter key="keyword_reply1" value="I buy the, hicks... finest equipment in town." />
+		<parameter key="keyword_reply2" value="You h-have, hicks... got booze for m-me?" />
+		<parameter key="keyword_reply3" value="You have g-g-got beer for me... hicks?" />
+		<parameter key="keyword_reply4" value="W-wine. I, hicks... love wi-wine!" />
+		<parameter key="keyword_reply5" value="Hicks... I stole i-it from that, hicks... hey! Why are y-you, hicks... asking?" />
+    <parameter key="keyword_reply6" value="Who is, hicks, the s-sheriff?" />
+    <parameter key="keyword_reply7" value="Ar-aren't we in C-celeres? Hicks." />
+    <parameter key="keyword_reply8" value="Casteldine is, hicks, 'round t-the corner. T-to t-the left." />
+    <parameter key="keyword_reply9" value="A g-g-g-g-g-guy." />
+    <parameter key="keyword_reply10" value="Hicks." />
+    <parameter key="keyword_reply11" value="Dark m-magic. Hicks. White m-magic. Pur-purple magic? Hicks." />
+    <parameter key="keyword_reply12" value="A b-b-bat. Hicks." />
+    <parameter key="keyword_reply13" value="King t-he hail. Hicks." />
+    <parameter key="keyword_reply14" value="Hicks. Eq-equipment." />
+    <parameter key="keyword_reply15" value="A-andrew, hicks. I t-think." />
+    <parameter key="keyword_reply16" value="Al-alcohol? W-wow." />
+    <parameter key="keyword_reply17" value="Buh. He i-is a monk. Hicks." />
+    <parameter key="keyword_reply18" value="Ca-carro-ca... car-caroline, what?" />
+    <parameter key="keyword_reply19" value="Na-nah she l-likes me. Hicks." />
+    <parameter key="keyword_reply20" value="S-steve is a n-nice fellow who kn-knows how t-t, hicks, to enjoy life. Hicks." />
+    <parameter key="keyword_reply21" value="L-lendan?" />
+    <parameter key="keyword_reply22" value="Huh? B-booster?" />
+    <parameter key="keyword_reply23" value="Hicks." />
+    <parameter key="keyword_reply24" value="W-w-weighty? Is Katie w-weighty?" />
+    <parameter key="keyword_reply25" value="Dixi i-is st-strange. Hicks." />
+    <parameter key="keyword_reply26" value="Hicks. H-He is in j-jail. I d-don't want him t-to leave, either." />
+    <parameter key="keyword_reply27" value="Sally is, hicks, u-up to no g-good. She de-deserves to stay w-where she are." />
+    <parameter key="keyword_reply28" value="A-andrew? Who is t-that?" />
+    
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="chain armor, 2464, 60;brass armor, 2465, 120;plate armor, 2463, 400;crown armor, 2487, 6500;knight armor, 2476, 3500;chain helmet, 2458, 12;iron helmet, 2459, 85;viking helmet, 2473, 44;brass helmet, 2460, 14;steel helmet, 2457, 195;dark helmet, 2490, 185;crown helmet, 2491, 1100;devil helmet, 2462 ,500;brass legs, 2478, 40;plate legs, 2647, 450;knight legs, 2477, 6000;plate shield, 2510, 40;steel shield, 2509, 95;dark shield, 2521, 65;dwarven shield, 2525, 100;battle shield, 2513, 95;beholder shield, 2518, 1200;guardian shield, 2515, 1400;hatchet, 2388, 15;battle axe, 2378, 85;double axe, 2387, 240;halberd, 2381, 400;barbarian axe, 2429, 340;obsidian lance, 2425, 120;nagitana, 2426, 2000;rapier, 2384, 12;short sword, 2406, 11;sabre, 2385, 22;two handed sword, 2377,400;longsword, 2397, 52;sword, 2376, 35;carlin sword, 2395, 13;broadsword, 2413, 250;serpent sword, 2409, 2000;mace, 2398, 35;clerical mace, 2423, 150" />
+		<parameter key="shop_buyable" value="chain armor, 2464, 100;brass armor, 2465, 420;plate armor, 2463, 1100;chain helmet, 2458, 32;iron helmet, 2459, 185;viking helmet, 2473, 94;brass helmet, 2460, 24;steel helmet, 2457, 395;dark helmet, 2490, 790;chain trousers, 2648, 260;brass legs, 2478, 440;plate shield, 2510, 105;steel shield, 2509, 495;dark shield, 2521, 840;hatchet, 2388, 55;battle axe, 2378, 285;double axe, 2387, 1045;halberd, 2381, 900;barbarian axe, 2429, 940;obsidian lance, 2425, 900;rapier, 2384, 22;short sword, 2406, 21;sabre, 2385, 23;sword, 2376, 75;carlin sword, 2395, 63;longsword, 2397, 151;broadsword, 2413, 950;twohanded sword, 2377, 900;mace, 2398, 75;clerical mace, 2423, 550" />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="H-hi... hicks." />
+		<parameter key="message_farewell" value="Bring me more al-alcohol, hicks... next t-time!" />
+		<parameter key="message_walkaway" value="Hicks..hicks..." />
+		<parameter key="message_nothaveitem" value="Y-you d-don't hicks... hav-ve that item." />
+		<parameter key="message_sell" value="Do y-y-you want to s-sell |ITEMCOUNT| |ITEMNAME| for hicks...|TOTALCOST| gold coins?" />
+	</parameters>
+</npc>
+
+
+
+
+
+

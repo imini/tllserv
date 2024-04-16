@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Merwigo" nameDescription="Merwigo" race="blood" experience="2750" speed="424" manacost="0">
+  <health now="3145" max="3145"/>
+	<look type="151" head="95" body="97" legs="114" feet="114" corpse="3058" />
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="30"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="250"/>
+  </flags>
+  <attacks>
+ <attack name="melee" interval="2000" min="-45" max="-320"/>
+<attack name="lifedrain" interval="1000" chance="19" range="7" radius="2" target="1" min="-160" max="-220">
+      <attribute key="shootEffect" value="energy"/>
+      <attribute key="areaEffect" value="whitenote"/>
+    </attack>
+    <attack name="speed" interval="1000" chance="10" range="7" speedchange="-500" duration="25000">
+      <attribute key="shootEffect" value="poison"/>
+    </attack>
+    <attack name="drunk" interval="1000" chance="14" target="1" range="6">
+      <attribute key="shootEffect" value="energy"/>
+      <attribute key="areaEffect" value="energyarea"/>
+    </attack>
+  </attacks>
+  <defenses armor="38" defense="47">
+    <defense name="speed" interval="1000" chance="9" speedchange="1201" duration="3000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+    <defense name="invisible" interval="1000" chance="9" duration="7000">
+      <attribute key="areaEffect" value="yellowbubble"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="3">
+    <summon name="assassin" interval="1000" chance="9" max="1"/>
+    <summon name="assassin" interval="2000" chance="5" max="1"/>
+    <summon name="assassin" interval="1000" chance="17" max="1"/>
+  </summons>
+  <voices interval="5000" chance="8">
+    <voice sentence="Are you ready to die?"/>
+    <voice sentence="I am Merwigo!"/>
+    <voice sentence="FEAR ME!"/>
+  </voices>
+  <loot capacity="500">
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2513" countmax="1" chance="9500"/>
+    <item id="2404" countmax="1" chance="9000"/>
+    <item id="2403" countmax="1" chance="10000"/>
+    <item id="2510" countmax="1" chance="9300"/>
+    <item id="2509" countmax="1" chance="8000"/>
+    <item id="2041" countmax="2" chance="30000"/>
+	<item id="2197" countmax="1" chance="2000"/>
+      </inside>
+    </item>
+    <item id="2148" countmax="40" chance="80000"/>
+    <item id="2148" countmax="90" chance="15000"/>
+    <item id="3969" countmax="1" chance="7200"/>
+    <item id="2663" countmax="1" chance="6500"/>
+    <item id="2145" countmax="1" chance="5200"/>
+    <item id="2124" countmax="1" chance="8000"/>
+	<item id="2195" countmax="1" chance="5800"/>
+  </loot>
+</monster>

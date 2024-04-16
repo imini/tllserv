@@ -1,0 +1,10 @@
+<npc name="Shoggy" script="shoggy.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="115" body="114" legs="96" feet="115" addons="1"/>
+	<parameters>
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_farewell" value="Grmbl." />
+		<parameter key="message_walkaway" value="Grmbl." />
+	</parameters>
+</npc>

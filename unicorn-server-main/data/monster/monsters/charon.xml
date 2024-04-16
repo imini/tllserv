@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Charon" nameDescription="a charon" race="blood" experience="7521" speed="350" manacost="0">
+  <health now="6500" max="6500"/>
+  <look type="73" head="0" body="0" legs="0" feet="0" corpse="3058"/>
+  <targetchange interval="4000" chance="2"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <defenses armor="45" defense="62">
+    <defense name="healing" interval="2000" chance="10" min="500" max="700">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <attacks>
+    <attack name="melee" interval="2000" min="-80" max="-200"/>
+    <attack name="lifedrain" interval="2000" chance="25" range="7" min="-150" max="-230">
+      <attribute key="shootEffect" value="suddendeath"/>
+    </attack>
+	<attack name="lifedrain" interval="2000" chance="37" radius="5" target="0" min="-260" max="-300">
+      <attribute key="areaEffect" value="blackspark"/>
+    </attack>
+	<attack name="speed" interval="2000" chance="15" radius="4" target="0" duration="5000" speedchange="-750">
+      <attribute key="areaEffect" value="yellowbubble"/>
+    </attack>
+  </attacks>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="2">
+    <summon name="fire elemental" interval="1000" chance="12" max="1"/>
+    <summon name="fire elemental" interval="2000" chance="3" max="1"/>
+  </summons>
+  <voices interval="5000" chance="5">
+    <voice sentence="FOR AKTEH!"/>
+    <voice sentence="FOR ZATHROTH!"/>
+    <voice sentence="HAVE YOU COME TO FIGHT ME? CHARON!? FOOOOOOL!"/>
+    <voice sentence="YOU WILL FALL DEAD!"/>
+    <voice sentence="YOU WILL DIE TODAY!"/>
+  </voices>
+  <loot capacity="800">
+<item id="1987"> --Bag
+        <inside>
+    <item id="2148" countmax="100" chance="5000"/>	---GP
+<item id="2513" countmax="1" chance="850"/>		---MMS
+      </inside>
+    </item>
+    <item id="2542" countmax="1" chance="250"/>		---Temptest shield
+    <item id="2148" countmax="100" chance="80000"/>	---GP
+    <item id="2148" countmax="100" chance="50000"/>	---GP
+    <item id="2148" countmax="90" chance="91000"/>	---GP
+    <item id="2148" countmax="80" chance="90000"/>	---GP
+    <item id="2177" countmax="1" chance="3000"/>		---crystal life
+
+  </loot>
+</monster>

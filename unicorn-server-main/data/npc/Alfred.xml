@@ -1,0 +1,39 @@
+<npc name="Alfred" script="Alfred.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="134" head="21" body="21" legs="40" feet="116" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;casteldine;name;food;mission;natalon;king;arturo;dallheim;doc;zertic;tommy;terepido;liyana;penim;churry;dallrim;food;sara;jooko" />
+		<parameter key="keyword_reply1" value="I'm making a living out of this little bar which has passed down through the generations." />
+		<parameter key="keyword_reply2" value="I have some tasty food and some beer. What's your choice?" />
+    <parameter key="keyword_reply3" value="I've been to three cities, and Casteldine is my favourite by far." />
+    <parameter key="keyword_reply4" value="Alfred... Alfred. I dislike it. It's silly." />
+    <parameter key="keyword_reply5" value="I sell meat, ham, cheese, bread, apples, brown mushrooms and egg." />
+    <parameter key="keyword_reply6" value="I have no mi... oh wait, perhaps I have one. Your first mission is to buy as much food from me as you possibly can." />
+    <parameter key="keyword_reply7" value="Nice stories have I heard about him." />
+    <parameter key="keyword_reply8" value="Who is that?" />
+    <parameter key="keyword_reply9" value="Who is that?" />
+    <parameter key="keyword_reply10" value="If we're talking about the same person, I knew his father, Dallrim." />
+    <parameter key="keyword_reply11" value="I know something about him that you don't." />
+    <parameter key="keyword_reply12" value="He's a terrific mage. I heard he and His Royal Highness dislikes each other." />
+    <parameter key="keyword_reply13" value="Isn't that the nervous guy? He is always sitting in a corner and drinking beer." />
+    <parameter key="keyword_reply14" value="He is such careful by nature..." />
+    <parameter key="keyword_reply15" value="Liyana is the priest in the church, very elegant woman. She's here from times to times." />
+    <parameter key="keyword_reply16" value="His house is very fancy. It's all new." />
+     <parameter key="keyword_reply17" value="He is ways too elegant for a town like this. People want a cosy inn instead of a kitchen bigger than the average house." />
+    <parameter key="keyword_reply18" value="Dallrim and I knew each other. We've had quite a few beers in my inn." />
+		<parameter key="keyword_reply19" value="Well, I have beer." />
+		<parameter key="keyword_reply20" value="She's quite cute, isn't she? I'm gonna ask her out tonight, actually." />
+		<parameter key="keyword_reply21" value="I was hoping to be able to hire him for an evening or two." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="meat, 2666, 5;ham, 2671, 8;cheese, 2696, 5;bread, 2689, 3;apple, 2674, 3;brown mushroom, 2789, 12;egg, 2695, 6;beer,2012,5,3" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome to Casteldine's tavern, can I be at your service?" />
+		<parameter key="message_farewell" value="Hope to see you again, |PLAYERNAME|!" />
+		<parameter key="message_walkaway" value="Farewell, |PLAYERNAME|." />
+	</parameters>
+</npc>
+
+

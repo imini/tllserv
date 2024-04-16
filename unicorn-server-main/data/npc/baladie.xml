@@ -1,0 +1,36 @@
+<npc name="Baladie" script="baladie.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="146" head="95" body="44" legs="48" feet="98" addons="0"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;tha'reen;name;food;father;baldier;king arturo;casteldine;mission;quest;archdemons;dragon;dammar;fajera;dawar;petros;zaim;bizre" />
+		<parameter key="keyword_reply1" value="I can offer you ham, meat, egg and cherries." />
+		<parameter key="keyword_reply2" value="I sell food. Meat, ham, egg, and cherries to be specific." />
+		<parameter key="keyword_reply3" value="Beautiful city, isn't it? It's a bit hot, though." />
+    <parameter key="keyword_reply4" value="Baladie is my name, from my father Baldier." />
+    <parameter key="keyword_reply5" value="My father lived in Casteldine. His name was Baldier." />
+    <parameter key="keyword_reply6" value="My name comes from Baldier." />
+    <parameter key="keyword_reply7" value="Long live the king, our leader!" />
+    <parameter key="keyword_reply8" value="Casteldine is where my father comes from. A nice city, I've heard." />
+    <parameter key="keyword_reply9" value="Go slay some dragons. I hate them, and I'm afraid they'll someday attack our beautiful city." />
+    <parameter key="keyword_reply10" value="Haven't you heard about the Archdemons. Solving their secrets, that's a quest if you ask me." />
+    <parameter key="keyword_reply11" value="They are said to be living deep, deep under us." />
+    <parameter key="keyword_reply12" value="I hate dragons. They are always a threat to Tha'Reen." />
+    <parameter key="keyword_reply13" value="That's the cute lady working in the bank." />
+    <parameter key="keyword_reply14" value="She's over there. She trading equipment. I think her business is quite successful." />
+    <parameter key="keyword_reply15" value="His magic is the only thing that possibly could save us if the dragons attack Tha'Reen." />
+    <parameter key="keyword_reply16" value="Haven't you heard about his father?" />
+    <parameter key="keyword_reply17" value="He is a man with an interesting story to tell." />
+    <parameter key="keyword_reply18" value="Isn't he a little - reserved?" />
+    <parameter key="keyword_reply19" value="She is so spoiled... really, it's out-rageous." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="meat, 2666, 4;cherry, 2679, 1;ham, 2671, 7;egg, 2695, 3;" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome to my humble bar, can I be at your service?" />
+		<parameter key="message_farewell" value="Let's hope we'll meet again." />
+		<parameter key="message_walkaway" value="Oh well..." />
+	</parameters>
+</npc>
+

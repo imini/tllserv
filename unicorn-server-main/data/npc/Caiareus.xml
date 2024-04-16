@@ -1,0 +1,30 @@
+<npc name="Caiareus" script="caiareus.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="80" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="blue djinn;green djinn;war;falor;reroah;fa'hadir;caiareus;umar;do'ranah;offer;name;job;sweat;fighting spirit;ninja" />
+		<parameter key="keyword_reply1" value="We are the blue djinns." />
+		<parameter key="keyword_reply2" value="Kill them all." />
+    		<parameter key="keyword_reply3" value="War!? WAR!? WE ARE IN WAR WITH THE GREEN DJINNS, YOU PATHETIC MAGGOT! AND THE STUPID NINJAS!" />
+    		<parameter key="keyword_reply4" value="Falor leads the green djinns, but leading them will only lead him to the grave." />
+    		<parameter key="keyword_reply5" value="He sells... stuff." />
+    		<parameter key="keyword_reply6" value="He appears to believe he is a very great warrior, but he is nothing compared to me." />
+    		<parameter key="keyword_reply7" value="That's me. How stupid are you?" />
+    		<parameter key="keyword_reply8" value="Great djinn, great leader." />
+    		<parameter key="keyword_reply9" value="He is trading items." />
+    		<parameter key="keyword_reply10" value="I don't sell anything, human, so don't be stupid." />
+    		<parameter key="keyword_reply11" value="My name is Caiareus. Yours is |PLAYERNAME|, and I'm sure it means stupid maggot in your native language." />
+    		<parameter key="keyword_reply12" value="I work as a guard... or personally, I prefer to call it bouncer." />
+    		<parameter key="keyword_reply13" value="I believe you should speak with Reroah about this." />
+    		<parameter key="keyword_reply14" value="I believe you should speak with Reroah about this." />
+    		<parameter key="keyword_reply15" value="They're like rats. One is killed within one second, and a whole bunch of them are dangerous." />
+		
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Woah!? A human... what is so important that you dare to enter our fortress?" />
+		<parameter key="message_farewell" value="(salutes) Aaaaa- tention!" />
+		<parameter key="message_walkaway" value="(salutes) Aaaaa- tention!" />
+	</parameters>
+</npc>

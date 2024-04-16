@@ -1,0 +1,23 @@
+<npc name="Lad Nacs" script="lad nacs.lua" autowalk="1" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="143" head="25" body="2" legs="57" feet="115" addons="0"/>
+	<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="casteldine" />
+		<parameter key="keyword_reply1" value="I HATE CASTELDINE!" />
+<parameter key="idletime" value="80" />
+<parameter key="talkdelaytime" value="2"/>
+		<parameter key="message_farewell" value="Goodbye." />
+		<parameter key="message_buy" value="Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?" />
+		<parameter key="message_sell" value="Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?" />
+    <parameter key="message_onbuy" value="It was a plesure." />
+    <parameter key="message_onsell" value="Thank you, |PLAYERNAME|." />
+    <parameter key="message_needmoremoney" value="You need more money." />
+    <parameter key="message_nothaveitem" value="You have not brought this item." />
+    <parameter key="message_idletimeout" value="Next please." />
+    <parameter key="message_walkaway" value="Bah." />  
+    <parameter key="message_alreadyfocused" value="We're already speaking." />
+    <parameter key="message_decline" value="Wait, |PLAYERNAME|!" />
+    <parameter key="message_placedinqueue" value="Wait, there are people in front of you." />
+	</parameters>
+</npc>

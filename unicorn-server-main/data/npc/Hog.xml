@@ -1,0 +1,29 @@
+<npc name="Hog" script="hog.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="129" head="39" body="122" legs="125" feet="57" corpse="2212"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;coaliton;unified;unified coalition;roy;hawke;roy hawke;" />
+		<parameter key="keyword_reply1" value="en, dude..()" />
+		<parameter key="keyword_reply2" value="My name is Hog." /> 
+		<parameter key="keyword_reply3" value="Please read that parchment over there to see what I have to offer." /> 
+		<parameter key="keyword_reply4" value="The Unified Coalition of the Grand Fief is what we call ourselves. We usually offers a nights good sleep and some food for hungry adventurers walking by." /> 
+ 		<parameter key="keyword_reply5" value="The Unified Coalition of the Grand Fief is what we call ourselves. We usually offers a nights good sleep and some food for hungry adventurers walking by." /> 
+		<parameter key="keyword_reply6" value="The Unified Coalition of the Grand Fief is what we call ourselves. We usually offers a nights good sleep and some food for hungry adventurers walking by." /> 
+		<parameter key="keyword_reply7" value="Roy Hawke is one of the co-founders of this Coalition. He together with two others began the building of this place 35 years ago." /> 
+		<parameter key="keyword_reply8" value="Roy Hawke is one of the co-founders of this Coalition. He together with two others began the building of this place 35 years ago." /> 
+		<parameter key="keyword_reply9" value="Roy Hawke is one of the co-founders of this Coalition. He together with two others began the building of this place 35 years ago." />
+		 
+ 
+
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="spear,2389,3;studded club,2448,2;bone club,2449,5;rapier,2384,5;sabre,2385,12;dagger,2379,2;hand axe,2380,4;axe,2386,7;short sword,2406,10;mace,2398,30;sword,2376,25;hatchet,2388,25;katana,2412,35;wooden shield,2512,3;studded shield,2526,16;brass shield,2511,25;plate shield,2510,40;copper shield,2530,50;doublet,2485,3;leather armor,2467,5;chain armor,2483,40;studded armor,2484,10;leather legs,2649,2;studded legs,2468,15;legion helmet,2480,22;leather helmet,2461,3;studded helmet,2482,20;chain helmet,2458,12;viking helmet,2473,25;leather boots,2643,2;shovel,2554,2;sickle,2405,2;scythe,2550,3;rope,2120,12;fishing rod,2580,33" />
+		<parameter key="shop_buyable" value="wooden shield,2512,15;studded shield,2526,50;coat,2651,8;jacket,2650,10;doublet,2485,16;leather armor,2467,25;leather legs,2649,10;leather helmet,2461,12;studded helmet,2482,62;chain helmet,2458,52;short sword,2406,30;spear,2389,10;rapier,2384,15;sabre,2385,25;dagger,2379,5;hand axe,2380,8;axe,2386,20;torch,2050,2;bag,1987,4;shovel,2554,10;backpack,1988,10;sickle,2405,8;scythe,2550,12;rope,2120,50;worm,3976,5,6;fishing rod,2580,150" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Welcome to my room in the Unified Coalition. Read that parchment over there to see what I have to offer." />
+		<parameter key="message_farewell" value="Goodbye, and please come back later." />
+		<parameter key="message_needmoremoney" value="You do not have enough money." />
+	</parameters>
+</npc>

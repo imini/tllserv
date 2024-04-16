@@ -1,0 +1,32 @@
+<npc name="Luna" script="luna.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+<look type="54" head="0" body="0" legs="0" feet="0"/>
+
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="ravenclaw;flantania;sword of fury;casteldine;witch;haven;herb;minotaur;wolf;deer;orc;troll;spider;offer;job;item;spirit;demon" />
+		<parameter key="keyword_reply1" value="The Ravenclaw Swamp is a fantastic place, which I have spent most of my life. It's just a pity I couldn't have spent it in witches' Haven instead, that would be even more fantastic." />
+    <parameter key="keyword_reply2" value="Flantania Isle is an interesting island. The ancient Sword of Fury is rumoured to be hidden there. I wonder whether I will be able to obtain it some day." />
+    <parameter key="keyword_reply3" value="I am searching for it, just like I have my entire life." />
+    <parameter key="keyword_reply4" value="Casteldine is the city to the south. Quite peculiar place to live, I think." />
+    <parameter key="keyword_reply5" value="Being a witch is very fun." />
+    <parameter key="keyword_reply6" value="The witches' Haven is a place in the deeper Ravenclaw Swamp. I was literally thrown out of it." />
+    <parameter key="keyword_reply7" value="They are very useful. I use them for my brewings. Many people are unaware of their magical properties." />
+    <parameter key="keyword_reply8" value="I believe they play a very significant role in my quest for the sword of fury. At least their bodies, that is." />
+    <parameter key="keyword_reply9" value="I believe they play a very significant role in my quest for the sword of fury. At least their bodies, that is." />
+    <parameter key="keyword_reply10" value="I believe they play a very significant role in my quest for the sword of fury. At least their bodies, that is." />
+    <parameter key="keyword_reply11" value="I believe they play a very significant role in my quest for the sword of fury. At least their bodies, that is." />
+    <parameter key="keyword_reply12" value="I believe they play a very significant role in my quest for the sword of fury. At least their bodies, that is." />
+    <parameter key="keyword_reply13" value="I believe they play a very significant role in my quest for the sword of fury. At least their bodies, that is." />
+    <parameter key="keyword_reply14" value="I cannot offer you anything, |PLAYERNAME|, but you can offer me. I urgently need a new crystal ball." />
+    <parameter key="keyword_reply15" value="I have no job. Being a witch has its benefits, you see, so I am in no need of money." />
+    <parameter key="keyword_reply16" value="I have a great vary of magical items in my possession, but there are some which I have yet not obtained. I am in a constant struggle for these items, they are of great value to me." />
+    <parameter key="keyword_reply17" value="Magic spirits must be present if you would like to read your future in a crystal ball. Try the ancient altar in witches' Haven, it should work." />
+    <parameter key="keyword_reply18" value="Selena is afraid of demons. Hihihi! Mention demon in front of her. It's alot of fun!" />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hi." />
+		<parameter key="message_farewell" value="Bye." />
+		<parameter key="message_walkaway" value="See you." />
+	</parameters>
+</npc>

@@ -1,0 +1,21 @@
+ <npc name="Refregotisap" script="Refregotisap.lua" autowalk="1" floorchange="0">
+  <health now="100" max="100" /> 
+	<look type="61" head="0" body="0" legs="0" feet="0" corpse="2987"/>
+	 
+ <parameters>
+  <parameter key="module_keywords" value="1" /> 
+  <parameter key="keywords" value="goblin;casteldine;celeres;human;job;blidipsteram;damblidirp" /> 
+  <parameter key="keyword_reply1" value="Goblin zig is zag." /> 
+  <parameter key="keyword_reply2" value="Human city no goblin." /> 
+  <parameter key="keyword_reply3" value="Much human, goblin scared." /> 
+  <parameter key="keyword_reply4" value="Human kill goblin, goblin gobo attack human and kill." /> 
+  <parameter key="keyword_reply5" value="I goblin work." /> 
+  <parameter key="keyword_reply6" value="Is friend goblin from north and west." /> 
+  <parameter key="keyword_reply7" value="Is friend goblin from south and east." /> 
+
+  <parameter key="talkdelaytime = 2" /> 
+  <parameter key="message_greet" value="Hey hum. What want?" /> 
+  <parameter key="message_farewell" value="Good bye hum." /> 
+  <parameter key="message_walkaway" value="Good bye hum." /> 
+  </parameters>
+  </npc>

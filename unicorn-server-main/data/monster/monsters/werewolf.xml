@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Werewolf" nameDescription="a werewolf" race="blood" experience="135" speed="264" manacost="420">
+  <health now="285" max="285"/>
+  <look type="3" head="0" body="0" legs="0" feet="0" corpse="2969"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-1" max="-68"/>
+    <attack name="physical" interval="1000" chance="14" length="3" spread="0" min="-25" max="-69">
+      <attribute key="areaEffect" value="redspark"/>
+    </attack>
+    <attack name="physical" interval="1000" chance="11" radius="2" target="0" min="-20" max="-40">
+      <attribute key="areaEffect" value="redspark"/>
+    </attack>
+  </attacks>
+  <defenses armor="8" defense="16">
+    <defense name="speed" interval="1000" chance="9" speedchange="260" duration="6000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+</defenses>
+  <immunities>
+    <immunity physical="1"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Grrrrrrr"/>
+    <voice sentence="Yoooohhuuuu!" yell="1"/>
+  </voices>
+  <loot capacity="500">
+  <item id="2148" countmax="20" chance="80000"/>
+    <item id="2148" countmax="100" chance="90000"/>
+    <item id="2671" countmax="9" chance="40000"/>
+    <item id="2666" countmax="11" chance="70000"/>
+    <item id="2534" countmax="1" chance="70"/>
+  </loot>
+</monster>

@@ -1,0 +1,31 @@
+<npc name="Christopher" script="christopher.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="0" body="40" legs="0" feet="114" addons="0"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;name;king arturo;king flantan;hercules;joan;flantania;lost lands;gebby;riona;quest;sword of fury;task" />
+		<parameter key="keyword_reply1" value="I own this bar, and I serve delicious food. Are you interested in what I have to offer?" />
+    <parameter key="keyword_reply2" value="I have some meat and ham for you. What more, I have egg, cherries and blueberries." />
+    <parameter key="keyword_reply3" value="Christopher is way too common." />
+    <parameter key="keyword_reply4" value="Hail the king." />
+<parameter key="keyword_reply5" value="King Flantan was the king after Celero I. Since Celero I passed away almost immediately after he had sent settlers to Flantania Isle, Flantan had it named after himself instead." />
+<parameter key="keyword_reply6" value="Hercules is a very raw man. Like my ham, sort of." />
+<parameter key="keyword_reply7" value="Joan is here often. She appears to like my food." />
+<parameter key="keyword_reply8" value="I have lived here on Flantania Isle for very long, almost my entire life. My father built this bar, and I am continuing his work." />
+<parameter key="keyword_reply9" value="The Lost Lands is the world we live in, |PLAYERNAME|. You are not very well educated, by the looks of it." />
+<parameter key="keyword_reply10" value="Gebby... she lives here somewhere, but I don't know her." />
+<parameter key="keyword_reply11" value="Cute girl, wish I had the guts to talk to her." />
+<parameter key="keyword_reply12" value="The huge wild life probably hides many secrets, and I am sure you will find them only if you get in for it." />
+<parameter key="keyword_reply13" value="I love stories. Exciting." />
+<parameter key="keyword_reply14" value="I really hate {snakes}." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="meat, 2666, 5;ham, 2671, 8;egg, 2695, 6;cherry, 2679, 4;blueberry, 2677, 1" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, can I be at your service?" />
+		<parameter key="message_farewell/s " value="Hope to see you again." />
+		<parameter key="message_walkaway" value="Next please!" />
+	</parameters>
+</npc>
+

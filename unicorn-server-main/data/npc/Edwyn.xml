@@ -1,0 +1,28 @@
+<npc name="Edwyn" script="edwyn.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="133" head="113" body="115" legs="58" feet="115" addons="1"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;blood;animals;hercules;gebby;natalon;agorn;harzon;norton;ronny;adanac" />
+		<parameter key="keyword_reply1" value="JOB? JOB? I KILL ANIMALS, THAT's MY JOB!" />
+		<parameter key="keyword_reply2" value="I BUY DEAD RATS, RABBITS ANd WOLVES!" />
+		<parameter key="keyword_reply3" value="BLOOD? WHERE?" />
+		<parameter key="keyword_reply4" value="GET ME SOME CORPSES INSTEAD OF TALKING!" />
+    <parameter key="keyword_reply5" value="My brother! Say hi!" />
+    <parameter key="keyword_reply6" value="My sister! Say hi!" />
+    <parameter key="keyword_reply7" value="Natalon is dumb. He killed orcs, but not animals." />
+    <parameter key="keyword_reply8" value="Agorn is a fool." />
+    <parameter key="keyword_reply9" value="Harzon is cool. But he won't allow me to enter his vessel." />
+    <parameter key="keyword_reply10" value="No. Don't tell him I am here. He will turn me into an animal. Help!" />
+    <parameter key="keyword_reply11" value="(gulp) He is turning into a frog." />
+		<parameter key="keyword_reply12" value="This is Adanac, foolish animal slayer." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="wolf, 2826, 9;rabbit, 3119, 5;rat, 2813, 4" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="YOU! Welcome." />
+		<parameter key="message_farewell" value="Gah. Bye." />
+		<parameter key="message_walkaway" value="GET SOME CORPSES FOR ME OR NEVER RETURN!" />
+	</parameters>
+</npc>

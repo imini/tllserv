@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Thornback Tortoise" nameDescription="a thornback tortoise" race="blood" experience="160" speed="190" manacost="490">
+  <health now="300" max="300"/>
+  <look type="198" head="0" body="0" legs="0" feet="0" corpse="6073"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="2000" skill="50" attack="39"/>
+    <attack name="poisoncondition" interval="1000" chance="13" range="5" min="-28" max="-52">
+      <attribute key="shootEffect" value="poison"/>
+    </attack>
+</attacks>
+  <defenses armor="22" defense="26"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <loot>
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2391" chance="600"/> war hammer
+    <item id="2789" countmax="4" chance1="3421" chancemax="0"/> brown mushroom
+      </inside>
+    </item>
+    <item id="2148" countmax="42" chance1="80000" chancemax="0"/> gp
+    <item id="5678" countmax="3" chance1="17000" chancemax="0"/> egg
+    <item id="2667" countmax="3" chance1="9000" chancemax="0"/> fish 
+    <item id="2789" countmax="4" chance1="3421" chancemax="0"/> brown mushroom
+    <item id="2787" countmax="2" chance1="4700" chancemax="0"/> white mushroom
+    <item id="2671" countmax="2" chance1="17000" chancemax="0"/> ham
+  </loot>
+</monster>

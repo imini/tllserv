@@ -1,0 +1,31 @@
+<npc name="Jacob" script="jacob.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="251" head="96" body="78" legs="68" feet="95" addons="2"/>
+
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;fisherman;fish;jacob;snow;northen light;god;black knight;king arturo;hagal;gardar;sven;quest;addon;outfit" />
+		<parameter key="keyword_reply1" value="I'm a humble fisherman." />
+		<parameter key="keyword_reply2" value="Do you like fishing too?" />
+		<parameter key="keyword_reply3" value="I love fish. It tastes to good - especially when cooked, but I suppose raw is okey too." />
+		<parameter key="keyword_reply4" value="It's my name, why?" />
+		<parameter key="keyword_reply5" value="Snow is cold, but I like it. It gives me a certain feeling of satisfaction. And you should see the northern lights by night! Amazing!" />
+		<parameter key="keyword_reply6" value="Haven't you heard of the northern lights!? It's the most incredible thing a human can ever see. It's like the whole sky is filled with fireworks and it's almost as if the sky is enchanted with magic. I think god is behind it." />
+		<parameter key="keyword_reply7" value="I believe in god, yes. Who doesn't?" />
+		<parameter key="keyword_reply8" value="Oh... what a sad story. My brother was taken away by them and now I fear the worst. He might be imprisoned or even worse... dead." />
+    <parameter key="keyword_reply9" value="The king doesn't really help us here on Hagal, but I suppose he's a good man" />
+    <parameter key="keyword_reply10" value="Hagal is the island we are located on." />
+    <parameter key="keyword_reply11" value="Gardar is the island in the west." />
+    <parameter key="keyword_reply12" value="Sven is my dear brother. He's been captured by the black knights, and is presumably imprisoned by now." />
+		<parameter key="keyword_reply13" value="I have a mission for you, |PLAYERNAME|." />
+		<parameter key="keyword_reply14" value="I have never heard of such a thing." />
+		<parameter key="keyword_reply15" value="I have never heard of such a thing." />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello!" />
+		<parameter key="message_farewell" value="Good bye." />
+		<parameter key="message_walkaway" value="Good Bye!" />
+
+	</parameters>
+</npc>

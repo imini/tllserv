@@ -1,0 +1,31 @@
+<npc name="Jean" script="jean.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="132" head="3" body="4" legs="41" feet="115" addons="0"/>
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="cellar;offer;jellyfish;king arturo;adanac;natalon;ann;henry always;flynn;johanne;fisherman;agorn;norton" />
+		<parameter key="keyword_reply1" value="Cellar... cellar? What cellar?" />
+		<parameter key="keyword_reply2" value="I can offer you meat, ham, apples, carrots, cookies, brown breads, breads and eggs." />
+		<parameter key="keyword_reply3" value="How do you like my little restaurant? Isn't it cute?" />
+    <parameter key="keyword_reply4" value="Yeh sure, long live the king... bla bla." />
+    <parameter key="keyword_reply5" value="This is Adanac. You are very, very attentive." />
+    <parameter key="keyword_reply6" value="Natalon has commited some heroic deeds." />
+    <parameter key="keyword_reply7" value="Ann is nice. She is eating here from time to time." />
+    <parameter key="keyword_reply8" value="He once told me he thinks my inn is of pathetic quality. Still, he eats here often." />
+    <parameter key="keyword_reply9" value="Flynn is apparently very old." />
+    <parameter key="keyword_reply10" value="Johanne eats her often. And she eats much. I'm curious how she can retain her deft figure." />
+    <parameter key="keyword_reply11" value="He loves my food. He also provides me with fish... some times." />
+    <parameter key="keyword_reply12" value="Agorn has never been here, I think..." />
+    <parameter key="keyword_reply13" value="Bah. His magical powers once, 'by mistake', ruined my whole inn." />
+    
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="meat, 2666, 4;ham, 2671, 6;egg, 2695, 3;apple, 2673, 3;carrot, 2684, 2;cookie, 2687, 1;brown bread, 2691, 3;bread, 2689, 3;" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, what brings you to my tavern?" />
+		<parameter key="message_farewell" value="Good bye." />
+		<parameter key="message_walkaway" value="Next please!" />
+	</parameters>
+</npc>
+

@@ -1,0 +1,33 @@
+<npc name="Ya-Bint-Al-Hawa" script="Ya-Bint-Al-Hawa.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="57" head="0" body="0" legs="0" feet="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;help;tha'reen;temple;name;citizen;archdemons;dammar;fajera;baladie;raspuita;dawar;el-marees;bakkir;juanita;samahat;bizre;zaim;petros" />
+		<parameter key="keyword_reply1" value="I'm here to help people." />
+		<parameter key="keyword_reply2" value="I can help you by healing." />
+    <parameter key="keyword_reply3" value="This is Tha'Reen if you didn't know that already. You may become a citizen in this temple." />
+    <parameter key="keyword_reply4" value="I'm the temple monk here. If you need any help I will be here for you." />
+    <parameter key="keyword_reply5" value="Ya-Bint-Al-Hawa is my name. Complicated, but I like it." />
+    <parameter key="keyword_reply6" value="Becoming a citizen is an easy and smoothly carried out procedure. Enter the teleport on the second floor and you will find yourself a proud citizen of Tha'Reen." />
+    <parameter key="keyword_reply7" value="The eight stones shalt protect the weak from hell." />
+    <parameter key="keyword_reply8" value="She is working in the local bank. A nice lady." />
+    <parameter key="keyword_reply9" value="She had wonderful clothes." />
+    <parameter key="keyword_reply10" value="His food is not of the same quality as Bakkir's." />
+    <parameter key="keyword_reply11" value="Raspuita is very keen of the silence in her library, but if you speak silently, she is a nice talk." />
+    <parameter key="keyword_reply12" value="He can protect the city's inhabitants from dangers with his awesome magical abilities." />
+    <parameter key="keyword_reply13" value="I don't know him, he never speaks to me" />
+    <parameter key="keyword_reply14" value="His food is quite nice. Better than Baladie's at least." />
+    <parameter key="keyword_reply15" value="Juanita is Bakkir's spoiled daugther." />
+    <parameter key="keyword_reply16" value="Samahat works in the depot. She is working for Freya Mailner." />
+    <parameter key="keyword_reply17" value="He is never outside his little house. I wonder why." />
+    <parameter key="keyword_reply18" value="He sells furniture." />
+    <parameter key="keyword_reply19" value="Petros is as the other captains quite adventurous." />
+    
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hey there, adventurer." />
+		<parameter key="message_farewell" value="Good bye, and remember that I can heal you whenever you're wounded." />
+		<parameter key="message_walkaway" value="Farewell." />
+	</parameters>
+</npc>

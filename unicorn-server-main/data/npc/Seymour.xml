@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<npc name="Seymour" script="distance.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="115" body="69" legs="87" feet="116"/>
+<parameters>
+<parameter key="talkdelaytime = 2"/>
+<parameter key="message_greet" value="Hello |PLAYERNAME|. What do you need?"/>
+<parameter key="message_farewell" value="Good bye! And remember: No running up and down in the academy!"/>
+<parameter key="message_walkaway" value="Good bye! And remember: No running up and down in the academy!"/>
+</parameters>
+</npc>
+

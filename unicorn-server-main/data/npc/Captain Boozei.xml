@@ -1,0 +1,15 @@
+<npc name="Captain Boozei" script="captain boozei.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="131" head="85" body="97" legs="115" feet="82" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job" />
+		<parameter key="keyword_reply1" value="As you see... I'm captain of this ship." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello adventurer |PLAYERNAME|  and welcome to my ship!" />
+		<parameter key="message_farewell" value="Good bye, and have safe trips!" />
+		<parameter key="message_walkaway" value="... very well. No manners." />
+	</parameters>
+</npc>

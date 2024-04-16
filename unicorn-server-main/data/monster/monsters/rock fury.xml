@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rock Fury" nameDescription="Rock Fury" race="blood" experience="1500" speed="260" manacost="450">
+  <health now="1200" max="1200"/>
+  <look type="153" head="116" body="120" legs="97" feet="114" corpse="3058" addons="3"/>
+  <targetchange interval="20000" chance="1"/>
+  <strategy attack="70" defense="20"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-30" max="-112"/>
+    <attack name="lifedrain" interval="1000" chance="18" range="7" min="-40" max="-120">
+      <attribute key="shootEffect" value="poison"/>
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+    <attack name="poisoncondition" interval="1000" chance="14" radius="4" target="0" min="-600" max="-700">
+      <attribute key="areaEffect" value="greenbubble"/>
+    </attack>
+    <attack name="poison" interval="1000" chance="10" radius="3" target="0" min="-40" max="-80">
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+    <attack name="drunk" interval="1000" chance="13" range="3">
+      <attribute key="areaEffect" value="whitenote"/>
+    </attack>
+    <attack name="poisonfield" interval="1000" chance="9" range="7" radius="2"/>
+  </attacks>
+  <defenses armor="35" defense="51">
+   <defense name="healing" interval="1000" chance="10" min="30" max="100">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="invisible" interval="1000" chance="12" duration="3000">
+      <attribute key="areaEffect" value="greenbubble"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="2">
+    <summon name="Scorpion" interval="1000" chance="12" max="1"/>
+    <summon name="Scorpion" interval="1000" chance="6" max="1"/>
+  </summons>
+  <voices interval="5000" chance="8">
+    <voice sentence="You have passed all tests except me."/>
+    <voice sentence="Do you seriously believe you can defeat me?"/>
+    <voice sentence="The first tests were nothing compared to this last one."/>
+  </voices>
+  <loot capacity="500">
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2513" countmax="1" chance="1500"/>
+    <item id="2401" countmax="1" chance="4000"/>
+    <item id="2403" countmax="1" chance="10000"/>
+    <item id="2509" countmax="1" chance="2000"/>
+    <item id="2516" countmax="1" chance="1000"/>
+    <item id="2050" countmax="2" chance="30000"/>
+     <item id="2475" countmax="1" chance="300"/>
+      </inside>
+    </item>
+    <item id="2148" countmax="80" chance="80000"/>
+    <item id="2148" countmax="70" chance="95000"/>
+    <item id="2663" countmax="1" chance="1200"/>
+    <item id="2532" countmax="1" chance="3500"/>
+    <item id="2145" countmax="2" chance="1200"/>
+    <item id="2531" countmax="1" chance="5500"/>
+    <item id="2457" countmax="1" chance="3000"/>
+  </loot>
+</monster>

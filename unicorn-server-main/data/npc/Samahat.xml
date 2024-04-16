@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<npc name="Samahat" script="Samahat.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="136" head="95" body="113" legs="114" feet="123" addons="2"/>
+
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;mail;depot;tha'reen;name;casteldine;celeres;adanac;destination;freya;dammar;petros;zaim;bakkir;dawar" />
+		<parameter key="keyword_reply1" value="I am responsible for this post office. If you have questions about the mail system or the depots, just ask me." />
+		<parameter key="keyword_reply2" value="The mail system enables you to send and receive letters and parcels. You can buy them here if you want." />
+		<parameter key="keyword_reply3" value="The depots are very easy to use. Just step in front of them and you will find your items in them. They are free for everyone to use." />
+		<parameter key="keyword_reply4" value="You may send letters and parcels to this city." />
+		<parameter key="keyword_reply5" value="Lovely name, isn't it?" />
+		<parameter key="keyword_reply6" value="Casteldine is like the other two cities located in Lithaton. You may send parcels and letters to this city. The only exception is of course Tha'Reen, which is located here on Dustwit." />
+		<parameter key="keyword_reply7" value="Celeres is like the other two cities located in Lithaton. You may send parcels and letters to this city. The only exception is of course Tha'Reen, which is located here on Dustwit." />
+		<parameter key="keyword_reply8" value="Adanac is like the other two cities located in Lithaton. You may send parcels and letters to this city. The only exception is of course Tha'Reen, which is located here on Dustwit." />
+		<parameter key="keyword_reply9" value="Valid destinations for letters and parcels are Casteldine, Tha'Reen, Adanac and Celeres." />
+		<parameter key="keyword_reply10" value="She is the Postmaster General of Lithaton Postal Service." />
+		<parameter key="keyword_reply11" value="I would also like to work inside a bank. Imagine all the shiny goods." />
+		<parameter key="keyword_reply12" value="That's the captain." />
+		<parameter key="keyword_reply13" value="Zaim is a friend of mine. I visit him often." />
+		<parameter key="keyword_reply14" value="His daugther is pretty spoiled." />
+		<parameter key="keyword_reply15" value="I believe he and his magic is pretty much a fraud." />
+
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="parcel, 2595, 15;letter, 2597, 10" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Thousand greetings, |PLAYERNAME|. How may I help you?" />
+		<parameter key="message_farewell" value="Return anytime, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Good bye." />
+		
+	</parameters>
+</npc>

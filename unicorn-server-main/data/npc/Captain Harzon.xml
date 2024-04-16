@@ -1,0 +1,35 @@
+<npc name="Captain Harzon" script="captain harzon.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="129" head="0" body="126" legs="126" feet="114" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;aurora;archipelago;adanac;dustwit;natalon;lithaton;king arturo;order;age;name;lucas;eric;amadeus;seafish;henry;fisherman;agorn;johanne;edwyn" />
+		<parameter key="keyword_reply1" value="As you can see I'm the captain of this grand ship." />
+		<parameter key="keyword_reply2" value="She's my pride... I hope nothing ever happens to her." />
+		<parameter key="keyword_reply3" value="Oh... it's a secret! Shh!" />
+    		<parameter key="keyword_reply4" value="We are already in adanac, dear |PLAYERNAME|." />
+    		<parameter key="keyword_reply5" value="Dustwit is the great desert island where Tha'Reen is located." />
+    		<parameter key="keyword_reply6" value="I have met him, face to face. I was the young captain who sailed Natalon from Adanac to Casteldine just before the orcs were about to take over the city. I even recieved an order from him." />
+    		<parameter key="keyword_reply7" value="Lithaton is the grand continent." />
+    		<parameter key="keyword_reply8" value="Long live the king. I used to know his father." />
+    		<parameter key="keyword_reply9" value="Natalon once gave me the order to stay aboard this ship, when they were about to face the orcish hordes. I am no coward, |PLAYERNAME|, but can with pride say I followed his order that day." />
+    		<parameter key="keyword_reply10" value="I am ninety eight years old." />
+    		<parameter key="keyword_reply11" value="I am Harzon, Lucas Harzon." />
+    		<parameter key="keyword_reply12" value="Lucas is my first name. It comes from my father Eric Lucas Harzon. He was the first captain and the constructor of the Aurora." />
+    		<parameter key="keyword_reply13" value="Eric Harzon was my father. He built this ship and was the first captain on it to ever set sails towards the seas. When he passed away I was yet too young to take over this ship, so a fellow captain by the name of Amadeus Seafish sailed it for a few years." />
+    		<parameter key="keyword_reply14" value="Amadeus Seafish was the second captain on this ship. He was a close friend to my father Eric." />	
+    		<parameter key="keyword_reply15" value="Amadeus Seafish was the second captain on this ship. He was a close friend to my father Eric." />	
+		<parameter key="keyword_reply16" value="Henry Always is not welcome on board my vessel. He is too cocky." />
+		<parameter key="keyword_reply17" value="Hah! His so called vessel is (almost) the same size as mine." />
+		<parameter key="keyword_reply18" value="Agorn's stick makes annoying noices on this ships wooden floor." />
+		<parameter key="keyword_reply19" value="Cute little child. I wonder how young she is, fortieth?" />
+		<parameter key="keyword_reply20" value="Edwyn is another person I would never let on board. He is crazy and would probably do something mad." />
+		
+		<parameter key="talkdelaytime = 2"/>
+		
+		<parameter key="message_greet" value="Hello. May I be at your service?" />
+		<parameter key="message_farewell" value="Have a nice day." />
+		<parameter key="message_walkaway" value="May the wind blow your way, |PLAYERNAME|." />
+	</parameters>
+</npc>

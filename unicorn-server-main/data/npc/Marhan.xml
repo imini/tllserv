@@ -1,0 +1,22 @@
+<npc name="Marhan" script="marhan.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="144" head="98" body="40" legs="48" feet="95" addons="2"/>
+	
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="name;king arturo;celeres;job;offer" />
+		<parameter key="keyword_reply1" value="I am Marhan. Nice to meet you |PLAYERNAME|." />
+    <parameter key="keyword_reply2" value="The king is a great man, I have heard. Personally, I have never met him." />
+    <parameter key="keyword_reply3" value="A wonderful city. But I prefer the nature." />
+    <parameter key="keyword_reply4" value="I have no job." />
+    <parameter key="keyword_reply5" value="I cannot offer you, my earthly possessions are not many." />
+
+		<parameter key="idletime" value="250" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hi there." />
+		<parameter key="message_farewell" value="Bye bye, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Farewell!" />
+	</parameters>
+</npc>

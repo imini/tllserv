@@ -1,0 +1,26 @@
+<npc name="Bron" script="bron.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="143" head="3" body="40" legs="24" feet="58" addons="2"/>
+	
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="ajax;brother;job;name;barbarian;king arturo;celeres;jeff;offer" />
+		<parameter key="keyword_reply1" value="Ajax is my brother. He's quite... aggressive by nature, if you will." />
+    <parameter key="keyword_reply2" value="My brother is Ajax. He lives north from me." />
+    <parameter key="keyword_reply3" value="I live a barbarian lifestyle. This means I don't have a job." />
+    <parameter key="keyword_reply4" value="I am Bron, the Barbarian." />
+    <parameter key="keyword_reply5" value="Being a barbarian is nothing for the weak. It's a quite tough lifestyle." />
+    <parameter key="keyword_reply6" value="I don't like the king." />
+    <parameter key="keyword_reply7" value="Celeres is to the south, no?" />
+    <parameter key="keyword_reply8" value="Jeff is some guy in the closeby campment." />
+    <parameter key="keyword_reply9" value="Nah, I don't have many earthly possession." />
+
+		<parameter key="idletime" value="250" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hi." />
+		<parameter key="message_farewell" value="Bye bye, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Bye." />
+	</parameters>
+</npc>

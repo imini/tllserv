@@ -1,0 +1,26 @@
+<npc name="Req'ior" script="reqior.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="51" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="djinn;name;offer;mission;maloqua;falor;taa'feal;alusir;malos'iquar;dustwit;items;tear" />
+		<parameter key="keyword_reply1" value="We djinns are truly superior. You know this. You can't deny it." />
+    <parameter key="keyword_reply2" value="My name means magic djinn in our language." />
+    <parameter key="keyword_reply3" value="I can trade with your enchanted chicken wings, magic sulphur, warrior's sweat and fighting spirit. Also, aprt from that, I sell and buy various magical items." />
+    <parameter key="keyword_reply4" value="You have helped us green djinns very much. There are no missions left for you." />
+    <parameter key="keyword_reply5" value="He is the guard. I like how he handles trespassers sometimes." />
+    <parameter key="keyword_reply6" value="Long live our leader. He is a just and fair one. He let me into this family, and now I'm serving it for ever." />
+    <parameter key="keyword_reply7" value="Taa'Feal is our battle commander. He is very smart." />
+    <parameter key="keyword_reply8" value="Alusir is truly hating every human from top to toe... even you. It's only Falors word that restrains him from slaying you." />
+    <parameter key="keyword_reply9" value="He buys and sells some rare equipment. He even trades with humans, but of course only those who has had permission from Falor to do so." />
+    <parameter key="keyword_reply10" value="Soon shall we green djinns be the kings of Dustwit." />
+    <parameter key="keyword_reply11" value="I buy various rings, amulets and rods. Also, if you obtain ankhs or mysterious fetishes, I'd be glad to buy them just to study their fascinating magic." />
+    <parameter key="keyword_reply12" value="Tears of Dustwit are extremely rare. I heard you helped Alusir obtain one. I'm sure Alusir is impressed, although he doesn't show it very much." />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="So, what do you want?" />
+		<parameter key="message_farewell" value="Leave!" />
+		<parameter key="message_walkaway" value="Go away!" />
+
+	</parameters>
+</npc>

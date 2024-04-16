@@ -1,0 +1,26 @@
+<npc name="Captain Seafish" script="captain seafish.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="130" head="114" body="126" legs="126" feet="0" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;amadeus;name;lucas;eric;aurora;agatone;destination;offer;jerry;andreas;king arturo;age" />
+		<parameter key="keyword_reply1" value="I don't have a job, I'm too old for that. I'm captain of this ship, but I don't see it as a job." />
+    <parameter key="keyword_reply2" value="Amadeus is my first name." />
+    <parameter key="keyword_reply3" value="I am Amadeus Seafish." />
+    <parameter key="keyword_reply4" value="Lucas Harzon is the current captain of the Aurora. He inherited it after his father, Eric." />
+    <parameter key="keyword_reply5" value="Me and Eric were friends. When he passed away, Lucas Harzon was too young to sail the Aurora, and therefor did I sail it for a few years." />
+    <parameter key="keyword_reply6" value="I have sailed the Aurora for a couple of years. This was because when its captain Eric died, his son Lucas was too young to take over business." />
+    <parameter key="keyword_reply7" value="We are at Agatone at the moment." />
+    <parameter key="keyword_reply8" value="I may sail you to Adanac and Casteldine and the sage Omere." />
+    <parameter key="keyword_reply9" value="I can sail you to Adanac and Casteldine and the sage Omere." />
+    <parameter key="keyword_reply10" value="Jerry sells some food and a few runes." />
+    <parameter key="keyword_reply11" value="Andreas is quite famous because of the battle arena he founded." />
+    <parameter key="keyword_reply12" value="The king can't catch me out on the sea, so I don't have to obey his laws." />
+    <parameter key="keyword_reply13" value="Well, a friend of mine, captain Harzon, is currently 98 years old. I knew his father." />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello adventurer |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Me and my ship is always at your service, |PLAYERNAME|!" />
+		<parameter key="message_walkaway" value="See you later, then." />
+	</parameters>
+</npc>

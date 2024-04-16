@@ -1,0 +1,40 @@
+<npc name="Hu Keres" script="Hu Keres.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="144" head="97" body="57" legs="67" feet="115" addons="1"/>
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;the spark of the phoenix;spiritual shielding;the wisdom of solitude;the fire of the suns;dog;tower;slingshot;king;celeres;casteldine;adanac;tha'reen;pire vam;hu keres;goblin;statue;goblin statue" />
+		<parameter key="keyword_reply1" value="Aaah - it's driving me completely insane. I hate this job, did I mention that? I was tricked and fooled and lurked and decieved and hoaxed and god knows what not. If I just hadn't sign that stupid contract I would probably be sitting on a beach with a drink right now. It sucks, really, you can't ever imagine." />
+		<parameter key="keyword_reply2" value="I remember that dude - it's a flicking elf, by the way. I think you can find the prat in that giant tree everyone's talking about.. you know, near the elf village? But I should warn you, the guy is really, really dangerous. You wouldn't survive one minute in his presence - he's so boring it's almost gruesome! Trust me!" />
+		<parameter key="keyword_reply3" value="Yep, there it came! The absolutely most stupid person in the whole wide world! He's so dumb I couldn't even compare his IQ with a rat... because that'd be an insult for the rat! I mean, what kind of flipping guy are you if you move to a stupid pyramid in the middle of the desert and shares the day with dead bodies and skeletons?" />
+		<parameter key="keyword_reply4" value="Hm. Last time I checked it was sold by this dude on some sort of eccentric island in the middle of the Sherian Seas. The guy must be completely cuckoo, you know, living there alone... but well, I shouldn't say anything, seeing that I'm totally isolated here too. But still, living on an island? Where do he get his food from?" />
+		<parameter key="keyword_reply5" value="I know that guy, Raghon. We played poker together a few months ago. Real idiot, he is, he didn't catch me cheating almost every round. Nowadays, I think he's in some sort of tower in Casteldine. I don't know what he's expecting of people, to come to him to see the view? He's a moron just like everyone else." />
+		<parameter key="keyword_reply6" value="Oh, you seen my dog? Raffie! Watch out, he almost bit my leg off the other day. And yes, I should also tell you, yesterday he tore a chair to pieces. He's mad, that dog. I'm currently feeding him with my own food, I'm too damn afraid he'll eat me otherwise." />
+		<parameter key="keyword_reply7" value="Yep, lovely view from the tower. I can almost see 50 metres. It's astonishing... ly pathetic. Haha! And when we're at the topic, you couldn't ever imagine how many total dumbasses I've shot with my slingshot from the top of the tower. It's hilarious, they never get it." />
+		<parameter key="keyword_reply8" value="One of my most beloved possessions. I use it often to shoot people who are camping or sight-seeing or whatever stupid reasons they come up with these days to get out in the nature. Don't they see it's just a bunch of green leaves and perhaps a white flower here and there? They're almost as stupid as the king." />
+		<parameter key="keyword_reply9" value="That abusive air head. If it wouldn't have been for his employees I wouldn't even be sitting in this god forsaken tower in  the first place. Did I mention he's a complete wally? He's like a nerd when it comes to all the pathetic books he's reading. I bet he even knows how to cook. I mean, like if it wouldn't be enough with the books." />
+		<parameter key="keyword_reply10" value="Lovely city... if it wouldn't be for the sheriff, the high gates, the expensive houses, the dirty roads, the stupid inhabitants, the disgusting sewers and it's pathetic goblins, the idiotic lava express which makes the whole city sweat, the crazy bandits, the flipping mountain blocking the sun, the river with its icewater..." />
+		<parameter key="keyword_reply11" value="Have you been to that city? Did I mention I hate it more than I hate the king? I mean, just look at it pathetic location. And just as if the completely brain-dead trolls wouldn't be enough, the king lives there too! And all the gossip and tittle-tattle, and not to even mention the lies! I shouldn't even talk about it, my tongue'll get black." />
+		<parameter key="keyword_reply12" value="Hoho! The home of the santa. I think. I remember when I was playing poker there with Raghon. I had about two decks in my sleeves, and the stupid idiot never realized! It must've been for the salty air. I mean, he's almost as amusing as that captain Harzon. I remember when I fed a farm of rats on his dinghy to boat." />
+		<parameter key="keyword_reply13" value="The city of my dreams, I suppose. I mean, just imagine the beaches! I can almost see myself sitting there with a dozen senoritas, zipping a pina colada and feeling fine. But I bet I'll never come off this stupid job before I am a 150 years old... if I'm lucky, that is. And did I mention that I never am lucky. " />
+		<parameter key="keyword_reply14" value="Pire Vam you say. But I don't... and let's keep it that way." />
+		<parameter key="keyword_reply15" value="Catchy name, eh? I was the one who came up with it... but I mean, it's not really as catchy as I wanted it to be, but I think some people actually understand what it means - and that's the point... but well, who cares?" />
+		<parameter key="keyword_reply16" value="It's so flipping awesome! I found it in the woods. It took me some sweaty hours to lug it here, and gee, the time it took to bring it up the tower! But it was worth it, it's really cool. But I've locked it up behind a door now... you know Raffie? I'm afraid the lunitic will bite it's head off or something." />
+		<parameter key="keyword_reply17" value="It's so flipping awesome! I found it in the woods. It took me some sweaty hours to lug it here, and gee, the time it took to bring it up the tower! But it was worth it, it's really cool. But I've locked it up behind a door now... you know Raffie? I'm afraid the lunitic will bite it's head off or something." />
+		<parameter key="keyword_reply18" value="It's so flipping awesome! I found it in the woods. It took me some sweaty hours to lug it here, and gee, the time it took to bring it up the tower! But it was worth it, it's really cool. But I've locked it up behind a door now... you know Raffie? I'm afraid the lunitic will bite it's head off or something." />
+
+
+
+
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Oh no! Please don't tell me you want that god forsaken blessing YOU'RE THE THIRD TODAY! This job will seriously kill me, why did I sign that contract? Or, wait, are you gonna ask about the blessing or not? Well, it's not like I can know before you ask, right? But well, anyways, what do you want?" />
+		<parameter key="message_farewell" value="Next time we'll meet I'll make sure we can talk about more things. You see, it's getting slightly boring out here all alone, so please, return quite soon... and hey, bring me something to kill time with - a dragon lance, for instance. Nah, just kidding - a fame boy is enough. Well, see you around then, dude." />
+		<parameter key="message_walkaway" value="Take care out there!" />
+
+	</parameters>
+
+
+</npc>

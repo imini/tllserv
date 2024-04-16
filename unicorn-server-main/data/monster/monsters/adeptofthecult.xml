@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+                       <monster name="Adept of the Cult" experience="400" speed="230" race="2">
+                         <health now="430" max="430"/>
+                         <look type="194" head="114" body="94" legs="94" feet="57" corpse="6080"/>
+                           <strategy attack="100" defense="0"/>
+                         <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="4"/>
+    <flag runonhealth="0"/>
+  </flags>
+                         <attacks>
+                           <attack name="melee" interval="2000" min="-10" max="-120" />
+					<attack name="lifedrain" interval="1000" chance="22" range="6" min="-70" max="-150">
+      				  <attribute key="shootEffect" value="poison"/>
+    					  <attribute key="areaEffect" value="poison"/>
+   					 </attack>
+                           <attack name="drunk" interval="1000" chance="13" range="7">
+   					   <attribute key="shootEffect" value="energy"/>
+  					    <attribute key="areaEffect" value="energyarea"/>
+   					    </attack>
+                         </attacks>
+                         <defenses armor="25" defense="20">
+   				 <defense name="healing" interval="1000" chance="20" min="45" max="65">
+     				 <attribute key="areaEffect" value="blueshimmer"/>
+  				  </defense>
+					<defense name="invisible" interval="1000" chance="14" duration="4000">
+      				<attribute key="areaEffect" value="blueshimmer"/>
+  					  </defense>
+  				  </defenses>
+
+                         <immunities>
+                           <immunity name="fire"/>
+                           <immunity name="poison"/>
+                           <immunity name="invisible"/>
+                         </immunities>
+                         <summons maxSummons="2">
+                           <summon name="Ghoul" interval="2000" chance="23" max="1"/>
+				   <summon name="Ghoul" interval="2000" chance="17" max="1"/>
+                         </summons>
+                         <loot>
+<item id="1987" countmax="1">
+      <inside>
+                           <item id="2169" chance="3000"/> time ring
+                           <item id="5801" chance="600"/> key ring
+                           <item id="2170" chance="12000"/> silver amulet
+                           <item id="2423" chance="12000"/> clerical mace
+                           <item id="2183" chance="600"/> tempest rod
+                           <item id="7426" chance="350"/> amber staff
+                           <item id="7451" chance="170"/> lunar staff
+      </inside>
+    </item>
+                           <item id="2148" countmax="20" chancemax="0" chance="30000"/> GP
+                           <item id="2148" countmax="47" chancemax="0" chance="60000"/> GP
+                           <item id="6089" chance="3500"/> paper hymn verse III
+                           <item id="5810" chance="2000"/> voodoo doll
+                           <item id="2147" countmax="2" chancemax="0" chance="3500"/> small ruby
+                           <item id="2655" chance="450"/> red robe
+                         </loot>
+                       </monster>

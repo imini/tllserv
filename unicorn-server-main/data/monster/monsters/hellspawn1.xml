@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Hellfire Spawn" tp="1" nameDescription="a Hellfire Spawn" race="fire" experience="2200" speed="320" manacost="0">
+    <health now="2300" max="2300"/>
+    <look type="243" corpse="6324"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag canpushcreatures="1"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="300"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-30" max="-230"/>
+      <attack name="firefield" interval="1000" chance="21" radius="3">
+        <attribute key="shootEffect" value="fire"/>
+      </attack>
+      <attack name="fire" interval="1000" chance="19" range="5" radius="2" min="-150" max="-220">
+        <attribute key="shootEffect" value="fire"/>
+      </attack>
+	<attack name="fire" interval="1000" chance="17" radius="4" min="-150" max="-250">
+        <attribute key="shootEffect" value="fire"/>
+	  <attribute key="areaEffect" value="fire"/>
+      </attack>
+    </attacks>
+    <defenses armor="32" defense="48">
+    <defense name="healing" interval="1000" chance="25" min="150" max="200">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+    <immunities>
+    <immunity energy1="1"/>
+    <immunity fire1="1"/>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="5000" chance="10">
+      <voice sentence="RRRRRRRRRAGR!"/>
+    </voices>
+    <loot>
+     <item id="2148" countmax="56" chance1="100000" chancemax="0"/> --Gold Coin
+     <item id="2187" chance="2500"/> --Wand of Inferno
+     <item id="1987" chance="100000"> --Bag
+           <inside>
+              <item id="2260" chance="13500"/> --Blank Rune
+              <item id="700" chance="700"/> --Fire Axe
+              <item id="2145" countmax="4" chance1="15000" chancemax="0"/> --Small Diamond
+              <item id="2392" chance="3550"/> --Fire Sword
+           </inside>
+        </item>
+     </loot>
+  </monster>

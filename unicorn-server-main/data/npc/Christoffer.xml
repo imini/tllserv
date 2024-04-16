@@ -1,0 +1,25 @@
+<npc name="Christoffer" script="christoffer.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="0" body="40" legs="0" feet="114" addons="0"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;name;adanac;natalon;quest;jellyfish" />
+		<parameter key="keyword_reply1" value="I can offer you ham, meat, egg and cherries." />
+		<parameter key="keyword_reply2" value="I sell food! Meat, ham, egg, and cherries." />
+    <parameter key="keyword_reply3" value="I am Christoffer. I like my name alot. I even asked my parents to choose it for me." />
+    <parameter key="keyword_reply4" value="We are in Adanac right now." />
+    <parameter key="keyword_reply5" value="Natalon is a great man who used to live here in Adanac." />
+    <parameter key="keyword_reply6" value="I don't know anything about a quest, I'm afraid." />
+    <parameter key="keyword_reply7" value="The jellyfish is my restaurant. Isn't it nice?" />
+    
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="meat, 2666, 5;ham, 2671, 8;egg, 2695, 6;cherry, 2679,4" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, can I be at your service?" />
+		<parameter key="message_farewell/s " value="Hope to see you again." />
+		<parameter key="message_walkaway" value="Next please!" />
+	</parameters>
+</npc>
+

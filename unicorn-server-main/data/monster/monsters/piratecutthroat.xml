@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Pirate Cutthroat" species="human"  nameDescription="a pirate cutthroat" race="blood" experience="175" speed="187" manacost="0">
+    <health now="325" max="325"/>
+    <look type="96" head="0" body="0" legs="0" feet="0" corpse="6080"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-1" max="-145" poison="30"/>
+    <attack name="physical" interval="1000" chance="7" range="4" min="-23" max="-80">
+      <attribute key="areaEffect" value="explosion"/>
+    </attack>
+    </attacks>
+    <defenses armor="18" defense="32"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="Give up!"/>
+      <voice sentence="Hiyaa!"/>
+      <voice sentence="Plundeeeer!"/>
+    </voices>
+    <loot>
+<item id="1987" countmax="1">
+      <inside>
+      <item id="5553" chance="8000"/> rum flask
+      <item id="2376" chance="6251"/> sword
+      <item id="2509" chance="5887"/> steel shield
+      <item id="5091" chance="2057"/> treasure map
+      <item id="5710" chance="1000"/> light shovel
+      </inside>
+    </item>
+      <item id="2148" countmax="43" chance1="40000" chancemax="350"/>
+      <item id="6126" chance="900"/> peg leg
+      <item id="6097" chance="820"/> hook
+      <item id="6098" chance="920"/> eye patch
+      <item id="5927" chance="1400"/> pirate bag
+      <item id="2483" chance="2000"/> scale armor
+      <item id="5918" chance="700"/> Pirate Knee Breeches
+
+    </loot>
+  </monster>

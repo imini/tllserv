@@ -1,0 +1,26 @@
+<npc name="Caranim" script="caranim.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="143" head="19" body="113" legs="95" feet="115" addons="0"/>
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;embrace of the lost lands;spiritual shielding;wisdom of solitude;fire of the suns;blessing;ashbere" />
+		<parameter key="keyword_reply1" value="I don't really have a job - it's more like a duty to the gods. I enchant people with the Spark of the Phoenix, which is a blessing." />
+		<parameter key="keyword_reply2" value="If I'm not remembering wrong, this blessing is enchanted by a young human northwest of Celeres." />
+		<parameter key="keyword_reply3" value="Not much is known about the one who handles this blessing, but we all know his residence is somewhere in the northwest of Dustwit. To be honest, I actually used to know him, but one day he was just gone and I haven't heard of him ever since." />
+		<parameter key="keyword_reply4" value="Omere, a very kind old man, may enchant you with that blessing. He lives on a small island in solitude where he study the art of magic, among other things. You can travel there for free from Agatone, if you want to." />
+		<parameter key="keyword_reply5" value="In casteldine, there's a great lighthouse. On top of that lighthouse lives a man, don't ask me what he's doing there, but he is known to be able to enchant people with the Fire of the Suns." />
+		<parameter key="keyword_reply6" value="There are 5 types of blessings, each and every enchanted by different people. The one I can enchant you with is the Spark of the Phoenix, but apart from that, there is The Fire of the Suns, The Wisdom of Solitude, The Embrace of The Lost Lands and Spiritual Shielding." />
+    		<parameter key="keyword_reply7" value="Ashbere is the nearby elven settlement." />
+
+
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome, |PLAYERNAME|. What can I do for you?" />
+		<parameter key="message_farewell" value="Travel in peace, |PLAYERNAME|!" />
+		<parameter key="message_walkaway" value="Go safely, and leave something of the happiness you bring!" />
+	</parameters>
+
+
+</npc>

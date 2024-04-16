@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<spawns>
+	<spawn centerx="1512" centery="415" centerz="4" radius="1">
+		<npc name="Maenc" x="0" y="0" z="4" spawntime="60" />
+	</spawn>
+	<spawn centerx="1584" centery="477" centerz="5" radius="1">
+		<monster name="Troll" x="0" y="0" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="1594" centery="477" centerz="5" radius="1">
+		<monster name="Troll" x="0" y="0" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="1588" centery="392" centerz="6" radius="1">
+		<npc name="Lance" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1590" centery="476" centerz="6" radius="1">
+		<monster name="Troll" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1587" centery="483" centerz="6" radius="1">
+		<monster name="Troll" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1564" centery="489" centerz="6" radius="1">
+		<monster name="Rocky" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1579" centery="389" centerz="7" radius="30">
+		<monster name="Snake" x="22" y="-8" z="7" spawntime="60" />
+		<monster name="spider" x="15" y="-2" z="7" spawntime="60" />
+		<monster name="Snake" x="-10" y="13" z="7" spawntime="60" />
+		<monster name="Snake" x="-4" y="13" z="7" spawntime="60" />
+		<monster name="Snake" x="-9" y="16" z="7" spawntime="60" />
+		<monster name="Snake" x="-12" y="18" z="7" spawntime="60" />
+		<npc name="Gebby" x="25" y="19" z="7" spawntime="60" />
+		<monster name="Snake" x="-8" y="20" z="7" spawntime="60" />
+		<npc name="Christopher" x="-2" y="21" z="7" spawntime="60" />
+		<monster name="Deer" x="-22" y="29" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1521" centery="404" centerz="7" radius="30">
+		<monster name="Snake" x="-4" y="-16" z="7" spawntime="60" />
+		<monster name="Snake" x="-3" y="-16" z="7" spawntime="60" />
+		<monster name="Snake" x="-5" y="-14" z="7" spawntime="60" />
+		<monster name="Snake" x="13" y="-12" z="7" spawntime="60" />
+		<monster name="Snake" x="-11" y="-8" z="7" spawntime="60" />
+		<monster name="Snake" x="9" y="-8" z="7" spawntime="60" />
+		<monster name="Snake" x="-10" y="-7" z="7" spawntime="60" />
+		<monster name="spider" x="2" y="-7" z="7" spawntime="60" />
+		<monster name="Snake" x="-7" y="-3" z="7" spawntime="60" />
+		<monster name="Snake" x="2" y="1" z="7" spawntime="60" />
+		<monster name="Snake" x="-21" y="4" z="7" spawntime="60" />
+		<monster name="Snake" x="19" y="8" z="7" spawntime="60" />
+		<monster name="Snake" x="-17" y="14" z="7" spawntime="60" />
+		<monster name="Snake" x="19" y="19" z="7" spawntime="60" />
+		<monster name="Rat" x="-11" y="22" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1624" centery="405" centerz="7" radius="30">
+		<monster name="Rat" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Rat" x="-4" y="1" z="7" spawntime="60" />
+		<npc name="Peter" x="-28" y="19" z="7" spawntime="60" />
+		<npc name="hercules" x="-24" y="27" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1604" centery="408" centerz="7" radius="1" />
+	<spawn centerx="1577" centery="410" centerz="7" radius="1" />
+	<spawn centerx="1596" centery="424" centerz="7" radius="1" />
+	<spawn centerx="1563" centery="426" centerz="7" radius="30">
+		<monster name="Snake" x="-5" y="0" z="7" spawntime="60" />
+		<monster name="Deer" x="-19" y="12" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1600" centery="432" centerz="7" radius="1" />
+	<spawn centerx="1600" centery="443" centerz="7" radius="1">
+		<npc name="Riona" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1597" centery="447" centerz="7" radius="1">
+		<npc name="Joan" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1519" centery="453" centerz="7" radius="30">
+		<monster name="Deer" x="24" y="4" z="7" spawntime="60" />
+		<monster name="spider" x="30" y="7" z="7" spawntime="60" />
+		<monster name="spider" x="27" y="16" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1564" centery="465" centerz="7" radius="30">
+		<monster name="spider" x="24" y="-2" z="7" spawntime="60" />
+		<monster name="spider" x="-11" y="-1" z="7" spawntime="60" />
+		<monster name="spider" x="-5" y="7" z="7" spawntime="60" />
+		<monster name="spider" x="-11" y="10" z="7" spawntime="60" />
+		<monster name="Troll" x="25" y="14" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1620" centery="480" centerz="7" radius="30">
+		<monster name="Snake" x="-3" y="-24" z="7" spawntime="60" />
+		<monster name="Snake" x="-20" y="-18" z="7" spawntime="60" />
+		<monster name="Snake" x="-13" y="-6" z="7" spawntime="60" />
+		<monster name="Snake" x="-12" y="-4" z="7" spawntime="60" />
+		<monster name="Deer" x="-5" y="7" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1544" centery="508" centerz="7" radius="30">
+		<monster name="Deer" x="3" y="-2" z="7" spawntime="60" />
+		<monster name="Snake" x="-8" y="5" z="7" spawntime="60" />
+		<monster name="spider" x="-2" y="16" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1595" centery="523" centerz="7" radius="30">
+		<monster name="Bug" x="22" y="-11" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1594" centery="415" centerz="8" radius="25">
+		<monster name="Rat" x="8" y="-20" z="8" spawntime="60" />
+		<monster name="Rat" x="5" y="-18" z="8" spawntime="60" />
+		<monster name="Rat" x="-7" y="-16" z="8" spawntime="60" />
+		<monster name="Rat" x="7" y="-13" z="8" spawntime="60" />
+		<monster name="Rat" x="-16" y="-9" z="8" spawntime="60" />
+		<monster name="Rat" x="3" y="-6" z="8" spawntime="60" />
+		<monster name="Rat" x="-4" y="-5" z="8" spawntime="60" />
+		<monster name="Rat" x="11" y="-4" z="8" spawntime="60" />
+		<monster name="Rat" x="-11" y="-2" z="8" spawntime="60" />
+		<monster name="Rat" x="7" y="0" z="8" spawntime="60" />
+		<monster name="Rat" x="0" y="1" z="8" spawntime="60" />
+		<monster name="Rat" x="13" y="4" z="8" spawntime="60" />
+		<monster name="Rat" x="-6" y="5" z="8" spawntime="60" />
+		<monster name="Rat" x="7" y="8" z="8" spawntime="60" />
+		<monster name="Rat" x="-9" y="9" z="8" spawntime="60" />
+		<monster name="Rat" x="-2" y="10" z="8" spawntime="60" />
+		<monster name="Rat" x="-12" y="13" z="8" spawntime="60" />
+		<monster name="Rat" x="-6" y="18" z="8" spawntime="60" />
+		<monster name="Rat" x="0" y="18" z="8" spawntime="60" />
+		<monster name="Rat" x="8" y="23" z="8" spawntime="60" />
+		<monster name="Rat" x="10" y="23" z="8" spawntime="60" />
+		<monster name="Rat" x="10" y="25" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1584" centery="479" centerz="8" radius="30">
+		<monster name="Troll" x="30" y="-25" z="8" spawntime="60" />
+		<monster name="Troll" x="23" y="-10" z="8" spawntime="60" />
+		<monster name="Troll" x="-23" y="-6" z="8" spawntime="60" />
+		<monster name="Troll" x="-1" y="-5" z="8" spawntime="60" />
+		<monster name="Troll" x="23" y="-4" z="8" spawntime="60" />
+		<monster name="Troll" x="12" y="-3" z="8" spawntime="60" />
+		<monster name="Troll" x="-16" y="-2" z="8" spawntime="60" />
+		<monster name="Troll" x="3" y="2" z="8" spawntime="60" />
+		<monster name="Troll" x="1" y="11" z="8" spawntime="60" />
+		<monster name="Troll" x="-1" y="21" z="8" spawntime="60" />
+		<monster name="Troll" x="4" y="25" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1615" centery="524" centerz="8" radius="30">
+		<monster name="Skeleton" x="-4" y="-5" z="8" spawntime="60" />
+		<monster name="Skeleton" x="2" y="3" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1604" centery="430" centerz="9" radius="30">
+		<monster name="Rat" x="0" y="-28" z="9" spawntime="60" />
+		<monster name="Rat" x="2" y="-26" z="9" spawntime="60" />
+		<monster name="Rat" x="-5" y="-21" z="9" spawntime="60" />
+		<monster name="Rat" x="-23" y="-19" z="9" spawntime="60" />
+		<monster name="Rat" x="7" y="-19" z="9" spawntime="60" />
+		<monster name="Rat" x="-17" y="-18" z="9" spawntime="60" />
+		<monster name="Rat" x="15" y="-18" z="9" spawntime="60" />
+		<monster name="Rat" x="-6" y="-15" z="9" spawntime="60" />
+		<monster name="Rat" x="-14" y="-14" z="9" spawntime="60" />
+		<monster name="Rat" x="16" y="-14" z="9" spawntime="60" />
+		<monster name="Rat" x="22" y="-12" z="9" spawntime="60" />
+		<monster name="Rat" x="9" y="-11" z="9" spawntime="60" />
+		<monster name="Rat" x="-21" y="-10" z="9" spawntime="60" />
+		<monster name="Rat" x="-15" y="-9" z="9" spawntime="60" />
+		<monster name="Rat" x="-8" y="-9" z="9" spawntime="60" />
+		<monster name="Rat" x="-25" y="-8" z="9" spawntime="60" />
+		<monster name="Rat" x="19" y="-8" z="9" spawntime="60" />
+		<monster name="Rat" x="3" y="-6" z="9" spawntime="60" />
+		<monster name="Rat" x="-11" y="-4" z="9" spawntime="60" />
+		<monster name="Rat" x="26" y="-4" z="9" spawntime="60" />
+		<monster name="Rat" x="12" y="-3" z="9" spawntime="60" />
+		<monster name="Rat" x="-25" y="-1" z="9" spawntime="60" />
+		<monster name="Rat" x="-12" y="3" z="9" spawntime="60" />
+		<monster name="Rat" x="2" y="3" z="9" spawntime="60" />
+		<monster name="Rat" x="17" y="3" z="9" spawntime="60" />
+		<monster name="Rat" x="22" y="3" z="9" spawntime="60" />
+		<monster name="Rat" x="-20" y="7" z="9" spawntime="60" />
+		<monster name="Rat" x="-5" y="9" z="9" spawntime="60" />
+		<monster name="Rat" x="9" y="9" z="9" spawntime="60" />
+		<monster name="Rat" x="20" y="11" z="9" spawntime="60" />
+		<monster name="Rat" x="-12" y="13" z="9" spawntime="60" />
+		<monster name="Rat" x="2" y="15" z="9" spawntime="60" />
+		<monster name="Rat" x="-11" y="17" z="9" spawntime="60" />
+		<monster name="Rat" x="-19" y="20" z="9" spawntime="60" />
+		<monster name="Rat" x="22" y="21" z="9" spawntime="60" />
+		<monster name="Rat" x="-16" y="23" z="9" spawntime="60" />
+		<monster name="Rat" x="12" y="25" z="9" spawntime="60" />
+		<monster name="Rat" x="-12" y="26" z="9" spawntime="60" />
+		<monster name="Rat" x="0" y="26" z="9" spawntime="60" />
+		<monster name="Rat" x="20" y="27" z="9" spawntime="60" />
+		<monster name="Rat" x="23" y="28" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1603" centery="464" centerz="9" radius="15">
+		<monster name="Rat" x="-6" y="-2" z="9" spawntime="60" />
+		<monster name="Rat" x="-12" y="-1" z="9" spawntime="60" />
+		<monster name="Rat" x="13" y="0" z="9" spawntime="60" />
+		<monster name="Rat" x="-4" y="2" z="9" spawntime="60" />
+		<monster name="Rat" x="3" y="2" z="9" spawntime="60" />
+		<monster name="Rat" x="-4" y="7" z="9" spawntime="60" />
+		<monster name="Rat" x="-4" y="9" z="9" spawntime="60" />
+	</spawn>
+</spawns>

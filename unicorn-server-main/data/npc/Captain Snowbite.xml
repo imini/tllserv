@@ -1,0 +1,15 @@
+<npc name="Captain Snowbite" script="captain snowbite.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="134" head="85" body="91" legs="114" feet="85" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job" />
+		<parameter key="keyword_reply1" value="I'm captain of this ship." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello adventurer |PLAYERNAME|  and welcome to my ship!" />
+		<parameter key="message_farewell" value="Good bye!" />
+		<parameter key="message_walkaway" value="..." />
+	</parameters>
+</npc>

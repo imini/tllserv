@@ -1,0 +1,27 @@
+<npc name="Penim" script="pelim.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="63" head="0" body="0" legs="0" feet="0"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;elf;ashbere;king arturo;casteldine;celeres;instrument;books;music;name" />
+		<parameter key="keyword_reply1" value="Nowadays I am just a salesmen." />
+		<parameter key="keyword_reply2" value="I can offer you musical instruments and books." />
+		<parameter key="keyword_reply3" value="I am an elf from Ashbere. I was lucky king Arturo accepted me with wide arms, since elves from Ashbere haven't got a really good reputation." />
+		<parameter key="keyword_reply4" value="Ashbere is the elven village north of Celeres. Its inhabitants, the dark elves, are well known to be very aggressive ones. I got tired of that attitude, so I decided to move here." />
+		<parameter key="keyword_reply5" value="King Arturo is a very kind man, and it's no wonder he is the king of the human race." />
+		<parameter key="keyword_reply6" value="I have recently moved to Casteldine." />
+		<parameter key="keyword_reply7" value="Celeres is constantly under attack by the aggressive elves from Ashbere." />
+		<parameter key="keyword_reply8" value="I have various instruments for sale. You may choose between drums, lutes, simple fanfares and lyres." />
+		<parameter key="keyword_reply9" value="Currently I have only two books for sale. Black books and brown books." />
+	  <parameter key="keyword_reply10" value="I have always loved music, but music was not accepted in Ashbere." />
+    <parameter key="keyword_reply11" value="You might see it as a little silly, but Penim actually means flower." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="black book, 1972, 17;brown book, 1971, 17;simple fanfare, 2368, 150;lyre, 2372, 129;lute, 2370, 195;drum, 2367, 140" />
+<parameter key="idletime" value="80" />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Ah. Hello." />
+		<parameter key="message_farewell" value="Bye, human |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Bye, human |PLAYERNAME|." />
+	</parameters>
+</npc>

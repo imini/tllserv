@@ -1,0 +1,24 @@
+<npc name="Zacharias" script="zacharias.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="131" head="121" body="77" legs="0" feet="116" addons="1"/>
+	
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="celeres;andrew;job;offer;mission;quest;name;king arturo;cyclops;hideout" />
+		<parameter key="keyword_reply1" value="Celeres is to the east. I am going there soon, I suppose. These cyclops are blocking my way, though." />
+    <parameter key="keyword_reply2" value="He's a fellow of mine." />
+    <parameter key="keyword_reply3" value="I am currently without a job, unfortunately." />
+    <parameter key="keyword_reply4" value="I can't offer you much... in fact, I can't spare you anything at the moment." />
+    <parameter key="keyword_reply5" value="I don't have any, no." />
+    <parameter key="keyword_reply6" value="A quest for fame, or what?" />
+    <parameter key="keyword_reply7" value="Zacharias is a cool name, I think. Some people have problems to say it though." />
+    <parameter key="keyword_reply8" value="Huh, he's never helped me in any way." />
+    <parameter key="keyword_reply9" value="These cyclops are in the way. I can't get out of here. Truth to be said, I'm hiding here." />
+<parameter key="keyword_reply10" value="I am hiding here. The cyclops will probably kill me else. " />
+		<parameter key="talkdelaytime" value="2" />
+		<parameter key="message_greet" value="Hello, hello. What exactly are you doing at my hideout?" />
+		<parameter key="message_farewell" value="Bye bye, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Bah. Bye." />
+	</parameters>
+</npc>

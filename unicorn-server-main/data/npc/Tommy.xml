@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<npc name="Tommy" script="tommy.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="131" head="76" body="38" legs="76" feet="95"/>
+
+
+<parameters>
+
+<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;quest;name;casteldine;furniture;interior;king;arturo;natalon;zertic;doc;nervous;ravenclaw;zaim;dallheim;joseph;alexander;liyana;jessica;jooko;penim;sten;churry" />
+		<parameter key="keyword_reply1" value="I'm selling furniture." />
+		<parameter key="keyword_reply2" value="Don't tell anyone, but I think the swamp trolls in Ravenclaw Swamp has stolen many valuables from people. You should give them a visit." />
+		<parameter key="keyword_reply3" value="I am Tommy, nice to meet you |PLAYERNAME|. I am glad you know your manners." />
+		<parameter key="keyword_reply4" value="We are in Casteldine, |PLAYERNAME|. Are you too confused to understand that?" />
+		<parameter key="keyword_reply5" value="I sell furniture. It's been a hobby for long. I am actually buying them from a relative - Zaim." />
+    <parameter key="keyword_reply6" value="I sell furniture and interior." />
+    <parameter key="keyword_reply7" value="A great man. Trust me, he really is." />
+    <parameter key="keyword_reply8" value="A great man. Trust me, he really is." />
+    <parameter key="keyword_reply9" value="I wish I could have met him. He saved our city." />
+    <parameter key="keyword_reply10" value="Sh! I believe he and that fellow Doc are up to no good. Don't tell them, but they are making me nervous." />
+    <parameter key="keyword_reply11" value="Sh! I believe he and that fellow Zertic are up to no good. Don't tell them, but they are making me nervous." />
+    <parameter key="keyword_reply12" value="I am nervous because I believe Doc and Zertic are up to no good. I think they have put a price on my head." />
+    <parameter key="keyword_reply13" value="The swamp trolls lives in Ravenclaw Swamp. Peculiar creatures, they are." />
+    <parameter key="keyword_reply14" value="He is a distant relative to me. We don't talk much, but he's selling me some really good furniture." />
+    <parameter key="keyword_reply15" value="He is, kinda, how do I put it? Well, aggressive." />
+    <parameter key="keyword_reply16" value="Isn't that the friend of Alexander?" />
+    <parameter key="keyword_reply17" value="Isn't he the guy who knows Joseph?" />
+    <parameter key="keyword_reply18" value="Liyana is cute, but I'm afraid she'll break my neck if I talk to her." />
+    <parameter key="keyword_reply19" value="Jessica is elegant - certainly not someone I'd dare to speak to. What if she came to my shop!?" />
+    <parameter key="keyword_reply20" value="He has humour... sometimes." />
+    <parameter key="keyword_reply21" value="Isn't that the new elf who recently moved in?" />
+    <parameter key="keyword_reply22" value="Ah! Sten! My dear friend. We used to have some good times together." />
+    <parameter key="keyword_reply23" value="An excellent man whose food is even more excellent." />
+    
+<parameter key="message_greet" value="Lower your voice! I'm a little nervous... but hello |PLAYERNAME|."/>
+<parameter key="message_farewell" value="Goodbye |PLAYERNAME|."/>
+<parameter key="message_walkaway" value="Okey, bye... but be silent."/>
+</parameters>
+</npc>

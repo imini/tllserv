@@ -1,0 +1,33 @@
+<npc name="Johanne" script="johanne.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="149" head="78" body="10" legs="96" feet="95" addons="0"/>
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;instruction;adanac;natalon;king arturo;offer;casteldine;ann;henry always;stefan;ronny;fisherman;norton;edwyn;jean;harzon;flynn" />
+		<parameter key="keyword_reply1" value="I work in the bank here in Adanac. May I help you somehow?" />
+		<parameter key="keyword_reply2" value="I am Johanne. And you must be |PLAYERNAME|." /> 
+		<parameter key="keyword_reply3" value="I exchange gold. This means that I am able to change your gold coins to platinum coins and back, and your platinum coins to crystal coins and back." /> 
+    <parameter key="keyword_reply4" value="Adanac is a very fine city, I like it here." /> 
+    <parameter key="keyword_reply5" value="Natalon lived here. I don't even remember what he is famous for, but he is famous, and that I know." /> 
+    <parameter key="keyword_reply6" value="Hehe. I am secretly against his way of ruling, but since I would lose my job if I objected I prefer to keep it secret." /> 
+    <parameter key="keyword_reply7" value="I can offer you my service, dear |PLAYERNAME|." /> 
+    <parameter key="keyword_reply8" value="Casteldine is the capital of Lithaton, and that's where king Arturo lives. I kind of avoid this city, although I have to travel there from times to times to pay my taxes." /> 
+    <parameter key="keyword_reply9" value="A handsome girl. I wish I were in her clothes. My outfit is getting old and tattered." />
+    <parameter key="keyword_reply10" value="He has class, needless to say." />
+    <parameter key="keyword_reply11" value="He is scary." />
+    <parameter key="keyword_reply12" value="What in the name of Natalon is he doing in Hedwood?" />
+    <parameter key="keyword_reply13" value="Fishing is not good for your nails. They get dirty." />
+    <parameter key="keyword_reply14" value="His magical wonders are magnificent." />
+    <parameter key="keyword_reply15" value="Edwyn is the kind of person who would kill everyone in a town just because of some lame reason." />
+    <parameter key="keyword_reply16" value="Oh, his food. Lovely, delicious." />
+    <parameter key="keyword_reply17" value="He's currently 98 years old, he told me. Amazing, isn't it?" />
+    <parameter key="keyword_reply18" value="Flynn is... out of the ordinary. -blushes-" />
+    
+ 		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|. What can I do for you? " />
+
+
+
+	</parameters>
+</npc>

@@ -1,0 +1,16 @@
+<npc name="Saprith" script="saprith.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="66" head="0" body="0" legs="0" feet="0" corpse="2987"/>
+
+	<parameters>
+
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="WHAT DO YOU WANT ME!?" />
+		<parameter key="message_farewell" value="OKAY THEN. BYE BYE." />
+		<parameter key="message_walkaway" value="FAREWELL!!" />
+
+	</parameters>
+
+
+</npc>

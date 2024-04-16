@@ -1,0 +1,37 @@
+<npc name="Johan" script="johan.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="145" head="0" body="1" legs="132" feet="115" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;lithaton;offer;jewels;quest;pire vam;king arturo;dark magic;celeres;casteldine;name;academy;sheriff;creyo;sally;steve;lendan;dixi;rooster" />
+		<parameter key="keyword_reply1" value="I am a jeweller." />
+		<parameter key="keyword_reply2" value="Lithaton is the main continent on which we are standing at this very moment." /> 
+		<parameter key="keyword_reply3" value="I have pearls and small jewels." /> 
+    <parameter key="keyword_reply4" value="At the moment I have small amethysts, diamonds, sapphires, rubies and emeralds." /> 
+    <parameter key="keyword_reply5" value="I heard rumours about Pire Vams castle. Someone had apparently solved the riddle and entered the house. They were four guys, but I'm afraid they haven't returned yet." /> 
+    <parameter key="keyword_reply6" value="Pire Vam's castle is to the north-west. That is all I know. He's scaring me." /> 
+    <parameter key="keyword_reply7" value="Long live the king. A shame he moved to Casteldine, though. Celeres is such a nice city." /> 
+    <parameter key="keyword_reply8" value="Watch out so the sheriff doesn't hear you. He'll arrest you for talking about it." /> 
+    <parameter key="keyword_reply9" value="Celeres is a beautiful city. Did you know that king Arturo has lived here once?" /> 
+    <parameter key="keyword_reply10" value="That's where the king lives now." /> 
+    <parameter key="keyword_reply11" value="Johan is a common name and that's exactly the way I want it to be. I don't want to be special or something." /> 
+    <parameter key="keyword_reply12" value="I have only heard people speak about the mystic Celerian Academy." /> 
+    <parameter key="keyword_reply13" value="The Sheriff has arrested two people recently. One was justified, I suppose, but the other wasn't." /> 
+    <parameter key="keyword_reply14" value="Creyo shall rot in hell. Or at least in prison." /> 
+    <parameter key="keyword_reply15" value="Sally doesn't deserve to be in prison. She's a nice, young lady who made a mistake." /> 
+    <parameter key="keyword_reply16" value="Hehe. I think Steve is afraid of me. I don't know why." /> 
+    <parameter key="keyword_reply17" value="Lendan is living outside the city. The only interesting thing with him is that he has a flying carpet." /> 
+    <parameter key="keyword_reply18" value="Dixi is... weird." /> 
+    <parameter key="keyword_reply19" value="Rooster is my all too wealthy, and noisy, neighbor. All his customers drives me insane." /> 
+    
+<parameter key="module_shop" value="1" />
+<parameter key="shop_sellable" value="small amethyst,2150,200;small diamond,2145,290;small emerald,2149,200;small ruby,2147,200;small sapphire,2146,200;black pearl,2144,180;white pearl,2143,160" />
+<parameter key="shop_buyable" value="small amethyst,2150,450;small diamond,2145,700;small emerald,2149,450;small ruby,2147,450;small sapphire,2146,450;black pearl,2144,560;white pearl,2143,500" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hi and welcome |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Be back soon." />
+		<parameter key="message_walkaway" value="How arrogant!" />
+	</parameters>
+</npc>

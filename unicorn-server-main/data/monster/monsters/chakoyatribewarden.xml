@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Chakoya Tribewarden" nameDescription="a chakoya tribewarden" race="blood" experience="40" speed="190" manacost="0">
+  <health now="68" max="68"/>
+  <look type="249" head="20" body="30" legs="40" feet="50" corpse="7320"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="1"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-2" max="-30"/>
+  </attacks>
+  <defenses armor="22" defense="23"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="Chikuva!"/>
+    <voice sentence="Quisavu tukavi!"/>
+    <voice sentence="Si siyoqua jamjam!"/>
+    <voice sentence="Achuq! Jinuma!"/>
+  </voices>
+  <loot>
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2553" chance="8000"/> --Pick
+    <item id="2398" chance="7600"/> --Mace
+    <item id="2541" chance="3400"/> --Bone Shield
+    <item id="7381" chance="2400"/> --Mammoth whopper
+    <item id="7158" chance="1240"/> --Rainbow trout
+    <item id="2671" countmax="1" chance1="13000" chancemax="0"/> --ham
+      </inside>
+    </item>
+    <item id="2667" countmax="3" chance1="48000" chancemax="0"/> --Fishes
+    <item id="2148" countmax="50" chance1="65000" chancemax="0"/> --Gold Coins
+    <item id="2666" countmax="1" chance1="15000" chancemax="0"/> --meat
+    <item id="7441" chance="1500"/> --Ice cube
+    <item id="7159" chance="1300"/> --Green Perch
+    <item id="2669" chance="1300"/> --Big fish
+
+  </loot>
+</monster>

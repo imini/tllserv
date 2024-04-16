@@ -1,0 +1,21 @@
+<npc name="Maenc" script="maenc.lua" autowalk="1" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="48" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+    
+<parameter key="talkdelaytime" value="2"/>
+		<parameter key="message_greet" value="Yes?" />
+		<parameter key="message_farewell" value="Silence is a virtue. So is death." />
+		<parameter key="message_buy" value="Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?" />
+		<parameter key="message_sell" value="Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?" />
+    <parameter key="message_onbuy" value="Hehe. Always a pleasure." />
+    <parameter key="message_onsell" value="Thank you, |PLAYERNAME|." />
+    <parameter key="message_needmoremoney" value="Get more money." />
+    <parameter key="message_nothaveitem" value="You have not brought this item." />
+    <parameter key="message_idletimeout" value="Silence is a virtue." />
+    <parameter key="message_walkaway" value="Silence is a virtue. So is death." />  
+    <parameter key="message_alreadyfocused" value="I am here, yes?" />
+    <parameter key="message_decline" value="Silence is a virtue, |PLAYERNAME|." />
+    <parameter key="message_placedinqueue" value="Your time will come,|PLAYERNAME|." />
+	</parameters>
+</npc>

@@ -1,0 +1,38 @@
+<npc name="Flynn" script="flynn.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="57" head="0" body="0" legs="0" feet="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;help;lost land;lithaton;adanac;celeres;casteldine;natalon;king arturo;tha'reen;dustwit;hagal;gardar;agatone;offer;quest;temple;name;ann;henry always;stefan;ronny;fisherman;norton" />
+		<parameter key="keyword_reply1" value="I'm here to help people." />
+		<parameter key="keyword_reply2" value="I have a certain gift for healing, so I decided to become a temple monk. This way, I can help people from all over the world." />
+    <parameter key="keyword_reply3" value="We call our world the Lost Lands." />
+    <parameter key="keyword_reply4" value="Lithaton is the main continent." />
+    <parameter key="keyword_reply5" value="Adanac is the city where we are right at the moment." />
+    <parameter key="keyword_reply6" value="Celeres is a great city in the far east. This used to be the capital of Lithaton until the king moved to Casteldine." />
+    <parameter key="keyword_reply7" value="Casteldine is the capital of Lithaton, and this is also where king Arturo lives." />
+    <parameter key="keyword_reply8" value="Natalon is a great warrior who was born and raised here in Adanac. He is famous for the battle in Casteldine, where he and his men saved the entire city from the orcish hordes. This is also where he met his fate. A monument is raised to his honour there." />
+    <parameter key="keyword_reply9" value="King Arturo, long praise his name, is a very great man. His father lived in Celeres, but when the castle in Casteldine was built Arturo moved there." />
+    <parameter key="keyword_reply10" value="Tha'Reen is a city built on the desert island Dustwit. Settlers was sent there long ago and now the city has came to play an important role in the trading world." />
+    <parameter key="keyword_reply11" value="Dustwit is an enormous island south-west of Lithaton. On here the city Tha'Reen is built." />
+    <parameter key="keyword_reply12" value="Hagal and Gardar are two ice islands in the far north. No real civilization lives here, only small huts with peaceful fishermen." />
+    <parameter key="keyword_reply13" value="Hagal and Gardar are two ice islands in the far north. No real civilization lives here, only small huts with peaceful fishermen." />
+    <parameter key="keyword_reply14" value="Agatone is two small islands which has been made famous by Andreas who built the battle arena there. The two islands are actually named Tricor and Hegror, but they are both so small that people prefer to call them Agatone together." />
+    <parameter key="keyword_reply15" value="I have no offer to you, as my wordly possessions are almost compared to zero. In spite of this, I might be able to heal you if you find yourself injured somehow." />
+    <parameter key="keyword_reply16" value="I prefer not to mix myself with bloody fights with evil creatures, so this is where I stay." />
+    <parameter key="keyword_reply17" value="I almost live in this temple." />
+    <parameter key="keyword_reply18" value="Flynn, nice to meet you too |PLAYERNAME|. I am glad you know your manners." />
+    <parameter key="keyword_reply19" value="She is selling decent wares. You can find her close to the temple." />
+    <parameter key="keyword_reply20" value="He knows his manners at least, but sometimes I get the impression he is a bit too self-assured." />
+    <parameter key="keyword_reply21" value="Hm. There is this something about Stefan..." />
+    <parameter key="keyword_reply22" value="He is kind. He lives in Hedwood as a recluse. I asked him once to settle down her, but he turned me down immediately." />
+    <parameter key="keyword_reply23" value="He sells good fish." />
+    <parameter key="keyword_reply24" value="Norton is a grand mage. Perhaps not the calibre of Zertic, but still..." />
+    
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hey there, adventurer |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Have a nice day, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Return for a chat any day." />
+	</parameters>
+</npc>

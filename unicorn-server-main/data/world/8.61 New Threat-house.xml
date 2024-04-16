@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<houses>
+	<house name="The Block I" houseid="1" entryx="827" entryy="768" entryz="7" rent="1000" townid="1" size="0" />
+	<house name="The Block II" houseid="2" entryx="831" entryy="767" entryz="7" rent="700" townid="1" size="0" />
+	<house name="The Block III" houseid="3" entryx="833" entryy="770" entryz="7" rent="2600" townid="1" size="0" />
+	<house name="Central Square II" houseid="4" entryx="813" entryy="722" entryz="7" rent="10500" townid="1" size="0" />
+	<house name="Central Square I" houseid="5" entryx="813" entryy="727" entryz="7" rent="8950" townid="1" size="0" />
+	<house name="Central Square III" houseid="6" entryx="827" entryy="722" entryz="7" rent="9500" townid="1" size="0" />
+	<house name="Montrose Mansion" houseid="7" entryx="810" entryy="707" entryz="7" rent="15000" townid="1" size="0" />
+	<house name="Whitebearth flats I" houseid="8" entryx="805" entryy="717" entryz="7" rent="2550" townid="1" size="0" />
+	<house name="Whitebearth flats II" houseid="9" entryx="805" entryy="713" entryz="7" rent="2100" townid="1" size="0" />
+	<house name="Whitebearth flats III" houseid="10" entryx="805" entryy="713" entryz="6" rent="2100" townid="1" size="0" />
+	<house name="Whitebearth flats IV" houseid="11" entryx="805" entryy="718" entryz="6" rent="1800" townid="1" size="0" />
+	<house name="Whitebearth flats V" houseid="12" entryx="804" entryy="721" entryz="6" rent="1500" townid="1" size="0" />
+	<house name="Central Square IV" houseid="13" entryx="834" entryy="719" entryz="7" rent="2600" townid="1" size="0" />
+	<house name="Central Square V" houseid="14" entryx="834" entryy="723" entryz="7" rent="1300" townid="1" size="0" />
+	<house name="Central Square VI" houseid="15" entryx="832" entryy="730" entryz="7" rent="2300" townid="1" size="0" />
+	<house name="Nigloe's End" houseid="16" entryx="792" entryy="718" entryz="7" rent="4850" townid="1" size="0" />
+	<house name="Library" houseid="17" entryx="794" entryy="711" entryz="6" rent="1250" townid="1" size="0" />
+	<house name="Wilhards Park I" houseid="18" entryx="827" entryy="755" entryz="7" rent="2800" townid="1" size="0" />
+	<house name="Wilhards Park II" houseid="19" entryx="830" entryy="758" entryz="6" rent="1700" townid="0" size="0" />
+	<house name="The Block IV" houseid="20" entryx="831" entryy="772" entryz="7" rent="700" townid="1" size="0" />
+	<house name="The Block V" houseid="21" entryx="827" entryy="771" entryz="7" rent="1000" townid="1" size="0" />
+	<house name="The Block VI" houseid="22" entryx="832" entryy="767" entryz="6" rent="1600" townid="1" size="0" />
+	<house name="The Block VII" houseid="23" entryx="834" entryy="771" entryz="6" rent="2000" townid="1" size="0" />
+	<house name="The Block IIX" houseid="24" entryx="832" entryy="772" entryz="6" rent="1850" townid="1" size="0" />
+	<house name="Wilhards Park III" houseid="25" entryx="813" entryy="752" entryz="7" rent="2800" townid="1" size="0" />
+	<house name="Wilhards Park IV" houseid="26" entryx="821" entryy="771" entryz="7" rent="3000" townid="1" size="0" />
+	<house name="Wilhards Park V" houseid="27" entryx="812" entryy="777" entryz="7" rent="5600" townid="1" size="0" />
+	<house name="Wilhards Park VI" houseid="28" entryx="813" entryy="774" entryz="7" rent="5700" townid="1" size="0" />
+	<house name="Salute Street I" houseid="29" entryx="812" entryy="766" entryz="6" rent="4400" townid="1" size="0" />
+	<house name="Salute Street II" houseid="30" entryx="804" entryy="762" entryz="7" rent="5100" townid="1" size="0" />
+	<house name="Kilnoe Keep" houseid="31" entryx="798" entryy="768" entryz="7" rent="23500" townid="1" size="0" />
+	<house name="Salute Street III" houseid="32" entryx="797" entryy="764" entryz="7" rent="5500" townid="1" size="0" />
+	<house name="Salute Street IV" houseid="33" entryx="782" entryy="764" entryz="7" rent="3400" townid="1" size="0" />
+	<house name="Harbour House I" houseid="34" entryx="794" entryy="744" entryz="7" rent="4500" townid="1" size="0" />
+	<house name="Harbour House II" houseid="35" entryx="794" entryy="750" entryz="7" rent="1950" townid="1" size="0" />
+	<house name="Laudegrance Palace" houseid="36" entryx="856" entryy="810" entryz="6" rent="16500" townid="1" size="0" />
+	<house name="The Castle of the White Eagle" houseid="37" entryx="948" entryy="730" entryz="7" rent="20500" townid="1" size="0" />
+	<house name="Alverstone Castle" houseid="38" entryx="875" entryy="608" entryz="7" rent="19900" townid="2" size="0" />
+	<house name="Eagleton Hovel" houseid="39" entryx="753" entryy="384" entryz="7" rent="19900" townid="2" size="0" />
+	<house name="Runebere I" houseid="40" entryx="744" entryy="364" entryz="7" rent="1750" townid="2" size="0" />
+	<house name="Runebere II" houseid="41" entryx="750" entryy="351" entryz="7" rent="2200" townid="2" size="0" />
+	<house name="Runbere III" houseid="42" entryx="764" entryy="353" entryz="7" rent="1550" townid="2" size="0" />
+	<house name="Central Square X" houseid="43" entryx="818" entryy="733" entryz="7" rent="3050" townid="1" size="0" />
+	<house name="Main Avenue I" houseid="44" entryx="833" entryy="572" entryz="7" rent="1100" townid="2" size="0" />
+	<house name="Main Avenue II" houseid="45" entryx="828" entryy="572" entryz="7" rent="1200" townid="2" size="0" />
+	<house name="Main Avenue III" houseid="46" entryx="823" entryy="572" entryz="7" rent="1200" townid="2" size="0" />
+	<house name="Main Avenue IV" houseid="47" entryx="816" entryy="577" entryz="7" rent="2350" townid="2" size="0" />
+	<house name="Main Avenue V" houseid="48" entryx="814" entryy="572" entryz="7" rent="1400" townid="2" size="0" />
+	<house name="Main Avenue VI" houseid="49" entryx="816" entryy="577" entryz="6" rent="4350" townid="2" size="0" />
+	<house name="Left Wing I" houseid="50" entryx="800" entryy="563" entryz="7" rent="3300" townid="2" size="0" />
+	<house name="Left Wing II" houseid="51" entryx="800" entryy="557" entryz="7" rent="4850" townid="2" size="0" />
+	<house name="The Temple" houseid="52" entryx="803" entryy="544" entryz="6" rent="950" townid="2" size="0" />
+	<house name="Left Wing III" houseid="53" entryx="809" entryy="543" entryz="7" rent="5500" townid="2" size="0" />
+	<house name="Left Wing IV" houseid="54" entryx="809" entryy="546" entryz="7" rent="3950" townid="2" size="0" />
+	<house name="Right Wing I" houseid="55" entryx="829" entryy="543" entryz="7" rent="1050" townid="2" size="0" />
+	<house name="Right Wing II" houseid="56" entryx="841" entryy="548" entryz="7" rent="5550" townid="2" size="0" />
+	<house name="Right Wing III" houseid="57" entryx="831" entryy="546" entryz="6" rent="900" townid="2" size="0" />
+	<house name="Right Wing IV" houseid="58" entryx="835" entryy="544" entryz="6" rent="500" townid="2" size="0" />
+	<house name="Right Wing V" houseid="59" entryx="835" entryy="547" entryz="6" rent="1100" townid="2" size="0" />
+	<house name="Right Wing Tower" houseid="60" entryx="832" entryy="559" entryz="7" rent="3600" townid="2" size="0" />
+	<house name="Right Wing VI" houseid="61" entryx="836" entryy="555" entryz="7" rent="3400" townid="2" size="0" />
+	<house name="Spiderhide Mansion" houseid="62" entryx="737" entryy="499" entryz="7" rent="38000" townid="2" size="0" />
+	<house name="Spirithowl Keep" houseid="63" entryx="777" entryy="594" entryz="7" rent="19500" townid="2" size="0" />
+	<house name="Castlequin" houseid="64" entryx="562" entryy="567" entryz="7" rent="24000" townid="3" size="0" />
+	<house name="Quality Quarters I" houseid="65" entryx="551" entryy="648" entryz="5" rent="7000" townid="3" size="0" />
+	<house name="Quality Quarters II" houseid="66" entryx="554" entryy="663" entryz="5" rent="7450" townid="3" size="0" />
+	<house name="Quality Quarters III" houseid="67" entryx="546" entryy="667" entryz="5" rent="8100" townid="3" size="0" />
+	<house name="Quality Quarters IV" houseid="68" entryx="551" entryy="673" entryz="5" rent="5100" townid="3" size="0" />
+	<house name="Windy Waters Way I" houseid="69" entryx="500" entryy="633" entryz="7" rent="1800" townid="3" size="0" />
+	<house name="Windy Waters Way II" houseid="70" entryx="503" entryy="632" entryz="6" rent="2000" townid="3" size="0" />
+	<house name="Silly Saddams Sidewalk I" houseid="71" entryx="490" entryy="599" entryz="7" rent="3450" townid="3" size="0" />
+	<house name="Silly Saddams Sidewalk II" houseid="72" entryx="493" entryy="601" entryz="7" rent="1700" townid="3" size="0" />
+	<house name="Silly Saddams Sidewalk III" houseid="73" entryx="482" entryy="600" entryz="7" rent="5800" townid="3" size="0" />
+	<house name="Windy Waters Way III" houseid="74" entryx="485" entryy="611" entryz="7" rent="2400" townid="3" size="0" />
+	<house name="Rolling Rally Road I" houseid="75" entryx="475" entryy="619" entryz="7" rent="3200" townid="3" size="0" />
+	<house name="Aiming Apples' Avenue I" houseid="76" entryx="464" entryy="599" entryz="7" rent="1800" townid="3" size="0" />
+	<house name="Aiming Apples' Avenue II" houseid="77" entryx="491" entryy="586" entryz="7" rent="1900" townid="3" size="0" />
+	<house name="Henry Always' apartments I" houseid="78" entryx="485" entryy="594" entryz="8" rent="2500" townid="3" size="0" />
+	<house name="Henry Always' apartments II" houseid="79" entryx="488" entryy="594" entryz="8" rent="2050" townid="3" size="0" />
+	<house name="Henry Always' apartments III" houseid="80" entryx="485" entryy="599" entryz="8" rent="1750" townid="3" size="0" />
+	<house name="Henry Always' apartments IV" houseid="81" entryx="488" entryy="599" entryz="8" rent="1750" townid="3" size="0" />
+	<house name="Mapleton Mansion" houseid="82" entryx="241" entryy="249" entryz="7" rent="15500" townid="4" size="0" />
+	<house name="Castro Street I" houseid="83" entryx="239" entryy="239" entryz="7" rent="3400" townid="4" size="0" />
+	<house name="Crawleys End I" houseid="84" entryx="240" entryy="221" entryz="7" rent="2200" townid="4" size="0" />
+	<house name="Crawleys End II" houseid="85" entryx="238" entryy="215" entryz="7" rent="2500" townid="4" size="0" />
+	<house name="Crawleys End III" houseid="86" entryx="240" entryy="213" entryz="6" rent="2000" townid="4" size="0" />
+	<house name="Crawleys End IV" houseid="87" entryx="240" entryy="219" entryz="6" rent="1450" townid="4" size="0" />
+	<house name="Crawleys End V" houseid="88" entryx="240" entryy="222" entryz="6" rent="1250" townid="4" size="0" />
+	<house name="Castro Street II" houseid="89" entryx="216" entryy="245" entryz="7" rent="2000" townid="4" size="0" />
+	<house name="Castro Street III" houseid="90" entryx="210" entryy="243" entryz="7" rent="2000" townid="4" size="0" />
+	<house name="Castro Street IV" houseid="91" entryx="200" entryy="245" entryz="7" rent="4900" townid="4" size="0" />
+	<house name="Castro Street VI" houseid="92" entryx="191" entryy="245" entryz="7" rent="1400" townid="4" size="0" />
+	<house name="Castro Street VII" houseid="93" entryx="185" entryy="242" entryz="7" rent="1950" townid="4" size="0" />
+	<house name="Castro Street IIX" houseid="94" entryx="195" entryy="237" entryz="7" rent="2000" townid="4" size="0" />
+	<house name="Freedom Street I" houseid="95" entryx="193" entryy="230" entryz="7" rent="2000" townid="4" size="0" />
+	<house name="Bancroft Avenue I" houseid="96" entryx="179" entryy="214" entryz="7" rent="1000" townid="4" size="0" />
+	<house name="Bancroft Avenue II" houseid="97" entryx="184" entryy="218" entryz="7" rent="1500" townid="4" size="0" />
+	<house name="Bancroft Avenue" houseid="98" entryx="199" entryy="223" entryz="7" rent="1500" townid="4" size="0" />
+	<house name="Bancroft apartments I" houseid="99" entryx="213" entryy="211" entryz="7" rent="950" townid="4" size="0" />
+	<house name="Bancroft apartments II" houseid="100" entryx="217" entryy="211" entryz="7" rent="2000" townid="4" size="0" />
+	<house name="Bancroft apartments III" houseid="101" entryx="215" entryy="205" entryz="7" rent="3200" townid="4" size="0" />
+	<house name="Bancroft apartments IV" houseid="102" entryx="211" entryy="205" entryz="6" rent="2750" townid="4" size="0" />
+	<house name="Bancroft apartments V" houseid="103" entryx="213" entryy="212" entryz="6" rent="1000" townid="4" size="0" />
+	<house name="Bancroft apartments VI" houseid="104" entryx="217" entryy="212" entryz="6" rent="1750" townid="4" size="0" />
+	<house name="Phoenix End" houseid="105" entryx="200" entryy="207" entryz="7" rent="3800" townid="4" size="0" />
+	<house name="Fairview Manor" houseid="106" entryx="203" entryy="200" entryz="7" rent="17500" townid="4" size="0" />
+	<house name="The Croft" houseid="107" entryx="213" entryy="197" entryz="6" rent="15000" townid="4" size="0" />
+	<house name="North End" houseid="108" entryx="208" entryy="187" entryz="7" rent="4000" townid="4" size="0" />
+	<house name="Rednick's End I" houseid="109" entryx="189" entryy="200" entryz="7" rent="9500" townid="4" size="0" />
+	<house name="Rednick's End II" houseid="110" entryx="184" entryy="196" entryz="7" rent="1650" townid="4" size="0" />
+	<house name="Rednick's End III" houseid="111" entryx="187" entryy="190" entryz="7" rent="3100" townid="4" size="0" />
+	<house name="Rednick's End IV" houseid="112" entryx="184" entryy="193" entryz="6" rent="3200" townid="4" size="0" />
+	<house name="Depot Apartments I" houseid="113" entryx="205" entryy="225" entryz="6" rent="1000" townid="4" size="0" />
+	<house name="Depot Apartments II" houseid="114" entryx="205" entryy="229" entryz="6" rent="1000" townid="4" size="0" />
+	<house name="Depot Apartments III" houseid="115" entryx="205" entryy="234" entryz="6" rent="1000" townid="4" size="0" />
+	<house name="Depot Apartments IV" houseid="116" entryx="210" entryy="225" entryz="6" rent="1150" townid="4" size="0" />
+	<house name="Depot Apartments V" houseid="117" entryx="210" entryy="229" entryz="6" rent="1150" townid="4" size="0" />
+	<house name="Depot Apartments VI" houseid="118" entryx="210" entryy="234" entryz="6" rent="1150" townid="4" size="0" />
+	<house name="The Secret Mansion" houseid="119" entryx="429" entryy="177" entryz="7" rent="19500" townid="4" size="0" />
+	<house name="Temple Hut" houseid="120" entryx="216" entryy="222" entryz="7" rent="3000" townid="4" size="0" />
+	<house name="Left Wing V" houseid="121" entryx="807" entryy="552" entryz="7" rent="4000" townid="2" size="0" />
+	<house name="Right Wing VII" houseid="122" entryx="821" entryy="554" entryz="7" rent="2950" townid="2" size="0" />
+	<house name="Central Square VII" houseid="123" entryx="835" entryy="719" entryz="6" rent="1200" townid="1" size="0" />
+	<house name="Central Square IIX" houseid="124" entryx="835" entryy="723" entryz="6" rent="2150" townid="1" size="0" />
+	<house name="Central Square IX" houseid="125" entryx="838" entryy="723" entryz="6" rent="2200" townid="1" size="0" />
+	<house name="Runebere" houseid="126" entryx="761" entryy="361" entryz="7" rent="1550" townid="2" size="0" />
+	<house name="The Windwaker" houseid="127" entryx="902" entryy="604" entryz="6" rent="11500" townid="2" size="0" />
+</houses>

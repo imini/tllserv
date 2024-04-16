@@ -1,0 +1,42 @@
+<npc name="Sigiric" script="sigiric.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="57" head="0" body="0" legs="0" feet="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;help;name;offer;sheriff;celeres;morris;lithaton;lost lands;casteldine;adanac;magic;temple;pire vam;quest;dark;ashbere;king arturo;academy;forbidden;ventus;caroline;rooster;katie;creyo;andrew;sally;lendan" />
+		<parameter key="keyword_reply1" value="I am a humble monk." />
+		<parameter key="keyword_reply2" value="I can heal you." />
+    		<parameter key="keyword_reply3" value="The name's Sigiric. And you must be |PLAYERNAME|." />
+    		<parameter key="keyword_reply4" value="I can only offer you the humble gift of healing, if you are wounded." />
+    		<parameter key="keyword_reply5" value="The sheriff is a nice man. He has everything under control and knows everyone, by the looks of it." />
+    		<parameter key="keyword_reply6" value="We are currently in Celeres." />
+    		<parameter key="keyword_reply7" value="Morris is the temple monk in Casteldine. I used to know him but I don't think he remembers me." />
+    		<parameter key="keyword_reply8" value="Lithaton is the main continent which we are on right now." />
+    		<parameter key="keyword_reply9" value="The Lost Lands is what we call our world." />
+    		<parameter key="keyword_reply10" value="Casteldine is pretty far to the south. One must travel through the poisonous and dangerous Ravenclaw Swamp to get there." />
+    		<parameter key="keyword_reply11" value="Adanac is to the west. A long, but not so dangerous journey." />
+    		<parameter key="keyword_reply12" value="I know only a little magic. I can heal people, but I will only do it if they are wounded enough. I don't want to waste my magical powers." />
+    		<parameter key="keyword_reply13" value="We are in the temple of Celeres. This is where I work, and where I spend most of my days." />
+    		<parameter key="keyword_reply14" value="Sh, sh. Don't speak of him in these sacred halls. He's cursed." />   		
+   		<parameter key="keyword_reply15" value="If anyone would defeat the constant threat the elves brings, it would be very good. They have their base in their city built of trees far to the north. Its name is Ashbere." />  
+   		<parameter key="keyword_reply16" value="|PLAYERNAME|. I am afraid I will have to ask you to leave, if you are going to talk about illegal subjects." />  
+    		<parameter key="keyword_reply17" value="Ashbere is a grand city, unfortunately inhabitated by aggresive elves which constantly launches unexpected attacks upon Celeres." />
+    		<parameter key="keyword_reply18" value="The king shall live forever." />
+    		<parameter key="keyword_reply19" value="I think it's hidden somewhere in the earth beneath Celeres." />
+		<parameter key="keyword_reply20" value="He was an explorer who lived here in Celeres." />
+		<parameter key="keyword_reply21" value="He used to live here in Celeres together with his friend Forbidden. What a handsome couple they were." />
+		<parameter key="keyword_reply22" value="She is doing fine business, partly because she is a very handsome young lady and partly because she has a feeling for it." />		
+		<parameter key="keyword_reply23" value="He is very elegant. I heard his clothes are top fashion." />	
+		<parameter key="keyword_reply24" value="She works in the bank." />	
+		<parameter key="keyword_reply25" value="That must be the thief everyone talked about a few weeks ago. I heard the sheriff locked him up." />	
+		<parameter key="keyword_reply26" value="He has sealed his senses, and I believe it won't take long until the alcohol finishes him." />	
+		<parameter key="keyword_reply27" value="Poor girl, she met a very unfair fate when she spoke about the taboo." />	
+    		<parameter key="keyword_reply28" value="He and his brother are doing fine business." />	
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Welcome to the temple of Celeres." />
+		<parameter key="message_farewell" value="Good bye." />
+		<parameter key="message_walkaway" value="If you are heavily wounded or poisoned, feel free to return for a healing." />
+	</parameters>
+</npc>

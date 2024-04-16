@@ -1,0 +1,31 @@
+<npc name="Morris" script="morris.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="57" head="0" body="0" legs="0" feet="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;help;casteldine;name;temple;depot;lithaton;king;arturo;doc;zertic;joseph;natalon;orcs;warrior;path;fame;quest" />
+		<parameter key="keyword_reply1" value="I have no job. I just live to serve the gods, preferably by helping other people." />
+		<parameter key="keyword_reply2" value="If you are heavily wounded or poisoned, I can heal you." />
+    <parameter key="keyword_reply3" value="Casteldine is where we are right now. You must be new here..." />
+    <parameter key="keyword_reply4" value="My name is Morris. Quite peculiar, isn't it?" />
+    <parameter key="keyword_reply5" value="The temple is my second home. I feel the presence of the gods in here." />
+    <parameter key="keyword_reply6" value="The depot is to the north. Worth a visit, I believe. Speak to Joseph there, he may help you." />
+    <parameter key="keyword_reply7" value="Lithaton is the main continent here. It's big, I have never been further than the swamps in the north." />
+    <parameter key="keyword_reply8" value="I am loyal to the king. Long live him." />
+    <parameter key="keyword_reply9" value="I am loyal to the king. Long live him." />
+    <parameter key="keyword_reply10" value="Doc is an unholy man, who believe the sword is better than words. I wish not to speak more of him." />
+    <parameter key="keyword_reply11" value="Zertic is not to be mentioned in this holy temple. He is a murderer." />
+    <parameter key="keyword_reply12" value="Joseph can help you with the depot if you don't know how it works." />
+    <parameter key="keyword_reply13" value="A man of honour, really. He once saved Casteldine from the evil orcs." />
+    <parameter key="keyword_reply14" value="Did you know the orcs once was close to seize Casteldine, and that Natalon and his men saved us?" />
+    <parameter key="keyword_reply15" value="The path of a warrior is nothing for you." />
+    <parameter key="keyword_reply16" value="The path of a warrior is nothing for you." />
+    <parameter key="keyword_reply17" value="The isle of fame is where the ceremony hall is located. Also, certain persons are honoured there." />
+    <parameter key="keyword_reply18" value="Quest? Well, I think I can grant you a blessed wooden stake. Somehow." />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome, young |PLAYERNAME|. If you need my help I will be here for you." />
+		<parameter key="message_farewell" value="May the gods forever bless you, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="May the gods forever bless you, |PLAYERNAME|." />
+	</parameters>
+</npc>

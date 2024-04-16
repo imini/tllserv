@@ -1,0 +1,37 @@
+<npc name="Sara" script="sara.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="138" head="115" body="124" legs="114" feet="50" addons="0"/>
+
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;casteldine;tha'reen;celeres;adanac;travel;jewels;valuables;henry;always;jeweler;karma;king;arturo;golden amulet" />
+		<parameter key="keyword_reply1" value="I am a jeweler. Maybe you want to have a look at my wonderful offers." />
+		<parameter key="keyword_reply2" value="Sara, I'm Sara." /> 
+		<parameter key="keyword_reply3" value="I can offer you pearls and wonderful jewels. I also have a very unique golden mug for sale." /> 
+   	 	<parameter key="keyword_reply4" value="I'm making wonderful business in this city. I've travelled alot to many other cities, but nothing beats Casteldine." /> 
+    		<parameter key="keyword_reply5" value="It's too hot there. People doesn't leave their homes to buy my jewels." /> 
+    		<parameter key="keyword_reply6" value="The city is a square. I don't like squares. It's bad for your karma." /> 
+    		<parameter key="keyword_reply7" value="My business flourised in Adanac... for a while at least. Soon I was competed by that Henry Always." /> 
+    		<parameter key="keyword_reply8" value="I have travelled to four big cities." /> 
+    		<parameter key="keyword_reply9" value="I love jewels. They are so... shiny." /> 
+    		<parameter key="keyword_reply10" value="Valuables and jewels, it's my life." /> 
+    		<parameter key="keyword_reply11" value="I hope for your own sake you don't know Henry Always. He's a shame for the jewelers name." /> 
+    		<parameter key="keyword_reply12" value="I hope for your own sake you don't know Henry Always. He's a shame for the jewelers name." /> 
+    		<parameter key="keyword_reply13" value="I'm a jeweler." /> 
+    		<parameter key="keyword_reply14" value="Karma is an important part of your lifestyle." />
+    		<parameter key="keyword_reply15" value="The king is my idol." /> 
+    		<parameter key="keyword_reply16" value="The king is my idol." />  
+    		<parameter key="keyword_reply17" value="It's certainly not for sale." />  
+    		<parameter key="keyword_reply18" value="It's certainly not for sale." />  
+
+			<parameter key="module_shop" value="1" />
+			<parameter key="shop_sellable" value="small amethyst,2150,200;small diamond,2145,290;small emerald,2149,200;small ruby,2147,200;small sapphire,2146,200;black pearl,2144,180;white pearl,2143,160;talon,2151,100;golden mug, 2033, 55;golden nugget, 2157, 700" />
+			<parameter key="shop_buyable" value="small amethyst,2150,450;small diamond,2145,700;small emerald,2149,450;small ruby,2147,450;small sapphire,2146,450;black pearl,2144,560;white pearl,2143,500;talon,2151,900;golden mug, 2033, 280, 0" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Oh, hello, cutie." />
+		<parameter key="message_farewell" value="Good bye, darling." />
+		<parameter key="message_walkaway" value="Ahh.. Bye |PLAYERNAME|." />
+	</parameters>
+</npc>

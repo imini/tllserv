@@ -1,0 +1,28 @@
+<npc name="Malakaz" script="malakaz.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="23" head="0" body="0" legs="0" feet="0" addons="0"/>
+
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="minotaur;humans;mood;malakaz;offer;crystal wand;tha'reen;butterfly;butterflies;natural enemy;yokel;well of life" />
+		<parameter key="keyword_reply1" value="Superior race, and we mages are the very best. We have always enjoyed slaying useless humans like you. You are so weak." />
+		<parameter key="keyword_reply2" value="I hate humans. I can kill you if I want to, but I'm not in the right mood for it today. Lucky you." />
+		<parameter key="keyword_reply3" value="I'm in a good mood today, and you should be glad I am. I could've killed you any other day." />
+		<parameter key="keyword_reply4" value="It means 'infinite magical powers and strong powers from the moons'." />
+		<parameter key="keyword_reply5" value="Hah! Never, ever in my lifetime I would consider trading with dirty humans. That's just pathetic! You're trying to be funny, eh? Nothing can save you from death, not even humour." />
+		<parameter key="keyword_reply6" value="I found one in the desert a few years ago and now I have multiplied its magical properties." />
+		<parameter key="keyword_reply7" value="Isn't that the human settlement?" />
+    <parameter key="keyword_reply8" value="I am breeding rare butterflies. Of course, I have protected my little farm, the Well of Life, with unmatchable magic. It's genious. I believe not even its natural enemy would be able to break its defence." />
+    <parameter key="keyword_reply9" value="I am breeding rare butterflies. Of course, I have protected my little farm, the Well of Life, with unmatchable magic. It's genious. I believe not even its natural enemy would be able to break its defence." />
+		<parameter key="keyword_reply10" value="The magic jungle grass has a natural enemy of course - fire, obviously. But I am sure not even fire will be able to desintegrate the magic. I'm a little worried about the yokel from Celeres, though." />
+		<parameter key="keyword_reply11" value="Are you talking about that guy Feddy? Fleddy? Or whatever it is." />
+		<parameter key="keyword_reply12" value="A beautiful place guarded by my unmatchable magic." />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hmpf! Dirty human. I hate dirty humans. If I just would have backu... ehm, if I was in mood for it, I would kill you right here on the spot.What are you doing here anyway?" />
+		<parameter key="message_farewell" value="If you're lucky the guards will only toast you." />
+		<parameter key="message_walkaway" value="Good Bye!" />
+
+	</parameters>
+</npc>

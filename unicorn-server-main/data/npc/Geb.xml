@@ -1,0 +1,20 @@
+;<npc name="Gebby" script="gebby.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="134" head="27" body="97" legs="68" feet="85" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer" />
+		<parameter key="keyword_reply1" value="I'm a simple salesman." />
+		<parameter key="keyword_reply2" value="I am a merchant, just a humble merchant. What can I do for you?" />
+
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="sword, 2376, 25;short sword, 2406, 11;sabre, 2385, 12;mace, 2398, 25;hatchet, 2388, 25;hand axe, 2380, 5;chain armor, 2464, 32;brass helmet, 2460, 15;chain helmet, 2458, 10;brass shield, 2511, 22;viking helmet, 2473, 30;studded armor, 2484, 18" />
+		<parameter key="shop_buyable" value="sword, 2376, 80;mace, 2398, 75;short sword, 2406, 22;wooden shield, 2512, 20;studded shield, 2526, 65;leather legs, 2649, 10;chain helmet, 2458, 15" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello, hello |PLAYERNAME|, Please come in, look, and buy!" />
+		<parameter key="message_farewell" value="Next please!" />
+		<parameter key="message_walkaway" value="Next please!" />
+	</parameters>
+</npc>

@@ -1,0 +1,39 @@
+<npc name="Peter" script="peter.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="132" head="140" body="40" legs="0" feet="114" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;economy;christopher;hercules;riona;edwyn;adanac;lithaton;celeres;dustwit;quest;joan;rocky;sword of fury" />
+		<parameter key="keyword_reply1" value="I am the man responsible for the local economy." />
+		<parameter key="keyword_reply2" value="I can change your gold, of course. But you can also deposit and withdraw, store and so on here." />
+    <parameter key="keyword_reply3" value="I have studied economy in Celeres" />
+    <parameter key="keyword_reply4" value="I know noone, I am afraid." />
+    <parameter key="keyword_reply5" value="I know noone, I am afraid." />
+    <parameter key="keyword_reply6" value="I know noone, I am afraid." />
+    <parameter key="keyword_reply7" value="I know noone, I am afraid." />
+    <parameter key="keyword_reply8" value="A quite peacful city, is it not?" />
+    <parameter key="keyword_reply9" value="A grand continent, truly." />
+    <parameter key="keyword_reply10" value="I have studied there. An awesome city." />
+    <parameter key="keyword_reply11" value="I love warm countries. I plan to go there on my vacations." />
+    <parameter key="keyword_reply12" value="Find the sword of fury!" />
+    <parameter key="keyword_reply13" value="She is very cute, but that is also all I know about her." />
+    <parameter key="keyword_reply14" value="Who is that?" />
+    <parameter key="keyword_reply15" value="A nice sabre." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello, hello |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Farewell, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Next please!" />
+    <parameter key="message_onbuy" value="Always a pleasure." />
+    <parameter key="message_onsell" value="Thank you, |PLAYERNAME|." />
+    <parameter key="message_needmoremoney" value="Get more money, please." />
+    <parameter key="message_nothaveitem" value="You have not brought this item." />
+    <parameter key="message_idletimeout" value="I don't have the entire day, I'm afraid. I shall ungreet you now, |PLAYERNAME|." />
+    <parameter key="message_walkaway" value="See you, I suppose." />  
+    <parameter key="message_alreadyfocused" value="Yes, |PLAYERNAME|?" />
+    <parameter key="message_decline" value="No." />
+    <parameter key="message_placedinqueue" value="Can you wait just a moment?" />
+	</parameters>
+</npc>
+

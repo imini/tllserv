@@ -1,0 +1,21 @@
+<npc name="A ghost" script="a ghost.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="48" head="0" body="0" legs="0" feet="0" addons="0"/>
+	
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;ghost;giant;werewolf;blood hound;offer" />
+		<parameter key="keyword_reply1" value="I am dead!" />
+		<parameter key="keyword_reply2" value="I'm a ghost, apparently. You can see right through me, can't you?" />
+		<parameter key="keyword_reply3" value="The giants killed me. My body should be somwhere here." />
+		<parameter key="keyword_reply4" value="Werewolves are scary creatures. They use very dark magic." />
+		<parameter key="keyword_reply5" value="They're quite weak, but if you're not cautious, they'll give you a nice combo and you'll end up as me." />
+		<parameter key="keyword_reply6" value="I can't offer you much. In fact, nothing. I don't own anything anymore. But maybe, some help is what I need. I could need you to fulfill a mission for me." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Buueh! Hi!" />
+		<parameter key="message_farewell" value="Bye..." />
+		<parameter key="message_walkaway" value="Just leave me here..." />
+	</parameters>
+</npc>

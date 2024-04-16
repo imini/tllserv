@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Inkan Ninja" nameDescription="an inkan ninja" race="blood" experience="80" speed="190" manacost="450">
+  <health now="150" max="150"/>
+  <look type="152" head="78" body="116" legs="116" feet="122" corpse="3058"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="20"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-1" max="-70"/>
+    <attack name="physical" interval="1000" chance="9" range="5" min="-28" max="-40">
+      <attribute key="shootEffect" value="greenstar"/>
+    </attack>
+  </attacks>
+  <defenses armor="15" defense="26">
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="8">
+    <voice sentence="Foresssst!"/>
+    <voice sentence="Where do i hide?!"/>
+  </voices>
+  <loot capacity="500">
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2399" countmax="5" chance="6572"/> throwing stars
+    <item id="2378" countmax="1" chance="3521"/> battle axe
+    <item id="2509" countmax="1" chance="4212"/> steel shield
+    <item id="1966" countmax="1" chance="6122"/> book
+      </inside>
+    </item>
+    <item id="2148" countmax="35" chance="80000"/> gp
+    <item id="2675" countmax="3" chance="16000"/> orange
+    <item id="2465" countmax="1" chance="3521"/> brass armor
+    <item id="2478" countmax="1" chance="2552"/> brass legs
+    <item id="2458" countmax="1" chance="12512"/> chain helmet
+  </loot>
+</monster>

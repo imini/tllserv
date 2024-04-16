@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Pirate Corsair" species="human"  nameDescription="a pirate corsair" race="blood" experience="350" speed="207" manacost="0">
+    <health now="675" max="675"/>
+    <look type="98" head="0" body="0" legs="0" feet="0" corpse="6080"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-20" max="-170"/>
+	<attack name="lifedrain" interval="1000" chance="9" length="1" spread="0" min="-12" max="-30">
+      <attribute key="areaEffect" value="rednote"/>
+    </attack>
+    </attacks>
+    <defenses armor="18" defense="27"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="Give up!"/>
+      <voice sentence="Hiyaa!"/>
+      <voice sentence="Plundeeeer!"/>
+    </voices>
+    <loot>
+<item id="1987" countmax="1">
+      <inside>
+      <item id="5812" chance="8000"/> skull candle
+      <item id="2385" chance="6500"/> sabre
+      <item id="2521" chance="5887"/> dark shield
+      <item id="2114" chance="700"/> pigy bank
+      <item id="5091" chance="2057"/> treasure map
+      <item id="6096" chance="800"/> pirate hat
+      </inside>
+    </item>
+      <item id="2148" countmax="100" chance1="40000" chancemax="350"/> gp
+      <item id="2399" countmax="12" chance1="12700" chancemax="350"/> throwing stars
+      <item id="6126" chance="1300"/> peg leg
+      <item id="6097" chance="1260"/> hook
+      <item id="6098" chance="1232"/> eye patch
+      <item id="5462" chance="1004"/> pirate boots
+      <item id="5926" chance="2600"/> pirate backpack
+      <item id="2489" chance="2600"/> dark armor
+
+    </loot>
+  </monster>

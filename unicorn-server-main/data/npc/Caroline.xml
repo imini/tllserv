@@ -1,0 +1,39 @@
+<npc name="Caroline" script="caroline.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="136" head="76" body="86" legs="86" feet="96" addons="2"/>
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;name;celeres;sackham;addon;outfit;sheriff;pire vam;dark magic;quest;casteldine;king arturo;laudegrance;academy;sigiric;andrew;dixi;rooster;lendan;steve;stephanie" />
+		<parameter key="keyword_reply1" value="I am currently in the equipment business. Is there something you need?" />
+		<parameter key="keyword_reply2" value="Check the blackboard." />
+    <parameter key="keyword_reply3" value="Caroline." />
+    <parameter key="keyword_reply4" value="I live in Celeres. I'm perhaps not as wealthy as the majority of this city's inhabitants, but there's certainly space for me too." />
+    <parameter key="keyword_reply5" value="I met Sackham when I was young. He's always been a friend to me since that day. Nowadays he lives in Laudegrance." />
+    <parameter key="keyword_reply6" value="Long ago a friend to me by the name of Sackham made it for me." />
+    <parameter key="keyword_reply7" value="Long ago a friend of me, named Sackham, made this neat feather hat for me." />
+    <parameter key="keyword_reply8" value="The sheriff doesn't like me." />
+    <parameter key="keyword_reply9" value="I know something which others don't. He has a secret basement under the room of elementals." />
+    <parameter key="keyword_reply10" value="What is that?" />
+    <parameter key="keyword_reply11" value="You should seek Pire Vams castle. It's in the north-west." />
+    <parameter key="keyword_reply12" value="Casteldine is a fine city." />
+    <parameter key="keyword_reply13" value="I don't like the king. He's a silly man. Really." />
+    <parameter key="keyword_reply14" value="Laudegrance is the great mountain south of Casteldine. It's famous for its football arena." />
+    <parameter key="keyword_reply15" value="The Celerian Academy is actually very interesting. I wish I knew more about this mystic party." />
+    <parameter key="keyword_reply16" value="This oldster is very kind to everyone. I have never seen him upset." />
+    <parameter key="keyword_reply17" value="The alcohol makes him retire into his own shell." />
+    <parameter key="keyword_reply18" value="She is pretty strange." />
+    <parameter key="keyword_reply19" value="I don't know him... but I like his clothes." />
+    <parameter key="keyword_reply20" value="He has a hat similar to my own." />
+    <parameter key="keyword_reply21" value="What a relaxed life he lives. I pity him at the same time I envy him." />
+    <parameter key="keyword_reply22" value="She is my very best friend. I visit her as often as I possibly can." />
+    
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="machete, 2420, 10;fishing rod, 2580, 110;pick, 2553, 35;rope, 2120, 22;shovel, 2554, 22;torch, 2050, 2;backpack, 2002, 10;bag, 1995, 4;brown backpack, 1988, 10;brown bag, 1987, 4;scythe, 2550, 50;broom, 2551, 12;lamp, 2044, 8" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, looking for some equipment?" />
+		<parameter key="message_farewell" value="Farewell, |PLAYERNAME|!" />
+		<parameter key="message_walkaway" value="How arrogant!" />
+	</parameters>
+</npc>

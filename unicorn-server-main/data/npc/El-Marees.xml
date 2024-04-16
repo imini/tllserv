@@ -1,0 +1,30 @@
+<npc name="El-Marees" script="El-Marees.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="98" body="40" legs="48" feet="95" addons="0"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="offer;job;name;tha'reen;dammar;fajera;baladie;bint;bakkir;dawar;petros;zaim" />
+		<parameter key="keyword_reply1" value="I have various equipments for sale. Shovels, ropes and other tools." />
+		<parameter key="keyword_reply2" value="I'm selling tools." />
+    <parameter key="keyword_reply3" value="El-marees is a very fine and noble name." />
+    <parameter key="keyword_reply4" value="I have lived here my entire life and I have no plans to move either." />
+    <parameter key="keyword_reply5" value="Her name is weird." />
+    <parameter key="keyword_reply6" value="I have bought a helmet from her once. I still use it." />
+    <parameter key="keyword_reply7" value="Baladie... I knew his father." />
+    <parameter key="keyword_reply8" value="I wonder how this temple monk can wear a hooded cloak in this heat..." />
+    <parameter key="keyword_reply9" value="Ah, I love his food!" />
+    <parameter key="keyword_reply10" value="He showed me some decent magic once." />
+    <parameter key="keyword_reply11" value="What a foolish boy." />
+    <parameter key="keyword_reply12" value="I dislike his turban." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="rope, 2120, 8" />
+
+		<parameter key="shop_buyable" value="shovel, 2554, 10;pick, 2553, 50;scythe, 2550, 50;brown bag, 1987, 4;bag, 1997, 4;backpack, 2004, 10;rope, 2120, 50;brown backpack, 1988, 10;plate, 2035, 6;cup, 2013, 2,0;scroll, 1949, 5;parchment, 1948, 8;watch, 2036, 20;fishing rod, 2580, 150;torch, 2050, 2;lamp, 2044, 4" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome to my humble shop, |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Goodbye." />
+		<parameter key="message_walkaway" value="Farewell." />
+	</parameters>
+</npc>

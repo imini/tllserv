@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Pirate Marauder" species="human"  nameDescription="a pirate marauder" race="blood" experience="125" speed="180" manacost="0">
+    <health now="210" max="210"/>
+    <look type="93" head="0" body="0" legs="0" feet="0" corpse="6080"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="30"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-1" max="-140"/>
+    <attack name="physical" interval="1000" chance="9" min="-16" max="-50" range="7">
+      <attribute key="shootEffect" value="spear"/>
+    </attack>
+    </attacks>
+    <defenses armor="15" defense="17"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="Plundeeeeer!"/>
+      <voice sentence="Give up!"/>
+      <voice sentence="Hiyaa!"/>
+    </voices>
+    <loot>
+<item id="1987" countmax="1">
+      <inside>
+      <item id="2050" chance="8000"/> torch
+      <item id="2376" chance="6251"/> sword
+      <item id="2510" chance="5887"/> plate shield
+      <item id="5091" chance="2057"/> treasure map
+      <item id="5553" chance="2300"/> rum flask
+      <item id="5929" chance="800"/> goldfish bowl
+      </inside>
+    </item>
+      <item id="2148" countmax="70" chance1="40000" chancemax="350"/>
+      <item id="2389" countmax="2" chance1="12700" chancemax="350"/>
+      <item id="6126" chance="1300"/> peg leg
+      <item id="6097" chance="1260"/> hook
+      <item id="6098" chance="1232"/> eye patch
+      <item id="5927" chance="2600"/> pirate bag
+      <item id="5917" chance="1200"/> bandana
+      <item id="2464" chance="6500"/> chain armor
+    </loot>
+  </monster>

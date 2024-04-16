@@ -1,0 +1,21 @@
+<npc name="Minto'Dracir" script="Minto'Dracir.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="23" head="0" body="0" legs="0" feet="0" addons="0"/>
+
+	<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;door;minotaur;human;casteldine;king arturo" />
+		<parameter key="keyword_reply1" value="A job? For you? Allow me to laugh! HAHAHA! And just a little more.. hahaha!" />
+		<parameter key="keyword_reply2" value="This door prevents humans and filfthbloods like you to enter Tuthin's treasure chamber. Only a very small amount of humans may enter this chamber, amongst them people who has proven themselves worthy." />
+    <parameter key="keyword_reply3" value="The minotaurs are a superior race. Obviously." />
+    <parameter key="keyword_reply4" value="I dislike humans like you." />
+    <parameter key="keyword_reply5" value="Casteldine. Isn't it that village of humans? Creepy." />
+    <parameter key="keyword_reply6" value="He think he is something. Last time I met him he washed clothes in the river." />
+    
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Human! Hahaha, what do you want me, creep?" />
+		<parameter key="message_farewell" value="Bah." />
+		<parameter key="message_walkaway" value="Yes, that's right. RUN!" />
+
+	</parameters>
+</npc>

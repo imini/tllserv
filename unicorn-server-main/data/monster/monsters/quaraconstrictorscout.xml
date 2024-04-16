@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Quara Constrictor Scout" nameDescription="a quara constrictor scout" race="blood" experience="200" speed="380" manacost="670">
+  <health now="450" max="450"/>
+  <look type="46" head="0" body="0" legs="0" feet="0" corpse="6065"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+	<attacks>
+		<attack name="melee" speed="2000" min="-30" max="-130"/>
+		<attack name="berserk" chance="20" speed="2000" min="-40" max="-80"/>
+	</attacks>
+	<defenses armor="28" defense="35"/>
+		<voices interval="5000" chance="10">
+		<voice sentence="Tssss!"/>
+		<voice sentence="Gaaahhh!"/>
+		<voice sentence="Boohaa!"/>
+	</voices>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <loot>
+	<item id="1987" countmax="1">
+      <inside>
+	<item id="5895" chance="3000"/>-- fish fin
+	<item id="2397" chance="7777"/>-- longsword
+      </inside>
+      </item>
+    <item id="2148" chance="100000" countmax="40" /> -- gold coin
+    <item id="2150" chance="2800" countmax="3" /> -- small amethyst
+    <item id="2460" chance="15000" /> -- brass helmet
+    <item id="2463" chance="3500" /> -- plate armor
+  </loot>
+</monster>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<npc name="Reinold" script="reinold.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="73" body="38" legs="76" feet="95"/>
+
+
+<parameters>
+
+<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;king arturo;celeres;name;offer;pire vam;dark magic" />
+		<parameter key="keyword_reply1" value="I hate to speak about things that doesn't earn me money." />
+    <parameter key="keyword_reply2" value="Hail the king and our just leader." />
+    <parameter key="keyword_reply3" value="I like this town alot." />
+    <parameter key="keyword_reply4" value="I am Reinold. It's from the north." />
+    <parameter key="keyword_reply5" value="I can offer you various furniture items. I know you are interested, aren't you?" />
+    <parameter key="keyword_reply6" value="Hm. Scary story." />
+    <parameter key="keyword_reply7" value="Shh!" />
+    
+<parameter key="message_greet" value="Hello there."/>
+<parameter key="message_farewell" value="Goodbye |PLAYERNAME|."/>
+<parameter key="message_walkaway" value="Farewell, |PLAYERNAME|."/>
+</parameters>
+</npc>

@@ -1,0 +1,16 @@
+<npc name="Ragnir" script="ragnir.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="32" head="0" body="0" legs="0" feet="0" corpse="2987"/>
+
+	<parameters>
+
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="(sniff) Woof! (sniff)" />
+		<parameter key="message_farewell" value="Wooooof!" />
+		<parameter key="message_walkaway" value="Wooooof!" />
+
+	</parameters>
+
+
+</npc>

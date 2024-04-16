@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<npc name="Stephanie" script="stephanie.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="140" head="87" body="113" legs="114" feet="123" addons="0"/>
+
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;mail;depot;name;casteldine;quest;mission;pire vam;destination;adanac;tha'reen;celeres;steve;sheriff;burt;dark magic;natalon;king arturo;stephan;annie;adacemy;grave;reefstone;academy;forbidden;ventus;patte;moslem;andrew;sally;lendan;caroline;disappear" />
+		<parameter key="keyword_reply1" value="I am responsible for this post office. If you have questions about the mail system or the depots, just ask me." />
+		<parameter key="keyword_reply2" value="You can buy letters or parcels here which you by mail can send to whoever you want." />
+		<parameter key="keyword_reply3" value="The depots are very easy to use. If you step on the switch infront of them your personal account is activated and you may store whatever you want inside the depot boxes. Anyone might use this system, it's free." />
+    		<parameter key="keyword_reply4" value="I'm Stephanie. My father is Stephan and my mother is Annie." />
+    		<parameter key="keyword_reply5" value="You may send parcels and letters to Casteldine. This city is far to the south." />
+    		<parameter key="keyword_reply6" value="Hey, I'll tell you what. I have heard some interesting rumours about a forgotten library deep under this city. I believe there must be an entrance somewhere in the sewers." />
+    		<parameter key="keyword_reply7" value="I recieved my mission, or let's call it job, by the Celerian Academy. I am payed for selling parcels and letters in this depot. I like this job, too." />
+    		<parameter key="keyword_reply8" value="Oh! You have also heard of him? I think he's a vampire, but I'm not sure. There are many ghost stories about him these days." />
+    		<parameter key="keyword_reply9" value="You may send your parcels and letters to either Casteldine, Tha'Reen or Adanac... and of course Celeres." />
+    		<parameter key="keyword_reply10" value="You may send parcels and letters to Adanac. This city is located in the far west." />
+    		<parameter key="keyword_reply11" value="Tha'Reen is located on the island Dustwit in the far south-west. You may send parcels and letters to this city." />
+    		<parameter key="keyword_reply12" value="We are in Celeres right now. You are able to send parcels and letters to this city." />
+    		<parameter key="keyword_reply13" value="I am secretly in love with Steve. Don't tell him please, I would be so ashamed." />
+    		<parameter key="keyword_reply14" value="The Sheriff is a good man, but unsuccessful with his job. He's searching for some bandits, I've heard, but he's not finding them. Perhaps he need help, I don't know." />
+    		<parameter key="keyword_reply15" value="Burt... burt? Burt Baldingsen! It's that guy who the sheriff is looking for. I bet he'll find him soon, the sheriff is a smart guy." />
+    		<parameter key="keyword_reply16" value="Don't talk about this." />
+    		<parameter key="keyword_reply17" value="Natalon is a great man, at least from what I've heard." />
+    		<parameter key="keyword_reply18" value="I don't know much about our king, but I am loyal to him of course." />
+    		<parameter key="keyword_reply19" value="Stephan was my dad. He has died, unfortunately." />
+    		<parameter key="keyword_reply20" value="My mother Annie is dead. She and my father shares a grave in Adanac." />
+    		<parameter key="keyword_reply21" value="The Celerian Academy is well constructed and very organized. I wonder where they have their head quarter though." />
+    		<parameter key="keyword_reply22" value="My mother and father shares a grave in Adanac. I visit them often. It's just a pity it's so far away." />
+    		<parameter key="keyword_reply23" value="Reefstone is my last name. How did you know? Spooky..." />	
+		<parameter key="keyword_reply24" value="Noone really knows where the Celerian Academy is." />
+		<parameter key="keyword_reply25" value="He used to be a great explorer. Friend of Ventus, if I'm not mistaken." />
+		<parameter key="keyword_reply26" value="He knew Forbidden. They were together known to travel the lands to explore." />
+		<parameter key="keyword_reply27" value="He was one of the men who disappeared." />
+		<parameter key="keyword_reply28" value="He was neither a man, woman nor child. He was a pathetic maggot." />
+		<parameter key="keyword_reply29" value="He likes booze. Don't he?" />
+		<parameter key="keyword_reply30" value="Poor girl..." />
+		<parameter key="keyword_reply31" value="Lendan is ugly as a troll, but his brother Brad is cute." />
+		<parameter key="keyword_reply32" value="She is nice." />
+		<parameter key="keyword_reply33" value="A few years ago some of this towns inhabitants happened to disappear. Rescue teams were sent to look for them, but it was as if they had vanished in thin air." />
+
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="parcel, 2595, 15;letter, 2597, 10" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome to the Celeres depot, |PLAYERNAME|. Enjoy your visit." />
+		<parameter key="message_farewell" value="Come back anytime." />
+		<parameter key="message_walkaway" value="What a ruthless one." />
+	</parameters>
+</npc>

@@ -1,0 +1,21 @@
+<npc name="Do'ranah" script="do'ranah.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="80" head="0" body="0" legs="0" feet="0" addons="0"/>
+						<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="blue djinn;green djinn;war;falor;reroah;fa'hadir;caiareus;umar;otarn;offer;name;job;ninja" />
+		<parameter key="keyword_reply1" value="We are the blue djinns." />
+		<parameter key="keyword_reply2" value="We dislike them, and so should you." />
+    <parameter key="keyword_reply3" value="We fight the green djinns. And the ninjas." />
+    <parameter key="keyword_reply4" value="I hate him." />
+    <parameter key="keyword_reply5" value="He is a trader, like me, but his wares are different." />
+    <parameter key="keyword_reply6" value="Fa'hadir is a great warrior. I have seen him on the battle fields, and you should see how the enemies he faces dies quickly." />
+    <parameter key="keyword_reply7" value="He is guarding the door downstairs." />
+    <parameter key="keyword_reply8" value="Long live Umar, the leader djinn!" />
+    <parameter key="keyword_reply9" value="He is reading too many books. He should be out there and fight instead." />
+    <parameter key="keyword_reply10" value="I trade equipment and weapons." />
+    <parameter key="keyword_reply11" value="That's not necessary to speak about." />
+    <parameter key="keyword_reply12" value="I am trading wares with those who have had the permission from Umar to do so." />
+    <parameter key="keyword_reply13" value="The ninjas are only humans, and they possess no great threat. But as they are quite many, they might become a problem sometimes." />
+
+		
+</npc>

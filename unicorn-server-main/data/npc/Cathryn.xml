@@ -1,0 +1,22 @@
+<npc name="Cathryn" script="cathryn.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="136" head="2" body="79" legs="100" feet="114" addons="6"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;food;drink" />
+		<parameter key="keyword_reply1" value="This is my little bar. Lovely, innit?" />
+		<parameter key="keyword_reply2" value="Do you like my name?" /> 
+		 <parameter key="keyword_reply3" value="I sell different kinds of food and drinks. See that list over there? Read it to see what I can offer." /> 
+		 <parameter key="keyword_reply4" value="I sell different kinds of food and drinks. See that list over there? Read it to see what I can offer." /> 
+		 <parameter key="keyword_reply5" value="I sell different kinds of food and drinks. See that list over there? Read it to see what I can offer." />
+
+<parameter key="module_shop" value="1" />
+<parameter key="shop_sellable" value="meat,3577,1;ham,3852,3" />
+<parameter key="shop_buyable" value="bread,3600,4;cheese,3607,6;cookie,3598,5;ham,3852,8;meat,3577,5;beer,2013,2,3;lemonade,2013,2,5;wine,2013,3,15;water,2013,1,1" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hi, sweetheart." />
+		<parameter key="message_farewell" value="Farewell, traveller." />
+	</parameters>
+</npc>

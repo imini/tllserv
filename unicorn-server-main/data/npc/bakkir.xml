@@ -1,0 +1,24 @@
+<npc name="Bakkir" script="bakkir.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="146" head="98" body="40" legs="48" feet="95" addons="2"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;name;tha'reen;food;bar;juanita" />
+		<parameter key="keyword_reply1" value="I own this little bar." />
+		<parameter key="keyword_reply2" value="I can offer you some types of food. " />
+		<parameter key="keyword_reply3" value="My name is Bakkir." />
+		<parameter key="keyword_reply4" value="I knew it would be a great idea to build this bar here in Tha'Reen. I have loads of visitors." />
+		<parameter key="keyword_reply5" value="I have cheese, meat, ham and bread. " />
+		<parameter key="keyword_reply6" value="Isn't it nice? I have many visitors." />
+<parameter key="keyword_reply7" value="She's everything I care for." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="meat, 2666, 5;ham, 2671, 8;bread, 2689, 4;cheese, 2696, 6;fire mushroom, 2795, 86" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome to my bar, |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Hope to see you again." />
+		<parameter key="message_walkaway" value="Farewell, |PLAYERNAME|." />
+	</parameters>
+</npc>
+

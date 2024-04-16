@@ -1,0 +1,45 @@
+<npc name="Dawar" script="dawar.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="133" head="83" body="96" legs="115" feet="82" addons="2"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;tha'reen;magiczzz;runes;spells;berserk;ultimate explosion;poison storm;spell scroll;celerian academy;celeres;casteldine;comb;outfit;addon;cloak;bint;bakkir;juanita;bizre;samahat;zaim;petros;el-marees" />
+		<parameter key="keyword_reply1" value="I am a mage, but that's not really my job. I'm selling runes." />
+		<parameter key="keyword_reply2" value="My name is Dawar." /> 
+		<parameter key="keyword_reply3" value="Various runes, defensive, offensive, useful." /> 
+		<parameter key="keyword_reply4" value="I have been ordered to open my magic shop here by the Celerian Academy." /> 
+    <parameter key="keyword_reply5" value="I have forever been fascinated by the art of magic. I have studied at the Celerian Academy." /> 
+    <parameter key="keyword_reply6" value="I have many kinds of runes at my disposal." /> 
+    <parameter key="keyword_reply7" value="Unfortunately, I don't sell any spells. As a mage I have been told about the mystic spell scrolls though." /> 
+    <parameter key="keyword_reply8" value="I don't know much more about this spell than that it is related to the ancient and mystical spell scrolls." /> 
+    <parameter key="keyword_reply9" value="I don't know much more about this spell than that it is related to the ancient and mystical spell scrolls." /> 
+    <parameter key="keyword_reply10" value="I don't know much more about this spell than that it is related to the ancient and mystical spell scrolls." /> 
+    <parameter key="keyword_reply11" value="The rumour has it that these ancient spell scrolls was buried in Paschendale long ago. I can't promise, but I have heard a magican in Casteldine knows more about this than anyone else." /> 
+    <parameter key="keyword_reply12" value="I have studied the art of magic there for many years." /> 
+    <parameter key="keyword_reply13" value="I have lived there for quite a long time. Recently I moved here on order from the Celerian Academy to open my magic shop." /> 
+    <parameter key="keyword_reply14" value="I like this city, but I have never been there. I have heard that a very powerful magican lives there." /> 
+    <parameter key="keyword_reply15" value="I do not know for sure, and giving you the wrong information could be lethal for you. But since Fajera sent you, I'll give you all I know. I have heard that the Comb of Dark Hair is located in deep, deep dragon caves here in Dustwit." /> 
+    <parameter key="keyword_reply16" value="I recieved this cloak from my old friend Norton from Adanac after having helped him tremendously." /> 
+    <parameter key="keyword_reply17" value="I recieved this cloak from my old friend Norton from Adanac after having helped him tremendously." /> 
+    <parameter key="keyword_reply18" value="I recieved this cloak from my old friend Norton from Adanac after having helped him tremendously." /> 
+    <parameter key="keyword_reply19" value="Norton is an old friend to me who lives as a magic supplier in Adanac. I helped him once, and he convinced the Celerian Academy to give me the cloak as a thanks." /> 
+		<parameter key="keyword_reply20" value="The temple monk is kind." />
+		<parameter key="keyword_reply21" value="He sells some nice food." />
+		<parameter key="keyword_reply22" value="Bah, she's too spoiled." />
+		<parameter key="keyword_reply23" value="A man whose past is quite out of the ordinary." />
+		<parameter key="keyword_reply24" value="She is a handsome, young lady and it's a shame she's taken a job behind the desk." />
+		<parameter key="keyword_reply25" value="I have bought much furniture of him. It's of nice quality." />
+		<parameter key="keyword_reply26" value="I hardly know him, but he is apparently a good captain." />
+		<parameter key="keyword_reply27" value="His wares are a of quite low standard, I'm afraid to say." />
+
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="spellbook, 2175, 150" />
+
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|. May I help you somehow? " />
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="May the magic be with you." />
+	</parameters>
+</npc>

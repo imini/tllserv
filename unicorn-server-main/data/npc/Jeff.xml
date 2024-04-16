@@ -1,0 +1,28 @@
+<npc name="Jeff" script="jeff.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="129" head="2" body="59" legs="4" feet="114" addons="0"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="offer;king arturo;celeres;name;quest;food;drinks;lolol;clothie;products;job" />
+		<parameter key="keyword_reply1" value="I sell food and drinks and I buy leathers, cloths and various creature products." />
+    <parameter key="keyword_reply2" value="Literally screw him." />
+    <parameter key="keyword_reply3" value="I hate it." />
+    <parameter key="keyword_reply4" value="I am Jeff, is it so hard to understand?" />
+    <parameter key="keyword_reply5" value="Quest for glory." />
+    <parameter key="keyword_reply6" value="I can sell you meat, ham and egg." />
+    <parameter key="keyword_reply7" value="I have beer, milk, water, lemonade and wine." />
+    <parameter key="keyword_reply8" value="I would like to by leather from minotaurs and dragons." />
+    <parameter key="keyword_reply9" value="I am interested in blue, brown, green, red, white and yellow pieces of cloth." />
+    <parameter key="keyword_reply10" value="I want to buy all kinds of creature products." />
+<parameter key="keyword_reply11" value="I sell... things." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="meat, 2666, 8;ham, 2671, 11;egg, 2695, 5" />
+    <parameter key="shop_sellable" value="meat, 2666, 8;ham, 2671, 11;egg, 2695, 5;minotaur leather,5878,80;green dragon leather,5877,100;red dragon leather,5948,200;spider silk yarn,5886,1000;blue piece of cloth,5912,200;brown piece of cloth,5913,100;green piece of cloth,5910,200;red piece of cloth,5911,300;white piece of cloth,5909,1;yellow piece of cloth,5914,150;bat wing,5894,50;bear paw,5896,100;beholder eye,5898,80;scale armor,2483,75;chicken feather,5890,40;fish fin,5895,150;demon dust,6550,300;vampire dust,6551,100;demon horn,5954,1000;green dragon scale,5920,100;red dragon scale,5882,200;hardened bone,5925,100;honeycomb,5902,40;behemoth fang,5893,250;wolf paw,5897,100;giant spider silk,5879,100;water,2012,1,1;milk,2012,3,6;beer,2012,5,3;wine,2012,5,14;lemonade,2012,3,5" />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="What do you want!?" />
+		<parameter key="message_farewell" value="Okay." />
+		<parameter key="message_walkaway" value="Fool." />
+	</parameters>
+</npc>
+

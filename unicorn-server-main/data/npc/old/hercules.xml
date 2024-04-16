@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hercules" script="ratstask.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="138" head="57" body="59" legs="40" feet="76" addons="0" />
+	<parameters>
+		<!--MESSAGES-->
+		<parameter key="message_greet" value="I'm Hercules the tanner. Hoe can i help you , |PLAYERNAME|."/>
+		<parameter key="message_farewell" value="Good hunting, |PLAYERNAME|."/>
+		<parameter key="message_buy" value="Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onbuy" value="Here you are."/>
+		<parameter key="message_bought" value="Bought |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_sell" value="Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onsell" value="Here you are, |TOTALCOST| gold."/>
+		<parameter key="message_sold" value="Sold |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_missingmoney" value="You don't have enough money."/>
+		<parameter key="message_needmoney" value="You don't have enough money."/>
+		<parameter key="message_missingitem" value="You don't have so many."/>
+		<parameter key="message_needitem" value="You do not have this object."/>
+		<parameter key="message_needspace" value="You do not have enough capacity."/>
+		<parameter key="message_needmorespace" value="You do not have enough capacity for all items."/>
+		<parameter key="message_idletimeout" value="Good bye."/>
+		<parameter key="message_decline" value="Then not."/>
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares."/>
+		<parameter key="message_noshop" value="Sorry, I'm not offering anything."/>
+		<parameter key="message_oncloseshop" value="Thank you, come back whenever you're in need of something else."/>
+		<parameter key="message_alreadyfocused" value="|PLAYERNAME|, I am already talking to you."/>
+		<parameter key="message_walkaway_male" value="Hey!"/>
+		<parameter key="message_walkaway_female" value="Hey!"/>
+		<!--KEYWORDS-->
+		<parameter key="module_keywords" value="1"/>
+		<parameter key="keywords" value="job;tanner;riona;gebby;quest;animal;name;leather"/>
+		<parameter key="keyword_reply1" value="I'm the local tanner. I buy fresh animal corpses, tan them, and convert them in to fine leather clothes ... 'm buying fresh corpses of rats, sheep, deers and wolves from you. "/>
+		<parameter key="keyword_reply2" value="That's my job. I buy fresh animal corpses, tan them, and convert them into fine leather clothes, which you can buy later in shop."/>
+		<parameter key="keyword_reply3" value="Riona is a nice girl. She is currently selling equipment, and I must say she has sold me some really nice wares."/>
+		<parameter key="keyword_reply4" value="Gebby is my sister."/>
+		<parameter key="keyword_reply5" value="Quests are overrated. I believe one should earn their money through unyielding work and no simple short cuts."/>
+		<parameter key="keyword_reply6" value="I collect animal corpses and remake their skin to fine clothes."/>
+		<parameter key="keyword_reply7" value="I am Hercules, brother of Gebby."/>
+		<parameter key="keyword_reply8" value="Leather is a perfect material to create clothes."/>
+		<!--SHOP-->
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="dead wolf,2826,9;dead sheep,2905,4;dead rat,2813,4;dead deer,2835,5"/>
+	</parameters>
+</npc>

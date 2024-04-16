@@ -1,0 +1,9 @@
+<npc name="Reroah" script="reroah.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="80" head="0" body="0" legs="0" feet="0" addons="0"/>
+			<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job" />
+		<parameter key="keyword_reply1" value="I trade things. But I shall tell you, I don't wish to speak with you unless it concerns my wares and business." />
+			</parameters>
+</npc>

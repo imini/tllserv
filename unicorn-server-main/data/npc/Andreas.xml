@@ -1,0 +1,22 @@
+<npc name="Andreas" script="andreas.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="131" head="82" body="97" legs="116" feet="82" addons="1"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;agatone;offer;fighting pit;jerry;seafish;king arturo" />
+		<parameter key="keyword_reply1" value="I am the representative for the Fighting Pit." />
+		<parameter key="keyword_reply2" value="I am Andreas." />
+		<parameter key="keyword_reply3" value="Well, welcome to Agatone. Anyone can see you're not from here." />
+		<parameter key="keyword_reply4" value="I can offer you a ticket to the Fighting Pit." />
+		<parameter key="keyword_reply5" value="The Fighting Pit is made so players can fight without suffering from injuries afterwards. Anyone who buys a ticket from me may enter the arena and duel each other." />
+		<parameter key="keyword_reply6" value="Jerry works in the shop nearby." />
+		<parameter key="keyword_reply7" value="Captain Seafish is the one who gets people here." />
+    <parameter key="keyword_reply8" value="I dislike him." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hm... hi, I guess." />
+		<parameter key="message_farewell" value="Always watch your back, dear |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Your mom didn't teach you to say bye?" />
+	</parameters>
+</npc>

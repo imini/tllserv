@@ -1,0 +1,34 @@
+<npc name="Sanchae" script="sanchae.lua" autowalk="1" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="145" head="0" body="114" legs="0" feet="114" addons="3"/>
+	<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="quest;addon;outfit;job;quest;skull;death;lifeeeee;name;sanchae" />
+		<parameter key="keyword_reply1" value="Question for riddles, riddles are quests." />
+		<parameter key="keyword_reply2" value="Nothing here, no." />
+		<parameter key="keyword_reply3" value="Nothing here, no." />
+		<parameter key="keyword_reply4" value="I do not work." />
+		<parameter key="keyword_reply5" value="Not what I know." />
+		<parameter key="keyword_reply6" value="Not this one." />
+		<parameter key="keyword_reply7" value="What is death, really?" />
+		<parameter key="keyword_reply8" value="What is life, really?" />	
+		<parameter key="keyword_reply9" value="Sanchae." />
+		<parameter key="keyword_reply10" value="I am him." />
+
+    
+<parameter key="talkdelaytime" value="2"/>
+		<parameter key="message_greet" value="Hello." />
+		<parameter key="message_farewell" value="Far and well." />
+		<parameter key="message_buy" value="Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?" />
+		<parameter key="message_sell" value="Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?" />
+    <parameter key="message_onbuy" value="Hehe. Always a pleasure." />
+    <parameter key="message_onsell" value="Thank you, |PLAYERNAME|." />
+    <parameter key="message_needmoremoney" value="Get more money." />
+    <parameter key="message_nothaveitem" value="You have not brought this item." />
+    <parameter key="message_idletimeout" value="Is there anyone else?" />
+    <parameter key="message_walkaway" value="Who do you think you are, |PLAYERNAME|?" />  
+    <parameter key="message_alreadyfocused" value="I am speaking to you already." />
+    <parameter key="message_decline" value="I prefer speaking to others at the moment, |PLAYERNAME|." />
+    <parameter key="message_placedinqueue" value="Wait!" />
+	</parameters>
+</npc>

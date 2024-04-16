@@ -1,0 +1,48 @@
+<npc name="Jooko" script="jooko.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="132" head="3" body="58" legs="41" feet="115" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="druid;knight;paladin;sorcerer;beholder;demon;cyclops;dragon;minotaur;rat;skeleton;troll;spider;wolf;mmb;steven;dzyn;gari;burn;god;king;guild;dallheim;dallrim;alfred;doc;zertic;sten;tommy;emma;hack sparry;alexander;liyana;churry" />
+		<parameter key="keyword_reply1" value="If you are in Druidville, do as the rabbits do." />
+		<parameter key="keyword_reply2" value="Did you notice that old knights have their scars just on their backs?" />
+		<parameter key="keyword_reply3" value="They are the king's favourites, because they know how to 'bow'." />
+		<parameter key="keyword_reply4" value="The good thing about them is that they can't be at two places at the same time." />
+		<parameter key="keyword_reply5" value="Why are beholders so ugly? ... Because their mom and dad were beholders, too!" />
+		<parameter key="keyword_reply6" value="Why are the experienced heroes quicker than others? ... The demons love fast food!" />
+		<parameter key="keyword_reply7" value="How many eyes does a cyclops have? ... One for each IQ point of their opponents!" />
+		<parameter key="keyword_reply8" value="Why do dragons breathe fire? ... They ate too many sorcerers in chili sauce!" />
+		<parameter key="keyword_reply9" value="What do all little minotaurs want to become when they are grown-ups? ... Cowboys, of course!" />
+		<parameter key="keyword_reply10" value="Why does the rat have a wooden leg? ... Because it is a former pirate!" />
+		<parameter key="keyword_reply11" value="Why do skeletons flee if wounded? ... They are so spineless!" />
+		<parameter key="keyword_reply12" value="Why do trolls live underground? ... Because on the ground there are so many PKs!" />
+		<parameter key="keyword_reply13" value="Why did the spider cross the road? ... Because it ... oh you already know this one!?" />
+		<parameter key="keyword_reply14" value="Why do the wolves howl? ... Hey, if you're online that long you can't help but behave that way!" />
+		<parameter key="keyword_reply15" value="Isn't that the author of the book 'fun with demons'?" />
+		<parameter key="keyword_reply16" value="He is kind of a father figure to me. Of course he denies all kinship to me." />
+		<parameter key="keyword_reply17" value="He's a smart one. I heard he hid in a foreign country as the first bugs showed up." />
+		<parameter key="keyword_reply18" value="That's the old fisherman, right?" />
+		<parameter key="keyword_reply19" value="Haha, you're talking about him as if he were a firebug." />
+		<parameter key="keyword_reply20" value="I better make no jokes about THIS matter." />
+		<parameter key="keyword_reply21" value="Nah, no jests about His Royal Highness." />
+		<parameter key="keyword_reply22" value="Since the first guild showed up there's a great demand for jesters and fools to join them." />
+    <parameter key="keyword_reply23" value="He once shot himself in the leg. Don't ask me how." />
+    <parameter key="keyword_reply24" value="Isn't that the one who has a son who shot himself in his leg?" />
+    <parameter key="keyword_reply25" value="Did you know he sold bagels the size of eagles?" />
+    <parameter key="keyword_reply26" value="I heard he sells 'power axes of death'. Hurry up and get yourself one, but be fast, he's only got three in store." />
+    <parameter key="keyword_reply27" value="He sells spell scrolls at midnight every night. But you must adress him exactly that very moment." />
+    <parameter key="keyword_reply28" value="He's ice cold. Hah! Get it?" />
+    <parameter key="keyword_reply29" value="I was told he is afraid his shoelaces will strangle him while he is asleep." />
+    <parameter key="keyword_reply30" value="Nah, no jokes about him... hrm, her." />
+    <parameter key="keyword_reply31" value="Ask him about his mother... haha!" />
+    <parameter key="keyword_reply32" value="Don't buy his wares! Once I saw him making a rope out of reed." />
+    <parameter key="keyword_reply33" value="Liyana banana." />
+    <parameter key="keyword_reply34" value="Did you know he actually is a demon?" />
+    
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello, funny looking guy!" />
+		<parameter key="message_farewell" value="A joke a day keeps the ghouls away!" />
+		<parameter key="message_walkaway" value="How dare you?!" />
+	</parameters>
+</npc>

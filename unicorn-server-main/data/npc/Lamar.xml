@@ -1,0 +1,24 @@
+<npc name="Lamar" script="lamar.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="146" head="96" body="42" legs="41" feet="95" addons="2"/>
+	
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;name;tha'reen;dustwit;king arturo" />
+		<parameter key="keyword_reply1" value="I don't work." />
+    <parameter key="keyword_reply2" value="I can't offer you anything, |PLAYERNAME|. " />
+    <parameter key="keyword_reply3" value="My name is Lamar." />
+    <parameter key="keyword_reply4" value="Tha'Reen... bleh, ugly city." />
+    <parameter key="keyword_reply5" value="A nice island. I like the temperature." />
+    <parameter key="keyword_reply6" value="Bah, he built Tha'Reen." />
+
+
+		<parameter key="idletime" value="250" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello." />
+		<parameter key="message_farewell" value="Come back when you feel like it, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Bye bye, then." />
+	</parameters>
+</npc>

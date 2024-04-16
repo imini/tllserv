@@ -1,0 +1,26 @@
+<npc name="A majestic warwolf" script="a majestic warwolf.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="3" head="0" body="0" legs="0" feet="0"/>
+
+	<parameters>
+
+<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="marhan;ashbere;celeres;lithaton;angros;offer;job;warwolf" />
+		<parameter key="keyword_reply1" value="He's a friend of the wolves." />
+    <parameter key="keyword_reply2" value="The elves built this village. I like the elves. They are bound to nature." />
+    <parameter key="keyword_reply3" value="Celeres is the human settlement. I dislike this city as much as I dislike its many inhabitants." />
+    <parameter key="keyword_reply4" value="Lithaton is great continent." />
+    <parameter key="keyword_reply5" value="He's the leader." />
+    <parameter key="keyword_reply6" value="Don't be silly, human." />
+ <parameter key="keyword_reply7" value="Don't be silly, human." />
+<parameter key="keyword_reply8" value="Actually, that was not rather intelligent, human." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Interesting. A human who can speak the language of wolves." />
+		<parameter key="message_farewell" value="Bye, human friend." />
+		<parameter key="message_walkaway" value="Bye, human friend." />
+
+	</parameters>
+
+
+</npc>

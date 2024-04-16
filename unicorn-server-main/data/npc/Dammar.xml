@@ -1,0 +1,26 @@
+<npc name="Dammar" script="Dammar.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="138" head="79" body="83" legs="86" feet="114" addons="0"/>
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;instruction;tha'reen;fajera;el-marees;zaim;petros;bizre;samahat;bakkir;juanita" />
+		<parameter key="keyword_reply1" value="I work in this bank. If you need anything, ask me for the instructions." />
+		<parameter key="keyword_reply2" value="Dammar, nice to meet you |PLAYERNAME|." /> 
+		<parameter key="keyword_reply3" value="For example, if you have 100 gold coins you may change them into 1 platinum. Similarly, we can trade 100 platinum coins for 1 crystal coin. Needless to say, you can change all coins back." /> 
+    <parameter key="keyword_reply4" value="This is the bank of Tha'Reen." /> 
+    <parameter key="keyword_reply5" value="She is aweful. Really." /> 
+    <parameter key="keyword_reply6" value="I hate his ugly name." /> 
+    <parameter key="keyword_reply7" value="He is weird." /> 
+    <parameter key="keyword_reply8" value="I hope he drowns some day." /> 
+    <parameter key="keyword_reply9" value="He is aiming his bolts very badly." /> 
+    <parameter key="keyword_reply10" value="She is so blown-up." /> 
+    <parameter key="keyword_reply11" value="Bakkir is disgusting, and her daugther Juanita even more." /> 
+    <parameter key="keyword_reply12" value="Professionally spoiled daughter." /> 
+ 		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, to the bank of Tha'Reen." />
+
+
+
+	</parameters>
+</npc>

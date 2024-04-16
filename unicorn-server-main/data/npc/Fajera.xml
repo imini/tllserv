@@ -1,0 +1,43 @@
+<npc name="Fajera" script="Fajera.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="150" head="37" body="87" legs="68" feet="85" addons="1"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;name;tha'reen;weapon;axez;swordz;club;shieldz;armorz;helmetz;legz;shieldz;casteldine;dammar;baladie;raspuita;dawar;el-marees;bint;bakkir;juanita;samahat;bizre;zaim;petros" />
+		<parameter key="keyword_reply1" value="I'm a simple salesman." />
+		<parameter key="keyword_reply2" value="I am a merchant, just a humble merchant. I trade weapons and armors of all its kinds." />
+    <parameter key="keyword_reply3" value="Fajera means sandstorm." />
+    <parameter key="keyword_reply4" value="I would live in Casteldine if I could have chosen where I was born. Now I'm bound to stay here to help my family." />
+    <parameter key="keyword_reply5" value="I love weapons and armors, and so did my father. Now he is too old to continue this business, so I am helping him." />
+    <parameter key="keyword_reply6" value="My favourite weapon. Axes are very handy." />
+    <parameter key="keyword_reply7" value="I dislike swords actually." />
+    <parameter key="keyword_reply8" value="Clubs are okey, especially with spikes." />
+    <parameter key="keyword_reply9" value="Shields are a smart invention." />
+    <parameter key="keyword_reply10" value="I have a golden armor at home. Fancy, eh?" />
+    <parameter key="keyword_reply11" value="I had a dark helmet in present last year. I still use it, it works fine." />
+    <parameter key="keyword_reply12" value="I have legs, yes..." />
+    <parameter key="keyword_reply13" value="My shield is hanging on my wall at home. It's green with a frightening eye on it." />
+    <parameter key="keyword_reply14" value="When my parents has passed away I think I'm gonna move to Casteldine." />
+    <parameter key="keyword_reply15" value="She works in the bank. She appears to dislike everything and everyone." />
+    <parameter key="keyword_reply16" value="Well, my neighbor." />
+    <parameter key="keyword_reply17" value="She is the quiet type, but sometimes if you catch her at the right moment you may enjoy extremely educated conversations." />
+    <parameter key="keyword_reply18" value="Dawar is our local mage. He is very skilled with his magic gift." />
+    <parameter key="keyword_reply19" value="He is my neighbor. I don't like him though." />
+    <parameter key="keyword_reply20" value="A kind man, really. His full name is quite hard to spell though." />
+    <parameter key="keyword_reply21" value="I hardly know this man, but I know she has a very spoiled daugther." />
+    <parameter key="keyword_reply22" value="She is extremely spoiled by her father Bakkir." />
+    <parameter key="keyword_reply23" value="She's a friend of mine. We used to play games in the sand when we were young." />
+    <parameter key="keyword_reply24" value="He is so careful with everyone. Perhaps he is afraid someone will steel his beloved golden bow." />
+    <parameter key="keyword_reply25" value="Zaim is quite good looking, don't you think?" />
+    <parameter key="keyword_reply26" value="I feel sorry for him."/>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="battle axe, 2378, 75;double axe, 2387, 260;halberd, 2381, 310;club, 2382, 1;mace, 2398, 23;battle hammer, 2417, 50;morning star, 2394, 100;war hammer, 2391, 470;dagger, 2379, 1;rapier, 2384, 3;sabre, 2385, 5;sword, 2376, 15;carlin sword, 2395, 118;two handed sword, 2377, 190;spear, 2389, 1" />
+		<parameter key="shop_buyable" value="battle axe, 2378, 235;club, 2382, 5;mace, 2398, 90;battle hammer, 2417, 350;morning star, 2394, 430;dagger, 2379, 5;rapier, 2384, 15;sabre, 2385, 25;sword, 2376, 85;wooden shield, 2512, 3;brass shield, 2511, 16;plate shield, 2510, 45;battle shield, 2513, 60;leather helmet, 2461, 3;chain helmet, 2458, 12;brass helmet, 2460, 30;viking helmet, 2473, 66;steel helmet, 2457, 293;leather armor, 2467, 5;chain armor, 2464, 40;brass armor, 2465, 112;plate armor, 2463, 840;" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Greetings, |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Next please!" />
+		<parameter key="message_walkaway" value="Next please!" />
+	</parameters>
+</npc>

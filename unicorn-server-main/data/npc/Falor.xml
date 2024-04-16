@@ -1,0 +1,33 @@
+<npc name="Falor" script="falor.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="51" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		
+    <parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="djinns;tha'reen;dustwit;alusir;req'ior;maloqua;taa'feal;malos'iquar;marid;green;fighting spirit;enchanted chicken wing;sweat;magic sulphur;blue;magic;gatekeeper;job;umar" />
+		<parameter key="keyword_reply1" value="How come you speak of djinns when you are a human... I thought they couldn't speak at all." />
+    <parameter key="keyword_reply2" value="I am sceptical to destroying this human settlement as it might provide a good base when we have conquered it later." />
+    <parameter key="keyword_reply3" value="Dustwit belongs to me." />
+    <parameter key="keyword_reply4" value="He is afraid that I will order him to leave, but to be honest, I wouldn't even dream of it. He is such a great warrior in battles." />
+    <parameter key="keyword_reply5" value="He is our magical supplier. He sells and buys various things, and it happens that he trades with humans too. After they've had my permission, of course." />
+    <parameter key="keyword_reply6" value="He guards the gates." />
+    <parameter key="keyword_reply7" value="He is a good fighter, his magic is almost half as good as mine. And that's a compliment." />
+    <parameter key="keyword_reply8" value="He is a trader." />
+    <parameter key="keyword_reply9" value="There were a time when green and blue djinns lived together. But that was far back in the webs of history. Today, our main goal is to slay our blue foes!" />
+    <parameter key="keyword_reply10" value="There were a time when green and blue djinns lived together. But that was far back in the webs of history. Today, our main goal is to slay our blue foes!" />
+    <parameter key="keyword_reply11" value="Req'ior handles wares like this." />
+    <parameter key="keyword_reply12" value="Req'ior handles wares like this." />
+    <parameter key="keyword_reply13" value="Req'ior handles wares like this." />
+    <parameter key="keyword_reply14" value="Req'ior handles wares like this." />
+    <parameter key="keyword_reply15" value="Sooner or later me and my fellow green djinns will have the whole world under our feet. Then will I rule as I am meant to." />
+    <parameter key="keyword_reply16" value="Many people claims to know what magic is. Many other creatures too. But it is only we, the djinns, who are the true possessors of magic and its secrets." />
+    <parameter key="keyword_reply17" value="That's Maloqua. He slays unwanted guests. Right on the spot. He has funny ways to do this. And many." />
+    <parameter key="keyword_reply18" value="I am leading the green djinns and efreets toward victory." />
+    <parameter key="keyword_reply19" value="Umar is truly a scum. It is a shame how we can be related to each other through our idiotic parents. A blue djinn marrying a green djinn?" />
+    
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Greetings, human |PLAYERNAME|. My patience with your kind is limited, so speak quickly and choose your words well." />
+		<parameter key="message_farewell" value="Farewell, human. When I have taken my rightful place I shall remember those who served me well. Even if they are only humans." />
+		<parameter key="message_walkaway" value="Farewell, human." />
+	</parameters>
+</npc>

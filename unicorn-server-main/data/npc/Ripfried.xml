@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Cipfried" script="distance.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="57" head="20" body="39" legs="45" feet="7"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|! Feel free to ask me for help."/>
+<parameter key="message_farewell" value="Well, bye then."/>
+<parameter key="message_walkaway" value="Well, bye then."/>
+</parameters>
+</npc>

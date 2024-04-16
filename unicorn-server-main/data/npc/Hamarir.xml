@@ -1,0 +1,25 @@
+<npc name="Hamarir" script="hamarir.lua" autowalk="1">
+	<health now="100" max="100"/>
+	<look type="65" head="0" body="0" legs="0" feet="0"/>
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;name;mission;tha'reen;dustwit;barren cliff;"/>
+		<parameter key="keyword_reply1" value="I'm the guardian of Dubais portal." />
+		<parameter key="keyword_reply2" value="I can't offer you anything, but myself I was offered a life time of pain." />
+		<parameter key="keyword_reply3" value="Hamarir. It means liberty in the ancient language of the pharaohs. But I am not free." />
+		<parameter key="keyword_reply4" value="My mission was to guard this portal. Whether living or dead." />
+		<parameter key="keyword_reply5" value="No, this is nothing I know what it is." />
+		<parameter key="keyword_reply6" value="Dustwit is the name of this island we are on... at least when I went down here. Haven't been above the surface for quite some years." />
+		<parameter key="keyword_reply7" value="The Barren Cliffs are gigantic mountains. Not only to they scrape the skies, they are also stretching quite deep underground." />
+
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Huh? Who are you?" />
+		<parameter key="message_farewell" value="Farewell, you who are free." />
+		<parameter key="message_walkaway" value="Farewell, you who are free." />
+	</parameters>
+
+
+</npc>

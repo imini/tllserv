@@ -1,0 +1,42 @@
+<npc name="Banegear" script="banegear.lua" autowalk="1" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="145" head="0" body="114" legs="0" feet="114" addons="3"/>
+	<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;work;banegear;archdemon;port to hell;demons;infernatil;pumin;verminor;tafariel;bazir;ashfalor;apocalypse;mheawh;knowledge;the hall of the four ways;hall of the four ways;racola;past" />
+		<parameter key="keyword_reply1" value="A good definition is perhaps guardian.. or executioner? That depends on how the visistors behave." />
+		<parameter key="keyword_reply2" value="A good definition is perhaps guardian.. or executioner? That depends on how the visistors behave." />
+		<parameter key="keyword_reply3" value="So your interested in my name's meaning? Death, is what it means in the language of the Archdemons." />
+		<parameter key="keyword_reply4" value="Archdemons lives here under the great deserts as guardians to the port to hell. I have personally spent a few minutes with one and I can tell you it wasn't one of the more pleasant minutes of my life." />
+		<parameter key="keyword_reply5" value="Trust me, you don't want to know." />
+		<parameter key="keyword_reply6" value="Aah, lovely creatures, aren't they? " />
+		<parameter key="keyword_reply7" value="Infernatil is the incediary of hell." />
+		<parameter key="keyword_reply8" value="He is the lord of Despair." />
+		<parameter key="keyword_reply9" value="Verminor is the Plaguelord." />
+		<parameter key="keyword_reply10" value="The mistress of the damned."/>
+		<parameter key="keyword_reply11" value="He's called the great deciever, but also the lord of lies."/>
+		<parameter key="keyword_reply12" value="Asfalor is the right hand of Urgith. He's the general of the undead hordes."/>
+		<parameter key="keyword_reply13" value="Apocalypse, you say? I believe his the most powerful of the Ruthless Seven. Wherever he roams, he leaves total destruction..."/>
+		<parameter key="keyword_reply14" value="Haha! That cowardic mistake. It is actually his temple which we are standing in right now... but I killed him ages ago. MUHAHAHA!"/>
+		<parameter key="keyword_reply15" value="Knowledge... that is what makes us as superior as we are."/>
+		<parameter key="keyword_reply16" value="Ohhh... you have forced your way deep. HEHEHE! No, this is not what you think it is. It's not there to prevent you from getting in... It's there to prevent you from getting out! MUHAHAHA!"/>
+		<parameter key="keyword_reply17" value="Ohhh... you have forced your way deep. HEHEHE! No, this is not what you think it is. It's not there to prevent you from getting in... It's there to prevent you from getting out! MUHAHAHA!"/>
+    <parameter key="keyword_reply18" value="She is the servant of the archdemons."/>
+    <parameter key="keyword_reply19" value="My past is nothing I would like to share with you."/>
+    
+<parameter key="talkdelaytime" value="2"/>
+		<parameter key="message_greet" value="A huuuuman!? That's interesting, I haven't seen one since the last army got slaid by the Archdemons... so, what brings you here?" />
+		<parameter key="message_farewell" value="See you... in hell! MUHAHAHA!" />
+		<parameter key="message_buy" value="Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?" />
+		<parameter key="message_sell" value="Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?" />
+    <parameter key="message_onbuy" value="Hehe. Always a pleasure." />
+    <parameter key="message_onsell" value="Thank you, |PLAYERNAME|." />
+    <parameter key="message_needmoremoney" value="Get more money." />
+    <parameter key="message_nothaveitem" value="You have not brought this item." />
+    <parameter key="message_idletimeout" value="Is there anyone else?" />
+    <parameter key="message_walkaway" value="What are you thinking, |PLAYERNAME|?" />  
+    <parameter key="message_alreadyfocused" value="I am speaking to you already, fool." />
+    <parameter key="message_decline" value="I prefer speaking to others at the moment, |PLAYERNAME|." />
+    <parameter key="message_placedinqueue" value="Wait, fool!" />
+	</parameters>
+</npc>

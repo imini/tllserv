@@ -1,0 +1,27 @@
+<npc name="Falakee" script="Falakee.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="146" head="77" body="64" legs="52" feet="95" addons="3"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;valuable;gem;name;tha'reen;offer;amulets;pearls;golden mug" />
+		<parameter key="keyword_reply1" value="I am a jeweller and I have always been one." />
+		<parameter key="keyword_reply2" value="I sell pearls, diamonds, various gems, wedding rings and a few amulets. " /> 
+		<parameter key="keyword_reply3" value="I sell rubies, amethysts, sapphires and emeralds. " /> 
+		<parameter key="keyword_reply4" value="I hope you don't dislike my name. It might be a little hard to pronounce sometimes." /> 
+		<parameter key="keyword_reply5" value="This city is hot!" /> 
+    <parameter key="keyword_reply6" value="I trade in various valuables." /> 
+    <parameter key="keyword_reply7" value="I have two amulets for you - a golden amulet or a ruby necklace." /> 
+    <parameter key="keyword_reply8" value="Do you want black or white pearls?" /> 
+    <parameter key="keyword_reply9" value="This golden mug is of great sentimental value to me. It's not for sale." /> 
+
+			<parameter key="module_shop" value="1" />
+			<parameter key="shop_sellable" value="white pearl,2143,160;black pearl, 2144, 280;small diamond, 2145, 300;small sapphire, 2146, 250;small ruby, 2147, 250;small emerald, 2149, 250;small amethyst, 2150, 200" />
+			<parameter key="shop_buyable" value="white pearl,2143,320;black pearl, 2144, 560;small diamond, 2145, 600;small sapphire, 2146, 500;small ruby, 2147, 500;small emerald, 2149, 500;small amethyst, 2150, 400;wedding ring, 2121, 990;golden amulet, 2130, 6600" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome." />
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Bye, dear |PLAYERNAME|." />
+	</parameters>
+</npc>

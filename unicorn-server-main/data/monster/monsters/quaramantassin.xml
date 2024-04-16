@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<monster name="Quara Mantassin" nameDescription="a quara mantassin" experience="400" race="3" speed="440">
+	<health now="800" max="800"/>
+	<look type="72" corpse="6064"/>
+	<targetchange speed="2000" chance="25"/>
+	<strategy attack="80" defense="10"/>
+
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="50"/>
+	</flags>
+
+	<immunities>
+    <immunity energy1="1"/>
+    <immunity fire1="1"/>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="0"/>
+		<immunity drunk="0"/>
+		<immunity invisible="0"/>
+	</immunities>
+
+	<attacks>
+		<attack name="melee" speed="2000" min="-30" max="-120"/>
+	</attacks>
+	<defenses armor="25" defense="30">
+		<defense name="invisible" interval="2000" chance="14" duration="8000">
+	      <attribute key="areaEffect" value="blueshimmer"/>
+	    </defense>
+		<defense name="speed" interval="1000" chance="8" speedchange="100" duration="2500">
+     		 <attribute key="areaEffect" value="redshimmer"/>
+  	  </defense>
+	</defenses>
+
+	<loot>
+<item id="1987" countmax="1">
+      <inside>
+		<item id="2229" countmax="1" chancemax="0" chance1="16000"/>-- skull
+		<item id="5895" chance="2000"/>-- fish fin
+		<item id="2654" chance="16000"/>-- cape
+				<item id="2377" chance="3600"/>-- two handed sword
+				<item id="2165" chance="600"/>-- stealth ring
+      </inside>
+    </item>
+		<item id="2148" countmax="35" chancemax="0" chance1="70000"/> GP
+		<item id="2670" countmax="1" chancemax="0" chance1="3000"/>-- shrimp
+		<item id="2146" countmax="1" chancemax="0" chance1="4000"/>-- small saphire
+				<item id="2479" chance="700"/>-- strange helmet
+				<item id="2656" chance="190"/>-- blue robe
+	</loot>
+</monster>

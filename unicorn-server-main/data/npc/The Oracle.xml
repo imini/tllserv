@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="The Oracle" script="distance.lua" autowalk="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="0" head="96" body="99" legs="76" feet="115"/>
+<parameters>
+<parameter key="message_greet" value="|PLAYERNAME|, ARE YOU PREPARED TO FACE YOUR DESTINY?"/>
+<parameter key="message_farewell" value="COME BACK WHEN YOU ARE PREPARED TO FACE YOUR DESTINY!"/>
+<parameter key="message_walkaway" value="COME BACK WHEN YOU ARE PREPARED TO FACE YOUR DESTINY!"/>
+</parameters>
+</npc>

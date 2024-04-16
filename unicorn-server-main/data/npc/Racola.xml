@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<npc name="Racola" script="racola.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="149" head="76" body="114" legs="114" feet="95" addons="3" />
+<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;quest;mission;secret;tha'reen;dustwit;archdemon;lich;hell;godslayer;magic longsword;banegear;dark magic;zathroth;religion;akteh" />
+		<parameter key="keyword_reply1" value="My job is to kill persons like you." />
+		<parameter key="keyword_reply2" value="Racola." />
+		<parameter key="keyword_reply3" value="I can offer you a tip, and that's all. See those bridges to the south? Jump." /> 
+		<parameter key="keyword_reply4" value="We are on an eternal quest for secrets." /> 
+		<parameter key="keyword_reply5" value="I don't want to be involved in no mission." /> 
+		<parameter key="keyword_reply6" value="I know so many secrets my head will soon explode." /> 
+		<parameter key="keyword_reply7" value="I heard some settlers moved in upstairs." /> 
+		<parameter key="keyword_reply8" value="Isn't it very... sandy?" /> 
+<parameter key="keyword_reply9" value="Archdemos are phenomenal creatures, but they tend to kill anyone who they dislike. It's just a matter of time before they find me doing something they disapprove to." /> 
+<parameter key="keyword_reply10" value="Liches are the servants of the darker powers. Especially archdemons seems to have understood this and so did the liches become their servants." /> 
+<parameter key="keyword_reply11" value="Hell is no place anyone wants to visit. I know only one human who actually have been there, and that's Banegear." /> 
+<parameter key="keyword_reply12" value="The Godslayer was forged by the archdemons, and as far as I know it's again in their possession." /> 
+<parameter key="keyword_reply13" value="The Godslayer as we call it down here, has been forged by the archdemons. However, it thereafter disappeared thought to never reappear. But aeons later it did, and again, it's in the possession of the archdemons." /> 
+<parameter key="keyword_reply14" value="He, exactly as the archdemons, has left the religion of Zathroth and proceeded higher. His past is dark, my friend. I don't know if anyone but himself can give a full account of it, though." /> 
+<parameter key="keyword_reply15" value="Dark magic is something which tears your soul apart. Eventually, your tarnished soul will be on the brink of dissolving. The last fragment of soul is kept alive by the evil inside you." /> 
+<parameter key="keyword_reply16" value="Archdemons believes that they are higher than the gods, thus they abandon any other religion than the one they alone create." /> 
+<parameter key="keyword_reply17" value="I believe in the archdemons. Not in any god." /> 
+<parameter key="keyword_reply18" value="He is a follower of Zathroth, and I believe if he ever happen to come here he'd be killed by the archdemons." />
+<parameter key="message_greet" value="Huh?"/>
+<parameter key="message_farewell" value="Bah."/>
+<parameter key="message_walkaway" value="Bah."/>
+</parameters>
+</npc>

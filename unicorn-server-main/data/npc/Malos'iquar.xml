@@ -1,0 +1,38 @@
+<npc name="Malos'iquar" script="malos'iquar.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="51" head="0" body="0" legs="0" feet="0" corpse="2987"/>
+
+	<parameters>
+
+
+    <parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="djinns;tha'reen;dustwit;alusir;req'ior;maloqua;taa'feal;falor;marid;green;fighting spirit;enchanted chicken wing;sweat;magic sulphur;blue;magic;gatekeeper;job;umar" />
+		<parameter key="keyword_reply1" value="Green djinns are good. Blue djinns are bad. Always remember that." />
+    <parameter key="keyword_reply2" value="I sell wares to people from this city from times to times." />
+    <parameter key="keyword_reply3" value="Dustwit is a great island which soon shall be lead by Falor and us green djinns." />
+    <parameter key="keyword_reply4" value="He dispises humans. But I understand him." />
+    <parameter key="keyword_reply5" value="He is my fellow trader." />
+    <parameter key="keyword_reply6" value="He guards the gates." />
+    <parameter key="keyword_reply7" value="The battle commander." />
+    <parameter key="keyword_reply8" value="He is our just leader. Putting him on the throne was certainly not a mistake." />
+    <parameter key="keyword_reply9" value="We are not allowed to speak about blue djinns unless it is about their death." />
+    <parameter key="keyword_reply10" value="We are not allowed to speak about blue djinns unless it is about their death!" />
+    <parameter key="keyword_reply11" value="Req'ior sells those I think." />
+    <parameter key="keyword_reply12" value="Req'ior sells those I think." />
+    <parameter key="keyword_reply13" value="Req'ior sells those I think." />
+    <parameter key="keyword_reply14" value="Req'ior sells those I think." />
+    <parameter key="keyword_reply15" value="We are the green djinns." />
+    <parameter key="keyword_reply16" value="I am better than the average djinn, but I'm afraid to say that I can't match an efreets magic. Not yet, that is." />
+    <parameter key="keyword_reply17" value="Taa'Feal calls Maloqua that." />
+    <parameter key="keyword_reply18" value="I am trading equipment and weapons of many kinds." />
+    <parameter key="keyword_reply19" value="That is the leader of our green foes." />
+    
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="What do you want me?" />
+		<parameter key="message_farewell" value="Bye." />
+		<parameter key="message_walkaway" value="Farewell, little human." />
+
+	</parameters>
+
+
+</npc>

@@ -1,0 +1,28 @@
+<npc name="Will Smith" script="will.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="131" head="21" body="21" legs="40" feet="116" addons="1"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;smith;offer;trade;sword;axe;club;bolt;items;weapon;steeel;infernal bolt" />
+    <parameter key="keyword_reply1" value="Well, people call me smith." />
+    <parameter key="keyword_reply2" value="I'm as handsome as I'm skilled with the smithing tools." />
+    <parameter key="keyword_reply3" value="I can trade different steels with you, |PLAYERNAME|, but also various weapons." />
+    <parameter key="keyword_reply4" value="Yes, you got it right. You give me information of what you want, I make it, you pay. Simple trade. Although, I must confess my knowledges are limited, so you'll have to stick to a few things, only." />
+    <parameter key="keyword_reply5" value="I'm afraid I can't handle advanced weaponry like swords." />
+    <parameter key="keyword_reply6" value="Axes, well, not really, they're a bit too complicated for me." />
+    <parameter key="keyword_reply7" value="Clubs are cool  but extremely hard to forge. Maybe something... hm, bolts?" />
+    <parameter key="keyword_reply8" value="Well, bolts are made out of wood, right? Not something for me, actually. But you might've heard about the infernal bolts. And the quite mysterious material, they are made of, too? Well, maybe we could make a trade if you provide me with the right items." />
+    <parameter key="keyword_reply9" value="One single soul orb consists of magic enough to create six infernal bolts. Let's cut it even, I take three, and you three... just bring me a soul orb." />
+    <parameter key="keyword_reply10" value="I don't know if I should call it weapons, but I know some things about bolts." />
+    <parameter key="keyword_reply11" value="I have draconian steel, hell steel, huge chunk of crude iron and royal steel." />
+    <parameter key="keyword_reply12" value="Infernal bolts are created out of the mystic materia known as soul orb." />
+    
+		<parameter key="talkdelaytime" value="2"/>
+		<parameter key="message_greet" value="Hello there, |PLAYERNAME|, what a pleasant surprise." />
+		<parameter key="message_farewell" value="Hope to see you again, |PLAYERNAME|!" />
+		<parameter key="message_walkaway" value="Farewell, |PLAYERNAME|." />
+	</parameters>
+</npc>
+
+

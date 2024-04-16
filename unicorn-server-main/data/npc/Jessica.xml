@@ -1,0 +1,36 @@
+<npc name="Jessica" script="jessica.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="140" head="0" body="0" legs="123" feet="0" addons="3"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;king arturo;liyana;marriage;outfit;addon;rooster;celeres;casteldine;church;jooko;alfred;joseph;alexander;hack sparry;churry;penim;riddle" />
+		<parameter key="keyword_reply1" value="I work for Liyana, from the church. I usually engrave wedding rings when someone has married." />
+		<parameter key="keyword_reply2" value="I am Jessica, from my grandmother with the same name." />
+		<parameter key="keyword_reply3" value="I can offer you red roses, tulips, wedding rings and of course the engraving." />
+		<parameter key="keyword_reply4" value="King Arturo is the greatest man on earth. Long live him!" />
+		<parameter key="keyword_reply5" value="Liyana is the priest in the church. She usually organizes marriages." />
+    <parameter key="keyword_reply6" value="Liyana organizes marriages for couples who want to take their relationship to the next level." />
+    <parameter key="keyword_reply7" value="I recieved my outfit from Rooster. It costed me a total of 300000 gold coins." />
+    <parameter key="keyword_reply8" value="I recieved my outfit from Rooster. It costed me a total of 300000 gold coins." />
+    <parameter key="keyword_reply9" value="Rooster is a mage from Celeres. He sold me this fancy outfit." />
+    <parameter key="keyword_reply10" value="I have been to Celeres twice. Once when I bought my outfit from Rooster, and once when I met an old friend." />
+    <parameter key="keyword_reply11" value="Casteldine is such a grand city, don't you think?" />
+    <parameter key="keyword_reply12" value="The church is to the south." />
+    <parameter key="keyword_reply13" value="He's got sense of humour, but sometimes he becomes too much." />
+    <parameter key="keyword_reply14" value="His bar is of too low quality too me. I prefer Churry." />
+    <parameter key="keyword_reply15" value="He's got a sense of fashion." />
+    <parameter key="keyword_reply16" value="I don't know this man. At all!" />
+    <parameter key="keyword_reply17" value="Aw. A scabby man like that mustn't come near me." />
+    <parameter key="keyword_reply18" value="Chef Churry has class and makes nice food." />
+    <parameter key="keyword_reply19" value="This elf is strange. He comes from a well-known elven town where the inhabitants are known to be aggressive, but yet he worship music and all its instruments." />
+<parameter key="keyword_reply20" value="Pardon?" />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="wedding ring, 2121, 590;red rose, 2744, 24;tulip, 2754, 30" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello, hello. What can I do for you?" />
+		<parameter key="message_farewell" value="Farewell!" />
+		<parameter key="message_walkaway" value="Bye, bye." />
+	</parameters>
+</npc>

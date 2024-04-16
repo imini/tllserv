@@ -1,0 +1,53 @@
+<npc name="Sheriff" script="sheriff.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="134" head="114" body="113" legs="113" feet="113" addons="1"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;key;burt;johnny;lol;quest;proof;pire vam;natalon;lithaton;casteldine;celeres;sheriff;name;bandit;door;cell;creyo;sally;rooster;stephanie;steve;johan;dixi;king arturo;academy;goldtol;ashbere;katie;andrew;dark magic;caroline;sigiric;forbidden;ventus;decapatator;patte;dronno;name" />
+		<parameter key="keyword_reply1" value="I'm the sheriff in this town." />
+		<parameter key="keyword_reply2" value="I know that lousy boozer Andrew stole my key... I just can't find any evidence." />
+		<parameter key="keyword_reply3" value="Argh! That lousy coward hides somewhere, leading his army of bandits and outlaws. I would keep his Stone Herb as a proof I got him." />
+		<parameter key="keyword_reply4" value="One day I will catch that no-good bastard. I would keep his Mandrake as a proof I got him." />
+		<parameter key="keyword_reply5" value="Nice word." />
+		<parameter key="keyword_reply6" value="A quest you say? To catch Burt Baldingsen, or Johnny Knoxville and bring me a proof, thats your quest." />
+		<parameter key="keyword_reply7" value="Yeah, a proof. If you get any bring them to me and I will reward you!" />
+    <parameter key="keyword_reply8" value="Many stories are told about Pire Vam, but their is only one which is true. I have personally read it, it's in the library." />
+    <parameter key="keyword_reply9" value="Natalon was a man of the same calibre as I am." />
+    <parameter key="keyword_reply10" value="Lithaton is the greatest continent in this entire world." />
+    <parameter key="keyword_reply11" value="Casteldine has no sheriff, and with that I consider it a lousy town." />
+    <parameter key="keyword_reply12" value="Celeres is a grand city where the citizens may feel safe at night - I am here." />
+    <parameter key="keyword_reply13" value="I am the sheriff." />
+    <parameter key="keyword_reply14" value="Uh... uuh? My name you say? I don't remember..." />
+    <parameter key="keyword_reply15" value="I am looking for bandits. Especially the leaders Burt Baldingsen and Johnny Knoxville." />
+    <parameter key="keyword_reply16" value="I am pretty certain the boozer Andrew stole my key which leads to the prison below us. I need to find evidence for this, and of course the key itself, so I can lock him up." />
+    <parameter key="keyword_reply17" value="I have currently two prisoners in my cells. I can't let them out, since Andrew stole my key." />
+    <parameter key="keyword_reply18" value="Creyo... he's been here for so long that I don't even know why he's here." />
+    <parameter key="keyword_reply19" value="Sally spoke forbidden words. She talked all freely about dark magic." />
+    <parameter key="keyword_reply20" value="Rooster once applied for a permission to talk about dark magic. I allowed him to do this, since he's actually a good mage, but only so he could warn new citizens and by-passers that it's illegal." />
+    <parameter key="keyword_reply21" value="Stephanie is the girl responsible for the mail system in the depot." />
+    <parameter key="keyword_reply22" value="Steve is a lousy guy who has no real job. He applied for a permission to open a little bar, but I don't see it having any success. I should lock the fool up." />
+    <parameter key="keyword_reply23" value="Johan is a fine man. He sells nice jewels." />
+    <parameter key="keyword_reply24" value="Dixi is a strange lady, which is responsible for a little shop in the south-east. She sells equipment for paladins." />
+    <parameter key="keyword_reply25" value="The king is very, very grand. I wish we had enough money to build a castle so he could move here instead for staying in Casteldine." />
+    <parameter key="keyword_reply26" value="I, if anyone, should be informed of where this Celerian Academy actually is hiding.." />
+    <parameter key="keyword_reply27" value="Goldtol is where all outlaws gathers to make up plots to raid the rich people. I hate it." />
+    <parameter key="keyword_reply28" value="The elves lives in Ashbere, to the north. We must constantly be aware, for sometimes they attack us completely randomly. They constitute no real threat for our thick walls, but people might get hurt anyway." />
+    <parameter key="keyword_reply29" value="Katie is the bank accountant. She's a good lady." />
+    <parameter key="keyword_reply30" value="Andrew. Oh, I hate him so! He stole the key to my prison. I'm gonna lock him up for good and throw the key away... as soon as I find evidence and the key to my prison." />
+    <parameter key="keyword_reply31" value="DON'T SPEAK OF THIS SUBJECT!" />
+    <parameter key="keyword_reply32" value="She's working in the temple. She sells ropes and shovels and that crap. It's of no use. I shouldn't have granted her her shop license." />
+    <parameter key="keyword_reply33" value="Sigiric is the temple monk. He is a nice man, but a little too old for his job." />
+    <parameter key="keyword_reply34" value="Some explorer..." />
+    <parameter key="keyword_reply35" value="He used to live in this town." />
+    <parameter key="keyword_reply36" value="A great man. A bit aggressive though." />
+    <parameter key="keyword_reply37" value="He was a druid, if I'm not mistaken. Used to live around here. Noone really knows where he went though." />
+    <parameter key="keyword_reply38" value="He lived here in Celeres... but one day he just vanished in thin air." />
+    <parameter key="keyword_reply39" value="He lived here in Celeres... but one day he just vanished in thin air." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hm... hi, I guess." />
+		<parameter key="message_farewell" value="Always watch your back, dear |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Your mom didn't teach you to say bye?" />
+	</parameters>
+</npc>

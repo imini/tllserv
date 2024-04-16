@@ -1,0 +1,22 @@
+<npc name="Sven" script="sven.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="144" head="96" body="19" legs="68" feet="95" addons="0"/>
+
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="food;cell;black knight;brother;jacob" />
+		<parameter key="keyword_reply1" value="God, yes! Please bring me food, I'm starving. Then we can discuss how I can get out of here, but for heavens sake, I'm dying of hunger! Apples, please! 10 would do!" />
+    <parameter key="keyword_reply2" value="I am trapped within this cell. I fear there is no way out." />
+    <parameter key="keyword_reply3" value="The black knights captured me and siezed this place." />
+    <parameter key="keyword_reply4" value="My brother is the fisherman Jacob." />
+    <parameter key="keyword_reply5" value="Jacob lives on Hagal. He's a nice man, and my brother." />
+    
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="A human... but not a black knight? How did you get in here? I need food!" />
+		<parameter key="message_farewell" value="Good bye." />
+		<parameter key="message_walkaway" value="Good Bye." />
+
+	</parameters>
+</npc>

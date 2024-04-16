@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elusive Ninja" nameDescription="an elusive ninja" race="blood" experience="170" speed="210" manacost="450">
+  <health now="180" max="180"/>
+  <look type="152" head="114" body="2" legs="58" feet="95" corpse="3058"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="20"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="4"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-1" max="-45"/>
+    <attack name="physical" interval="1000" chance="25" range="7" min="-40" max="-80">
+      <attribute key="shootEffect" value="onyxarrow"/>
+    </attack>
+    <attack name="drunk" interval="1000" chance="7" range="6">
+      <attribute key="shootEffect" value="poison"/>
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+    <attack name="physical" interval="1000" chance="3" range="7" min="-70" max="-130">
+      <attribute key="shootEffect" value="redstar"/>
+      <attribute key="areaEffect" value="explosion"/>
+    </attack>
+  </attacks>
+  <defenses armor="36" defense="32">
+    <defense name="invisible" interval="1000" chance="9" duration="2000">
+      <attribute key="areaEffect" value="blackspark"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="8">
+    <voice sentence="Die!"/>
+    <voice sentence="Feel the hand of death!"/>
+    <voice sentence="You are on my deathlist!"/>
+  </voices>
+  <loot capacity="500">
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2009" countmax="1" chance="3666"/> bottle
+    <item id="2044" countmax="1" chance="9021"/> lamp
+    <item id="7378" countmax="2" chance="8653"/> royal spear
+    <item id="2805" countmax="1" chance="6692"/> troll green
+    <item id="4851" countmax="1" chance="333"/> life crystal
+    <item id="2198" countmax="1" chance="360"/> elven amulet
+    <item id="2455" countmax="1" chance="6500"/> crossbow
+      </inside>
+    </item>
+    <item id="2543" countmax="12" chance="11000"/> bolt
+    <item id="2691" countmax="2" chance="13332"/> bread
+    <item id="2148" countmax="50" chance="80000"/> gp
+    <item id="2148" countmax="2" chance="461"/> small ruby
+    <item id="7368" countmax="1" chance="450"/> assassin star
+    <item id="2370" countmax="1" chance="600"/> lute
+    <item id="5875" countmax="1" chance="200"/> sniper gloves
+  </loot>
+</monster>

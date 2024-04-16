@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Quara Hydromancer Scout" nameDescription="a quara hydromancer scout" race="3" experience="800" speed="450" manacost="0">
+  <health now="1100" max="1100"/>
+  <look type="47" head="0" body="0" legs="0" feet="0" corpse="6066"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+		<attack name="melee" chance="100" speed="2000" max="-90"/>
+		<attack name="speed" interval="1000" chance="10" range="7" speedchange="-280" duration="40000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		 <attack name="lifedrain" interval="1000" chance="14" radius="3" target="0" min="-50" max="-160">
+     		 <attribute key="areaEffect" value="bubbles"/>
+			</attack>
+		<attack name="poisoncondition" interval="1000" chance="11" length="8" spread="0" min="-300" max="-400">
+      <attribute key="areaEffect" value="greenspark"/>
+    </attack>
+		<attack name="lifedrain" interval="1000" chance="10" length="8" spread="0" min="-50" max="-165">
+      <attribute key="areaEffect" value="bubbles"/>
+    </attack>
+	</attacks>
+	<defenses armor="28" defense="35">
+		<defense name="healing" interval="2000" chance="22" min="150" max="180">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="0"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Qua hah tsh!"/>
+    <voice sentence="Blubber."/>
+  </voices>
+  <loot>
+ <item id="1987" chance="100000" > -- bag
+    <inside>
+      <item id="2143" chance="1990" countmax="2" /> -- white pearl
+      <item id="2214" chance="838" /> -- ring of healing
+      <item id="2189" chance="2000" /> -- wand of cosmic energy
+      <item id="2401" chance="4500" /> -- staff
+    </inside>
+    </item>
+    <item id="2148" chance="100000" countmax="79" /> -- gold coin
+    <item id="5895" chance="1000" countmax="1" /> -- fish fin
+    <item id="2476" chance="900" /> -- knight armor
+    <item id="2144" chance="1429" countmax="2" /> -- black pearl
+    <item id="2240" chance="10000" /> -- fishremains
+     </loot>
+</monster>

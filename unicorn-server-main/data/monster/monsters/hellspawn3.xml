@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Hell Spawn" tp="1" nameDescription="a hell spawn" race="fire" experience="2000" speed="270" manacost="0">
+    <health now="2100" max="2100"/>
+    <look type="242" corpse="6324"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag canpushcreatures="1"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-70" max="-200"/>
+     	<attack name="firefield" interval="1000" chance="10" radius="2" target="1" range="5">
+        <attribute key="shootEffect" value="fire"/>
+      </attack>
+      <attack name="fire" interval="1000" chance="17" range="7" min="-120" max="-180">
+        <attribute key="shootEffect" value="fire"/>
+      </attack>
+	<attack name="fire" interval="1000" chance="14" radius="4" min="-100" max="-150">
+	  <attribute key="areaEffect" value="fire"/>
+      </attack>
+	<attack name="plague_wave" interval="1000" chance="10" min="-100" max="-170"/>
+    </attacks>
+    <defenses armor="35" defense="25">
+    </defenses>
+    <immunities>
+    <immunity energy1="1"/>
+    <immunity fire1="1"/>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="5000" chance="10">
+      <voice sentence="FSCHHH!"/>
+    </voices>
+    <loot>
+     <item id="2148" countmax="56" chance1="100000" chancemax="0"/> --Gold Coin
+     <item id="2187" chance="2500"/> --Wand of Inferno
+     <item id="1987" chance="100000"> --Bag
+           <inside>
+              <item id="2260" chance="13500"/> --Blank Rune
+              <item id="700" chance="700"/> --Fire Axe
+              <item id="2145" countmax="4" chance1="15000" chancemax="0"/> --Small Diamond
+              <item id="2392" chance="3550"/> --Fire Sword
+           </inside>
+        </item>
+     </loot>
+  </monster>

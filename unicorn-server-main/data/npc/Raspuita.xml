@@ -1,0 +1,22 @@
+ <npc name="Raspuita" script="raspuita.lua" autowalk="1" floorchange="0">
+  <health now="100" max="100" /> 
+  <look type="138" head="96" body="19" legs="68" feet="95" addons="0" /> 
+ <parameters>
+  <parameter key="module_keywords" value="1" /> 
+  <parameter key="keywords" value="books;library;door;sealed section;archdemons;godslayer;ninjas" /> 
+  <parameter key="keyword_reply1" value="Interesting books, isn't it? I've read most of them." /> 
+  <parameter key="keyword_reply2" value="I don't own this library, I'm just working here. I like the silence and peace it brings." /> 
+  <parameter key="keyword_reply3" value="Ah. The bookshelves behind that door is only for members." /> 
+  <parameter key="keyword_reply4" value="Only members may enter the sealed section." /> 
+  <parameter key="keyword_reply5" value="I always thought the archdemons to be a race of mystique." /> 
+  <parameter key="keyword_reply6" value="The godslayer is truly an amazing story. Shame it's just an invention to scare children." /> 
+  <parameter key="keyword_reply7" value="Ninjas are like fairies... they don't exist." /> 
+  <parameter key="keyword_reply8" value="" /> 
+  <parameter key="keyword_reply9" value="" /> 
+  <parameter key="keyword_reply10" value="" /> 
+  <parameter key="talkdelaytime = 2" /> 
+  <parameter key="message_greet" value="Hello, |PLAYERNAME|. I'm satisfied as long as you're silent." /> 
+  <parameter key="message_farewell" value="Good bye." /> 
+  <parameter key="message_walkaway" value="Good bye." /> 
+  </parameters>
+  </npc>

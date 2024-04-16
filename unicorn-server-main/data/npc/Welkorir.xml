@@ -1,0 +1,24 @@
+<npc name="Welkorir" script="welkorir.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="57" head="0" body="0" legs="0" feet="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="risk;four;he'hayn;job;name;raven castle;zathroth;quest;damdir" />
+		<parameter key="keyword_reply1" value="The risk of being killed by the Four and their minions." />
+    <parameter key="keyword_reply1" value="The risk of being killed by the Four and their minions." />
+    <parameter key="keyword_reply2" value="The Four are Merwigo, Hesperides, Hr'Hehn and He'Hayn." />
+    <parameter key="keyword_reply3" value="No! You can't speak his name aloud. His evil mind will crush you like a fly if you don't beware. Never, ever, mention his name again." />
+    <parameter key="keyword_reply4" value="I am following Zathroth in his footsteps for as far as I can." />
+    <parameter key="keyword_reply5" value="My name is Welkorir, stupid |PLAYERNAME|." />
+    <parameter key="keyword_reply6" value="What are you even doing here?" />
+    <parameter key="keyword_reply7" value="Zathroth is the god which I have dedicated my life to." />
+    <parameter key="keyword_reply8" value="The Four are guarding an ancient treasure." />
+    <parameter key="keyword_reply9" value="Damdir is some pathetic fool who has become a friend with many of the Fours minions." />
+    
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="What are you doing here, fool? Aren't you aware of the risks? What do you want?" />
+		<parameter key="message_farewell" value="Yes, leave us." />
+		<parameter key="message_walkaway" value="You fear me." />
+	</parameters>
+</npc>

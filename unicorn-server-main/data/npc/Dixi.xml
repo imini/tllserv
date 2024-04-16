@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<npc name="Dixi" script="distance.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="136" head="96" body="99" legs="76" feet="115"/>
+<parameters>
+<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="paladin;offer;name;job;ammunition;golden;tha'reen;casteldine;adanac;quest;mission;pire vam;dark magic;celeres;sheriff;academy;illuminatis;andrew;sally;creyo;lendan;steve;stephanie;caroline;building of much people" />
+		<parameter key="keyword_reply1" value="Although I don't look like one, I am a paladin. I am actually not a knight. Promise *winks*." />
+    <parameter key="keyword_reply2" value="I can offer you the ability to dream. It's on the black board." />
+    <parameter key="keyword_reply3" value="Dixi. Do you think it's funny?" />
+    <parameter key="keyword_reply4" value="I am a paladin and not a knight and not a sorcerer. And not a druid, either, by the way." />
+    <parameter key="keyword_reply5" value="There's a blackboard with my offers, |PLAYERNAME|." />
+    <parameter key="keyword_reply6" value="Yep. Golden bow. Nice." />
+    <parameter key="keyword_reply7" value="In Tha'Reen you can buy food and drink and runes and all luxuary items you can imagine for just stones." />
+    <parameter key="keyword_reply8" value="I am not allowed to go there, even though my grand mother killed orcs." />
+    <parameter key="keyword_reply9" value="Adanac is where I grew up together with my dead dreams." />
+    <parameter key="keyword_reply10" value="I am gonna fulfil the quest today." />
+    <parameter key="keyword_reply11" value="Mission rhymes with ambition." />
+    <parameter key="keyword_reply12" value="Ops! You mustn't talk about him here. People will die." />
+    <parameter key="keyword_reply13" value="|PLAYERNAME|. You are speaking taboo. Silence or I'll get my broom and throw you out." />
+    <parameter key="keyword_reply14" value="Believe it or not, you're in the middle of the city." />
+    <parameter key="keyword_reply15" value="Oh, isn't he cute?" />
+    <parameter key="keyword_reply16" value="Celerian Academy. Illuminatis. What a bunch of lollipop junky punky. Soon they'll probably come up with spells that makes you invisible." />
+    <parameter key="keyword_reply17" value="An ancient pact involved in bizarre rituals which creates evil ice creams." />
+    <parameter key="keyword_reply18" value="He is completely normal. I wonder why people says he is strange." />
+    <parameter key="keyword_reply19" value="Sally? I don't know any Sally." />
+    <parameter key="keyword_reply20" value="Bah. Probably a djinn." />
+    <parameter key="keyword_reply21" value="Lendan cheats." />
+    <parameter key="keyword_reply22" value="He is having loud parties." />
+    <parameter key="keyword_reply23" value="She works in the 'building of much people'." />
+    <parameter key="keyword_reply24" value="Funny name." />
+    <parameter key="keyword_reply25" value="Yeh, that place in the center of the town? With much people. Don't you know? (looks sad)" />
+    
+    <parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="spear, 2389, 10;crossbow, 2455, 290;bow, 2456, 155;sniper arrow, 7364, 3;onyx arrow, 7365, 5;arrow, 2544, 2;piercing bolt, 7363, 4;bolt, 2543, 3" />
+
+
+<parameter key="message_greet" value="Hello, traveller. How shall I do?"/>
+<parameter key="message_farewell" value="Good bye."/>
+<parameter key="message_walkaway" value="Good bye."/>
+</parameters>
+</npc>

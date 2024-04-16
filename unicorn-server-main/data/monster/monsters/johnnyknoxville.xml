@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Johnny Knoxville" nameDescription="Johnny Knoxville" race="blood" experience="800" speed="210" manacost="0">
+  <health now="1100" max="1100"/>
+  <look type="130" head="57" body="113" legs="95" feet="113" corpse="3058"/>
+  <targetchange interval="2000" chance="3"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="120"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-30" max="-200" fire="300"/>
+      <attack name="firefield" interval="1000" chance="10" radius="2">
+        <attribute key="shootEffect" value="fire"/>
+      </attack>
+	<attack name="fire" interval="1000" chance="14" radius="3" min="-60" max="-120">
+	  <attribute key="areaEffect" value="fire"/>
+      </attack>
+  </attacks>
+  <defenses armor="35" defense="40">
+    <defense name="healing" interval="1000" chance="15" min="70" max="100">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="There is no other choice for you than death!"/>
+    <voice sentence="Taste the sweetness of death!"/>
+  </voices>
+  <loot capacity="300">
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2194" countmax="1" chance="1000"/>
+    <item id="2191" countmax="1" chance="3000"/>
+    <item id="2187" countmax="1" chance="100"/>
+    <item id="3962" countmax="1" chance="700"/>
+    <item id="2392" countmax="1" chance="700"/>
+    <item id="2432" countmax="1" chance="400"/>
+    <item id="5015" countmax="1" chance="100000"/>
+      </inside>
+    </item>
+    <item id="2185" countmax="1" chance="1300"/>
+    <item id="2148" countmax="30" chance="90000"/>
+    <item id="2546" countmax="11" chance="3000"/>
+    <item id="2179" countmax="1" chance="1500"/>
+    <item id="2304" countmax="2" chance="2500"/>
+    <item id="2305" countmax="2" chance="1000"/>
+  </loot>
+</monster>

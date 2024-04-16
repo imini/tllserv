@@ -1,0 +1,26 @@
+<npc name="Teprido Hagono" script="teprido hagono.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="140" head="0" body="0" legs="123" feet="0" addons="3"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;quest;book;copyright;celeres;casteldine;king arturo" />
+		<parameter key="keyword_reply1" value="I am currently the royal astrolog. Before this I used to write many books." />
+    <parameter key="keyword_reply2" value="I am Teprido Hagono. If you are a reader you should know my name." />
+    <parameter key="keyword_reply3" value="No, |PLAYERNAME|, I am quite poor and I have not anything to offer you for tasks." />
+    <parameter key="keyword_reply4" value="I have no quest for you." />
+    <parameter key="keyword_reply5" value="I have written several books, but now their copyrights are sold to the Celeres library." />
+    <parameter key="keyword_reply6" value="Celeres has copyrighted my books for the time being." />
+    <parameter key="keyword_reply7" value="I have lived in Celeres, but I moved after having sold all my books. The king hired me, you see." />
+    <parameter key="keyword_reply8" value="Now I live in Castle Dine, I even have my own room downstairs." />
+    <parameter key="keyword_reply9" value="The king is a nice person, you just need to get to know him." />
+    
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Aah. A visitor, interesting. What do you want me?" />
+		<parameter key="message_farewell" value="Bye, |PLAYERNAME|. Be careful in the ladder." />
+		<parameter key="message_walkaway" value="Be careful in the ladder." />
+	</parameters>
+</npc>

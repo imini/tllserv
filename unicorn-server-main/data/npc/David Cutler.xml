@@ -1,0 +1,14 @@
+<npc name="David Cutler" script="david cutler.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="151" head="39" addons="2" body="122" legs="125" feet="57" corpse="2212"/>
+	<parameters>	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="pirate" />
+		<parameter key="keyword_reply1" value="Undeniably, I'm wearing the features of a true pirate - but my ideas are not like one. Instead, I am selling relics from ancient times. I happen to be quite a collector." />
+		 
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|. What is on your mind?" />
+		<parameter key="message_farewell" value="I will see you later, then." />
+		<parameter key="message_needmoremoney" value="I'm afraid you can't afford that." />
+	</parameters>
+</npc>

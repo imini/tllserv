@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Goror" nameDescription="Goror" race="undead" experience="3200" speed="280" manacost="600">
+  <health now="4100" max="4100"/>
+  <look type="149" head="0" body="9" legs="86" feet="0" addons="3" corpse="6081"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="20"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" max="-350"/>
+    <attack name="energyfield" interval="2000" chance="22" radius="4">
+      <attribute key="shootEffect" value="energy"/>
+      </attack>
+      <attack name="energy" interval="2000" chance="29" range="5" min="-150" max="-230">
+        <attribute key="shootEffect" value="energy"/>
+      </attack>
+    <attack name="energy" interval="2000" chance="14" radius="4" min="-200" max="-300">
+      <attribute key="areaEffect" value="energyarea"/>
+      </attack>
+  </attacks>
+  <defenses armor="40" defense="70">
+    <defense name="healing" interval="1000" chance="10" min="150" max="300">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="healing" interval="1000" chance="2" min="450" max="2000">
+      <attribute key="areaEffect" value="yellowbubble"/>
+    </defense>
+    <defense name="speed" interval="1000" chance="10" speedchange="110" duration="4000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Bau, Laulindororomo!"/>
+    <voice sentence="Whahahahahaha!"/>
+    <voice sentence="Ngondorini obancau sabava te Ullav!" yell="1"/>
+  </voices>
+  <loot>
+ <item id="1987" chance="100000" > -- bag
+    <inside>
+      <item id="2143" chance="1990" countmax="4" /> -- white pearl
+      <item id="2214" chance="2838" /> -- ring of healing
+      <item id="2186" chance="14500" /> -- moonlight rod
+      <item id="2195" chance="2011" /> -- boh
+      <item id="2127" chance="2722" /> -- bangle
+      <item id="2462" chance="44444" /> -- devil helmet
+      <item id="2460" chance="4332" /> -- brass helmet
+      <item id="2645" chance="4221" /> -- steel boots
+    </inside>
+    </item>
+    <item id="2148" chance="100000" countmax="79" /> -- gold coin
+    <item id="2179" chance="10005" countmax="1" /> -- gold ring
+    <item id="2476" chance="900" /> -- knight armor
+    <item id="2144" chance="4429" countmax="6" /> -- black pearl
+    <item id="2174" chance="10000" /> -- strange symbol
+    <item id="2642" chance="19284" /> -- sandals
+    <item id="2655" chance="1902" /> -- red robe
+    <item id="2658" chance="8833" /> -- dress
+    <item id="2660" chance="1422" /> -- assassin cloak
+    <item id="2381" chance="11112" /> -- halberd
+    <item id="2413" chance="10111" /> -- broad sword
+    <item id="2414" chance="3040" /> -- dlance  
+   
+     </loot>
+</monster>

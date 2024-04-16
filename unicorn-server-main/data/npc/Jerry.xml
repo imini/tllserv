@@ -1,0 +1,30 @@
+<npc name="Jerry" script="jerry.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="143" head="57" body="79" legs="95" feet="98" addons="0"/>
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;food;runes;andreas;agatone;Jerry;fighting pit;seafish;amadeus;king arturo" />
+		<parameter key="keyword_reply1" value="I'm just a normal shopkeeper." />
+		<parameter key="keyword_reply2" value="I can offer you different kinds of runes, but also some food." />
+		<parameter key="keyword_reply3" value="Have a check at the blackboards for my offers." />
+		<parameter key="keyword_reply4" value="check the blackboards for my offers." />
+		<parameter key="keyword_reply5" value="He is the representative for the Fighting pit... or as strangers prefer to call it, the battle arena." />
+		<parameter key="keyword_reply6" value="Agatone is the island where we are right now." />
+		<parameter key="keyword_reply7" value="Indeed that's my name. How attentive of you, |PLAYERNAME|." />
+    <parameter key="keyword_reply8" value="The Fighting Pit has made Agatone quite famous, actually." />
+    <parameter key="keyword_reply9" value="He's the captain that usually brings people here." />
+    <parameter key="keyword_reply10" value="Amadeus is Seafish's first name. We usually just call him Seafish around here, though." />
+    <parameter key="keyword_reply11" value="Arturo believes he can decide over our lives. But he can't." />
+
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="meat, 2666, 4;ham, 2671, 6;egg, 2695, 2;salmon, 2668, 3;banana, 2676, 3;ultimate healing rune, 2273, 175, 1;sudden death rune, 2268, 325, 1;great fireball rune, 2304, 180, 2;heavy magic missile rune, 2311, 125, 5" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello stranger." />
+		<parameter key="message_farewell" value="Good bye." />
+		<parameter key="message_walkaway" value="Next please!" />
+	</parameters>
+</npc>
+
+

@@ -1,0 +1,33 @@
+<npc name="Sally" script="Sally.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="137" head="0" body="1" legs="67" feet="115" addons="0"/>
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="cell;sheriff;reason;name;job;prison;dark magic;celeres;sigiric;caroline;steve;lendan;rooster;johan;katie;andrew" />
+		<parameter key="keyword_reply1" value="You could never ever guess why I am sitting in this god forsaken cell. I mentioned a certain word! That's all!" />
+		<parameter key="keyword_reply2" value="The fool imprisoned me just because I mentioned a word which apparently was taboo here in Celeres." />
+		<parameter key="keyword_reply3" value="The reason why I am here is pathetic. I did nothing wrong." />
+		<parameter key="keyword_reply4" value="My name is Sally. Why do you ask, in the first place?" />
+    		<parameter key="keyword_reply5" value="Job? I can't work now, I'm stuck in this stupid cell." />
+    		<parameter key="keyword_reply6" value="Let's go to prison! Yeh! Hilarious." />
+    		<parameter key="keyword_reply7" value="HEY! SHERIFF! THIS FELLOW SAID IT TOO! PUT HIM IN JAIL!" />
+    		<parameter key="keyword_reply8" value="We are in Celeres, smart head." />
+    		<parameter key="keyword_reply9" value="I miss his kindness so much." />
+    		<parameter key="keyword_reply10" value="I have forgotten her friendly face." />
+    		<parameter key="keyword_reply11" value="I even miss him and his lazy attitude. I hate prison." />
+    		<parameter key="keyword_reply12" value="Lendan and Brad - two funny fellows." />
+    		<parameter key="keyword_reply13" value="Rooster is selling fashion clothes." />
+    		<parameter key="keyword_reply14" value="Johan. Hah! He is just a distorted and blur image of what he was before." />
+    		<parameter key="keyword_reply15" value="My wife... (sob)" />
+    		<parameter key="keyword_reply16" value="Andrew, that no good boozer. I hate him more than anything her on earth." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="What in heavens sake brings you down here?" />
+		<parameter key="message_farewell" value="Get the sheriff to release me, for heavens sake." />
+		<parameter key="message_walkaway" value="Don't leave me here. I need help." />
+	</parameters>
+
+
+</npc>

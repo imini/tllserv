@@ -1,0 +1,30 @@
+<npc name="Sackham" script="sackham.lua" autowalk="1" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="128" addons="1" head="82" body="95" legs="57" feet="82" corpse="2212"/>
+	<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="arena;football;job;name;offer;quest;caroline;backpack;steve;graveyard;laudegrance;king arturo;jooko;daniel;minotaur leather;lucifer" />
+		<parameter key="keyword_reply1" value="The arena is free for anyone. But I suggest you obtain a football before the match begins." />
+		<parameter key="keyword_reply2" value="I have two kinds of footballs for sale. The first on is the original one, and the second one, the advanced, is a bit more amusing." />
+    		<parameter key="keyword_reply3" value="I have no job. On my sparetime, though, which is pretty much always, I play football and help youngsters with the sport." />
+    		<parameter key="keyword_reply4" value="I am Sackham. Daniel Sackham." />
+    		<parameter key="keyword_reply5" value="I can offer you two kinds of footballs. The original one and the advanced one." />
+    		<parameter key="keyword_reply6" value="I don't have time for quests. If you're looking for adventures, travel to Lucifers Graveyard. It's to the south." />
+    		<parameter key="keyword_reply7" value="Do you know Caroline? I remember helping her to make a feather hat once." />
+    		<parameter key="keyword_reply8" value="My backpack is not for sale. A guy from Celeres made it for me out of rare minotaur leather." />
+    		<parameter key="keyword_reply9" value="Steve was the name of the guy who made me this backpack." />
+    		<parameter key="keyword_reply10" value="Lucifers Graveyard is the vast fields to the south. Dangerous creatures which I don't even know the name of lives here." />
+    		<parameter key="keyword_reply11" value="Laudegrance is this great mountain. The arena is even more impressive, though, as it actually is built inside the mountain itself." />
+    		<parameter key="keyword_reply12" value="I don't care about no king. I am a free man. Although I must say his servant, Jooko, is extremely amusing." />
+    		<parameter key="keyword_reply13" value="He's very funny. Ask him for a weapon some day." />
+    		<parameter key="keyword_reply14" value="Daniel is my first name." />
+    		<parameter key="keyword_reply15" value="My backpack is made of minotaur leather. This leather is extremely rare." />
+    		<parameter key="keyword_reply16" value="Lucifer himself is said to be buried in the fields south from here. It's said his cursed and tarnished soul still awaits the day when someone sets him free from his magic prison." />
+
+    		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome, football player |PLAYERNAME|! What brings you to my arena?" />
+		<parameter key="message_buy" value="The |ITEMNAME| costs only |TOTALCOST| gold coins. Would you like to buy one?" />
+		<parameter key="message_farewell" value="Goodbye, |PLAYERNAME|!" />
+		<parameter key="message_onbuy" value="Have fun with it." />
+	</parameters>
+</npc>

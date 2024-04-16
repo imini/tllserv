@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Archdemon" nameDescription="an archdemon" race="undead" experience="10000" speed="450" manacost="0">
+  <health now="12000" max="12000"/>
+  <look type="12" head="0" body="2" legs="97" feet="114" corpse="6068"/>
+  <targetchange interval="2000" chance="2"/>
+  <strategy attack="70" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+<defenses armor="57" defense="78">
+    <defense name="healing" speed="2000" chance="30" min="150" max="300">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="1000" chance="5" speedchange="100" duration="4000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <attacks>
+    <attack name="melee" interval="2000" min="-40" max="-762"/>
+    <attack name="physical" interval="2000" chance="45" range="7" radius="5" target="1" min="-230" max="-330">
+      <attribute key="shootEffect" value="whirlwindclub"/>
+      <attribute key="areaEffect" value="blackspark"/>
+    </attack>
+    <attack name="manadrain" interval="2000" chance="20" range="7" min="-200" max="-370">
+      <attribute key="shootEffect" value="largerock"/>
+    </attack>
+    <attack name="lifedrain" interval="2000" chance="15" radius="8" min="-300" max="-500">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="arch_wave" interval="2000" chance="12" range="7" min="-300" max="-500"/>
+  </attacks>
+    <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="You will never find the Godslayer!"/>
+    <voice sentence="YOU WILL NEVER SEE THE SUN AGAIN!"/>
+    <voice sentence="CHAMEK ATH UTHUL KARU!" yell="1"/>
+    <voice sentence="COME CLOOOOOOSER!" yell="1"/>
+    <voice sentence="THE WORLD BELONGS TO THE ARCHDEMONS!"/>
+    <voice sentence="GROOOOOOOOOOOOOOOOAR!!!"/>
+  </voices>
+  <loot capacity="800">
+<item id="1987">
+ 	<inside>
+  <item id="2195" countmax="1" chance="722"/> --boh
+  <item id="2187" countmax="1" chance="2833"/> --WoI
+  <item id="2193" countmax="1" chance="4222"/> --ankh
+  <item id="6300" countmax="1" chance="1923"/> --death ring
+  <item id="2466" countmax="1" chance="919"/> --golden armor
+  <item id="2496" countmax="1" chance="219"/> --horned helmet
+  <item id="2501" countmax="1" chance="302"/> --ceremonial mask
+  <item id="6500" countmax="3" chance="5402"/> --demonic essesance
+ 	<item id="2645" countmax="1" chance="544"/> -- steel boots
+ 	<item id="5741" countmax="1" chance="1822"/> -- skull helmet
+ 	<item id="2381" countmax="1" chance="7822"/> -- halberd
+ 	<item id="2424" countmax="1" chance="109"/> -- silver mace
+ 	<item id="2430" countmax="1" chance="1079"/> -- kaxe
+ 	<item id="7407" countmax="1" chance="3222"/> -- haunted blade
+ 	<item id="2148" countmax="100" chance1="50300" chancemax="0"/>
+ 	<item id="2152" countmax="4" chance1="9233" chancemax="0"/>
+ 	</inside>
+ 	</item>
+ 	<item id="2447" countmax="1" chance="369"/> -- twin axe
+ 	<item id="2148" countmax="100" chance1="50000" chancemax="0"/>
+ 	<item id="2148" countmax="100" chance1="40000" chancemax="0"/>
+	<item id="2152" countmax="2" chance1="9000" chancemax="0"/>
+  <item id="2173" countmax="1" chance="199"/> --AoL
+  <item id="2169" countmax="1" chance="3822"/> --timering
+  <item id="2198" countmax="1" chance="4033"/> --- elven amulet
+  <item id="2198" countmax="1" chance="4033"/> --- elven amulet
+  <item id="2529" countmax="1" chance="11000"/>
+  <item id="2392" countmax="1" chance="2003"/> -- FS
+	<item id="5954" countmax="1" chance="1000"/> -- demon horn
+	<item id="2514" countmax="1" chance="690"/> -- mms
+	<item id="2151" countmax="1" chance="2000"/> -- talon
+	<item id="2147" countmax="1" chance="2000"/> -- valuables
+	<item id="2146" countmax="2" chance="2000"/> -- valuables
+	<item id="2145" countmax="1" chance="2000"/> -- valuables
+	<item id="2150" countmax="3" chance="2000"/> -- valuables
+	<item id="2149" countmax="1" chance="2000"/> -- valuables
+  <item id="2157" countmax="1" chance="988"/> -- gold nuggets
+ 	</loot>
+</monster>
+

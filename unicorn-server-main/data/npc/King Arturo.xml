@@ -1,0 +1,50 @@
+<npc name="King Arturo" script="King Arturo.lua" autowalk="1" floorchange="1">
+	<health now="100" max="100"/>
+	<look type="130" head="0" body="132" legs="132" feet="114" addons="0"/>
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;king;noob;offer;casteldine;castle dine;lithaton;zertic;doc;natalon;grandfather;tha'reen;celeres;adanac;ashbere;goldtol;name;hail;queen;dark;magic;marks;evil;jooko;terepido;dallrim;celero;flantan;riddle" />
+		<parameter key="keyword_reply1" value="JOB? Know your manners, fool. I'm the king!" />
+		<parameter key="keyword_reply2" value="Yes, are you blind? I'm standing right here in front of you." />
+		<parameter key="keyword_reply3" value="That is just out-rageous." />
+		<parameter key="keyword_reply4" value="You are the one who should offer me free items. But I could always promote you if you're really worthy it. And I have fire bugs too." />
+    <parameter key="keyword_reply5" value="The former kings ruled from Celeres, but since this grand castle was built to my honour I decided to move here." />
+    <parameter key="keyword_reply6" value="I named this castle to Castle Dine." />
+    <parameter key="keyword_reply7" value="Lithaton is the grand continent which I rule. But it's not all. My powers reach to Dustwit aswell as Flantania Isle, and both Hagal and Gardar is under my command." />
+    <parameter key="keyword_reply8" value="Zertic has served me before, but I know he dislikes me. He shows me respect and as long as he continues with that I am satisfied. " />
+    <parameter key="keyword_reply9" value="Doc? Is that what they call him these days? Well, Doc or not, he's a man of honour." />
+    <parameter key="keyword_reply10" value="My grandfather knew Natalon. " />
+    <parameter key="keyword_reply11" value="My grandfather ruled this continent too. He lived in Celeres, though." />
+    <parameter key="keyword_reply12" value="Long ago my grand grandfather sent settlers to Dustwit, and look what they have developed today. The city Tha'Reen has become great." />
+    <parameter key="keyword_reply13" value="Celeres is a very interesting city, although I personally prefer Casteldine. All the kings before me ruled from Celeres." />
+    <parameter key="keyword_reply14" value="Adanac is to me a quite unimportant city. It is isolated and not interesting." />
+    <parameter key="keyword_reply15" value="Ashbere is the elven tree city. It's impressive even though it's built by our enemies. The elves from Ashbere are very aggressive, but they constitute no threat to us." />
+    <parameter key="keyword_reply16" value="The outlaws from Goldtol thinks they can escape my troops. We are still raiding that camp now and then to clean up a little." />
+    <parameter key="keyword_reply17" value="Don't you know my name, fool?" />
+    <parameter key="keyword_reply18" value="Hail me." />
+    <parameter key="keyword_reply19" value="A queen? Where?" />
+    <parameter key="keyword_reply20" value="Dark magic is nothing we shall discuss now. Only if you bring me true marks of evil, I will destroy them and give you the honour you are worthy of." />
+    <parameter key="keyword_reply21" value="I know only one person who is capable of dealing with the true secrets of magic, and even though I dislike him I must agree with that he knows what he does. Zertic is his name." />
+    <parameter key="keyword_reply22" value="If you bring me marks of evil I will praise your name forever, |PLAYERNAME|." />
+    <parameter key="keyword_reply23" value="We fight evil, don't we?" />
+    <parameter key="keyword_reply24" value="He is certainly amusing." />
+    <parameter key="keyword_reply25" value="I recently asked him to be my royal astrolog. He knows much about our world, too." />
+    <parameter key="keyword_reply26" value="May he rest in peace." />
+    <parameter key="keyword_reply27" value="King Celero III was my father and the former king." />
+    <parameter key="keyword_reply28" value="King Flantan is famous because of Flantania Isle which he founded." />
+<parameter key="keyword_reply29" value="John Riddle lived here long ago. He invented a cipher known as the Celix Cipher. Not many people knows how to decode it, but I think some minotaur math genious did it. He was last known to live in Ravenclaw." />
+<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="fire bug, 5468, 100;abacus, 5798, 1400;snare, 2126, 55000" />
+		<parameter key="idletime" value="100" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_sell" value="Do you have a... snare? That you wish to sell to me? I bid 55000 gold coins!" />
+    <parameter key="message_onsell" value="Thank you!" />
+		<parameter key="message_farewell" value="|PLAYERNAME|. Goodbye." />
+		<parameter key="message_walkaway" value="Noone walks out on me." />
+	</parameters>
+
+
+</npc>

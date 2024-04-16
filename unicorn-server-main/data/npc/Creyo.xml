@@ -1,0 +1,18 @@
+<npc name="Creyo" script="creyo.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="134" head="95" body="0" legs="113" feet="115" addons="1"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;cell;casteldine;celeres" />
+		<parameter key="keyword_reply1" value="Jobs are for fools." />
+		<parameter key="keyword_reply2" value="I'm glad your attentive. This is my personal cell... great petition, you see." />
+		<parameter key="keyword_reply3" value="Quite alright city, although I prefer Celeres." />
+		<parameter key="keyword_reply4" value="The city of my dreams... righ, stupid, blown-up, unattentive, stupid, fat, stupid eccentric rich people... easy to rob, did I mention that?" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello there." />
+		<parameter key="message_farewell" value="Hey! I really enjoyed our conversation! Come back! Don't leave me here! Please! (looks sad)" />
+		<parameter key="message_walkaway" value="Hey! I really enjoyed our conversation! Come back! Don't leave me here! Please! (looks sad)" />
+	</parameters>
+</npc>

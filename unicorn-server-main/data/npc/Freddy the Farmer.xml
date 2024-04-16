@@ -1,0 +1,34 @@
+<npc name="Freddy the Farmer" script="freddy the farmer.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="3" body="97" legs="115" feet="42" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;tool;food;fisherman;freddy;legend;time;town;god;army;way;celeres;adanac;king arturo;farm" />
+		<parameter key="keyword_reply1" value="I'm a humble farmer." />
+		<parameter key="keyword_reply2" value="I sell food and tools. Feel free to ask." />
+		<parameter key="keyword_reply4" value="The food I can offer you are ham, meat, pears, apples, blueberries, cherries, grapes, melons, strawberries, tomatoes, carrots, corncobs, eggs, cheeses, brown mushrooms, doughs, flours and rolls." />
+		<parameter key="keyword_reply3" value="The tools I can offer you are ropes, shovels, picks, hoes, scythes, pitchforks and rakes." />
+		<parameter key="keyword_reply5" value="He's an old friend, his name is quite strange so I just call him fisherman, just like everyone else." />
+		<parameter key="keyword_reply6" value="My name, yes." />
+		<parameter key="keyword_reply7" value="I don't know any legend. Go to the city, ask there." />
+		<parameter key="keyword_reply8" value="I don't know what time is." />
+		<parameter key="keyword_reply9" value="I left the town to live in the peace and with nature." />
+		<parameter key="keyword_reply10" value="The gods of good take care of me." />
+		<parameter key="keyword_reply11" value="I dream of times which see no need for armies or warriors." />
+		<parameter key="keyword_reply12" value="Way? Which way? I forgot where most ways go to... excuse me." />
+    <parameter key="keyword_reply13" value="Celere is to the east." />
+    <parameter key="keyword_reply14" value="Adanac is to the west." />
+    <parameter key="keyword_reply15" value="As many of the citizens of Adanac I don't care much of him. He has never done me anything good." />
+    <parameter key="keyword_reply16" value="This is my farm. How do you like it?" />
+
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="small amethyst,2150,200" />
+		<parameter key="shop_buyable" value="fire bug,5468,100;shovel,2554,10;rope,2120,40;pick,2553,20;hoe,2552,20;scythe,2550,50;pitchfork,2548,10;rake,2549,20;ham,2671,4;meat,2666,2;pear,2673,2;apple,2674,2;blueberrie,2677,1;cherrie,2679,1;grape,2681,2;melon,2682,4;strawberrie,2680,10;tomatoe,2685,5;carrot,2684,2;corncob,2686,10;egg,2695,2;cheese,2696,1;brown mushroom,2789,8;dough,2693,5;flour,2692,1;roll,2690,2" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello, |PLAYERNAME|. What brings you to my little farm?" />
+		<parameter key="message_farewell" value="Bye bye, |PLAYERNAME|. Drop by from time to time." />
+		<parameter key="message_walkaway" value="Hmph." />
+	</parameters>
+</npc>

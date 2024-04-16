@@ -1,0 +1,16 @@
+<npc name="The Oracle" script="oracle.lua" autowalk="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look typeex="1448"/>
+
+  
+	<parameters>
+		
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Be greeted, |PLAYERNAME|. I can grant you access to the city of Casteldine, if you wish." />
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|." />
+    <parameter key="message_idletimeout" value="Good bye, |PLAYERNAME|." />
+	</parameters>
+
+
+</npc>

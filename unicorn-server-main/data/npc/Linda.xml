@@ -1,0 +1,22 @@
+<npc name="Linda" script="linda.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="141" head="44" body="114" legs="36" feet="114" addons="1"/>
+	
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="ashbere;celeres;name;offer;job;casteldine" />
+		<parameter key="keyword_reply1" value="Ashbere is the elven town." />
+    <parameter key="keyword_reply2" value="I don't like Celeres much, but it's better than any other city at least." />
+    <parameter key="keyword_reply3" value="I am Linda." />
+    <parameter key="keyword_reply4" value="I don't have any possessions to give you, |PLAYERNAME|." />
+    <parameter key="keyword_reply5" value="I don't work." />
+    <parameter key="keyword_reply6" value="This city is far, far away." />
+
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Greetings, |PLAYERNAME|. It's a pleasure to meet you." />
+		<parameter key="message_farewell" value="Farewell, dear |PLAYERNAME|. One day we'll meet again." />
+		<parameter key="message_walkaway" value="Farewell, dear |PLAYERNAME|. One day we'll meet again." />
+	</parameters>
+</npc>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Obscure Ninja" nameDescription="a obscure ninja" race="venom" experience="190" speed="224" manacost="450">
+  <health now="195" max="195"/>
+  <look type="152" head="116" body="62" legs="97" feet="116" corpse="3058" addons="1"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="20"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="3"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="=-10" max="-55" poison="600"/>
+    <attack name="lifedrain" interval="1000" chance="18" range="7" min="-40" max="-65">
+      <attribute key="shootEffect" value="greenstar"/>
+    </attack>
+    <attack name="poison" interval="1000" chance="11" range="7" min="-30" max="-50">
+      <attribute key="shootEffect" value="poison"/>
+        <attribute key="areaEffect" value="poison"/>
+    </attack>
+    <attack name="speed" interval="1000" chance="4" range="7" speedchange="-300" duration="50000">
+	<attribute key="shootEffect" value="poison"/>
+    </attack>
+    <attack name="poisonfield" interval="1000" chance="9" range="7" radius="1" target="1">
+      <attribute key="shootEffect" value="energy"/>
+    </attack>
+  </attacks>
+  <defenses armor="27" defense="22">
+      <defense name="healing" interval="1000" chance="15" min="25" max="40">
+        <attribute key="areaEffect" value="redshimmer"/>
+      </defense>
+    <defense name="invisible" interval="1000" chance="14" duration="8000">
+      <attribute key="areaEffect" value="yellowbubble"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="1">
+    <summon name="assassin" interval="1000" chance="7" max="1"/>
+  </summons>
+  <voices interval="5000" chance="8">
+    <voice sentence="You are from the Marids! Die!"/>
+    <voice sentence="Feel the might of my poison."/>
+  </voices>
+  <loot capacity="500">
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2093" countmax="1" chance="7240"/> water-pipe
+    <item id="1965" countmax="1" chance="5540"/> green book
+    <item id="2381" countmax="1" chance="2300"/> helberd
+    <item id="5910" countmax="1" chance="820"/> green piece of cloth
+    <item id="2188" countmax="1" chance="2000"/> plague wand
+    <item id="2673" countmax="3" chance="14021"/> pears
+    <item id="2189" countmax="1" chance="400"/> wand of inferno
+      </inside>
+    </item>
+    <item id="2148" countmax="70" chance="70000"/> gp
+    <item id="2146" countmax="2" chance="4300"/> small sapphire
+    <item id="2672" countmax="1" chance="1251"/> dragon ham
+    <item id="2154" countmax="1" chance="500"/> yellow gem
+    <item id="2491" countmax="1" chance="700"/> crown helmet
+
+  </loot>
+</monster>

@@ -1,0 +1,16 @@
+<npc name="Tom" script="tom.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="131" head="83" body="94" legs="116" feet="82" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;help" />
+		<parameter key="keyword_reply1" value="I am a priest." />
+		<parameter key="keyword_reply21" value="Can't you kids do anything on your own?" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Greetings my child |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Take care, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="No patience, no manners." />
+	</parameters>
+</npc>

@@ -1,0 +1,25 @@
+<npc name="Se'than" script="se'than.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="63" head="114" body="113" legs="113" feet="113" addons="1"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;khamos;elf;ashbere;celeres;casteldine;king arturo;paschendale;offer;name;cowl" />
+		<parameter key="keyword_reply1" value="I am the ruler of Ashbere. I could very well be your ruler, so mind your manners." />
+		<parameter key="keyword_reply2" value="Khamos was the founder of this village. He died long ago, but left his fabulous fortune securely protected in impenetrable vaults here in Ashbere." />
+    <parameter key="keyword_reply3" value="Elves are intelligent creatures, far more intelligent than humans, as a matter of fact." />
+    <parameter key="keyword_reply4" value="A village, or perhaps even a city, which is famously known for its greatness." />
+    <parameter key="keyword_reply5" value="Celeres is a pathetic human settlement and it's only a matter of time before my troops will penetrate its defences and seize the city." />
+    <parameter key="keyword_reply6" value="Casteldine is far more well guarded than Celeres. I would almost say its thick wall and strong defence makes it an invulnerable human settlement." />
+    <parameter key="keyword_reply7" value="King Arturo is the human leader, I remember. He rules from Casteldine." />
+    <parameter key="keyword_reply8" value="Paschendale is a horrendous place, really. I would not even wish my worst enemy to go there, but some times we have to inspite of the dreadful creatures living there." />
+    <parameter key="keyword_reply9" value="What's on your mind, really, |PLAYERNAME|? Do you believe I will give you anything for coming here and disturbing?" />
+    <parameter key="keyword_reply10" value="Se'Than is elvish. You don't understand it." />
+    <parameter key="keyword_reply11" value="I remember that a man from Adanac sold me this cowl. He said it had a very interesting effect on certain people. Why don't you talk to him?" />
+    
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="A human!? What do you want?" />
+		<parameter key="message_farewell" value="Farewell, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Humans... no manners at all." />
+	</parameters>
+</npc>

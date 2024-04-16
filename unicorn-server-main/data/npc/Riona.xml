@@ -1,0 +1,26 @@
+<npc name="Riona" script="riona.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="138" head="57" body="59" legs="40" feet="76" corpse="2212"/>
+	<parameters>
+	
+	  <parameter key="module_keywords" value="1" /> 
+  <parameter key="keywords" value="job;name;offer;hercules;riona;gebby;flantania;christopher;king arturo;sword of fury" /> 
+  <parameter key="keyword_reply1" value="I work in this adventure shop. Would you perhaps like to buy some equipment?" /> 
+   <parameter key="keyword_reply2" value="Riona is elvish for ruby." />
+   <parameter key="keyword_reply3" value="I sell equipment. Read my black boards behind me for further information." />
+   <parameter key="keyword_reply4" value="It's Gebby's sister, if I'm not mistaken." />
+   <parameter key="keyword_reply5" value="Riona is my neighbor. She hates me. I don't even know why." />
+   <parameter key="keyword_reply6" value="Gebby is Hercules' sister. They appear to be each other very close." />
+   <parameter key="keyword_reply7" value="This is Flantania Isle." />
+   <parameter key="keyword_reply8" value="I think he likes me. He always gives me free food at his bar." />
+   <parameter key="keyword_reply9" value="Long live the king!" />
+   <parameter key="keyword_reply10" value="I wish I had it." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="backpack,1988,20;pick,2553,10;shovel,2554,20;rope,2120,50;torch,2050,2;1987,1,4"/>
+		
+		<parameter key="message_greet" value="Welcome! May I be at your assistance, dear |PLAYERNAME|?" /> 
+  <parameter key="message_farewell" value="Good bye then. Return anytime." /> 
+  <parameter key="message_walkaway" value="Good bye." /> 
+  
+	</parameters>
+</npc>

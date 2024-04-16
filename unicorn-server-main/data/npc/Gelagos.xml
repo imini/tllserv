@@ -1,0 +1,10 @@
+<npc name="Gelagos" script="gelagos.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="115" body="124" legs="114" feet="50" addons="0"/>
+	<parameters>
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_farewell" value="Haha! You can't catch me." />
+		<parameter key="message_walkaway" value="Haha! You can't catch me." />
+	</parameters>
+</npc>

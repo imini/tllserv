@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Quara Constrictor" nameDescription="a quara constrictor" experience="250" race="3" speed="440">
+	<health now="450" max="450"/>
+	<look type="46" corpse="6065"/>
+	<targetchange speed="2000" chance="25"/>
+	<strategy attack="100" defense="10"/>
+	<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag runonhealth="60"/>
+	</flags>
+	<immunities>
+	<immunity physical="0"/>
+	<immunity energy="0"/>
+	<immunity fire="1"/>
+	<immunity poison="1"/>
+	<immunity lifedrain="0"/>
+	<immunity paralyze="1"/>
+	<immunity outfit="0"/>
+	<immunity drunk="0"/>
+	<immunity invisible="0"/>
+	</immunities>
+	<attacks>
+		<attack name="melee" speed="2000" min="-30" max="-130"/>
+		<attack name="berserk" chance="25" speed="2000" min="-40" max="-90" range="1"/>
+	</attacks>
+	<defenses armor="28" defense="38">
+		<defense name="Poison Bomb" interval="3000" chance="10" range="1" target="0"/>
+	</defenses>
+	<voices speed="1000" chance="10">
+		<voice sentence="Boohaa!"/>
+	</voices>
+	<loot>
+	<item id="1987" countmax="1">
+      <inside>
+	<item id="5895" chance="3000"/>-- fish fin
+	<item id="2397" chance="7777"/>-- longsword
+      </inside>
+      </item>
+	<item id="2148" countmax="65" chancemax="0" chance1="70000"/> GP
+	<item id="2670" countmax="5" chancemax="0" chance1="12000"/>-- shrimp
+	<item id="2150" countmax="1" chancemax="0" chance1="6000"/>-- small amethyst
+	<item id="2460" chance="8421"/>-- brass helmet
+	<item id="2465" chance="7965"/>-- brass armor
+	</loot>
+</monster>

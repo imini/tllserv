@@ -1,0 +1,40 @@
+<npc name="Alexander" script="alexander.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="132" head="27" body="97" legs="68" feet="58" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;name;casteldine;natalon;lithaton;celeres;king;arturo;equipment;quest;fairytale;scorpion;library;emma;jooko;doc;zertic;joseph;terepido;penim;churry;tommy;riddle" />
+		<parameter key="keyword_reply1" value="I work here as an equipment seller." />
+    <parameter key="keyword_reply2" value="Well, what do you need? Ropes, shovels, torches, I have it all." />
+    <parameter key="keyword_reply3" value="Alexander is a very common name. I want to be unique." />
+    <parameter key="keyword_reply4" value="A boring city, I don't even know why I live here. I should move to Celeres..." />
+    <parameter key="keyword_reply5" value="Funny guy. I don't even know who it is, but the other day I noticed his grave here in the city. Peculiar." />
+    <parameter key="keyword_reply6" value="Lithaton is a great continent. I wonder if anyone has ever explored it all." />
+    <parameter key="keyword_reply7" value="Celeres is very far to the north. Some day I will travel there and settle down in a nice house." />
+    <parameter key="keyword_reply8" value="HAIL THE KING!" />
+    <parameter key="keyword_reply9" value="HAIL THE KING!" />
+    <parameter key="keyword_reply10" value="I sell equipments, yes. Why?" />
+    <parameter key="keyword_reply11" value="I am more of a reader. I read about quests and adventurers at the library. The other day I read a very interesting fairytale, by the way." />
+    <parameter key="keyword_reply12" value="I read a fairytale about a big mountain in the Fog Bay. It was about how the scorpions killed everyone on it and slowly turned its flowering nature into a waste dump." />
+    <parameter key="keyword_reply13" value="All I know about scorpions is that they can kill you and that they turned a mountain into a waste dump." />
+    <parameter key="keyword_reply14" value="I visit the library often. I'm a very good friend with Emma." />
+    <parameter key="keyword_reply15" value="She is sometimes quite upset with the noisy visitors, but if you come to her at the right moment she is as nice as ever." />
+    <parameter key="keyword_reply16" value="He is worth a visit. His humour is unbeatable." />
+    <parameter key="keyword_reply17" value="The man is incredible, strong like an ox. The perfect blacksmith, but has he been more than that?" />
+    <parameter key="keyword_reply18" value="He used to be one of the worlds most famous fighters, but now he sells runes. What a shame." />
+    <parameter key="keyword_reply19" value="Joseph is my dear friend. We had some great times in our youth, but nowadays he's become a little... stilted. If you know what I mean." />
+    <parameter key="keyword_reply20" value="He is in the service of the king." />
+    <parameter key="keyword_reply21" value="He came from the elven city." />
+    <parameter key="keyword_reply22" value="I don't know him." />
+    <parameter key="keyword_reply23" value="I hardly know him." /> 
+<parameter key="keyword_reply24" value="That Riddle guy invented this Celix Cipher if I don't remember it incorrectly. He lived quite a long time ago, though." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="rope, 2120, 40;shovel, 2554, 10;pick, 2553, 50;torch, 2050, 2;brown backpack, 1988, 10;backpack, 2000, 12;bag, 1993, 4;brown bag, 1987, 7;fishing rod, 2580, 95;machete, 2420, 25;scythe, 2550, 50;fire plant,7249,480;trap, 2578, 280;watch, 2036, 20;inkwell, 2600,8;crowbar, 2416, 260;candelabrum, 2041, 8;candlestick, 2047, 3;lamp, 2044, 8;document, 1968, 12;parchment, 1969, 8;scroll, 1949, 5;black book, 1972, 15;brown book, 1971, 15;red rose, 2744, 12" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Aah, |PLAYERNAME|. Welcome!" />
+		<parameter key="message_farewell" value="Come visit me any time." />
+		<parameter key="message_walkaway" value="Goodbye, |PLAYERNAME|." />
+	</parameters>
+</npc>

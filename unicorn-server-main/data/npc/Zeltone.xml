@@ -1,0 +1,28 @@
+<npc name="Zeltone" script="zeltone.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="130" head="114" body="0" legs="114" feet="95" addons="0"/>
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;embrace of the lost lands;spark of the phoenix;wisdom of solitude;fire of the suns;blessing;omere;caranim;dustwit;tha'reen;offer;name;" />
+		<parameter key="keyword_reply1" value="I would call myself guardian of an old secret... or perhaps a blesser." />
+		<parameter key="keyword_reply2" value="I don't know much about who has the knowledge of it, but if I'm not completely wrong, he can be found somewhere north of Celeres... or wait, could be west. Or perhaps in the middle?" />
+		<parameter key="keyword_reply3" value="A nimble elf enchants people with the spark of the phoenix. He was actually a friend of mine long ago, Caranim, but we were separated and have been ever since. Well, if you want to find him, he's living in a giant tree south of Ashbere." />
+		<parameter key="keyword_reply4" value="Omere, who lives on a small island in the Sherian Seas, teaches this blessing. You can travel to him from Agatone, but remember to stay nice to the old man." />
+		<parameter key="keyword_reply5" value="I remember someone in Casteldine used to be able to bless people with the fire of the suns... but it was a few hundred years ago." />
+		<parameter key="keyword_reply6" value="There are 5 different blessings which you can recieve from five different persons. These are the Spark of the Phoenix, the Embrace of the Lost Lands, the Fire of the Suns, the Wisdom of Solitude and the Spiritual Shielding, the one that I may bless you with." />
+    <parameter key="keyword_reply7" value="Omere is the old sage teaching the wisdom of solitude. He lives on a small island which is accessed via Agatone." />
+    <parameter key="keyword_reply8" value="Caranim is an old friend to me." />
+    <parameter key="keyword_reply9" value="This island is Dustwit." />
+    <parameter key="keyword_reply10" value="That's the human city in the far west, right?" />
+    <parameter key="keyword_reply11" value="I have nothing to offer you, |PLAYERNAME|, except the answers to your questions." />
+    <parameter key="keyword_reply12" value="I am Zeltone." />
+		<parameter key="talkdelaytime" value="2"/>
+		<parameter key="message_greet" value="|PLAYERNAME|! I have forseen your arrival! I have the answers for all of your questions." />
+		<parameter key="message_farewell" value="Farewell, brave human." />
+		<parameter key="message_walkaway" value="Live in peace!" />
+	</parameters>
+
+
+</npc>

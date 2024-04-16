@@ -1,0 +1,48 @@
+<npc name="Zertic" script="raone.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="145" head="114" body="0" legs="114" feet="57" addons="3"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;ultimate explosion;poison storm;berserk;spells;scroll;casteldine;hahahahha;paschendale;status;society;career;chosen;quest;mission;natalon;arturo;doc;dark;celeres;king;tommy;shoulder;pad;wing;penim;jooko;dallheim;dallrim;alfred;hack sparry;energy" />
+		<parameter key="keyword_reply1" value="I sell runes. And I prefer not to talk about the my current status in the society it has brought." />
+		<parameter key="keyword_reply2" value="I am the great Zertic. You should know my name, maggot." /> 
+		<parameter key="keyword_reply3" value="I sell runes. How straight must my answer be for you to understand?" /> 
+		<parameter key="keyword_reply4" value="This subject is taboo! Only the brave shall speak out loud about this spell. Truly it has a devastating result, and only may you learn its dark secret through the spell scrolls." /> 
+		<parameter key="keyword_reply5" value="This subject is taboo! Only the brave shall speak out loud about this spell. Truly it has a devastating result, and only may you learn its dark secret through the spell scrolls." /> 
+		<parameter key="keyword_reply6" value="This subject is taboo! Only the brave shall speak out loud about this spell. Truly it has a devastating result, and only may you learn its dark secret through the spell scrolls." /> 
+		<parameter key="keyword_reply7" value="I am a great magican, and I know countless spells. But there are still ones which not even I knows the secret of. One day I shall find the spell scrolls which teaches its owner this dark magic." /> 
+		<parameter key="keyword_reply8" value="Spell scrolls are from ancient times. Very few, if nowadays anyone, knows their true secrets. There are many stories about these scrolls, but the most interesting is the one which took place in Paschendale." /> 
+		<parameter key="keyword_reply9" value="I chose to settle down from my career here in Casteldine. It's a very nice town which suits my needings perfectly fine." /> 
+		<parameter key="keyword_reply10" value="Magic is a very interesting art. Difficult, but interesting, yes... I have always been fascinated by its mystic nature." /> 
+		<parameter key="keyword_reply11" value="Paschendale is said to hide many secrets, but the spell scrolls are probably the most dark one of them. The ancient spell scrolls are said to be hidden there, waiting for the day the chosen one finds them." /> 
+		<parameter key="keyword_reply12" value="My social status is of great importance to me, but I'm afraid my current job decreases it." /> 
+		<parameter key="keyword_reply13" value="I see myself as very important in our society. I hope you agree with me." />
+ 		<parameter key="keyword_reply14" value="I have put my career behind me. There's nothing more to say." /> 				
+ 		<parameter key="keyword_reply15" value="The chosen ones are those who are said to some day find the mystic spell scrolls and unleash its dark magic. Perhaps, one day, this one will come to me for guidance." />
+ 		<parameter key="keyword_reply16" value="Many people are searching for the spell scrolls. I don't know if anyone have yet found them, but I'm very doubtful someone have." />
+ 		<parameter key="keyword_reply17" value="I wish not to speak about missions, |PLAYERNAME|." />
+ 		<parameter key="keyword_reply18" value="He was a great man. I wish I was born so I could have known him." />
+ 		<parameter key="keyword_reply19" value="I have respect for the king, although I don't like the way he controls his land." />
+ 		<parameter key="keyword_reply20" value="I know who Doc is. I am actually one of the few ones who knows who this great man actually is." />
+ 		<parameter key="keyword_reply21" value="Dark magic is nothing you should talk about. I have heard people gets arrested in Celeres for speaking of this mystic magic." />
+ 		<parameter key="keyword_reply22" value="Celeres lays far to the north. This city is of no interest." />
+		<parameter key="keyword_reply23" value="I have respect for the king, although I don't like the way he controls his land." />
+    		<parameter key="keyword_reply24" value="Bah! Don't speak of that fool in front of me. He's a coward and a worm." />
+    		<parameter key="keyword_reply25" value="Go seek the queen of the banshees." />
+    		<parameter key="keyword_reply26" value="Go seek the queen of the banshees." />
+    		<parameter key="keyword_reply27" value="Go seek the queen of the banshees." />
+    		<parameter key="keyword_reply28" value="You better be careful with this guy." />
+    		<parameter key="keyword_reply29" value="He's not funny at all." />
+    		<parameter key="keyword_reply30" value="He's Dallrim's son." />
+    		<parameter key="keyword_reply31" value="Dallrim used to be quite a warrior." />
+    		<parameter key="keyword_reply32" value="Alfred owns the local inn. I've personally never been there, but from what I have been told it's pretty comfortable." />
+    		<parameter key="keyword_reply33" value="Captain Hack Sparry is pathetic." />
+    		<parameter key="keyword_reply34" value="Doors are for fools." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Greetings, |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Farewell." />
+		<parameter key="message_walkaway" value="No respect at all." />
+	</parameters>
+</npc>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<npc name="Freya" script="freya.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="138" head="44" body="114" legs="36" feet="114" addons="0"/>
+
+
+<parameters>
+
+<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="name;job;offer;celeres;adanac;casteldine;tha'reen;mailner;agorn;joseph;stephanie;samahat;lithaton postal service;king arturo;parcel;letter;ravenclaw" />
+		<parameter key="keyword_reply1" value="My name is Freya Mailner." />
+    <parameter key="keyword_reply2" value="I am the Postmaster General of Lithaton Postal Service." />
+    <parameter key="keyword_reply3" value="I can offer you privilegie to join under guild. But many missions are required for you to become something out of the ordinary, though." />
+    <parameter key="keyword_reply4" value="Celeres is the town west of us. It was the former capital." />
+    <parameter key="keyword_reply5" value="Adanac is a quite peaceful city." />
+    <parameter key="keyword_reply6" value="King Arturo lives here. This city is the grandest there is, and it's also, obviously, the capital." />
+    <parameter key="keyword_reply7" value="Tha'Reen is the newly established settlement on the remote desert island Dustwit." />
+     <parameter key="keyword_reply8" value="My last name is Mailner." />
+    <parameter key="keyword_reply9" value="Agorn is doing fine in his duties. I am afraid to say that he is getting a little... dizzy, though." />
+    <parameter key="keyword_reply10" value="He is a fine and responsible man. But he dare not take any risks, thus he is having the position he has." />
+    <parameter key="keyword_reply11" value="It's a shame such a beautiful lady as Stephanie is bound to work behind a desk." />
+    <parameter key="keyword_reply12" value="Samahat is our representative in Tha'Reens post office." />
+    <parameter key="keyword_reply13" value="The Lithaton Postal Service is a grand system which enables people to send parcels and letters to all cities." />
+    <parameter key="keyword_reply14" value="He is a grand man." />
+    <parameter key="keyword_reply15" value="I don't sell parcels. I'm a bit too important for that, aren't I?" />
+    <parameter key="keyword_reply16" value="I don't sell letters. I'm a bit too important for that, aren't I?" />
+    <parameter key="keyword_reply17" value="Our last post office was located in the Ravenclaw Swamp. Unfortunately, the place was attacked by countless trolls and we had to escape to survive. The building is nowadays so ramshackle it's useless, thus we built this new post office." />
+    <parameter key="idletime" value="200" />
+    <parameter key="message_greet" value="Welcome to the new Ravenclaw Post Office, |PLAYERNAME|."/>
+    <parameter key="message_farewell" value="So, it's time to leave. Goodbye."/>
+    <parameter key="message_walkaway" value="Well, farewell then."/>
+</parameters>
+</npc>

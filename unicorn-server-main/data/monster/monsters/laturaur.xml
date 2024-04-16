@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Laturaur" nameDescription="Laturaur" race="fire" experience="3200" speed="280" manacost="600">
+  <health now="4100" max="4100"/>
+  <look type="237" corpse="6364"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="20"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" max="-250"/>
+    <attack name="firefield" interval="2000" chance="15" radius="3"/>
+      <attack name="fire" interval="2000" chance="27" radius="4" target="1" min="-200" max="-250">
+        <attribute key="shootEffect" value="fire"/>
+        <attribute key="areaEffect" value="fire"/>
+      </attack>
+	<attack name="fire" interval="2000" chance="21" range="7" radius="2" target="1" min="-180" max="-280">
+        <attribute key="shootEffect" value="fire"/>
+        <attribute key="areaEffect" value="explosion"/>
+      </attack>
+  </attacks>
+  <defenses armor="40" defense="70">
+    <defense name="healing" interval="1000" chance="10" min="300" max="600">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </defense>
+    <defense name="speed" interval="1000" chance="15" speedchange="300" duration="6000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="2">
+    <summon name="Fire Elemental" interval="1000" chance="10" max="1"/>
+    <summon name="Fire Devil" interval="1000" chance="17" max="1"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="FIRE!"/>
+    <voice sentence="FSCH!"/>
+    <voice sentence="And then there be peace!" yell="1"/>
+  </voices>
+  <loot>
+ <item id="1987" chance="100000" > -- bag
+    <inside>
+      <item id="2151" chance="11990" countmax="4" /> -- talon
+      <item id="2485" chance="82838" /> -- doublet
+      <item id="2498" chance="6500" /> -- rh
+      <item id="2663" chance="32011" /> -- mystic turban
+      <item id="2445" chance="922" /> -- crystal mace
+      <item id="2438" chance="2444" /> -- epee
+      <item id="2434" chance="4332" /> -- d hammer
+      <item id="2436" chance="4221" /> -- ss
+    </inside>
+    </item>
+    <item id="2148" chance="100000" countmax="2" /> -- gold coin
+    <item id="2179" chance="10005" countmax="1" /> -- gold ring
+    <item id="2476" chance="900" /> -- knight armor
+    <item id="2144" chance="4429" countmax="6" /> -- black pearl
+    <item id="2425" chance="10000" /> -- obsidian lance
+    <item id="2423" chance="19284" /> -- clerical mace
+    <item id="2123" chance="4902" /> -- roh
+    <item id="2121" chance="14433" /> -- wedding ring
+    <item id="2134" chance="14422" /> -- silver brooch
+    <item id="2133" chance="11112" /> -- ruby necklace
+    <item id="2137" chance="1111" /> -- some golden leaves
+    <item id="2136" chance="3040" /> -- demonbone amulet  
+   
+     </loot>
+</monster>
+

@@ -1,0 +1,25 @@
+<npc name="Riddler" script="riddler.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+<look type="48" head="0" body="0" legs="0" feet="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="dark time;crunors cottage;crunor's cottage;master;tower of madness;minto'dracir;mathemagic;altar;immortality;offer;apprentice;1+1;surreal numbers;master of magic" />
+		<parameter key="keyword_reply1" value="We live in the dark times, you fool!" />
+		<parameter key="keyword_reply2" value="I secretely released a bunny from there and enchanted it with many dark spells." /> 
+		<parameter key="keyword_reply3" value="I secretely released a bunny from there and enchanted it with many dark spells." /> 
+    		<parameter key="keyword_reply4" value="My master was Foshnar, but not anymore. Partly because he is no more, and partly because he was weak enough to succumb to the human weakness death." />
+    		<parameter key="keyword_reply5" value="This is no tower of madness, it's a great necromantic altar which I built long ago." />
+    		<parameter key="keyword_reply6" value="He is the master of mathemagics." />
+    		<parameter key="keyword_reply7" value="Mathemagic is the surreal numbers which exists around us, what everything is based upon." />
+    		<parameter key="keyword_reply8" value="This is a necromantic altar built to Foshnar by me." />
+    		<parameter key="keyword_reply9" value="Immortality is the ultimate goal for everyone, the highest one can achieve." />
+    		<parameter key="keyword_reply10" value="You are very stupid, indeed. Death awaits those who fail my test of the three seals! So, death is my offer." />
+		<parameter key="keyword_reply11" value="I am more than so, fool!" />	
+<parameter key="keyword_reply13" value="The surreal numbers are advanced form of mathemagics. Only one person, the master of magic, knows them all." />	
+<parameter key="keyword_reply14" value="That would be Minto'Dracir, I believe." />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hehehe! Another fool, terrific." />
+		<parameter key="message_farewell" value="Every step you take brings you new answers." />
+	</parameters>
+</npc>

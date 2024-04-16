@@ -1,0 +1,39 @@
+<npc name="Bizre" script="Bizre.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="134" head="21" body="21" legs="40" feet="116" addons="1"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;ammunition;tha'reen;golden;name;guild;paladin;quit;archdemons;dammar;fajera;baladie;raspuita;dawar;el-marees;bint;bakkir;juanita;samahat;zaim;petros" />
+		<parameter key="keyword_reply1" value="I have no job. I used to be a nimble paladin though, perhaps one of the best. But I quitted." />
+		<parameter key="keyword_reply2" value="I have some bows and crossbows to spare, I suppose. And some ammunition of course." />
+    <parameter key="keyword_reply3" value="I have the normal bolts and arrows, of course, but also piercing bolts, onyx arrows and sniper arrows." />
+    <parameter key="keyword_reply4" value="I'm not spending much time outside my house, so I can't pretend like I know how it looks like. But the name is nice." />
+    <parameter key="keyword_reply5" value="Ah, so you have heard about my golden bow... I am very proud of it. You see, I'm the only owner of one. They are very rare." />
+    <parameter key="keyword_reply6" value="My name is Bizre, dear |PLAYERNAME|." />
+    <parameter key="keyword_reply7" value="The paladins guild has been empty for several years. A shame, really, to see such a nice building go wasted." />
+    <parameter key="keyword_reply8" value="I used to be a very skilled paladin. I trained a lot at the paladins guild... when it was open, of course." />
+    <parameter key="keyword_reply9" value="I quitted because of my back. It's not what it used to be. I suppose I'm getting old." />
+    <parameter key="keyword_reply10" value="Undeniably an interestin subject. I have never had any success in my researches at this subject, but still... there's something I know I have missed." />
+    <parameter key="keyword_reply11" value="I don't talk to other people in this town." />
+    <parameter key="keyword_reply12" value="I don't talk to other people in this town." />
+    <parameter key="keyword_reply13" value="I don't talk to other people in this town." />
+    <parameter key="keyword_reply14" value="I don't talk to other people in this town." />
+    <parameter key="keyword_reply15" value="He is a true warrior." />
+    <parameter key="keyword_reply16" value="I don't talk to other people in this town." />
+    <parameter key="keyword_reply17" value="I don't talk to other people in this town." />
+    <parameter key="keyword_reply18" value="I don't talk to other people in this town." />
+    <parameter key="keyword_reply19" value="I don't talk to other people in this town." />
+    <parameter key="keyword_reply20" value="I don't talk to other people in this town." />
+    <parameter key="keyword_reply21" value="I don't talk to other people in this town." />
+    <parameter key="keyword_reply22" value="I don't talk to other people in this town." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="royal spear, 7378, 20;spear, 2389, 10;crossbow, 2455, 500;bow, 2456, 400;sniper arrow, 7464, 3;onyx arrow, 7365, 5;arrow, 2544, 2;piercing bolt, 7363, 4;bolt, 2543, 3" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hi." />
+		<parameter key="message_farewell" value="Bye." />
+		<parameter key="message_walkaway" value="Bye." />
+	</parameters>
+</npc>
+

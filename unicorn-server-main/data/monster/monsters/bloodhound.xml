@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blood Hound" nameDescription="a blood hound" race="blood" experience="70" speed="220" manacost="255">
+  <health now="45" max="45"/>
+  <look type="27" head="0" body="0" legs="0" feet="0" corpse="2826"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="8"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-19" max="-92"/>
+    <attack name="lifedrain" interval="2000" chance="15" range="1" min="-20" max="-45"/>
+  </attacks>
+  <defenses armor="9" defense="17">
+    <defense name="speed" interval="1000" chance="9" speedchange="231" duration="9000">
+      <attribute key="areaEffect" value="blackspark"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <loot capacity="100">
+  <item id="2788" countmax="1" chance="1999"/>
+  <item id="2790" countmax="1" chance="2044"/>
+  <item id="2795" countmax="3" chance="6044"/>
+  <item id="2792" countmax="1" chance="5344"/>
+    <item id="2529" countmax="1" chance="2000"/>
+  </loot>
+</monster>

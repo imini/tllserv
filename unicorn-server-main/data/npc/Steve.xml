@@ -1,0 +1,44 @@
+<npc name="Steve" script="Steve.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="76" body="96" legs="115" feet="58" addons="1"/>
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="celeres;offer;food;bar;lifestyle;job;pire vam;quest;permission;king;casteldine;arturo;stephanie;andrew;sally;creyo;dixi;katie;johan;rooster;lendan;steve;caroline;sigiric;sheriff;academy" />
+		<parameter key="keyword_reply1" value="I like this city. I am glad I recieved permission to set up this little bar here." />
+    <parameter key="keyword_reply2" value="Please sit down - I can serve you ham or meat. or an obsidian knife." />
+    <parameter key="keyword_reply3" value="Well, ham or meat?" />
+    <parameter key="keyword_reply4" value="Welcome to my bar, |PLAYERNAME|... it might not be much to the world but I like it." />
+    <parameter key="keyword_reply5" value="You should try it. Every day is a new day filled with fun." />
+    <parameter key="keyword_reply6" value="Job? No no, Steve ain't working. I run this little bar just to meet people and have a talk over a grab of food. I live a relaxed lifestyle." />
+    <parameter key="keyword_reply7" value="Heard of him, not sure of what he really is. I think it's some ghost story." />
+    <parameter key="keyword_reply8" value="Quests and so are ways to much work, in my opinion. I rather prefer relaxing instead." />
+    <parameter key="keyword_reply9" value="It was a lot of work, but eventually I recieved my permission to open this little bar." />
+    <parameter key="keyword_reply10" value="Woah! Have you ever met a more strict guy? Just his name makes me rigid. He should loosen up a little - throw a party or so." />
+    <parameter key="keyword_reply11" value="That's where the king lives." />
+    <parameter key="keyword_reply12" value="Woah! Have you ever met a more strict guy? Just his name makes me rigid. He should loosen up a little - throw a party or so." />
+    <parameter key="keyword_reply13" value="I think the poor girl has got a crush on me. I don't want a girl to hang around my neck, though." />
+    <parameter key="keyword_reply14" value="We've had a beer or two... or three. Some times... or well, quite often. Well, I like him." />
+    <parameter key="keyword_reply15" value="I think that's the girl who was arrested recently." />
+    <parameter key="keyword_reply16" value="Creyo is a thief. I despise thieves." />
+    <parameter key="keyword_reply17" value="Dixi is fun to talk to. She is so... weird." />
+    <parameter key="keyword_reply18" value="Katie is a nice girl, but too elegant for me. She is probably some sort of nobility, just like Rooster and those guys." />
+    <parameter key="keyword_reply19" value="Johan is scaring me. I don't know why, but it's his way of talking, walking, moving, everything." />
+    <parameter key="keyword_reply20" value="Rooster is wealthy. He earned millions on his fashion clothes." />
+    <parameter key="keyword_reply21" value="Lendan has a brother." />
+    <parameter key="keyword_reply22" value="I'm The Steveminator, |PLAYERNAME|." />
+    <parameter key="keyword_reply23" value="I like her hat. I think I'm gonna ask her where she had it from." />
+    <parameter key="keyword_reply24" value="Old guy. Boring guy." />
+    <parameter key="keyword_reply25" value="Huh? Not much to say about him. Think he owns the town." />
+    <parameter key="keyword_reply26" value="The Celerian Academy, where have I heard it before?" />
+    
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="meat, 2666, 4;ham, 2671, 6;" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Heya." />
+		<parameter key="message_farewell" value="Bye, then. Come back anytime." />
+		<parameter key="message_walkaway" value="Goodbye... I suppose." />
+	</parameters>
+</npc>
+

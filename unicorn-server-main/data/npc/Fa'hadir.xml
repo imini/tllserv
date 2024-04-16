@@ -1,0 +1,22 @@
+<npc name="Fa'hadir" script="Fa'hadir.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="80" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;djinn;umar;falor;caiareus;otarn;war;ninja" />
+		<parameter key="keyword_reply1" value="I am just fighting." />
+    <parameter key="keyword_reply2" value="Djinns are far more smarter than human scums." />
+    <parameter key="keyword_reply3" value="Umar is the greatest of them all." />
+    <parameter key="keyword_reply4" value="Falor, I wish I will kill him some day." />
+    <parameter key="keyword_reply5" value="He guards the gate and believes himself to be stronger than me." />
+    <parameter key="keyword_reply6" value="Otarn just reads books. He is not interesting in any way." />
+    <parameter key="keyword_reply7" value="We are currently fighting the ninjas and the efreet. It's just a matter of time before they're both defeated, though." />
+    <parameter key="keyword_reply8" value="Stupid humans." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Oh. This was what I least expected in my mighty fortress... a filthy human! What can you do for me,  |PLAYERNAME|?" />
+		<parameter key="message_farewell" value="Goodbye, human. I will always remember you... unless I forgot you, of course." />
+		<parameter key="message_walkaway" value="Farewell, human." />
+	</parameters>
+</npc>

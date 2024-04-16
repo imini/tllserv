@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pire Vam" nameDescription="Pire Vam" race="undead" experience="1090" speed="280" manacost="0">
+  <health now="1450" max="1450"/>
+  <look type="68" head="0" body="0" legs="0" feet="0" corpse="2956"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="80" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="78" attack="58"/>
+    <attack name="lifedrain" interval="1000" chance="20" range="1" min="-55" max="-155"/>
+    <attack name="speed" interval="1000" chance="12" range="7" speedchange="-400" duration="30000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="physical" interval="1000" chance="7" range="4" min="-23" max="-50">
+      <attribute key="areaEffect" value="explosion"/>
+    </attack>
+    <attack name="poison" interval="1000" chance="17" range="7" min="-50" max="-140">
+      <attribute key="shootEffect" value="poison"/>
+      <attribute key="areaEffect" value="redspark"/>
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+  </attacks>
+  <defenses armor="42" defense="40">
+    <defense name="outfit" interval="1000" chance="1" monster="bat" duration="6000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="healing" interval="1000" chance="25" min="50" max="100">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="BLOOD!" yell="1"/>
+    <voice sentence="My family has not died in vain!" yell="1"/>
+    <voice sentence="I HAVE COME TO AVENGE THIS UNJUSTICE!"/>
+    <voice sentence="A living human. Come and let me take care of you!"/>
+    <voice sentence="I shall avenge my death!"/>
+  </voices>
+  <loot capacity="1000">
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2541" countmax="1" chance="11000"/>
+    <item id="2172" countmax="1" chance="200"/>
+    <item id="2402" countmax="1" chance="2200"/>
+    <item id="2127" countmax="1" chance="200"/>
+    <item id="2747" countmax="1" chance="18000"/>
+    <item id="2396" countmax="1" chance="2300"/>
+    <item id="2647" countmax="1" chance="6444"/>
+    <item id="2645" countmax="1" chance="1444"/>
+    <item id="2412" countmax="1" chance="15000"/>
+    <item id="2383" countmax="1" chance="1000"/>
+    <item id="2534" countmax="1" chance="1100"/>
+      </inside>
+    </item>
+    <item id="2145" countmax="8" chance="10444"/>
+    <item id="2356" countmax="1" chance="3922"/>
+    <item id="2144" countmax="1" chance="1500"/>
+    <item id="2148" countmax="80" chance="75000"/>
+    <item id="2649" countmax="1" chance="8000"/>
+    <item id="2229" countmax="1" chance="10000"/>
+    <item id="2479" countmax="1" chance="400"/>
+  </loot>
+</monster>

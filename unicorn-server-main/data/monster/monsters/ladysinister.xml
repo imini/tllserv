@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lady Sinister" nameDescription="Lady Sinister" race="undead" experience="4300" speed="340" manacost="0">
+  <health now="2400" max="2400"/>
+  <look type="149" head="114" body="38" legs="114" feet="114" addons="3" corpse="3065"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+<defenses armor="40" defense="65">
+    <defense name="healing" speed="2000" chance="30" min="120" max="180">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <attacks>
+    <attack name="melee" interval="2000" min="-40" max="-250"/>
+    <attack name="lifedrain" interval="1000" chance="18" length="5" spread="0" min="-330" max="-400">
+      <attribute key="areaEffect" value="mortarea"/>
+   	</attack>
+    <attack name="apocalypse" interval="2000" chance="5"/>
+<attack name="lifedrain" interval="2000" chance="22" radius="5" target="0" min="-260" max="-370">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="physical" interval="1000" chance="14" range="5" target="1" min="-150" max="-240">
+      <attribute key="shootEffect" value="suddendeath"/>
+    </attack>
+  </attacks>
+    <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Once you come you won't leave!"/>
+    <voice sentence="Close your eyes!"/>
+    <voice sentence="I'm the queen of darkness!" yell="1"/>
+  </voices>
+  <loot capacity="800">
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2144" countmax="5" chance="30000"/>
+    <item id="2425" countmax="1" chance="11000"/>
+    <item id="2430" countmax="1" chance="4000"/>
+    <item id="2426" countmax="1" chance="2500"/>
+    <item id="2391" countmax="1" chance="7400"/>
+    <item id="2476" countmax="1" chance="2650"/>
+    <item id="2169" countmax="1" chance="6550"/>
+    <item id="2126" countmax="1" chance="2655"/>
+    <item id="2129" countmax="1" chance="5892"/>
+    <item id="2229" countmax="3" chance="5435"/>
+      </inside>
+    </item>
+    <item id="2195" countmax="1" chance="4200"/>
+    <item id="2477" countmax="1" chance="1486"/>
+    <item id="2792" countmax="1" chance="11500"/>
+    <item id="2529" countmax="1" chance="4000"/>
+    <item id="2187" countmax="1" chance="4420"/>
+    <item id="2141" countmax="1" chance="1632"/>
+  </loot>
+</monster>
+

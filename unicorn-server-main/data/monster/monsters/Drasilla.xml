@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Drasilla" nameDescription="Drasilla" race="blood" experience="0" speed="170" manacost="0">
+  <health now="1920" max="1920"/>
+  <look type="39" head="0" body="0" legs="0" feet="=" corpse="2881"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="78"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="100"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-42" max="-130"/>
+    <attack name="fire" interval="2000" chance="25" min="-170" max="-190" range="7" radius="4" target="1">
+      <attribute key="areaEffect" value="firearea"/>
+      <attribute key="shootEffect" value="fire"/>
+    </attack>
+    <attack name="fire" interval="2000" chance="23" min="-115" max="-190" length="8" spread="3">
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+  </attacks>
+  <defenses armor="32" defense="33">
+    <defense name="light healing" interval="6000" chance="65" min="60" max="90"/>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="FCHHHHHHHH!"/>
+    <voice sentence="GROOOOAAAAAAAAR!"/>
+  </voices>
+</monster>

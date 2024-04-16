@@ -1,0 +1,35 @@
+<npc name="Norton" script="norton.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="133" head="83" body="96" legs="115" feet="82" addons="2"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;disease;adanac;casteldine;king arturo;spell;scroll;dark magic;snare;tharos;dawar;ann;henry always;stefan;edwyn;flynn;johanne;harzon;zertic;natalon" />
+		<parameter key="keyword_reply1" value="I am a mage. I'm selling runes." />
+		<parameter key="keyword_reply2" value="My name is Norton." /> 
+		<parameter key="keyword_reply3" value="Check my, cough ... excuse me, I caught some kind of disease yesterday... blackboards." /> 
+		<parameter key="keyword_reply4" value="Yes, I think I caught a cough yesterday in the storm." /> 
+    <parameter key="keyword_reply5" value="Adanac is my city. Well, my type of city, at least." /> 
+    <parameter key="keyword_reply6" value="Casteldine. That's where the king and Zertic are living." /> 
+    <parameter key="keyword_reply7" value="The king lives in Casteldine, in his grand castle. I have been there once when I payed my taxes." /> 
+    <parameter key="keyword_reply8" value="I know many spells." /> 
+    <parameter key="keyword_reply9" value="Spell scrolls... I have heard about them, but I don't know much more than that it teaches its possessor dark magic." /> 
+    <parameter key="keyword_reply10" value="Dark magic is taboo in my places. It usually has devastating or terrible affects. For example, the snare necklace is said to kill anyone who wears it." /> 
+    <parameter key="keyword_reply11" value="The snare is of course not a normal snare. It is the possession of two dark magicans living in a tower in Tharos." /> 
+    <parameter key="keyword_reply12" value="This is the ruin city in the western parts of the Fields of Wilderness. You should not travel there unless you are prepared to face dangers." /> 
+    <parameter key="keyword_reply13" value="Dawar is a colleague who lives in Tha'Reen. He has helped me once, and I made sure he recieved a cloak from the Celerian Academy as a thanks." />
+    <parameter key="keyword_reply14" value="Obviously, she is a handsome girl - her mothers beauty was extremely conspicuous." /> 
+    <parameter key="keyword_reply15" value="He is wealthy, but ignores the poor. This is his mistake." /> 
+    <parameter key="keyword_reply16" value="I know there is something he hides from me. I just can't work out what." /> 
+    <parameter key="keyword_reply17" value="He is crazy, hehe... in a funny way, though." /> 
+    <parameter key="keyword_reply18" value="Flynn is so nice. Like all other temple monks, I have noticed." /> 
+    <parameter key="keyword_reply19" value="Isn't that the girl working in the bank? I heard he outfit is pretty hard to obtain." /> 
+    <parameter key="keyword_reply20" value="He was the one who sailed Natalon to Casteldine when they needed him the most." /> 
+		<parameter key="keyword_reply21" value="He's indeed very powerful." /> 
+		<parameter key="keyword_reply22" value="He saved Casteldine." /> 
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, what brings you to me?" />
+		<parameter key="message_farewell" value="Good bye |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Yeah - just go." />
+	</parameters>
+</npc>

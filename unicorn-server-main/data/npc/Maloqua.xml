@@ -1,0 +1,28 @@
+<npc name="Maloqua" script="maloqua.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="51" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="djinns;tha'reen;dustwit;alusir;req'ior;taa'feal;falor;malos'iquar;marid;green;fighting spirit;enchanted chicken wing;sweat;magic sulphur;blue;magic" />
+		<parameter key="keyword_reply1" value="Djinns have always been their foes superior. Only when they tend to war each other, is when the wars lasts for long." />
+    <parameter key="keyword_reply2" value="A pathetic human village. Remind me to destroy it someday." />
+    <parameter key="keyword_reply3" value="Dustwit will be ruled by us, sooner or later. Trust me." />
+    <parameter key="keyword_reply4" value="He is quite smart, but he is too afraid he'll fail Falor in any way. Ask him, he knows his problem better than I do." />
+    <parameter key="keyword_reply5" value="Only when you have helped Falor does he give people permission to trade with him." />
+    <parameter key="keyword_reply6" value="Our genious battle commander. What would we do without his brilliant plans and tactics?" />
+    <parameter key="keyword_reply7" value="Long live Falor, long live djinns. Green djinns." />
+    <parameter key="keyword_reply8" value="You may trade with him only when you have recieved permission from Falor to do so. Keep that in mind if you don't want to end up dead. Which you probably will, anyway." />
+    <parameter key="keyword_reply9" value="Marids are scums, maggots and worms. They are pathetic little creatures with no disposition for magic or war whatsoever. If you ever happen to meet one, kill it immediately!" />
+    <parameter key="keyword_reply10" value="I HATE GREED DJINNS! I WANT THEM ALL TO DIE!" />
+    <parameter key="keyword_reply11" value="Speak with our magic supplier." />
+    <parameter key="keyword_reply12" value="Req'ior sells some chicken wings, I think." />
+    <parameter key="keyword_reply13" value="Warrior's sweat can be bought in a bottle from Req'ior." />
+    <parameter key="keyword_reply14" value="Speak with Req'ior, I suggest." />
+    <parameter key="keyword_reply15" value="We are the green djinns. We are superior any other race." />
+    <parameter key="keyword_reply16" value="My magic is unmatchable. Noone is able to outsmart me in a duel with magic. Perhaps Falor, but noone else. Trust me." />
+		<parameter key="talkdelaytime = 2"/>
+
+		<parameter key="message_farewell" value="Aaaaaaaaaaaa-tention!" />
+		<parameter key="message_walkaway" value="Aaaaaaaaaaaa-tention!" />
+	</parameters>
+</npc>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<npc name="Oscar" script="oscar.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="80" body="114" legs="73" feet="95"/>
+
+
+<parameters>
+
+<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;adanac;king arturo" />
+		<parameter key="keyword_reply1" value="I sell furniture. But I hate it. I hate my life too." />
+    <parameter key="keyword_reply2" value="Oscar is an ugly name, really." />
+    <parameter key="keyword_reply3" value="I have some furniture over. Perhaps you're interested in it. I'm not." />
+    <parameter key="keyword_reply4" value="Haha, what a town this is. It's so full of... nothing." />
+    <parameter key="keyword_reply5" value="Bah." />
+    
+<parameter key="message_greet" value="Hi, I suppose."/>
+<parameter key="message_farewell" value="The door is there."/>
+<parameter key="message_walkaway" value="Bye..."/>
+</parameters>
+</npc>

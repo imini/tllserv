@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+	<!-- Enchanting -->
+	<action fromid="2146" toid="2147" script="other/enchanting.lua" />
+	<action fromid="2149" toid="2150" script="other/enchanting.lua" />
+	<action itemid="2342" script="other/enchanting.lua" />
+	<action fromid="7759" toid="7762" script="other/enchanting.lua" />
+
+	<!-- Quests -->
+	<action itemid="1740" script="quests/quests.lua" />
+	<action fromid="1747" toid="1749" script="quests/quests.lua" />
+	<action uniqueid="30015" script="quests/annihilator.lua" />
+
+	<!-- Tools -->
+	<action itemid="2120" script="tools/rope.lua" />
+	<action itemid="2416" script="tools/crowbar.lua" />
+	<action itemid="2420" script="tools/machete.lua" />
+	<action itemid="2442" script="tools/machete.lua" />
+	<action itemid="2550" script="tools/scythe.lua" />
+	<action itemid="2553" script="tools/pick.lua" />
+	<action itemid="2566" script="tools/kitchen_knife.lua" />
+	<action itemid="2580" script="tools/fishing.lua" allowfaruse="1" />
+	<action itemid="2554" script="tools/shovel.lua" />
+	<action itemid="5710" script="tools/shovel.lua" />
+	<action itemid="7731" script="tools/rope.lua" />
+	<action itemid="10511" script="tools/tool_gear.lua" />
+	<action itemid="10513" script="tools/tool_gear.lua" />
+	<action itemid="10515" script="tools/tool_gear.lua" />
+
+	<!-- Transform and decay -->
+	<action fromid="1873" toid="1876" script="other/decayto.lua" />
+	<action fromid="2041" toid="2042" script="other/decayto.lua" />
+	<action fromid="2044" toid="2045" script="other/decayto.lua" />
+	<action fromid="2047" toid="2048" script="other/decayto.lua" />
+	<action fromid="2050" toid="2055" script="other/decayto.lua" />
+	<action fromid="2162" toid="2163" script="other/decayto.lua" />
+	<action fromid="5812" toid="5813" script="other/decayto.lua" />
+	<action itemid="7183" script="other/decayto.lua" />
+	<action itemid="10719" script="other/decayto.lua" />
+	<action itemid="11401" script="other/decayto.lua" />
+
+	<!-- Food -->
+	<action itemid="2362" script="other/food.lua" />
+	<action fromid="2666" toid="2691" script="other/food.lua" />
+	<action fromid="2695" toid="2696" script="other/food.lua" />
+	<action fromid="2787" toid="2796" script="other/food.lua" />
+	<action itemid="5097" script="other/food.lua" />
+	<action itemid="6125" script="other/food.lua" />
+	<action fromid="6278" toid="6279" script="other/food.lua" />
+	<action fromid="6393" toid="6394" script="other/food.lua" />
+	<action itemid="6501" script="other/food.lua" />
+	<action fromid="6541" toid="6545" script="other/food.lua" />
+	<action itemid="6569" script="other/food.lua" />
+	<action itemid="6574" script="other/food.lua" />
+	<action fromid="7158" toid="7159" script="other/food.lua" />
+	<action fromid="7372" toid="7377" script="other/food.lua" />
+	<action fromid="7909" toid="7910" script="other/food.lua" />
+	<action itemid="7963" script="other/food.lua" />
+	<action itemid="8112" script="other/food.lua" />
+	<action fromid="8838" toid="8845" script="other/food.lua" />
+	<action itemid="8847" script="other/food.lua" />
+	<action itemid="9005" script="other/food.lua" />
+	<action itemid="9114" script="other/food.lua" />
+	<action itemid="9996" script="other/food.lua" />
+	<action itemid="10454" script="other/food.lua" />
+	<action itemid="11246" script="other/food.lua" />
+	<action itemid="11370" script="other/food.lua" />
+	<action itemid="11429" script="other/food.lua" />
+	<action fromid="12415" toid="12418" script="other/food.lua" />
+	<action fromid="12637" toid="12639" script="other/food.lua" />
+
+	<!-- Music -->
+	<action fromid="2070" toid="2085" script="other/music.lua" />
+	<action itemid="2332" script="other/music.lua" />
+	<action itemid="2364" script="other/music.lua" />
+	<action fromid="2367" toid="2373" script="other/music.lua" />
+	<action fromid="3951" toid="3953" script="other/music.lua" />
+	<action itemid="3957" script="other/music.lua" />
+	<action itemid="5786" script="other/music.lua" />
+	<action fromid="6572" toid="6573" script="other/music.lua" />
+
+	<!-- Construction Kits -->
+	<action fromid="3901" toid="3938" script="other/construction_kits.lua" />
+	<action fromid="5086" toid="5088" script="other/construction_kits.lua" />
+	<action itemid="6114" script="other/construction_kits.lua" />
+	<action itemid="6115" script="other/construction_kits.lua" />
+	<action itemid="6372" script="other/construction_kits.lua" />
+	<action itemid="6373" script="other/construction_kits.lua" />
+	<action itemid="8692" script="other/construction_kits.lua" />
+	<action itemid="9974" script="other/construction_kits.lua" />
+	<action itemid="11124" script="other/construction_kits.lua" />
+	<action itemid="11126" script="other/construction_kits.lua" />
+	<action itemid="11133" script="other/construction_kits.lua" />
+	<action itemid="11205" script="other/construction_kits.lua" />
+
+	<!-- Fluids -->
+	<action itemid="1775" script="other/fluids.lua" />
+	<action fromid="2005" toid="2009" script="other/fluids.lua" />
+	<action fromid="2011" toid="2015" script="other/fluids.lua" />
+	<action itemid="2023" script="other/fluids.lua" />
+	<action fromid="2031" toid="2034" script="other/fluids.lua" />
+	<action fromid="2574" toid="2577" script="other/fluids.lua" />
+	<action itemid="5553" script="other/fluids.lua" />
+
+	<!-- Potions -->
+	<action itemid="6558" script="other/potions.lua" />
+	<action fromid="7439" toid="7440" script="other/potions.lua" />
+	<action itemid="7443" script="other/potions.lua" />
+	<action fromid="7588" toid="7591" script="other/potions.lua" />
+	<action itemid="7618" script="other/potions.lua" />
+	<action itemid="7620" script="other/potions.lua" />
+	<action fromid="8472" toid="8474" script="other/potions.lua" />
+	<action itemid="8704" script="other/potions.lua" />
+
+	<!-- Other -->
+	<action itemid="430" script="other/teleport.lua" />
+	<action itemid="486" script="other/snow_heap.lua" />
+	<action itemid="1369" script="other/teleport.lua" />
+	<action itemid="1386" script="other/teleport.lua" />
+	<action fromid="1728" toid="1731" script="other/watch.lua" />
+	<action fromid="1816" toid="1817" script="other/wall_mirror.lua" />
+	<action fromid="1843" toid="1844" script="other/wall_mirror.lua" />
+	<action fromid="1846" toid="1847" script="other/wall_mirror.lua" />
+	<action fromid="1849" toid="1850" script="other/wall_mirror.lua" />
+	<action itemid="2036" script="other/watch.lua" />
+	<action itemid="2093" script="other/water_pipe.lua" />
+	<action itemid="2095" script="other/bird_cage.lua" />
+	<action itemid="2099" script="other/water_pipe.lua" />
+	<action itemid="2114" script="other/piggy_bank.lua" />
+	<action fromid="2376" toid="2404" script="other/destroy.lua" />
+	<action fromid="2406" toid="2415" script="other/destroy.lua" />
+	<action fromid="2417" toid="2419" script="other/destroy.lua" />
+	<action fromid="2421" toid="2441" script="other/destroy.lua" />
+	<action fromid="2443" toid="2453" script="other/destroy.lua" />
+	<action itemid="2579" script="other/trap.lua" />
+	<action itemid="2692" script="other/create_bread.lua" />
+	<action itemid="2694" script="other/create_bread.lua" />
+	<action itemid="2785" script="other/blueberry_bush.lua" />
+	<action itemid="3678" script="other/teleport.lua" />
+	<action itemid="3900" script="other/watch.lua" />
+	<action itemid="5543" script="other/teleport.lua" />
+	<action fromid="5792" toid="5797" script="other/die.lua" />
+	<action itemid="6092" script="other/watch.lua" />
+	<action itemid="6576" script="other/fireworks_rocket.lua" />
+	<action itemid="6578" script="other/party_hat.lua" />
+	<action itemid="7552" script="other/large_seashell.lua" />
+	<action itemid="7828" script="other/watch.lua" />
+	<action fromid="7904" toid="7907" script="other/bed_modification_kits.lua" />
+	<action fromid="9443" toid="9444" script="other/watch.lua" />
+
+	<!-- LirensFolk -->
+	
+
+	<action uniqueid="9000" script="the lost lands/tom stonestair.lua"/>
+  <action uniqueid="9005" script="the lost lands/tol stone.lua"/>
+  <action uniqueid="9006" script="the lost lands/tol random.lua"/>
+  <action actionid="8777" script="the lost lands/tol mirrorsw.lua"/>
+  <action uniqueid="9007" script="the lost lands/tol mirrorr.lua"/>
+  <action uniqueid="9008" script="the lost lands/tol mirrorb.lua"/>
+  <action uniqueid="9011" script="the lost lands/tol leverwall.lua"/>
+  <action uniqueid="9012" script="the lost lands/tol q1.lua"/>
+  <action uniqueid="9013" script="the lost lands/tol q2.lua"/>
+  <action uniqueid="9014" script="the lost lands/tol q3.lua"/>
+  <action uniqueid="9016" script="the lost lands/cyclo lever.lua"/>
+  <action uniqueid="9017" script="the lost lands/cyclo behe.lua"/>
+  <action uniqueid="9018" script="the lost lands/cyclo q1.lua"/>
+  <action uniqueid="9019" script="the lost lands/cyclo q2.lua"/>
+  <action uniqueid="9020" script="the lost lands/cyclo q3.lua"/>
+  
+  
+<action uniqueid="7002" script="adanac_rotsswitch.lua" />
+<action uniqueid="2303" script="annichest.lua" />
+<action uniqueid="2304" script="annichest.lua" />
+<action uniqueid="2305" script="annichest.lua" />
+<action uniqueid="2306" script="annichest.lua" />
+<action uniqueid="7004" script="adanac_well.lua" />
+<action uniqueid="7005" script="adanac_well.lua" />
+<action uniqueid="7007" script="exhibition_q1.lua" />
+<action uniqueid="7008" script="exhibition_q2.lua" />
+<action uniqueid="7009" script="dragonfriend_q.lua" />
+<action uniqueid="7010" script="minos_q1.lua" />
+<action uniqueid="7011" script="minos_q2.lua" />
+<action uniqueid="7012" script="minos_q3.lua" />
+<action uniqueid="7013" script="adanactrolls_q.lua" />
+<action uniqueid="7014" script="adanacscorp_summon.lua" />
+<action uniqueid="7015" script="adanacscorp_q.lua" />
+<action uniqueid="7016" script="orcsacrifice_q.lua" />
+<action uniqueid="7017" script="adanacvalk_key.lua" />
+<action uniqueid="7018" script="adanacvalk_q.lua" />
+<action uniqueid="7020" script="farmer_q.lua" />
+
+<action uniqueid="7028" script="celerescycs_q1.lua" />
+<action uniqueid="7029" script="celerescycs_q2.lua" />
+<action uniqueid="7030" script="celeresswamp_dskey.lua" />
+<action uniqueid="7031" script="celeresswamp_holekey.lua" />
+<action uniqueid="7032" script="celeresswamp_chestkey.lua" />
+<action uniqueid="7034" script="celeresnosea_bhq1.lua" />
+<action uniqueid="7035" script="celeresnosea_bhq2.lua" />
+<action uniqueid="7049" script="barrel_fake.lua" />
+<action uniqueid="7065" script="swamp_key.lua" />
+<action uniqueid="7066" script="swamp_door.lua" />
+<action uniqueid="7067" script="swamp_body.lua" />
+<action uniqueid="7075" script="burt_body.lua" />
+<action uniqueid="5000" script="annilever.lua" />
+<action uniqueid="7076" script="sheriff_key.lua" />
+<action uniqueid="7077" script="le_celeres_rm.lua" />
+<action uniqueid="7078" script="le_rm_celeres.lua" />
+<action uniqueid="7082" script="ror_robe.lua" />
+<action uniqueid="7083" script="ror_shield.lua" />
+<action actionid="7084" script="maze_body.lua" />
+<action uniqueid="7085" script="tp_dh_pd.lua" />
+<action uniqueid="7088" script="dh_tp.lua" />
+<action uniqueid="7089" script="dh_dh.lua" />
+<action uniqueid="7090" script="dh_sb.lua" />
+<action uniqueid="7091" script="dh_ds.lua" />
+<action uniqueid="7093" script="maze_key1.lua" />
+<action uniqueid="7094" script="maze_key2.lua" />
+<action uniqueid="7095" script="maze_key3.lua" />
+<action uniqueid="7096" script="maze_key.lua" />
+<action uniqueid="7098" script="maze_book.lua" />
+<action uniqueid="7099" script="lava_lance.lua" />
+<action uniqueid="7100" script="pit_body.lua" />
+<action actionid="7101" script="demons_lavahole.lua" />
+<action uniqueid="7104" script="demon_lavahole2.lua" />
+<action uniqueid="7120" script="bh_wall.lua" />
+<action uniqueid="7121" script="bh_key.lua" />
+<action uniqueid="7122" script="bh_reward.lua" />
+<action itemid="2785" script="blueberry.lua" />
+<action uniqueid="7123" script="elf_q1.lua" />
+<action uniqueid="7124" script="elf_q2.lua" />
+<action uniqueid="7125" script="elf_q3.lua" />
+<action uniqueid="7287" script="maze_reward.lua" />
+<action uniqueid="7126" script="mine_board.lua" />
+<action uniqueid="7127" script="rosa_piano.lua" />
+<action uniqueid="7128" script="rosa_q.lua" />
+<action uniqueid="7129" script="gs_body.lua" />
+<action uniqueid="7130" script="dwarvenaxe_q.lua" />
+<action uniqueid="7131" script="dragonshield_q.lua" />
+<action uniqueid="7132" script="orc1.lua" />
+<action uniqueid="7133" script="orc2.lua" />
+<action uniqueid="7134" script="orc3.lua" />
+<action uniqueid="7135" script="orc4.lua" />
+<action uniqueid="7136" script="orc5.lua" />
+<action uniqueid="7137" script="losthero_q.lua" />
+<action uniqueid="7138" script="tharos_lever.lua" />
+<action uniqueid="7139" script="tharos_key.lua" />
+<action uniqueid="7144" script="rats_body.lua" />
+<action uniqueid="7145" script="flan_well1.lua" />
+<action uniqueid="7146" script="flan_well2.lua" />
+<action uniqueid="7147" script="library_book.lua" />
+<action uniqueid="7148" script="mud_armor.lua" />
+<action uniqueid="7156" script="gas_swamp.lua" />
+<action uniqueid="7157" script="gas_key.lua" />
+<action uniqueid="7158" script="gas_reward1.lua" />
+<action uniqueid="7159" script="gas_reward2.lua" />
+<action uniqueid="7160" script="flan1.lua" />
+<action uniqueid="7161" script="flan2.lua" />
+<action uniqueid="7162" script="flan3.lua" />
+<action uniqueid="7163" script="flan4.lua" />
+<action uniqueid="7164" script="flan5.lua" />
+<action uniqueid="7165" script="flanreward.lua" />
+<action uniqueid="7166" script="machete_q.lua" />
+<action uniqueid="7167" script="viking_q.lua" />
+<action uniqueid="7168" script="studded_q.lua" />
+<action uniqueid="7170" script="chain_q.lua" />
+<action uniqueid="7174" script="fame_tome.lua" />
+<action uniqueid="7179" script="mint_key.lua" />
+<action uniqueid="7180" script="mint_lever.lua" />
+<action uniqueid="7181" script="mint_key2.lua" />
+<action uniqueid="7182" script="mint_q.lua" />
+<action uniqueid="7183" script="wasp_q.lua" />
+<action uniqueid="7184" script="orc_q.lua" />
+<action uniqueid="7185" script="orc_lever.lua" />
+<action uniqueid="7198" script="coffin_blood.lua" />
+<action uniqueid="7209" script="bloodq.lua" />
+<action uniqueid="7210" script="bloodq1.lua" />
+<action uniqueid="7211" script="swamp_asq.lua" />
+<action uniqueid="7212" script="swamp_book.lua" />
+<action uniqueid="7213" script="swamplever1.lua" />
+<action uniqueid="7214" script="swamplever2.lua" />
+<action uniqueid="7215" script="swamplever3.lua" />
+<action uniqueid="7216" script="swamplever4.lua" />
+<action uniqueid="7217" script="swamptowerq1.lua" />
+<action uniqueid="7218" script="swamptowerq2.lua" />
+<action uniqueid="7219" script="swamptowermusic.lua" />
+<action uniqueid="7220" script="swamptowerq3.lua" />
+<action uniqueid="7223" script="scorpq.lua" />
+<action uniqueid="7224" script="cod_q.lua" />
+<action uniqueid="7225" script="witch_q1.lua" />
+<action uniqueid="7226" script="witch_q2.lua" />
+<action uniqueid="7227" script="witch_q3.lua" />
+<action uniqueid="7228" script="witch_q4.lua" />
+<action uniqueid="7230" script="herosq1.lua" />
+<action uniqueid="7231" script="herosq2.lua" />
+<action uniqueid="7242" script="poh_tr.lua" />
+<action uniqueid="7243" script="poh_hiss.lua" />
+<action uniqueid="7244" script="poh_hiss2.lua" />
+<action uniqueid="7245" script="poi_tp.lua" />
+<action uniqueid="7246" script="orcs_q1.lua" />
+<action uniqueid="7247" script="orcs_q2.lua" />
+<action uniqueid="7249" script="tp_agatone.lua" />
+<action uniqueid="7269" script="poah_door.lua" />
+<action uniqueid="7296" script="khamos_amulet.lua" />
+<action uniqueid="7299" script="fisherman_q.lua" />
+<action uniqueid="7301" script="mino_qqq.lua" />
+<action uniqueid="7302" script="mino_qqq.lua" />
+<action uniqueid="7303" script="mino_qqq.lua" />
+<action uniqueid="7293" script="gsbh_hole.lua" />
+<action itemid="2178" script="mindstone.lua"/>
+<action uniqueid="7294" script="swamp_bagq.lua" />
+<action uniqueid="7295" script="fow_cycsq.lua" />
+<action uniqueid="7304" script="ill_removestone.lua" />
+<action uniqueid="7306" script="ill_r1.lua" />
+<action uniqueid="7305" script="ill_r2.lua" />
+<action uniqueid="7307" script="ill_r3.lua" />
+<action uniqueid="7308" script="ill_r4.lua" />
+<action uniqueid="7312" script="pire_mag.lua" />
+<action uniqueid="7313" script="pire_stones.lua" />
+<action uniqueid="7314" script="pire_teleport.lua" />
+<action uniqueid="7315" script="gs_herb.lua" />
+<action uniqueid="7324" script="tomqa.lua" />
+<action uniqueid="7325" script="tomqb.lua" />
+<action uniqueid="7326" script="tomqc.lua" />
+<action uniqueid="7327" script="tomqd.lua" />
+<action uniqueid="7329" script="lucifer_hole.lua" />
+<action uniqueid="7332" script="lucifer_lever.lua" />
+<action uniqueid="7331" script="lucifer_summon.lua" />
+<action uniqueid="7036" script="souloftll.lua" />
+<action uniqueid="7336" script="souloftllq.lua" />
+<action uniqueid="5001" script="mini_anni.lua" />
+<action uniqueid="7334" script="bk_key.lua" />
+<action uniqueid="7178" script="bk_saq.lua" />
+<action uniqueid="7177" script="bk_icicle.lua" />
+<action uniqueid="7255" script="bk_q.lua" />
+<action uniqueid="7345" script="bq_wllevers.lua" />
+<action uniqueid="7346" script="bq_wllevers.lua" />
+<action uniqueid="7347" script="bq_wllevers.lua" />
+<action uniqueid="7348" script="bq_wllevers.lua" />
+<action uniqueid="7349" script="bq_wllevers.lua" />
+<action uniqueid="7351" script="fdq.lua" />
+<action uniqueid="7352" script="watchtower_lever.lua" />
+<action uniqueid="7365" script="bq_camp1.lua" />
+<action uniqueid="7360" script="bq_camp2.lua" />
+<action uniqueid="7361" script="bq_camp3.lua" />
+<action uniqueid="7362" script="bq_camp4.lua" />
+<action uniqueid="7363" script="bq_camp5.lua" />
+<action uniqueid="7364" script="bq_camp6.lua" />
+<action uniqueid="7353" script="bq_q1.lua" />
+<action uniqueid="7354" script="bq_q2.lua" />
+<action uniqueid="7355" script="bq_q3.lua" />
+<action uniqueid="7356" script="bq_q4.lua" />
+<action uniqueid="7357" script="bq_q5.lua" />
+<action uniqueid="7358" script="bq_q6.lua" />
+<action uniqueid="7359" script="undead_q.lua" />
+<action uniqueid="7360" script="naginata_q.lua" />
+<action uniqueid="7361" script="dl_magwall.lua" />
+<action uniqueid="7363" script="dl_magwallq.lua" />
+<action uniqueid="7366" script="as_q1.lua" />
+<action uniqueid="7367" script="as_q2.lua" />
+<action uniqueid="7371" script="poi_rusty.lua" />
+<action uniqueid="7402" script="poi_fires1.lua" />
+<action uniqueid="7403" script="poi_fires2.lua" />
+<action uniqueid="7404" script="poi_fires3.lua" />
+<action uniqueid="7405" script="poi_fires4.lua" />
+<action uniqueid="7406" script="poi_levers1.lua" />
+<action uniqueid="7407" script="poi_levers2.lua" />
+<action uniqueid="7408" script="poi_levers3.lua" />
+<action uniqueid="7409" script="poi_levers4.lua" />
+<action uniqueid="7410" script="poi_levers5.lua" />
+<action uniqueid="7411" script="poi_levers6.lua" />
+<action uniqueid="7412" script="poi_levers7.lua" />
+<action uniqueid="7413" script="poi_levers8.lua" />
+<action uniqueid="7414" script="poi_levers9.lua" />
+<action uniqueid="7415" script="poi_levers10.lua" />
+<action uniqueid="7416" script="poi_levers11.lua" />
+<action uniqueid="7417" script="poi_levers12.lua" />
+<action uniqueid="7418" script="poi_levers13.lua" />
+<action uniqueid="7419" script="poi_levers14.lua" />
+<action uniqueid="7420" script="poi_levers15.lua" />
+<action uniqueid="7422" script="poi_2hangout1.lua" />
+<action uniqueid="7423" script="poi_2hangout2.lua" />
+<action actionid="7420" script="makeasaq.lua" />
+<action uniqueid="7425" script="poi_rumbling2.lua" />
+<action uniqueid="7454" script="poi_ladder.lua" />
+<action uniqueid="7455" script="poi_mazestone.lua" />
+<action uniqueid="7456" script="poi_smallq.lua" />
+<action uniqueid="7458" script="poi_goodday2.lua" />
+<action uniqueid="7473" script="infernatil_lever.lua" />
+<action actionid="7470" script="poi_removelevers.lua" />
+<action uniqueid="7476" script="bazir_mirror.lua" />
+<action uniqueid="7477" script="poi_3q.lua" />
+<action uniqueid="7478" script="poi_3q.lua" />
+<action uniqueid="7479" script="poi_3q.lua" />
+<action uniqueid="7480" script="poi_q1.lua" />
+<action uniqueid="7481" script="poi_q2.lua" />
+<action uniqueid="7482" script="poi_q3.lua" />
+<action uniqueid="7483" script="poi_q4.lua" />
+<action uniqueid="7484" script="poi_q5.lua" />
+<action uniqueid="7488" script="arch_3tp.lua" />
+<action uniqueid="7490" script="arch_levers1.lua" />
+<action uniqueid="7491" script="arch_levers2.lua" />
+<action uniqueid="7492" script="arch_levers3.lua" />
+<action uniqueid="7493" script="arch_levers4.lua" />
+<action uniqueid="7494" script="arch_levers5.lua" />
+<action uniqueid="7495" script="arch_5levers.lua" />
+<action uniqueid="7496" script="arch_holelever.lua" />
+<action uniqueid="7501" script="arch_5281.lua" />
+<action uniqueid="7502" script="arch_5282.lua" />
+<action uniqueid="7503" script="arch_5283.lua" />
+<action uniqueid="7504" script="arch_5284.lua" />
+<action uniqueid="7505" script="arch_mms.lua" />
+<action uniqueid="7506" script="ninjas_stairs.lua" />
+<action uniqueid="7507" script="ninjasq1.lua" />
+<action uniqueid="7508" script="ninjasq2.lua" />
+<action uniqueid="7509" script="ninjasskull.lua" />
+<action uniqueid="7510" script="ninjasshield.lua" />
+<action uniqueid="7511" script="language_hidden.lua" />
+<action uniqueid="7512" script="languageq.lua" />
+<action uniqueid="7522" script="tomb4_orn1.lua" />
+<action uniqueid="7523" script="tomb4_orn2.lua" />
+<action uniqueid="7527" script="vash_q.lua" />
+<action uniqueid="7528" script="vash_music1.lua" />
+<action uniqueid="7529" script="vash_music2.lua" />
+<action uniqueid="7530" script="vash_music3.lua" />
+<action uniqueid="7531" script="vash_music4.lua" />
+<action uniqueid="7532" script="vash_music5.lua" />
+<action uniqueid="7533" script="omruc_q.lua" />
+<action uniqueid="7534" script="mahrdis_q.lua" />
+
+<action uniqueid="7539" script="rabbit1.lua" />
+<action uniqueid="7540" script="rabbit2.lua" />
+<action uniqueid="7541" script="rabbit3.lua" />
+<action uniqueid="7543" script="rah_q.lua" />
+<action uniqueid="7547" script="thalas_q.lua" />
+<action uniqueid="7556" script="morg_q.lua" />
+<action uniqueid="7537" script="dip_q.lua" />
+<action uniqueid="7058" script="iof_qlever.lua" />
+<action uniqueid="7057" script="iof_lever.lua" />
+<action uniqueid="7062" script="iof_q1.lua" />
+<action uniqueid="7063" script="iof_q2.lua" />
+<action uniqueid="7565" script="tomb_4q.lua" />
+<action actionid="7565" script="tearofdustwit.lua" />
+
+<action itemid="6280" script="blowcandlecake.lua"/>
+<action itemid="2306" script="summonfootball.lua"/>
+<action itemid="5956" script="spellscroll.lua"/>
+<action actionid="2175" script="spellscrollq.lua" />
+<action uniqueid="7573" script="orcbase_teleport.lua" />
+<action uniqueid="7574" script="raids/demodras_msg.lua" />
+<action uniqueid="7740" script="theevileye.lua" />
+<action uniqueid="7741" script="minosreward.lua" />
+<action uniqueid="7742" script="minoskey1.lua" />
+<action uniqueid="7743" script="skjaarq1.lua" />
+<action uniqueid="7744" script="skjaarq2.lua" />
+<action uniqueid="7745" script="theevileyemsg.lua" />
+<action uniqueid="7746" script="orcraid1.lua" />
+<action uniqueid="7747" script="orcraid2.lua" />
+<action uniqueid="7748" script="orcraid3.lua" />
+<action uniqueid="7749" script="munster.lua" />
+<action uniqueid="7750" script="necropharus.lua" />
+<action uniqueid="7751" script="necropharusmsg.lua" />
+<action uniqueid="7752" script="grorlam1.lua" />
+<action uniqueid="7753" script="grorlam2.lua" />
+<action uniqueid="7754" script="demodras.lua" />
+<action uniqueid="7755" script="generalmurius.lua" />
+<action uniqueid="7756" script="thehornedfox.lua" />
+<action uniqueid="7757" script="theoldwidow.lua" />
+<action uniqueid="7758" script="theoldwidowmsg.lua" />
+<action uniqueid="7759" script="apprenticesheng.lua" />
+<action uniqueid="7760" script="dharalion.lua" />
+<action uniqueid="7761" script="fernfang.lua" />
+<action itemid="2344" script="djinnlamp.lua"/>
+<action uniqueid="7774" script="tuthin.lua" />
+<action uniqueid="7762" script="teleportthalas.lua" />
+<action uniqueid="7763" script="poi1z.lua" />
+<action uniqueid="7764" script="poi2z.lua" />
+<action itemid="384" script="gm tools.lua"/>
+<action uniqueid="7767" script="wq1.lua" />
+<action uniqueid="7768" script="wq2.lua" />
+<action uniqueid="7769" script="wq3.lua" />
+<action uniqueid="7775" script="wq4.lua" />
+<action uniqueid="7766" script="witch_tp.lua" />
+<action uniqueid="7776" script="bane1.lua" />
+<action uniqueid="7777" script="bane2.lua" />
+<action itemid="6104" script="jewel case.lua"/>
+<action itemid="7286" script="dallrim waterskin.lua"/>
+<action itemid="7243" script="ann jug.lua"/>
+<action uniqueid="7781" script="giants_corpse.lua" />
+<action uniqueid="7776" script="bane1.lua" />
+<action uniqueid="7777" script="bane2.lua" />
+<action uniqueid="7580" script="combofdarkhair.lua" />
+<action uniqueid="7782" script="marhanschain.lua" />
+<action itemid="5938" script="watertrickle.lua"/>
+<action itemid="4869" script="griffinclaw.lua"/>
+<action uniqueid="7783" script="wlquest.lua" />
+<action uniqueid="7779" script="dicenot.lua" />
+<action itemid="2416" script="crowbar.lua"/>
+<action itemid="2331" script="ppresent.lua"/>
+<action uniqueid="7787" script="p_present.lua" />
+<action uniqueid="7788" script="p_fred.lua" />
+<action itemid="2330" script="p_santa.lua"/>
+<action uniqueid="7789" script="psanta.lua" />
+<action itemid="5908" script="knife_stake.lua"/>
+<action itemid="5942" script="knife_stake.lua"/>
+<action uniqueid="7790" script="mug_flan.lua" />
+<action itemid="4865" script="flan_plant.lua"/>
+<action uniqueid="7792" script="holybook_q.lua" />
+<action uniqueid="7793" script="pire_remain.lua" />
+
+<action uniqueid="7798" script="freya_casteldine.lua" />
+<action uniqueid="7799" script="freya_thareen.lua" />
+<action uniqueid="7800" script="freya_agatone.lua" />
+<action uniqueid="7801" script="freya_celeres.lua" />
+<action uniqueid="7806" script="grail_ladders.lua" />
+<action uniqueid="7808" script="grail_skeletons_stone.lua" />
+<action actionid="7808" script="grail_wells.lua" />
+<action uniqueid="7809" script="grail_luck.lua" />
+<action uniqueid="7810" script="grail_not.lua" />
+<action uniqueid="7828" script="grail_deathslicer_stone.lua" />
+<action uniqueid="7829" script="grail_deathslicer_stone.lua" />
+<action uniqueid="7830" script="grail_deathslicer_stone.lua" />
+<action uniqueid="7831" script="grail_deathslicer_stone.lua" />
+<action uniqueid="7833" script="grail_quest1.lua" />
+<action uniqueid="7834" script="grail_quest2.lua" />
+<action uniqueid="7835" script="grail_quest3.lua" />
+<action uniqueid="7836" script="grail_quest4.lua" />
+<action uniqueid="7909" script="minianni_q1.lua" />
+<action uniqueid="7908" script="minianni_q1.lua" />
+<action uniqueid="7838" script="calandorn_enter.lua" />
+<action uniqueid="7843" script="goblin_stones.lua" />
+<action uniqueid="7844" script="goblin_quest.lua" />
+<action uniqueid="7845" script="goblin_stones2.lua" />
+<action actionid="7846" script="zombie_summon.lua" />
+<action uniqueid="7846" script="zombie_door.lua" />
+<action uniqueid="7847" script="key_quest.lua" />
+<action uniqueid="7849" script="20_q.lua" />
+<action uniqueid="7851" script="saq_keys.lua" />
+<action uniqueid="7854" script="81_q1.lua" />
+<action uniqueid="7855" script="81_q2.lua" />
+<action uniqueid="7856" script="alex_q.lua" />
+<action uniqueid="7857" script="dine_q.lua" />
+<action uniqueid="7860" script="snow_outfit.lua" />
+<action uniqueid="7861" script="saprith_q.lua" />
+<action uniqueid="7862" script="gemstone_q.lua" />
+<action uniqueid="7863" script="snow_addon1.lua" />
+<action uniqueid="7864" script="raids/undead_celeres_msg.lua" />
+<action uniqueid="7866" script="raids/undead_celeres_raid1.lua" />
+<action uniqueid="7865" script="raids/undead_celeres_raid2.lua" />
+<action uniqueid="7867" script="raids/elf_celeres_raid1.lua" />
+<action uniqueid="7868" script="raids/elf_celeres_raid2.lua" />
+<action uniqueid="7869" script="raids/elf_celeres_raid3.lua" />
+<action uniqueid="7870" script="raids/dwarf_raid.lua" />
+<action uniqueid="7872" script="raids/troll_raid_casteldine.lua" />
+<action uniqueid="7871" script="raids/rat_raid_casteldine.lua" />
+<action uniqueid="7873" script="raids/bandit_raid.lua" />
+<action uniqueid="7874" script="raids/wasp_raid.lua" />
+<action uniqueid="7875" script="raids/skunk_raid.lua" />
+<action uniqueid="7876" script="raids/scarab_raid1.lua" />
+<action uniqueid="7877" script="raids/scarab_raid2.lua" />
+<action uniqueid="9897" script="scrolloflithaton.lua" />
+<action uniqueid="9898" script="bookoflithaton.lua" />
+<action uniqueid="9895" script="mapoflithaton.lua" />
+<action itemid="5957" script="openscroll.lua" />
+<action uniqueid="9893" script="twinbook.lua" />
+<action uniqueid="9892" script="kingstwin.lua" />
+<action uniqueid="9891" script="sherifftwin.lua" />
+<action uniqueid="9886" script="createhermeshelmet.lua" />
+<action uniqueid="9885" script="brassarmorq.lua" />
+<action uniqueid="9884" script="brasslegsq.lua" />
+<action uniqueid="9883" script="scalearmorq.lua" />
+<action uniqueid="9882" script="clericalmaceq.lua" />
+<action uniqueid="9881" script="broadswordq.lua" />
+<action uniqueid="9880" script="steelshieldq.lua" />
+<action uniqueid="9879" script="dwarvenshieldq.lua" />
+<action uniqueid="9878" script="barbarianaxeq.lua" />
+<action uniqueid="9877" script="throwingstarq.lua" />
+<action uniqueid="9876" script="twohandedswordq.lua" />
+<action uniqueid="9875" script="crimsonswordq.lua" />
+<action uniqueid="9874" script="amazontorchwall.lua" />
+<action uniqueid="9873" script="chainlegsq.lua" />
+<action actionid="9873" script="anotherwell.lua" />
+<action uniqueid="9871" script="scarfq.lua" />
+<action uniqueid="9870" script="steelhelmetq.lua" />
+<action uniqueid="9869" script="ironhelmetq.lua" />
+<action actionid="100" script="summonvamp.lua" />
+<action uniqueid="9868" script="jaildiceforcup.lua" />
+<action uniqueid="9867" script="casteldinediceforcup.lua" />
+<action actionid="9867" script="mercenarychallenge.lua" />
+<action uniqueid="9866" script="theracechallenge.lua" />
+<action actionid="9866" script="maptobere.lua" />
+<action actionid="9865" script="flanmark1.lua" />
+<action uniqueid="9848" script="scalearmorflan.lua" />
+<action uniqueid="9842" script="removebonewalls.lua" />
+<action uniqueid="9835" script="leversearing1.lua" />
+<action uniqueid="9836" script="leversearing2.lua" />
+<action uniqueid="9828" script="10q1.lua" />
+<action uniqueid="9827" script="10q2.lua" />
+<action uniqueid="9826" script="10q3.lua" />
+<action uniqueid="9825" script="10q4.lua" />
+<action uniqueid="9824" script="10q5.lua" />
+<action uniqueid="9823" script="10q6.lua" />
+<action actionid="9819" script="raids/flantania_trolls.lua" />
+<action actionid="9818" script="raids/flantania_rats.lua" />
+<action uniqueid="9817" script="raids/flantania_spiders.lua" />
+<action uniqueid="9816" script="raids/flantania_poisonspiders.lua" />
+<action uniqueid="9815" script="raids/flantania_orcs.lua" />
+<action actionid="9814" script="summonbosses.lua" />
+<action actionid="9813" script="summonbosses.lua" />
+<action actionid="9812" script="summonbosses.lua" />
+<action actionid="9811" script="summonbosses.lua" />
+<action actionid="9810" script="summonbosses.lua" />
+<action actionid="9809" script="summonbosses.lua" />
+<action actionid="9808" script="summonbosses.lua" />
+<action actionid="9805" script="bossesq.lua" />
+<action actionid="9804" script="bossesq.lua" />
+<action actionid="9803" script="bossesq.lua" />
+<action uniqueid="9812" script="pire vam.lua" />
+<action uniqueid="9809" script="odhomershield.lua" />
+<action uniqueid="9808" script="odhomershield.lua" />
+</actions>

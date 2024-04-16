@@ -1,0 +1,38 @@
+<npc name="Katie" script="katie.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="138" head="79" body="83" legs="86" feet="114" addons="0"/>
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;instruction;celeres;pire vam;king arturo;quest;offer;casteldine;bank;academy;sheriff;sigiric;caroline;stephanie;steve;lendan;rooster;johan;creyo;sally;andrew;dixi;lesbian" />
+		<parameter key="keyword_reply1" value="I work in this bank. I can exchange your money to other values. Ask me for instructions if you are curious how it works." />
+		<parameter key="keyword_reply2" value="I am Katie, who are you?"/> 
+		<parameter key="keyword_reply3" value="I can change platinum coins to crystal coins and gold coins, and vice versa." /> 
+    <parameter key="keyword_reply4" value="This is Celeres, my dear |PLAYERNAME|." /> 
+    <parameter key="keyword_reply5" value="Scary guy. I wish I wouldn't be so afraid of him." /> 
+    <parameter key="keyword_reply6" value="Long live the king." /> 
+    <parameter key="keyword_reply7" value="Someone said to me that ancient cyclops lives in the west. In the Taurus Cliff. Perhaps they have some nice treasures." /> 
+    <parameter key="keyword_reply8" value="I have currently nothing to offer but my service." /> 
+    <parameter key="keyword_reply9" value="I daresay Celeres is a much better city than Casteldine, although that city undeniably has its positive sides too." /> 
+    <parameter key="keyword_reply10" value="I am the person responsible for this bank." />
+    <parameter key="keyword_reply11" value="All I know is that I am actually working for this Academy, but I have never really spoke with anyone responsible for it. I have only traded letters with them." /> 
+    <parameter key="keyword_reply12" value="I dislike boys, but he is pretty much a nice guy anyway." /> 
+    <parameter key="keyword_reply13" value="Generally, I don't like boys, but he is such an old one it doesn't matter. He is all to nice to be disliked by anyone." /> 
+    <parameter key="keyword_reply14" value="Caroline is a beauty." /> 
+    <parameter key="keyword_reply15" value="She's cute, isn't she?" /> 
+    <parameter key="keyword_reply16" value="I hate Steve and his backpack." /> 
+    <parameter key="keyword_reply17" value="Lendan is pathetic. Really." /> 
+    <parameter key="keyword_reply18" value="Rooster believes himself to be the dream of every woman. If I could just prove how wrong he is." /> 
+    <parameter key="keyword_reply19" value="Johan is like a shell fish." /> 
+    <parameter key="keyword_reply20" value="Creyo is scaring Sally." /> 
+    <parameter key="keyword_reply21" value="I miss Sally. She is my... hrm, wife." /> 
+    <parameter key="keyword_reply22" value="Andrew is making me want to throw up." /> 
+    <parameter key="keyword_reply23" value="Oh, I wish she wasn't as weird as she is. Then I'd like her more." /> 
+    <parameter key="keyword_reply24" value="(blushes)" /> 
+ 		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|. This is the bank of Celeres. Can I help you somehow?" />
+    <parameter key="message_farewell" value="Bye bye." />
+
+
+	</parameters>
+</npc>

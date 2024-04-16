@@ -1,0 +1,32 @@
+<npc name="Yamashita" script="Yamashita.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="152" head="95" body="2" legs="2" feet="57" addons="3"/>
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;name;ninja;barren cliffs;tha'reen;dustwit;djinn;behaviour;quest;satisfaction;sanjuro"/>
+		<parameter key="keyword_reply1" value="I used to serve my former ninja brothers, but due to their extremely rude behaviour they decided to let me go. I now live here alone, longing for the day I can give them revenge." />
+		<parameter key="keyword_reply2" value="I sell only assassin stars, but I don't buy anything, I don't need anything." />
+		<parameter key="keyword_reply3" value="My name is Yamashita. I'm please to meet you |PLAYERNAME|." />
+		<parameter key="keyword_reply4" value="I am a ninja. As you might have noticed, I live here alone. My former clan decided to leave me, they found my behaviour not as ruthless as their." />
+    <parameter key="keyword_reply5" value="These are the Barren Cliffs. Its gigantic surface stretches over the south and east part of Dustwit. Be aware of getting lost here, you might end up as a prey for the dangerous wild life." />
+    <parameter key="keyword_reply6" value="I know Tha'Reen, it's a settlement in the west. I've never been there, and I don't suppose I would be welcome either. I prefer it here." />
+    <parameter key="keyword_reply7" value="I have never left Dustwit, except once when I swimmed, but that's unimportant." />
+    <parameter key="keyword_reply8" value="Djinns, you say. I hope for your own sake you don't play any high roller game with these djinns. They are dangerous." />
+    <parameter key="keyword_reply9" value="My former people's behaviour was ruthless. They kill just for fun. It's out-rageous. A true ninja fights only when he needs to." />
+    <parameter key="keyword_reply10" value="My only quest left is to get satisfaction, and there's only one way of doing that." />
+    <parameter key="keyword_reply11" value="I need to pull revenge upon my former people. I know how, I do have a plan, but I believe I'm a little too old to execute it smoothly enough not to get injured meanwhile." />
+    <parameter key="keyword_reply12" value="Sanjuro was a legend even before he died. He's buried in the hideout the ninjas has built close to here. His skull rests in a sacred tomb, there." />
+	<parameter key="module_shop" value="1" />
+			<parameter key="shop_buyable" value="assassin star, 7368, 100" />
+
+		<parameter key="idletime" value="100" />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Greetings, explorer. What in heavens sake brings you up here?" />
+		<parameter key="message_farewell" value="Farewell." />
+		<parameter key="message_walkaway" value="Bye, |PLAYERNAME|. Just watch out for trouble." />
+	</parameters>
+
+
+</npc>

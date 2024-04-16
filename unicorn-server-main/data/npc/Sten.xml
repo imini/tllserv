@@ -1,0 +1,35 @@
+<npc name="Sten" script="sten.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="132" head="19" body="43" legs="86" feet="114" addons="0"/>
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;instruction;casteldine;quest;king;arturo;hagal;injury;kidnap;jacob;gardar;tommy;cherry;zertic;doc;terepido;penim;jessica;hack sparry" />
+		<parameter key="keyword_reply1" value="I work here in this bank. I change peoples gold." />
+		<parameter key="keyword_reply2" value="My name is nordic. I am of Hagal descent." /> 
+		<parameter key="keyword_reply3" value="I can change your platinum coins to normal gold coins and vice versa. Similarly, I can change crystal coins to platinum coins." /> 
+    <parameter key="keyword_reply4" value="I moved to Casteldine many years ago, partly because I disliked the cold climate at Hagal and partly because I needed a work to earn my living." />
+    <parameter key="keyword_reply5" value="An old friend of mine recently sent me a letter where he begged for my help to retrieve his kidnapped brother. Unfortunately, I cannot help him due to my injury." />
+    <parameter key="keyword_reply6" value="I serve King Arturo and my life belongs to him! Long live the king!" />
+    <parameter key="keyword_reply7" value="I serve King Arturo and my life belongs to him! Long live the king!" />
+    <parameter key="keyword_reply8" value="Hagal is where I come from. It's a very cold island, which I don't miss." />
+    <parameter key="keyword_reply9" value="I have a serious injury in my leg from when I fell in the stairs." />
+    <parameter key="keyword_reply10" value="My friend, Jacob, told me his brother was kidnapped. He begged me for help but he lives on Gardar and that's too far for me to travel with my injured leg." />
+    <parameter key="keyword_reply11" value="Jacob is my old friend from Gardar." />
+    <parameter key="keyword_reply12" value="Gardar is the island next to Hagal. This is where my old friend Jacob lives." />
+    <parameter key="keyword_reply13" value="Tommy is an old friend to me. He used to visit me on Hagal when I lived there." />
+    <parameter key="keyword_reply14" value="Cherry, me and Tommy used to have some really good times in our youth." />
+    <parameter key="keyword_reply15" value="Zertic is that mage who sells runes nearby. Apparently, he is very good at what he does." />
+    <parameter key="keyword_reply16" value="Doc is seemingly only a blacksmith, but I know that he hides something." />
+    <parameter key="keyword_reply17" value="Terepido... Terepido Hagono? Isn't that guy who wrote the books in Celeres' library?" />
+    <parameter key="keyword_reply18" value="Penim is new in Casteldine. He came from the far north, I have heard. He's my neighbor, by the way." />
+    <parameter key="keyword_reply19" value="Such an elegant lady. I heard she's bought the latest fashion from Celeres." />
+    <parameter key="keyword_reply20" value="Captain Hack Sparry has sailed the seven seas." />
+ 		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome to the bank of Casteldine. You may change your gold here, and I am going to serve you. " />
+		<parameter key="message_farewell" value="Farewell, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Bye bye." />
+
+
+	</parameters>
+</npc>

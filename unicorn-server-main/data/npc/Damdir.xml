@@ -1,0 +1,20 @@
+<npc name="Damdir" script="damdir.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="152" head="95" body="114" legs="114" feet="114" addons="3"/>
+	
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="assassin;yamashita;raven castle;king arturo;job" />
+		<parameter key="keyword_reply1" value="I work as an assassin sometimes, but I also tend to do other missions. If I get the money, I do what I am told to do." />
+    <parameter key="keyword_reply2" value="That's some fool living in Dustwit." />
+    <parameter key="keyword_reply3" value="This is the Raven Castle. It is a good hideout for me, as I know many of its inhabitants." />
+    <parameter key="keyword_reply4" value="Haha, one day I will probably be ordered to kill him." />
+    <parameter key="keyword_reply5" value="I work as an assassin." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Greetings, |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Bye." />
+		<parameter key="message_walkaway" value="Watch your back." />
+	</parameters>
+</npc>

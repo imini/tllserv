@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Frost Dragon" nameDescription="a frost dragon" race="undead" experience="2100" speed="270" manacost="0">
+  <health now="1800" max="1800"/>
+  <look type="248" head="20" body="30" legs="40" feet="50" corpse="7091"/>
+  <targetchange interval="5000" chance="3"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="70"/>
+    <flag runonhealth="300"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="65" attack="55"/>
+    <attack name="physical" interval="1000" chance="10" range="8" radius="4" target="1" min="-160" max="-240">
+      <attribute key="shootEffect" value="energy"/>
+      <attribute key="areaEffect" value="blackspark"/>
+    </attack>
+	<attack name="lifedrain" interval="1000" chance="7" length="8" spread="3" min="-160" max="-340">
+      <attribute key="areaEffect" value="poff"/>
+    </attack>
+    <attack name="speed" interval="1000" chance="8" length="8" spread="3" speedchange="-680" duration="50000">
+      <attribute key="areaEffect" value="poff"/>
+    </attack>
+	<attack name="lifedrain" interval="1000" chance="4" length="1" spread="0" min="-140" max="-270">
+      <attribute key="areaEffect" value="poff"/>
+    </attack>
+	<attack name="speed" interval="1000" chance="6" target="0" radius="3" speedchange="-500" duration="50000">
+      <attribute key="areaEffect" value="poff"/>
+    </attack>
+  </attacks>
+ <defenses armor="30" defense="45">
+    <defense name="healing" interval="1000" chance="20" min="60" max="100">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="YOU WILL FREEZE!" yell="1"/>
+    <voice sentence="ZCHHHHH!" yell="1"/>
+    <voice sentence="I am so cool" yell="1"/>
+    <voice sentence="Chill out!." yell="1"/>
+  </voices>
+  <loot capacity="900">
+<item id="1987"> --Bag
+      <inside>
+        <item id="2528" chance="700"/> --Tower Shield
+        <item id="7441" chance="1400"/> --Ice Cube
+	  <item id="2396" chance="1000"/> --Ice Rapier
+        <item id="7402" chance="450"/> --Dragon Slayer
+        <item id="2167" chance="1400"/> --Energy Ring
+        <item id="2033" chance="1200"/> --Golden Mug
+        <item id="1973" chance="1300"/> --Book
+    	  <item id="2547" countmax="2" chance1="3000" chancemax="0"/> --Power Bolt
+      </inside>
+    </item>
+    <item id="2148" countmax="100" chance1="70000" chancemax="0"/> --Gold Coins
+    <item id="2148" countmax="63" chance1="60000" chancemax="0"/> --Gold Coins
+    <item id="2672" countmax="1" chance1="33000" chancemax="0"/> --Dragon Ham
+    <item id="2146" countmax="1" chance1="1483" chancemax="0"/> --Small Sapphire
+    <item id="7290" chance="700"/> --Shard
+    <item id="2498" chance="200"/> --Royal Helmet
+    <item id="2492" chance="110"/> --Dragon Scale Mail
+    <item id="2796" countmax="1" chance1="3400" chancemax="0"/> --Green Mushroom
+      </loot>
+</monster>

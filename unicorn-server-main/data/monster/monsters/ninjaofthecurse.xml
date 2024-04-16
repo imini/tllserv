@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<monster name="Ninja of the Curse" description="a ninja of the curse" experience="500" speed="250" race="blood">
+  <health now="666" max="666"/>
+  <strategy attack="70" defense="20"/>
+  <targetchange speed="0" chance="10"/>
+  <look type="194" head="114" body="86" legs="9" feet="57" addons="0" corpse="6080"/>
+  <flags>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag hostile="1"/>
+    <flag attackable="1"/>
+    <flag pushable="0"/>
+    <flag targetdistance="4"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" chance="100" min="-25" max="-50" range="1"/>
+    <attack name="fire" interval="1000" chance="21" min="-40" max="-70" range="7">
+      <attribute key="areaEffect" value="mortarea"/>
+      <attribute key="shootEffect" value="suddendeath"/>
+    </attack>
+    <attack name="drunk" interval="1000" chance="13" range="6" duration="15000">
+      <attribute key="areaEffect" value="energy"/>
+      <attribute key="shootEffect" value="energy"/>
+    </attack>
+<attack name="physical" interval="1500" chance="10" range="7" min="-60" max="-120">
+      <attribute key="shootEffect" value="redstar"/>
+      <attribute key="areaEffect" value="explosion"/>
+    </attack>
+    <attack name="outfit" interval="1000" chance="11" range="7" monster="skeleton" duration="20000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </attack>
+  </attacks>
+  <defenses defense="45" armor="30">
+    <defense name="speed" interval="1000" chance="9" duration="5500" speedchange="120">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+    <defense name="invisible" interval="1000" chance="9" duration="2000">
+      <attribute key="areaEffect" value="yellowbubble"/>
+    </defense>
+  <defense name="healing" interval="1000" chance="15" min="45" max="70">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity name="fire"/>
+    <immunity name="poison"/>
+    <immunity name="lifedrain"/>
+    <immunity name="outfit"/>
+    <immunity name="drunk"/>
+    <immunity name="invisible"/>
+  </immunities>
+  <summons maxSummons="1">
+    <summon name="ghoul" interval="2000" chance="10" max="1"/>
+  </summons>
+  <voices speed="5000" chance="10">
+    <voice sentence="Die!"/>
+    <voice sentence="Farewell, fool!"/>
+    <voice sentence="Your time has come."/>
+    <voice sentence="It's time to say goodbye."/>
+  </voices>
+  <loot capacity="500">
+<item id="1987" countmax="1">
+      <inside>
+      <item id="2171" countmax="1" chance="150"/> p ammy
+    <item id="2193" countmax="1" chance="13050"/> ankh
+    <item id="2175" countmax="1" chance="1500"/> spell book
+    <item id="2181" countmax="1" chance="1330"/> rod
+    <item id="2170" countmax="1" chance="4450"/> silver amulet
+    <item id="2165" countmax="1" chance="506"/> stealth ring
+    <item id="7451" countmax="1" chance="150"/> shadow sceptre
+    <item id="2655" countmax="1" chance="70"/> red robe
+      </inside>
+    </item>
+    <item id="2148" countmax="80" chance="40000"/> gp
+    <item id="2789" countmax="2" chance="9000"/> mushroom
+    <item id="2268" countmax="1" chance="1000"/> sd
+    <item id="2663" countmax="1" chance="2800"/> turban
+    <item id="2479" countmax="1" chance="1300"/> strange helmet
+    <item id="2656" countmax="1" chance="90"/> blue robe
+  </loot>
+</monster>

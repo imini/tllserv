@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+                       <monster name="Novice of the Cult" experience="150" speed="180" race="2">
+                         <health now="285" max="285"/>
+                         <look type="133" head="114" body="95" legs="114" feet="114" corpse="6080"/>
+                         <strategy attack="70" defense="30"/>
+                         <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="4"/>
+    <flag runonhealth="80"/>
+  </flags>
+                         <attacks>
+                           <attack name="melee" interval="2000"  min="-5" max="-65" poison="30"/>
+				  <attack name="firefield" interval="1000" chance="13" range="7" radius="1" target="1">
+      			 <attribute key="shootEffect" value="fire"/>
+   				 </attack>
+   				 <attack name="poison" interval="1000" chance="25" range="7" min="-20" max="-80">
+     				 <attribute key="shootEffect" value="poison"/>
+   				 </attack>
+				  </attacks>
+                         <defenses armor="20" defense="10">
+   				 <defense name="healing" interval="1000" chance="10" min="45" max="60">
+    				  <attribute key="areaEffect" value="blueshimmer"/>
+  				  </defense>
+ 				 </defenses>
+                         <voices speed="1000" chance="10">
+                           <voice sentence="Fear us!"/>
+                           <voice sentence="You will not tell anyone what you have seen."/>
+                           <voice sentence="Your curiosity will be punished!"/>
+                         </voices>
+                         <summons maxSummons="1">
+                           <summon name="Chicken" interval="2000" chance="40"/>
+                         </summons>
+                         <loot>
+<item id="1987" countmax="1">
+      <inside>
+                           <item id="2199" chance="5500"/> garlic amulet
+                           <item id="2190" chance="4000"/> wand of vortex
+                           <item id="6087" chance="1500"/> paper 
+                           <item id="2213" chance="10000"/> dwarven ring
+                           <item id="2398" chance="15000"/> mace
+                           <item id="1977" chance="12000"/> orange book
+
+      </inside>
+    </item>
+                           <item id="2661" chance="13567"/> scarf
+                           <item id="2148" countmax="45" chancemax="954" chance="40000"/> GP
+                           <item id="2145" countmax="1" chancemax="0" chance="5000"/> small diamond
+                           <item id="2478" chance="9000"/> brass legs
+                           <item id="5810" chance="700"/> voodoo doll
+                         </loot>
+                       </monster>

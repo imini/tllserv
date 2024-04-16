@@ -1,0 +1,33 @@
+<npc name="Captain Hack Sparry" script="captain hack sparry.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="151" head="132" body="115" legs="114" feet="96" addons="3" />
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;angel;name;pirate;destination;shoggy;casteldine;offer;lithaton;dustwit;big fish;ruby necklace;diamond;amethyst;sapphire;dragon lance;quest;abel;mother" />
+		<parameter key="keyword_reply1" value="Aye, that be true! This is me work, being cap'n!" />
+    		<parameter key="keyword_reply2" value="Aaarrr! The Angel's Bane is me pride." />
+    		<parameter key="keyword_reply3" value="Hoh! I am Cap'n Hack Sparry - pleased to have you on board me vessel |PLAYERNAME|." />
+    		<parameter key="keyword_reply4" value="Avast! I am no pirate anymore. Sing Abel Brown for me, matey." />
+    		<parameter key="keyword_reply5" value="I can sail you to many places, young |PLAYERNAME|. Tha'Reen, Adanac, Gardar, Hagal or Agatone - the choice is yours as long as I get the money." />
+    		<parameter key="keyword_reply6" value="Fifteen men on the dead man's chest - Yo-ho-ho, and a bottle of rum! He's drunk, matey." />
+    		<parameter key="keyword_reply7" value="Casteldine is me anchorage! That's where ye are." />
+    		<parameter key="keyword_reply8" value="I can sail you to many places, young |PLAYERNAME|. Tha'Reen, Adanac, Gardar, Hagal or Agatone - the choice is yours as long as I get the money." />
+    		<parameter key="keyword_reply9" value="Ahoy! Lithaton... what is that?" />
+    		<parameter key="keyword_reply10" value="Dustwit! Yo ho, many a' pirate treasure have me hidden there." />
+    		<parameter key="keyword_reply11" value="Shiver me timbers! That's no stolen treasure, aye!" />
+    		<parameter key="keyword_reply12" value="Shiver me timbers! That's no stolen treasure, aye!" />
+    		<parameter key="keyword_reply13" value="Shiver me timbers! That's no stolen treasure, aye!" />
+    		<parameter key="keyword_reply14" value="Shiver me timbers! That's no stolen treasure, aye!" />
+    		<parameter key="keyword_reply15" value="Shiver me timbers! That's no stolen treasure, aye!" />
+    		<parameter key="keyword_reply16" value="Shiver me timbers! That's no stolen treasure, aye!" /> 
+    		<parameter key="keyword_reply17" value="We are all on a quest on the seven seas, until we meet below." /> 
+    		<parameter key="keyword_reply18" value="Sleep with the maiden, yaaarr!" />
+    		<parameter key="keyword_reply19" value="What, my mother? Is she here? I mean... Avast! Yaarr, stupid landlubber, silence or ye'll scrub the decks until them seagulls'll eat ye." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Yarrrgh landlubber, ye've boarded me vessel!" />
+		<parameter key="message_farewell" value="Bring me one noggin of rum, now, won't you, matey." />
+		<parameter key="message_walkaway" value="Dead men don't bite. Abandon ship!" />
+	</parameters>
+</npc>

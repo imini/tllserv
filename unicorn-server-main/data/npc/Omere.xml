@@ -1,0 +1,38 @@
+<npc name="Omere" script="omere.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="130" head="0" body="109" legs="28" feet="95" addons="0"/>
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="offer;spark of the phoenix;spiritual shielding;fire of the suns;embrace of the lost lands;blessing;amulets;lithaton;casteldine;celeres;tha'reen;adanac;king arturo" />
+		<parameter key="keyword_reply1" value="Perhaps, if your wisdom allows, I can teach you a promotional spell. I can also sell you certain amulets. Lastly, I can teach you the Wisdom of Solitude." />
+		<parameter key="keyword_reply2" value="A noble elf, called Caranim, enchants people with this blessing. You can find him in the great tree close to Ashbere." />
+		<parameter key="keyword_reply3" value="I have heard, yet I am not certain, that an aged man called Zeltone handles this blessing. I can't really put my finger on the map, but I have been told he lives in the desert somewhere." />
+		<parameter key="keyword_reply4" value="Yes, I know the one who blesses people with the fire of the suns. He's a very nice man, and he lives in the city of Casteldine." />
+		<parameter key="keyword_reply5" value="A very young boy, indeed, teaches this blessing. He's very eager, and sometimes quite arrogant. But you can't hold that against him, teens these days! If you want to pay him a visst, he's in the tower north-west of Celeres. " />
+		<parameter key="keyword_reply6" value="There are 5 different blessings which you can recieve from five different persons. These are the Spark of the Phoenix, the Embrace of the Lost Lands, the Fire of the Suns, the Wisdom of Solitude and the Spiritual Shielding. I can bless you with the wisdom of solitude." />
+		<parameter key="keyword_reply7" value="I do have two different amulets in my possession, both of great power. The first one, perhaps less mystical, is the protection amulet. Secondly, an amulet which gives the bearer unmatchable powers, the amulet of loss." />
+    <parameter key="keyword_reply8" value="This is the main continent." />
+    <parameter key="keyword_reply9" value="Casteldine is the grand capital in the east." />
+    <parameter key="keyword_reply10" value="Celeres used to be the capital of Lithaton, but when a castle was built to honour King Arturo, he moved there." />
+    <parameter key="keyword_reply11" value="Tha'Reen is a quite newly established trading centrum." />
+    <parameter key="keyword_reply12" value="A peaceful and lovely city, whose inhabitants appears to dislike the king." />
+     <parameter key="keyword_reply13" value="King Arturo is a great leader." />
+     <parameter key="keyword_reply14" value="" />
+     <parameter key="keyword_reply15" value="" />
+     <parameter key="keyword_reply16" value="" />
+     
+    <parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="protection amulet,2200,1;amulet of loss,2173,50000" />
+
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Be greeted, |PLAYERNAME|! Not often do I have guests... to what do I serve the honour of this one?" />
+		<parameter key="message_farewell" value="Good bye. You are welcome." />
+		<parameter key="message_walkaway" value="No patience, these brats!" />
+
+	</parameters>
+
+
+</npc>

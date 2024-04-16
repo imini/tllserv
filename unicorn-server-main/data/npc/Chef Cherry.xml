@@ -1,0 +1,44 @@
+<npc name="Chef Churry" script="Chef Cherry.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="98" body="40" legs="48" feet="95" addons="0"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;king;arturo;kitchenz;casteldine;castle dine;name;food;natalon;tableware;utensil;accessories;vegetable;fruit;dragon;sweet;sten;tommy;jooko;terepido;zertic;doc;dallheim;dallrim;past;demon" />
+		<parameter key="keyword_reply1" value="I am serving King Arturo my wonderful food." />
+		<parameter key="keyword_reply2" value="I can offer you food, sweets, fruits, vegetables, tableware and utensil." />
+    <parameter key="keyword_reply3" value="The king is a very, very grand person. Long live him." />
+    <parameter key="keyword_reply4" value="The king is a very, very grand person. Long live him." />
+    <parameter key="keyword_reply5" value="This is the worlds best kitchen. Really." />
+    <parameter key="keyword_reply6" value="Welcome to Casteldine." />
+    <parameter key="keyword_reply7" value="Castle Dine is the name of this castle. Isn't it catchy?" />
+    <parameter key="keyword_reply8" value="Churry, cherry, curry, cherries. Jerry?" />
+    <parameter key="keyword_reply9" value="I sell food and I make food. For example, I can offer you rolls, salmon, shrimps, fish, meat, ham, fire mushrooms, brown bread and normal bread. Also, I have vegetables and fruits." />
+    <parameter key="keyword_reply10" value="So many stories I have been told about this man. Truly amazing." />
+    <parameter key="keyword_reply11" value="For you I have cups, forks, jugs, kitchen knifes, plates, mugs and spoons." />
+    <parameter key="keyword_reply12" value="I have various sorts of utensil in store. Firstly, we have the tableware of course. Secondly, I also have cooking accessories." />
+    <parameter key="keyword_reply13" value="I have baking trays, cleavers, oven spatulas, pans, rolling pins and candelabrums. Are you interested in buying any?" />
+    <parameter key="keyword_reply14" value="I can offer you corncobs, carrots, cheese, tomatoes, and different coloured egg - and of course normal egg too." />
+    <parameter key="keyword_reply15" value="I have pumpkins, mangoes, melon, pears, grapes, apples, bananas, blueberries, cherries, strawberries and oranges." />
+	  <parameter key="keyword_reply16" value="I have no dragon hams in store, |PLAYERNAME|. They are quite rare here." />	
+	  <parameter key="keyword_reply17" value="I can offer you sweet valentines cake and yummy cookies." />
+		<parameter key="keyword_reply18" value="Sten is my close friend." />
+		<parameter key="keyword_reply19" value="Tommy and I have been friends for very long." />
+		<parameter key="keyword_reply20" value="Don't listen to this fool. He spreads lies about me, don't trust a word about him! I'M NOT A DEMON!" />
+		<parameter key="keyword_reply21" value="He's new in the service of His Royal Highness." />
+		<parameter key="keyword_reply22" value="Believe it or not, I have known him for ages. But he denies it." />
+		<parameter key="keyword_reply23" value="He used to be famous, but don't tell him I told you that. He'll be mad with me. We've had our clashses, you know." />
+		<parameter key="keyword_reply24" value="I am always in debt to his family." />
+		<parameter key="keyword_reply25" value="I REGRET IT! MY SOUL... I COULDN'T DO ANYTHING. FORGIVE ME!" />
+		<parameter key="keyword_reply26" value="My past is taboo! Don't talk to me about it! DO YOU HEAR ME, |PLAYERNAME|!?" />
+		<parameter key="keyword_reply27" value="I AM NOT A DEMON! I HAVE NEVER BEEN A DEMON! LISTEN TO ME, IT IS LIES!" />
+		
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="meat, 2666, 5;fire mushroom, 2795, 25;ham, 2671, 8;egg, 2695, 6;cherry, 2679, 4;baking tray, 2561, 20;cleaver, 2568, 20;oven spatula, 2569, 12;pan, 2564, 20;rolling pin, 2570, 20;candelabrum, 2041, 8;cup, 2013, 2, 0;fork, 2564, 10;jug, 2014, 10, 0;kitchen knife, 2566, 10;mug, 2012, 4, 0;plate, 2035, 6;spoon, 2565, 10;pumpkin, 2683, 35;bread, 2689, 4;brown bread, 2691, 5;mangoes, 5097, 11;melon, 2682, 4;fish, 2667, 4;cheese, 2696, 2;valentines cake,6393, 100;carrot, 2684, 3;corncob, 2686, 4;salmon, 2668,5;shrimp, 2670, 4;pear,2673, 3;grapes, 2681, 3;apple, 2674, 2;banana, 2676, 3;blueberry, 2677, 1;roll, 2690, 2;tomato, 2685, 2;strawberry, 2680, 2;orange, 2675, 4;yellow egg, 6541, 10;red egg, 6542, 10;normal egg, 2695, 3;purple egg, 6545, 10;green egg, 6544, 10;blue egg, 6543, 10;brown mushroom, 2789, 10;white mushroom, 2787, 2;cookie, 2687, 1" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value=" Hello, |PLAYERNAME|! Welcome to the worlds best kitchen." />
+		<parameter key="message_farewell" value="Hope to see you again." />
+		<parameter key="message_walkaway" value="Goodbye." />
+	</parameters>
+</npc>

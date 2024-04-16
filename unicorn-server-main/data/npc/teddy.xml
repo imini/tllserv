@@ -1,0 +1,20 @@
+<npc name="Norton" script="norton.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="133" head="83" body="96" legs="115" feet="82" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;wands;rods;runes" />
+		<parameter key="keyword_reply1" value="I'm selling runes, isn't that obvious?." />
+		<parameter key="keyword_reply2" value="My name is Norton." /> 
+		<parameter key="keyword_reply3" value="I can offer you various runes, rods and wands." /> 
+		<parameter key="keyword_reply4" value="I sell wand of vortex, wand of dragonbreath, wand of plague, wand of cosmic energy and the most powerfull wand the wand of inferno." /> 
+		<parameter key="keyword_reply5" value="I sell snakebite rod, moonlight rod, volcanic rod, quagmire rod and the most powerfull rod the tempest rod." /> 
+		<parameter key="keyword_reply6" value="I sell Ultimate healing runes for 175 gp, Heavy magic missile runes for 125 gp, Sudden death runes for 325 gp, Great fireball runes for 180 gp, Destroy field runes for 85 gp, Firebomb runes for 235 gp, Antidote runes for 65 gp, Intense healing runes for 95 gp, Poisonbomb runes for 170 gp, Magicwall runes for 350 gp and Soulfire runes for 210 gp." /> 
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, what brings you to me? " />
+		<parameter key="message_farewell" value="Good bye |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Yeah, get lost!" />
+	</parameters>
+</npc>

@@ -1,0 +1,29 @@
+<npc name="Umar" script="Umar.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="80" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="blue djinn;green djinn;war;falor;reroah;fa'hadir;caiareus;otarn;do'ranah;offer;name;job;sweat;fighting spirit;ninja" />
+		<parameter key="keyword_reply1" value="We are a superior race." />
+		<parameter key="keyword_reply2" value="We are forever to be in war with those fools. Unless, somebody... oh, never mind." />
+    		<parameter key="keyword_reply3" value="We are in war with the efreet and the ninjas." />
+    		<parameter key="keyword_reply4" value="Falor is amazingly my brother. But we still hate each other, and it wouldn't surprise me if we both would kill each other if we were able to." />
+    		<parameter key="keyword_reply5" value="He is selling some magical things which humans tend to find useful. From times to times I give them permission to trade with him." />
+    		<parameter key="keyword_reply6" value="He has some magical abilities which are very rare." />
+    		<parameter key="keyword_reply7" value="He throws out unwated visitors." />
+    		<parameter key="keyword_reply8" value="Otarn is not the warrior I first thought, when I allowed him into our fortress. He often spends his day reading books, but this has actually helped us much." />
+    		<parameter key="keyword_reply9" value="He trades in equipments and stuff. Humans buys things from him, and he buys things from humans. Which has had permission to trade." />
+    		<parameter key="keyword_reply10" value="I can offer you a one way ticket to death." />
+    		<parameter key="keyword_reply11" value="My name is Umar. I am the king of the blue djinns." />
+    		<parameter key="keyword_reply12" value="I am the leader of the blue djinns and it is I who shall lead them to victory." />
+    		<parameter key="keyword_reply13" value="I believe you should speak with Reroah about this." />
+    		<parameter key="keyword_reply14" value="I believe you should speak with Reroah about this." />
+    		<parameter key="keyword_reply15" value="The ninjas are only dangerous when they attack in group." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome, humble |PLAYERNAME|, to my abode." />
+		<parameter key="message_farewell" value="Goodbye, human. I will always remember you... unless I forgot you, of course." />
+		<parameter key="message_walkaway" value="Back to work." />
+	</parameters>
+</npc>

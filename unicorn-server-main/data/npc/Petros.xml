@@ -1,0 +1,24 @@
+<npc name="Petros" script="petros.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="79" body="10" legs="127" feet="127" addons="0"/>
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;captain;ship;destination;travel;tha'reen;name;peter;father;secret" />
+		<parameter key="keyword_reply1" value="I'm the proud captain of this grand ship." />
+		<parameter key="keyword_reply2" value="I'm the captain." />
+		<parameter key="keyword_reply3" value="I hope you like my ship. It's of great value to me." />
+		<parameter key="keyword_reply4" value="I can take you to the island of Agatone, aswell as the cities Casteldine and Adanac and the sage Omere." />
+		<parameter key="keyword_reply5" value="I can take you to the island of Agatone, aswell as the cities Casteldine and Adanac and the sage Omere." />
+		<parameter key="keyword_reply6" value="We are at Tha'Reen already." />
+		<parameter key="keyword_reply7" value="Petros, after my father Peter." />
+		<parameter key="keyword_reply8" value="Peter was my father, a very grand man." />
+		<parameter key="keyword_reply9" value="My father's name was Peter - he was a very nice man. Unfortunately, he left us recently and all he left behind was a secret which I have no use for." />
+		<parameter key="keyword_reply10" value="My father told me there was something very peculiar with the stones south of the local bar. You know the ones placed in a circle?" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Greetings, |PLAYERNAME|. We have a nice day for sailing." />
+		<parameter key="message_farewell" value="May the wind be on your side." />
+		<parameter key="message_walkaway" value="Good bye. May the wind blow your way." />
+	</parameters>
+</npc>

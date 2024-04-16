@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<monster name="Quara Pincher" nameDescription="a quara pincher" experience="1200" race="blood" speed="418">
+	<health now="1800" max="1800"/>
+	<look type="77" corpse="6063"/>
+	<targetchange speed="2000" chance="25"/>
+	<strategy attack="80" defense="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<immunities>
+    <immunity energy1="1"/>
+    <immunity fire1="1"/>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="0"/>
+		<immunity drunk="0"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<attacks>
+		<attack name="melee" speed="2000" min="-60" max="-330"/>
+		<attack name="speed" interval="2000" chance="20" range="7" speedchange="-400" duration="3000">
+      		<attribute key="areaEffect" value="redshimmer"/>
+    	</attack>
+	</attacks>
+	<defenses armor="39" defense="52"/>
+
+	<voices speed="1000" chance="10">
+		<voice sentence="Clank! Clank!"/>
+		<voice sentence="Clap!"/>
+	</voices>
+	<loot>
+<item id="1987" countmax="1">
+      <inside>
+				<item id="2398" chance="1500"/>-- halberd
+				<item id="2398" chance="8000"/>-- mace
+				<item id="2394" chance="3600"/>-- morning star
+		<item id="5895" chance="3000"/>-- fish fin
+
+      </inside>
+    </item>
+		<item id="2148" countmax="100" chancemax="0" chance1="70000"/> GP
+		<item id="2670" countmax="1" chancemax="0" chance1="4370"/>-- shrimp
+		<item id="2147" countmax="1" chancemax="0" chance1="3030"/>-- small ruby
+		<item id="2144" countmax="1" chancemax="0" chance1="4700"/>-- black pearl
+				<item id="2475" chance="676"/>-- warrior helmet
+				<item id="2487" chance="251"/>-- crown armor
+	</loot>
+</monster>

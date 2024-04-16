@@ -1,0 +1,26 @@
+<npc name="Alusir" script="alusir.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="51" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="djinns;problem;human;falor;maloqua;taa'feal;name;marid;efreet;dustwit;tha'reen;offer" />
+		<parameter key="keyword_reply1" value="Djinns are smart creatures. Much smarter than you will ever imagine. But remember, only green djinns are smart. Not blue ones." />
+    <parameter key="keyword_reply2" value="WHAT!? I DON'T HAVE ANY PROBLEM, FOOLISH MAGGOT!" />
+    <parameter key="keyword_reply3" value="I hate humans! I really do!" />
+    <parameter key="keyword_reply4" value="Falor, he is, how should I put it, unmatchable. Nothing is better than him. He is my leader and I will serve him for ever." />
+    <parameter key="keyword_reply5" value="He is all too nice to our 'guests'." />
+    <parameter key="keyword_reply6" value="Our battle commander. Admittedly, he is a very smart one." />
+    <parameter key="keyword_reply7" value="Alusir is my name, fool." />
+    <parameter key="keyword_reply8" value="Marids - bleh! I hope they all will be extinguished some day." />
+    <parameter key="keyword_reply9" value="Long live the efreet!" />
+    <parameter key="keyword_reply10" value="Dustwit is a continental island which we soon will rule... alone." />
+    <parameter key="keyword_reply11" value="Oh, is that little settlement still there? I thought Maloqua destroyed it last week." />
+    <parameter key="keyword_reply12" value="Stupid fool, speak with our traders... but only if you have had permission from Falor, of course." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value=" What do you want from me, |PLAYERNAME|?" />
+		<parameter key="message_farewell" value="Finally." />
+		<parameter key="message_walkaway" value="Finally." />
+	</parameters>
+</npc>

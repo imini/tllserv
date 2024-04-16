@@ -1,0 +1,34 @@
+<npc name="Ann" script="ann.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="140" head="79" body="39" legs="77" feet="115" addons="0"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;name;celeres;adanac;king arturo;johanne;equipment;caroline;norton;casteldine;henry always;flynn;agorn;harzon;ronny;fisherman" />
+		<parameter key="keyword_reply1" value="I am Ann, and I will be serving you today." />
+		<parameter key="keyword_reply2" value="Have a check at the blackboard." />
+    <parameter key="keyword_reply3" value="My name is Annelie, but I prefer to be called Ann." />
+    <parameter key="keyword_reply4" value="I have lived in Celeres earlier. The city already had a decent equipment seller, so I decided to move here where equipment was an ever more sought-after article." />
+    <parameter key="keyword_reply5" value="This is Adanac, if you didn't already know that. It's a quite peaceful city, isn't it?" />
+    <parameter key="keyword_reply6" value="The king lives in Castledine. Far from everyone are satisfied with his way of ruling, and I am one of them." />
+    <parameter key="keyword_reply7" value="She has nice clothes." />
+    <parameter key="keyword_reply8" value="I sell equipment which might come in handy out in the wildness. For example, a rope might save your life if you fall into a hole." />
+    <parameter key="keyword_reply9" value="Caroline was the equipment seller, or she probably still is, in Celeres." />
+    <parameter key="keyword_reply10" value="Norton is a great mage who lives in the house to the left. I am afraid he's a little ill though, he told me he caught a disease recently." />
+	  <parameter key="keyword_reply11" value="We all love Casteldine, yes yes - just because the king lives there. Woah! That really makes it a great city. Yeh, it really does." />
+		<parameter key="keyword_reply12" value="Aah... he is so blown-up." />
+		<parameter key="keyword_reply13" value="He is kind." />
+		<parameter key="keyword_reply14" value="Behind the clothes and dirt there is a young and healthy man." />
+		<parameter key="keyword_reply15" value="I wonder how old he really is." />
+		<parameter key="keyword_reply16" value="What is he really doing out in Hedwood?" />
+		<parameter key="keyword_reply17" value="Strange guy." />
+		
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="rope, 2120, 40;shovel, 2554, 10;pick, 2553, 50;torch, 2050, 2;backpack, 2003, 10;brown backpack, 1988, 12;brown bag, 1987, 4;bag, 1996, 7;fishing rod, 2580, 95;machete, 2420, 25" />
+
+		<parameter key="talkdelaytime" value="2"/>
+		<parameter key="message_greet" value="Hey. What brings you to my shop?" />
+		<parameter key="message_farewell" value="Farewell, |PLAYERNAME|!" />
+		<parameter key="message_walkaway" value="How arrogant!" />
+	</parameters>
+</npc>

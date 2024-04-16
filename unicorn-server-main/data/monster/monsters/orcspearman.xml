@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<monster name="Orc Spearman" description="an orc spearman" experience="38" manacost="310" speed="176" race="blood">
+  <health now="105" max="105"/>
+  <strategy attack="100" defense="0"/>
+  <targetchange speed="1" chance="50"/>
+  <look type="50" head="0" body="0" legs="0" feet="0" addons="0" corpse="2920"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag hostile="1"/>
+    <flag attackable="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag targetdistance="4"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="physical" interval="2000" chance="100" min="-4" max="-22" range="7">
+      <attribute key="shootEffect" value="spear"/>
+    </attack>
+  </attacks>
+  <defenses defense="12" armor="6"/>
+  <immunities/>
+  <voices speed="0" chance="10">
+    <voice sentence="Ugaar!"/>
+  </voices>
+  <loot>
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2220" countmax="1" chance="7700"/>
+    <item id="2420" countmax="1" chance="10000"/>
+    <item id="2389" countmax="1" chance="23000"/>
+      </inside>
+    </item>
+    <item id="2148" countmax="7" chance="22000"/>
+    <item id="2666" countmax="1" chance="30000"/>
+    <item id="2482" countmax="1" chance="9000"/>
+    <item id="2468" countmax="1" chance="10000"/>
+  </loot>
+</monster>

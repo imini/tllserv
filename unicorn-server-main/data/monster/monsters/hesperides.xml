@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hesperides" nameDescription="Hesperides" race="venom" experience="4790" speed="320" manacost="0">
+  <health now="3400" max="3400"/>
+  <look type="57" head="0" body="0" legs="0" feet="0" corpse="3058"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="20"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-50" max="-120"/>
+    <attack name="poison" interval="1000" chance="18" range="7" min="-130" max="-220">
+      <attribute key="shootEffect" value="poison"/>
+    </attack>
+    <attack name="poisoncondition" interval="1000" chance="17" radius="4" target="0" min="-100" max="-300">
+      <attribute key="areaEffect" value="yellowbubble"/>
+    </attack>
+    <attack name="poison" interval="1000" chance="23" length="8" spread="0" min="-140" max="-215">
+      <attribute key="areaEffect" value="greenspark"/>
+    </attack>
+    <attack name="poisonfield" interval="1000" chance="10" radius="4" target="0"/>
+  </attacks>
+  <defenses armor="56" defense="68">
+    <defense name="speed" interval="1000" chance="8" speedchange="400" duration="9000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+    <defense name="healing" interval="1000" chance="13" min="200" max="350">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="1">
+    <summon name="ancient scarab" interval="1000" chance="15" max="1"/>
+  </summons>
+  <loot capacity="500">
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2142" countmax="1" chance="1000"/>
+    <item id="2440" countmax="1" chance="300"/>
+    <item id="2162" countmax="1" chance="10900"/>
+    <item id="2135" countmax="1" chance="500"/>
+    <item id="2540" countmax="1" chance="500"/>
+      </inside>
+    </item>
+    <item id="2148" countmax="100" chance="44400"/>
+    <item id="2148" countmax="66" chance="75700"/>
+    <item id="2148" countmax="22" chance="99900"/>
+    <item id="2463" countmax="1" chance="10000"/>
+    <item id="2159" countmax="2" chance="5000"/>
+    <item id="2159" countmax="1" chance="1000"/>
+    <item id="2150" countmax="4" chance="1200"/>
+    <item id="2149" countmax="3" chance="600"/>
+  </loot>
+</monster>

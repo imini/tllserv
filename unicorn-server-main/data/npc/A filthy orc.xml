@@ -1,0 +1,26 @@
+<npc name="A filthy orc" script="A filthy orc.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="5" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="orc;casteldine;job;offer" />
+		<parameter key="keyword_reply1" value="Orcs is mighty, yes?" />
+		<parameter key="keyword_reply2" value="Human city, we will conquer it soon. See and wait human." />
+  	<parameter key="keyword_reply3" value="Job? Me no have." />
+  	<parameter key="keyword_reply4" value="Laugh, laugh." />
+
+		<parameter key="message_greet" value="Huh? What you want, human scum?" />
+		<parameter key="message_farewell" value="Yes. Go, now!" />
+		<parameter key="message_buy" value="Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?" />
+		<parameter key="message_sell" value="Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?" />
+    <parameter key="message_onbuy" value="" />
+    <parameter key="message_onsell" value="" />
+    <parameter key="message_needmoremoney" value="" />
+    <parameter key="message_nothaveitem" value="" />
+    <parameter key="message_idletimeout" value="Me don't have more time for you, scum-human." />
+    <parameter key="message_walkaway" value="Yes, that right. Flee, scum." />  
+    <parameter key="message_alreadyfocused" value="I speak to you." />
+    <parameter key="message_decline" value="Wait." />
+    <parameter key="message_placedinqueue" value="Wait." />
+	</parameters>
+</npc>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<npc name="Zaim" script="zaim.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="146" head="76" body="38" legs="76" feet="95" addons="1"/>
+
+<parameters>
+  <parameter key="module_keywords" value="1" /> 
+  <parameter key="keywords" value="name;job;offer;tha'reen;furniture;reasons;archdemons;godslayer;library;sealed section;treasure;quest;raspuita;entrance;tommy;samahat;" /> 
+  <parameter key="keyword_reply1" value="My name is Zaim. I have no idea of what it means." /> 
+<parameter key="keyword_reply2" value="I'm a former treasure seeker, but I gave up due to various reasons. Nowadays I sell furniture." /> 
+<parameter key="keyword_reply3" value="I sell furniture." /> 
+<parameter key="keyword_reply4" value="I love this city, it means alot to me. I have lived here since I was a little child." /> 
+<parameter key="keyword_reply5" value="I, as my father, sells furniture. I even make them myself." /> 
+<parameter key="keyword_reply6" value="Reasons for why I gave up the treasure seeking? I wasn't successful. All my life I've searched for the archdemons and their famous treasures." /> 
+<parameter key="keyword_reply7" value="I have never found them, but deep down inside me I know they exist. As the treasure seeker I was I used to read many ancient books. One caught my interest - it was about the godslayer." /> 
+<parameter key="keyword_reply8" value="The godslayer is said to be the most powerful weapon ever to have existed. I have read about it in the sealed section at the library." /> 
+<parameter key="keyword_reply9" value="The library is undoubtedly a very interesting source of information. I think I've read almost every book by now." /> 
+<parameter key="keyword_reply10" value="The sealed section at the library is only for members. Talk to Raspuita if you would like to become one. It's truly worth the subscription." /> 
+<parameter key="keyword_reply11" value="All my life I have searched for treasures, but I have never been really successful. My goal has always been the archdemons' ancient treasures." /> 
+<parameter key="keyword_reply12" value="My quest in life used to be to chase down the archdemons hideout. I actually believed myself to know where the entrance was, but it's just lies... everything is lies." /> 
+<parameter key="keyword_reply13" value="Raspuita is the librarian." /> 
+<parameter key="keyword_reply14" value="Well... I once thought that the secret entrance to the Archdemons hideout was the funny stone monument south-east of the city... but I never found anything special about the stones." /> 
+ 
+    <parameter key="keyword_reply15" value="Some distant relative I have, who is buying my furniture I make. I don't like him, really." />
+<parameter key="keyword_reply16" value="I know her." /> 
+<parameter key="message_greet" value="Hello, |PLAYERNAME|. Feeling peckish for some furniture?"/>
+<parameter key="message_farewell" value="Bye."/>
+<parameter key="message_walkaway" value="Well, whatever."/>
+</parameters>
+</npc>

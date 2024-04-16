@@ -1,0 +1,46 @@
+<npc name="Ronny the recluse" script="ronny the recluse.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="153" head="0" body="97" legs="115" feet="105" addons="1"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="offer;recluse;name;ronny;celeres;adanac;king arturo;quest;dragon;natalon;hedwood;ann;henry always;stefan;fisherman;norton;edwyn;jean;agorn;harzon;johanne;flynn" />
+		<parameter key="keyword_reply1" value="I would like to buy armors, weapons, shields, legs and helmets from you." />
+		<parameter key="keyword_reply2" value="Yes, I'm a recluse. I hate living in cities. I like the nature more." />
+		<parameter key="keyword_reply3" value="Ronny - thats my name." />
+		<parameter key="keyword_reply4" value="Yeah, thats my name" />
+		<parameter key="keyword_reply5" value="Celeres is in the far east. I heard they have a problem with ghost stories. Apparently something about a vampire." />
+		<parameter key="keyword_reply6" value="Adanac is south of Hedwood." />
+		<parameter key="keyword_reply7" value="I don't give a damn about him." />
+		<parameter key="keyword_reply8" value="There's a hidden dragon cave somewhere in this wood. I used to know the dragon, but I have forgotten where the cave was." />
+		<parameter key="keyword_reply9" value="The dragon in the hidden cavity was my friend, but I think he has forgotten me now. Dragons are not known to have a great memory, you see." />
+		<parameter key="keyword_reply10" value="Natalon. I know this man. Everyone does, I believe. He saved Casteldine from the orcish attack a long time ago." />
+    		<parameter key="keyword_reply11" value="We are in Hedwood right now. I like this little forest." />
+		<parameter key="keyword_reply12" value="Bah, she is messy." />
+		<parameter key="keyword_reply13" value="He think he is some sort of nobility with his folourful clothes." />
+		<parameter key="keyword_reply14" value="Something is very strange with him." />
+		<parameter key="keyword_reply15" value="I like his life style." />
+		<parameter key="keyword_reply16" value="He knows some nice magic." />
+		<parameter key="keyword_reply17" value="Some believe he is crazy." />
+		<parameter key="keyword_reply18" value="I can't afford his food, but when I visit Adanac I walk by just to sense the smell." />
+		<parameter key="keyword_reply19" value="He has a nice staff." />
+		<parameter key="keyword_reply20" value="He is probably older than me." />
+		<parameter key="keyword_reply21" value="Cute lady, a few life times too young for me though." />
+		<parameter key="keyword_reply22" value="He is very kind to me, the few times we speak." />
+		
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="chain armor, 2464, 60;brass armor, 2465, 120;plate armor, 2463, 400;knight armor, 2476, 3500;chain helmet, 2458, 12;iron helmet, 2459, 85;viking helmet, 2473, 44;brass helmet, 2460, 14;steel helmet, 2457, 195;dark helmet, 2490, 185;crown helmet, 2491, 1100;brass legs, 2478, 40;plate legs, 2647, 450;plate shield, 2510, 40;steel shield, 2509, 95;dark shield, 2521, 65;dwarven shield, 2525, 100;battle shield, 2513, 95;beholder shield, 2518, 1200;hatchet, 2388, 15;battle axe, 2388, 85;double axe, 2387, 240;halberd, 2381, 400;barbarian axe, 2429, 340;obsidian lance, 2425, 120;rapier, 2384, 12;short sword, 2406, 11;sabre, 2385, 22;two handed sword, 2377,400;longsword, 2397, 52;sword, 2376, 35;carlin sword, 2395, 13;broadsword, 2413, 250;serpent sword, 2409, 2000;mace, 2398, 35;clerical mace, 2423, 150" />
+		<parameter key="shop_buyable" value="chain armor, 2464, 100;brass armor, 2465, 420;plate armor, 2463, 1100;chain helmet, 2458, 32;iron helmet, 2459, 185;viking helmet, 2473, 94;brass helmet, 2460, 24;steel helmet, 2457, 395;dark helmet, 2490, 790;chain trousers, 2648, 260;brass legs, 2478, 440;plate shield, 2510, 105;steel shield, 2509, 495;dark shield, 2521, 840;hatchet, 2388, 55;battle axe, 2378, 285;double axe, 2387, 1045;halberd, 2381, 900;barbarian axe, 2429, 940;obsidian lance, 2425, 900;rapier, 2384, 22;short sword, 2406, 21;sabre, 2385, 23;sword, 2376, 75;carlin sword, 2395, 63;longsword, 2397, 151;broadsword, 2413, 950;twohanded sword, 2377, 900;mace, 2398, 75;clerical mace, 2423, 550" />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome to my forest, |PLAYERNAME|. May I assist you somehow?" />
+		<parameter key="message_farewell" value="Good bye, hope to see you again." />
+		<parameter key="message_walkaway" value="Good bye." />
+
+	</parameters>
+</npc>
+
+
+
+
+
+

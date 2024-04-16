@@ -1,0 +1,30 @@
+<npc name="Skulldugger" script="skulldugger.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="18" head="0" body="0" legs="0" feet="0"/>
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;laudegrance;dallheim;casteldine;king arturo;ghoul;offer;quest;human;dallrim;churry;name" />
+		<parameter key="keyword_reply1" value="Me live alone, me no like human." />
+		<parameter key="keyword_reply2" value="Here is Laudegrance." />
+		<parameter key="keyword_reply3" value="Dall Heim, nice friend." />
+		<parameter key="keyword_reply4" value="Is human city north. Me no like." />
+		<parameter key="keyword_reply5" value="Dumb human leader. He is kill me if go to Castledine." />
+		<parameter key="keyword_reply6" value="Me is ghoul. You is human." />
+		<parameter key="keyword_reply7" value="I no offer have." />
+		<parameter key="keyword_reply8" value="Me no understand." />
+		<parameter key="keyword_reply9" value="Human is no nice. Only Dallheim is." />
+		<parameter key="keyword_reply10" value="Is father Dallheim. Is die from Churry." />
+		<parameter key="keyword_reply11" value="Churry demon killed Dallrim." />
+    		<parameter key="keyword_reply12" value="Me is Skull Dugger. You is |PLAYERNAME|. Skull Dugger knows. All." />
+
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Bye?" />
+		<parameter key="message_farewell" value="Hi?" />
+		<parameter key="message_walkaway" value="Hi?" />
+	</parameters>
+
+
+</npc>

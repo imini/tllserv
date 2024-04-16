@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Joan" script="joan.lua" walkinterval="1500" speed="100" walkradius="2" floorchange="0">
+	<health max="100" now="100"/>
+	<look type="128" head="0" body="0" legs="0" feet="0" addons="0" mount="0"/>
+	<parameters>
+		<!--MESSAGES-->
+		<parameter key="message_greet" value="Greetings, |PLAYERNAME|. Get the finest starter potions here!"/>
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|. Have a great day."/>
+		<parameter key="message_buy" value="Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onbuy" value="Here you go, Use it wisely."/>
+		<parameter key="message_bought" value="Bought |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_sell" value="Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onsell" value="Here you are, |TOTALCOST| gold."/>
+		<parameter key="message_sold" value="Sold |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_missingmoney" value="You don't have enough money."/>
+		<parameter key="message_needmoney" value="You don't have enough money."/>
+		<parameter key="message_missingitem" value="You don't have so many."/>
+		<parameter key="message_needitem" value="You do not have this object."/>
+		<parameter key="message_needspace" value="You do not have enough capacity."/>
+		<parameter key="message_needmorespace" value="You do not have enough capacity for all items."/>
+		<parameter key="message_idletimeout" value="Good bye."/>
+		<parameter key="message_decline" value="No problem."/>
+		<parameter key="message_sendtrade" value="Have a look at my products."/>
+		<parameter key="message_noshop" value="Sorry, I have nothing to offer."/>
+		<parameter key="message_oncloseshop" value="Thank you, come back whenever you're in need of something else."/>
+		<parameter key="message_alreadyfocused" value="|PLAYERNAME|, I am already talking to you."/>
+		<parameter key="message_walkaway_male" value="Good bye."/>
+		<parameter key="message_walkaway_female" value="Good bye."/>
+		<!--KEYWORDS-->
+		<parameter key="module_keywords" value="1"/>
+		<parameter key="keywords" value="lirensfolk;hercules"/>
+		<parameter key="keyword_reply1" value="What a beautiful place this is."/>
+		<parameter key="keyword_reply2" value="I bet he could use your help with a rat infestation."/>
+		<!--SHOP-->
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="small health potion,8704,20;health potion,7618,50;mana potion,7620,50"/>
+	</parameters>
+</npc>

@@ -1,0 +1,58 @@
+<npc name="Lance" script="lance.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="57" head="0" body="0" legs="0" feet="0"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;quest;mission;temple;lost lands;celeres;adanac;casteldine;lithaton;hagal;gardar;agatone;tha'reen;dustwit;briefing;christopher;riona;gebby;hercules;rocky;joan;morris;sigiric;flynn;hawa;legend;flantania;king arturo;king flantan;library;peter;help;hunting;equipment;food;oracle;city;town;academy;sword of fury" />
+		<parameter key="keyword_reply1" value="I am the monk here in Flantania." />
+    <parameter key="keyword_reply2" value="My name is Lance, I am glad to meet you, |PLAYERNAME|." />
+    <parameter key="keyword_reply3" value="I can offer you my healing when you are seriously injured and sell you a club incase you lose your current weapon. Also, I'd be glad to give you a short briefing." />
+    <parameter key="keyword_reply4" value="You should remember that quests are usually not very easy, and before you embark on such a journey you should find yourself some equipment and food." />
+    <parameter key="keyword_reply5" value="I wouldn't want to order you to do this, |PLAYERNAME|, but a friend of mine recently went into the sewers to take care of the rat plague. But he haven't returned, so I hereby beg you to go find him... or whatever is left of him." />
+    <parameter key="keyword_reply6" value="This is the temple of Flantania. There are similar ones in both Lithaton's and Dustwit's cities. The monks responsible for these temples are Morris, Ya-Bint-Al-hawa, Sigiric and Flynn." />
+    <parameter key="keyword_reply7" value="This is the Lost Lands. It is mainly consisting out of two major continents, Lithaton and Dustwit." />
+    <parameter key="keyword_reply8" value="Celeres is the old capital of Lithaton, but when Celero IV passed away his only son Arturo moved to the newly built castle in Casteldine. This city is well known for its mystical Academy." />
+    <parameter key="keyword_reply9" value="Adanac is a peaceful and serene town in the far west of Lithaton. Its inhabitants are known for their disliking of king Arturo and his way of ruling." />
+    <parameter key="keyword_reply10" value="Casteldine is the grand capital of Lithaton, and this is where king Arturo lives. When you eventually talk to the oracle, this is where she will send you." />
+    <parameter key="keyword_reply11" value="Lithaton is the biggest continent in the Lost Lands. A few smaller islands are also counted to it. These are Hagal, Gardar, Agatone and Flantania Isle." />
+    <parameter key="keyword_reply12" value="Hagal is the neighbour island of Gardar. Both these islands have an extremely cold climate and only a few fishermen lives here." />
+    <parameter key="keyword_reply13" value="Gardar is the neighbour island of Hagal. Both these islands have an extremely cold climate and only a few fishermen lives here." />
+    <parameter key="keyword_reply14" value="Agatone is a small but warm island in the south-east. It has been made quite famous by its battle arena, where players are able to challenge each other without suffering from injuries afterwards." />
+    <parameter key="keyword_reply15" value="Tha'Reen is the outpost on Dustwit. Celero IV sent settlers to this island with the intentions of building an important settlement for the Lithaton Trading Company. Instead, the settlement grew into a swarming city." />                                                                                                                     
+    <parameter key="keyword_reply16" value="Dustwit is the second continent, mainly containing of warm and sandy climate. Its main city Tha'Reen is located in the south-west." />
+    <parameter key="keyword_reply17" value="Very well, |PLAYERNAME|. Firstly, I would suggest you get hold of some equipment. Secondly, some food would be quite suitable to buy incase you are planning a longer journey. Thereafter, you could continue with the hunting." />
+    <parameter key="keyword_reply18" value="Christopher is the nice man who owns the bar close by. He sells various kinds of food, and you should ask him for some, as you probably will need it on your adventures." />
+    <parameter key="keyword_reply19" value="Riona is a nice lady who owns the equipment shop. Walk by her if you need ropes or shovels or other useful equipment." />
+    <parameter key="keyword_reply20" value="Gebby trades weapons and equipment in her little shop to the east." />
+    <parameter key="keyword_reply21" value="Hercules is the local tanner. He buys dead animals, tan them and make fine leather out of their skin, which he later sells." />
+    <parameter key="keyword_reply22" value="Rocky is a sage living on a small mountain in his hut." />
+    <parameter key="keyword_reply23" value="Joan is a beginner mage. She sells some interesting things in her shop to the south. Give her a visit, someday." />
+    <parameter key="keyword_reply24" value="Morris is the monk in Casteldine's temple." />
+    <parameter key="keyword_reply25" value="Sigiric lives in Celeres, where he works as a monk in the temple." />
+    <parameter key="keyword_reply26" value="Flynn is the monk from Adanac." />
+    <parameter key="keyword_reply27" value="Ya-Bint-Al-Hawa comes from Tha'Reen. He works there as a monk in their temple." />
+    <parameter key="keyword_reply28" value="Legends has it that an ancient sword unique of its kind is hidden somewhere on this islands. I warn you though, |PLAYERNAME|, never trust rumours." />
+    <parameter key="keyword_reply29" value="This island, Flantania Isle, was found by Celero I. However, king Flantan later built this little village which he obviously named after himself." />
+    <parameter key="keyword_reply30" value="King Arturo rules from Casteldine, where a grand castle is built to his honour." />
+    <parameter key="keyword_reply31" value="King Flantan was the king between Celero I and II. He named this village and island after himself." />
+    <parameter key="keyword_reply32" value="The library is an interesting place to spend a few hours." />
+    <parameter key="keyword_reply33" value="He is quite keen on the silence in his library, so I suggest you don't upset him." />
+    <parameter key="keyword_reply34" value="I can heal you if you are wounded. Furthermore, I have an offer for you aswell as a briefing which I strongly suggest you should listen to if you are new here." />
+    <parameter key="keyword_reply35" value="When you are equipped enough you should preferably go hunting, to increase your strength and stamina. The best way to start this is to go down into the sewers and slay rats. But be aware, even weak creatures like this can kill you if you are not vigilant." />
+    <parameter key="keyword_reply36" value="Gebby deals with equipment and weapons, and you should go find her and talk with her about her offers. Also, you should visit dear Riona for some ropes and other useful things." />
+    <parameter key="keyword_reply37" value="Christopher owns the local bar, and he will certainly be glad to serve you delicios food for just a little dime." />
+    <parameter key="keyword_reply38" value="The Oracle is ready to take you to the capital of Lithaton as soon as you have reached the level of 8." />
+    <parameter key="keyword_reply39" value="There are four cities in Lithaton and Dustwit. These are Casteldine, Celeres, Adanac and Tha'Reen." />
+    <parameter key="keyword_reply40" value="There are four cities in Lithaton and Dustwit. These are Casteldine, Celeres, Adanac and Tha'Reen." />
+    <parameter key="keyword_reply41" value="The Celerian Academy is a mystic institution. Noone really knows where they have their headquarters, but they rule their city fair and peacefully." />
+    <parameter key="keyword_reply42" value="Many rumours circulate the town. All I know though, is that it is yet not taken." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="club,2382,4" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello. Welcome to the temple of Flantania." />
+		<parameter key="message_farewell" value="Farewell, |PLAYERNAME|!" />
+		<parameter key="message_walkaway" value="Goodbye." />
+	</parameters>
+</npc>

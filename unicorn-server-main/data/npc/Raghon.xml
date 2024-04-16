@@ -1,0 +1,34 @@
+<npc name="Raghon" script="Raghon.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="133" head="95" body="57" legs="67" feet="40" addons="1"/>
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;spark of the phoenix;spiritual shielding;wisdom of solitude;embrace of the lost lands;offer;blessing;hu keres;poker;ashbere;omere;zeltone;casteldine;lithaton;name;view" />
+		<parameter key="keyword_reply1" value="I don't have a job. I'm just enjoying the view up here." />
+		<parameter key="keyword_reply2" value="The noble elf Caranim enchants people with the Spark of the Phoenix. He lives in the infamous tree south of the elven village, Ashbere." />
+		<parameter key="keyword_reply3" value="I have heard Zeltone teach the spiritual shielding to those who can find him. It's not often possessors of one of the five blessings is so isolated, but he lives in the desert somewhere... in the north-east, if I'm not mistaken." />
+		<parameter key="keyword_reply4" value="This blessing can be enchanted upon you by  Omere, who lives on an island in the Sherian Seas. Travel to him from Agatone, but treat him with respect, as he is one of the oldest men alive in the world." />
+		<parameter key="keyword_reply5" value="Ah. An old friend, well... perhaps not a friend really, but I used to know him... anyways, he can teach you the Embrace of the Lost Lands. You can find him north-west of Celeres in a peculiar tower. " />
+		<parameter key="keyword_reply6" value="I don't have any earthly possessions except my clothes. But I do have some magical powers - I can gift you with a blessing." />
+		<parameter key="keyword_reply7" value="There are 5 different blessings which you can recieve from five different persons. These are the Spark of the Phoenix, the Embrace of the Lost Lands, the Fire of the Suns, the Wisdom of Solitude and the Spiritual Shielding. I can bless you with the Fire of the Suns." />
+		<parameter key="keyword_reply8" value="I think I remember him. Truly a great poker player. I never stood a chance against his skill with the cards." />
+    <parameter key="keyword_reply9" value="I used to be really great at poker. But I stopped playing, I lost my money too fast." />
+    <parameter key="keyword_reply10" value="Ashbere is a very grand city built by the elves. Unfortunately, these elves are not very friendly. One of the possessors of the five blessings was rejected from Ashbere, and now lives in a treehouse close by." />
+    <parameter key="keyword_reply11" value="Omere is truly an amazing man. I don't know how old he is, but I would guess far beyond one hundred." />
+    <parameter key="keyword_reply12" value="Zeltone is a mystic man. He lives in Dustwit, but I don't know where. I've been told that he is in the north-east part of the island, though." />
+    <parameter key="keyword_reply13" value="I can see all Casteldine from here." />
+    <parameter key="keyword_reply14" value="I wish I could see all Lithaton from this tower." />
+    <parameter key="keyword_reply15" value="My name is Raghon." />
+    <parameter key="keyword_reply16" value="A decent view, really. I can almost see all the way to Celeres." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello, |PLAYERNAME|. What brings you here?" />
+		<parameter key="message_farewell" value="Good bye. You are welcome back anytime." />
+		<parameter key="message_walkaway" value="Farewell!" />
+
+	</parameters>
+
+
+</npc>

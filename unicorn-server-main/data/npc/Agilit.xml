@@ -1,0 +1,27 @@
+<npc name="Agilit" script="agilit.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="152" head="114" body="2" legs="114" feet="114" addons="3"/>
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="sanjuro;job;name;yamashita;ninja;marid;djinns;efreet;offer;help"/>
+		<parameter key="keyword_reply1" value="Sanjuro was a legend even before he died." />
+    <parameter key="keyword_reply2" value="I am the leader of the ninjas." />
+    <parameter key="keyword_reply3" value="My name is Agilit, which means immortal." />
+    <parameter key="keyword_reply4" value="He is some fool living in the Barrel Cliffs. I want him dead." />
+    <parameter key="keyword_reply5" value="We're the ninjas. Our fighting techniques and tactics are devastating for anyone who is foolish enough to fight us." />
+    <parameter key="keyword_reply6" value="We are fighting the marid. We want to conquer their tower." />
+    <parameter key="keyword_reply7" value="We are fighting the marid. We want to conquer their tower." />
+    <parameter key="keyword_reply8" value="We don't have any business with the efreet." />
+    <parameter key="keyword_reply9" value="I can't offer you anything, but you can offer me your help." />
+    <parameter key="keyword_reply10" value="If you want to help us ninjas, we could send you on a dangerous mission." />
+    <parameter key="idletime" value="85" />
+		<parameter key="talkdelaytime" value="2"/>
+		<parameter key="message_greet" value="What are you doing here?" />
+		<parameter key="message_farewell" value="Bye." />
+		<parameter key="message_walkaway" value="Bye." />
+	</parameters>
+
+
+</npc>

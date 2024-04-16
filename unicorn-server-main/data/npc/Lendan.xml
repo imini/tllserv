@@ -1,0 +1,35 @@
+<npc name="Lendan" script="lendan.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="0" body="58" legs="82" feet="114" addons="2"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;brad;brother;celeres;royal airlines;king arturo;quest;pire vam;dark magic;sheriff;stephanie;steve;rooster;sigiric;caroline;hat;outfit;addon;name;offer;destination;stephanie" />
+		<parameter key="keyword_reply1" value="I am currently working for The Royal Airlines, as me and my brother Brad call our business." />
+    <parameter key="keyword_reply2" value="Brad is my dear brother. We are from Celeres, but now he lives in Casteldine. Else our business wouldn't work." />
+    <parameter key="keyword_reply3" value="My brother is Brad." />
+    <parameter key="keyword_reply4" value="Walk to the east if you want to enter Celeres." />
+    <parameter key="keyword_reply5" value="Me and my brother decided to seek a permission to open this travelling business. King Arturo approved, and today we are an important factor for travelling in Lithaton." />
+    <parameter key="keyword_reply6" value="His Royal Highness is our brave and just leader." />
+    <parameter key="keyword_reply7" value="May I suggest you seek Pire Vam's home and solve his infamous secret." />
+    <parameter key="keyword_reply8" value="Pire Vam has always been a hot topic here in Celeres. Many a man believes he's an ancient ghost trying to avenge his unfair life." />
+    <parameter key="keyword_reply9" value="Even though we are outside Celeres I strongly suggest you to not mention this subject. You may get imprisoned." />
+    <parameter key="keyword_reply10" value="The sheriff is a good man, although I believe he is not always as just as he is supposed to." />
+    <parameter key="keyword_reply11" value="I hardly know her, but I think I'm having a small crush on her. She's so cute in her elegant dress and fancy hairstyle." />
+    <parameter key="keyword_reply12" value="Steve has a cool lifestyle. Everything he does is chating with by-passers and having barbeques." />
+    <parameter key="keyword_reply13" value="He's a bit too strict for my taste. But I'm sure he's a good man once you get to know him." />
+    <parameter key="keyword_reply14" value="Isn't that the monk guy in the temple?" />
+    <parameter key="keyword_reply15" value="I heard she has the same kind of hat as I do." />
+    <parameter key="keyword_reply16" value="A guy from Casteldine once made this hat for me." />
+    <parameter key="keyword_reply17" value="A guy from Casteldine once made this hat for me." />
+    <parameter key="keyword_reply18" value="A guy from Casteldine once made this hat for me." />
+    <parameter key="keyword_reply19" value="I'm Lendan." />
+    <parameter key="keyword_reply20" value="I can take you to Casteldine." />
+    <parameter key="keyword_reply21" value="I can fly you to Casteldine if you like." />
+		<parameter key="keyword_reply22" value="She's got a crush on my brother, I have been told. Pity, because I am the one who likes her. Not Brad." />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Welcome to the Royal Airlines, |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Please, come back when you feel like travelling to Casteldine!" />
+		<parameter key="message_walkaway" value="Oh." />
+	</parameters>
+</npc>

@@ -1,0 +1,28 @@
+<npc name="Selena" script="selena.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+<look type="54" head="0" body="0" legs="0" feet="0"/>
+
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="luna;haven;spirit;ravenclaw;casteldine;zertic;broom;bridge;altar" />
+		<parameter key="keyword_reply1" value="Luna is witch who have been deported from witches' Haven. We wish not to talk about her her, |PLAYERNAME|." />
+    		<parameter key="keyword_reply2" value="This is witches' Haven." />
+    		<parameter key="keyword_reply3" value="The spirits are present at the altar which is hidden underneath this floor." />
+    		<parameter key="keyword_reply4" value="Ravenclaw has a big surface, but it's underground is many times bigger." />
+    		<parameter key="keyword_reply5" value="The only respectful human from that town is Zertic." />
+    		<parameter key="keyword_reply6" value="He has magical powers far more advanced than my own. He has my respect." />
+    		<parameter key="keyword_reply7" value="I will never share the secrets of brooms with someone who is not a witch." />
+    		<parameter key="keyword_reply8" value="I have heard a broken bridge in the Barren Cliffs in Dustwit is guarding a magic fountain. I also heard that the witch recluse will do anything to have her life crystals enchanted there." />
+		<parameter key="keyword_reply9" value="The altar is hidden undernearth our haven." />
+
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="crystal ball, 2192, 240" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="You're not a witch! What do you want us?" />
+		<parameter key="message_farewell" value="Go away." />
+		<parameter key="message_walkaway" value="Yes, leave." />
+
+	</parameters>
+</npc>

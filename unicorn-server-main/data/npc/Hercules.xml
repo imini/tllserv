@@ -1,0 +1,42 @@
+<npc name="Hercules" script="hercules.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="144" head="60" body="94" legs="58" feet="76" addons="1"/>
+	<parameters>
+	
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;tanner;lost lands;flantania;lithaton;casteldine;celeres;academy;riona;gebby;help;quest;king arturo;mmb;animal;name;leather;cloth;home;natalon;rooster;adanac;edwyn;offer;rocky;sword of fury" />
+		<parameter key="keyword_reply1" value="I'm the local tanner. I buy fresh animal corpses, tan them, and convert them into fine leather clothes ...I'm buying fresh corpses of {rats}, sheeps, deers and wolves from you." />
+		<parameter key="keyword_reply2" value="That's my job. I buy fresh animal corpses, tan them, and convert them into fine leather clothes, which you can buy later in shop." />
+    <parameter key="keyword_reply3" value="These are the Lost Lands. Its main continent is Lithaton, which is located to the far east." />
+    <parameter key="keyword_reply4" value="This is Flantania Isle. King Celero I sent settlers to this island with the intentions to create a safe environment for new inhabitants of the Lost Lands." />
+    <parameter key="keyword_reply5" value="Lithaton is the main continent of the Lost Lands. Casteldine is the capital, and in this city king Arturo lives in his castle." />
+    <parameter key="keyword_reply6" value="Casteldine is the capital of Lithaton. From here king Arturo rules the world, sadly with an iron fist. Many people from my home town dislikes him." />
+    <parameter key="keyword_reply7" value="I have not much knowledge about this city, but I know that the earlier kings ruled from this city. Also, I am actually employeed by the Celerian Academy." />
+    <parameter key="keyword_reply8" value="The Celerian Academy is a mystic institution. Although I have never been there, I haven't heard of anyone who knows where this academy is." />
+    <parameter key="keyword_reply9" value="Riona is a nice girl. She is currently selling equipment, and I must say she has sold me some really nice wares." />
+    <parameter key="keyword_reply10" value="Gebby is my cousin. She and I moved from my brother Edwyn from Adanac, when we were ordered to move here to open our shops." />
+    <parameter key="keyword_reply11" value="If you are looking for help, I am not the right guy. Ask around in the temple, I am sure someone are there for you." />
+    <parameter key="keyword_reply12" value="Quests are overrated. I believe one should earn their money through unyielding work and no simple short cuts." />
+    <parameter key="keyword_reply13" value="I personally believe he has failed as a king. I, together with many people from my home town, thinks he is way too unsatisfied with the deeds of Natalon." />
+    <parameter key="keyword_reply14" value="He sucks." />
+    <parameter key="keyword_reply15" value="I collect animal corpses and remake their skin to fine clothes. Thereafter, I usually sell them to a guy called Rooster." />
+    <parameter key="keyword_reply16" value="I am Hercules, brother of Gebby and Edwyn." />
+    <parameter key="keyword_reply17" value="Leather is a perfect material to create clothes." />
+    <parameter key="keyword_reply18" value="Clothes are my passion. I would love to design them myself, but it's way too hard for a simple tanner like myself. I usually sell my leather to Rooster, who therafter sells it to his own customers." />
+    <parameter key="keyword_reply19" value="My home town is Adanac." />
+    <parameter key="keyword_reply20" value="Natalon was indeed a great man. When the orcish hordes launched their surprise attack onto Casteldine, Natalon and his men was the ones who saved the city from destruction." />
+    <parameter key="keyword_reply21" value="Rooster lives in Celeres. I sell him my leather, which he thereafter sell to his customers. Apparently, he's making one hell of a business that way. He's apparently top fashion." />
+    <parameter key="keyword_reply22" value="This city is peaceful and nice. My brother Edwyn lives here." />
+    <parameter key="keyword_reply23" value="Edwyn is a very kind person, but he has quite a temperament sometimes." />
+    <parameter key="keyword_reply24" value="I'm the local tanner. I buy fresh animal corpses, tan them, and convert them into fine leather clothes ...I'm buying fresh corpses of {rats}, sheeps, deers and wolves from you." />
+    <parameter key="keyword_reply25" value="Some sage guy from the south." />
+		<parameter key="keyword_reply26" value="Ah! So many stories I have heard about it. It's really cool, don't you think?" />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="wolf, 2826, 9;sheep, 2905, 4;rat, 2813, 4;deer, 2835, 5" />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="I'm Hercules the tanner. How can I help you |PLAYERNAME|?" />
+		<parameter key="message_farewell" value="Good hunting, |PLAYERNAME|!" />
+		<parameter key="message_walkaway" value="Hey!" />
+	</parameters>
+</npc>
+

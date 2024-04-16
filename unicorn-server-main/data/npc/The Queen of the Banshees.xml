@@ -1,0 +1,16 @@
+  <npc name="The Queen of the Banshees" script="banshee queen.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="78" head="0" body="0" legs="0" feet="0" /> 
+	<parameters>
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;" />
+		<parameter key="keyword_reply1" value="I'm just a normal shopkeeper." />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_farewell" value="Farewell, |PLAYERNAME|. One day, even your soul will belong to me." /> 
+  <parameter key="message_walkaway" value="Farewell, |PLAYERNAME|. One day, even your soul will belong to me." /> 
+	</parameters>
+</npc>
+
+

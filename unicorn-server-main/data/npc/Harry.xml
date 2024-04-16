@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<npc name="Harry" script="Harry.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="146" head="76" body="38" legs="76" feet="95"/>
+
+
+
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;cell;shirt" />
+		<parameter key="keyword_reply1" value="Not in your business, eh?" />
+		<parameter key="keyword_reply2" value="I don't know... it could get serious consequences if I opened the cell for you, kid." />
+		<parameter key="keyword_reply3" value="That's all I caught from her." />
+		<parameter key="keyword_reply4" value="Not in your business, eh?" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="What do you want, kiddo? Get outta here." />
+		<parameter key="message_farewell" value="Get out of here as fast as you can, now. And we never talked." />
+		<parameter key="message_walkaway" value="Remember we never talked!" />
+	</parameters>
+</npc>
+

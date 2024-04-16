@@ -1,0 +1,32 @@
+<npc name="Otarn" script="otarn.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="80" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+	
+				<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="blue djinn;green djinn;war;falor;reroah;fa'hadir;caiareus;umar;do'ranah;offer;name;job;sweat;fighting spirit;book;study;godslayer;archdemons" />
+		<parameter key="keyword_reply1" value="Especially we blue djinns are capable of dealing magical damage to anyone who dares to confront us. Me myself though, prefers books and studying." />
+		<parameter key="keyword_reply2" value="We all hate them don't we?" />
+    <parameter key="keyword_reply3" value="We are in war with the efreet." />
+    <parameter key="keyword_reply4" value="Falor, that is the leader of the green djinns. Beware of this evil doings." />
+    <parameter key="keyword_reply5" value="He trades magical items." />
+    <parameter key="keyword_reply6" value="I heard Umar thinks he is a great warrior." />
+    <parameter key="keyword_reply7" value="He is guarding the gates." />
+    <parameter key="keyword_reply8" value="We djinns can't praise his greatness enough. He is unmistakably the greatest djinn who has ever lived, and I will never betray him." />
+    <parameter key="keyword_reply9" value="He trades various equipment and weapons to people who have had permission from Umar." />
+    <parameter key="keyword_reply10" value="I don't sell things, human." />
+    <parameter key="keyword_reply11" value="I am Otarn, the djinn." />
+    <parameter key="keyword_reply12" value="I am studying books, as I believe I someday will stumble across something which will lead us directly from where we are now to victory over the green djinns." />
+    <parameter key="keyword_reply13" value="I believe you should speak with Reroah about this." />
+    <parameter key="keyword_reply14" value="I believe you should speak with Reroah about this." />
+    <parameter key="keyword_reply15" value="I have read many books, but the one about the godslayer is truly an amazing one." />
+    <parameter key="keyword_reply16" value="I study books." />
+    <parameter key="keyword_reply17" value="I wish not to waste so much time with you, that I can tell you its entire story, but it was forged by the archdemons and its history thereafter was truly amazing." />
+		<parameter key="keyword_reply18" value="These archdemons appears to live beneath the sand, but they might be a rumour only. They are said to have forged the godslayer, or as some people prefer to call it, the magic longsword." />
+		
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hey! What are you doing here, |PLAYERNAME|?" />
+		<parameter key="message_farewell" value="Alright then, I'll continue my studies." />
+		<parameter key="message_walkaway" value="Good bye." />
+	</parameters>
+</npc>

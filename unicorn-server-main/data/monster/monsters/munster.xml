@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Munster" nameDescription="munster" race="blood" experience="23" speed="160" manacost="250">
+  <health now="58" max="58"/>
+  <look type="56" head="0" body="0" legs="0" feet="0" corpse="2813"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="3"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-2" max="-17"/>
+  </attacks>
+  <defenses armor="2" defense="5"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+<summons maxSummons="2">
+    <summon name="rat" interval="1500" chance="20" max="1"/>
+    <summon name="rat" interval="1000" chance="14" max="1"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="Meeeeep!"/>
+  </voices>
+  <loot capacity="200">
+<item id="1987"> --Bag
+        <inside>
+    <item id="2382" countmax="1" chance="30000"/> - club
+    <item id="2449" countmax="1" chance="20000"/> - bone club
+	  </inside>
+    </item>
+    <item id="2696" countmax="1" chance="30000"/> - cheese
+    <item id="2687" countmax="1" chance="1000"/> - cookie
+    <item id="2148" countmax="16" chance="85000"/> - gp
+    <item id="3976" countmax="3" chance="50000"/> - worm
+    <item id="2650" countmax="1" chance="24300"/> - jacket
+  </loot>
+</monster>

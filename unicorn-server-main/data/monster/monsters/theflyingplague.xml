@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Flying Plague" nameDescription="the Flying Plague" race="venom" experience="125" speed="395" manacost="280">
+  <health now="135" max="135"/>
+  <look type="44" head="0" body="0" legs="0" feet="0" corpse="2899"/>
+  <targetchange interval="2000" chance="10"/>
+  <strategy attack="70" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="40" attack="22" poison="195"/>
+  
+  <attack name="poisoncondition" interval="1000" chance="14" radius="4" target="0" min="-200" max="-300">
+      <attribute key="areaEffect" value="greenbubble"/>
+    </attack>
+    </attacks>
+  <defenses armor="20" defense="20">
+    <defense name="speed" interval="1000" chance="13" speedchange="63" duration="2000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+    <defense name="invisible" interval="1000" chance="25" duration="2400">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="30">
+    <voice sentence="Bzzz!"/>
+  </voices>
+  <loot capacity="100">
+    <item id="5902" countmax="1" chance="45250"/> honeycomb
+    <item id="5902" countmax="1" chance="35250"/> honeycomb
+    <item id="5902" countmax="1" chance="55250"/> honeycomb
+    <item id="5902" countmax="1" chance="65250"/> honeycomb
+    <item id="5902" countmax="1" chance="25250"/> honeycomb
+    <item id="3976" countmax="14" chance="73388"/> worms
+    <item id="2411" countmax="1" chance="44444"/> dagger
+    <item id="2148" countmax="2" chance="93000"/> cash
+  </loot>
+</monster>
+

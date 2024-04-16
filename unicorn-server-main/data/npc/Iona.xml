@@ -1,0 +1,21 @@
+<npc name="Iona" script="Iona.lua" autowalk="1" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="138" head="105" body="125" legs="114" feet="50" addons="0"/>
+	<parameters>
+    
+<parameter key="talkdelaytime" value="2"/>
+		<parameter key="message_greet" value="Welcome." />
+		<parameter key="message_farewell" value="Farewell." />
+		<parameter key="message_buy" value="Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?" />
+		<parameter key="message_sell" value="Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?" />
+    <parameter key="message_onbuy" value="Hehe. Always a pleasure." />
+    <parameter key="message_onsell" value="Thank you, |PLAYERNAME|." />
+    <parameter key="message_needmoremoney" value="Get more money." />
+    <parameter key="message_nothaveitem" value="You have not brought this item." />
+    <parameter key="message_idletimeout" value="I don't have the entire day, I'm afraid. I shall ungreet you now, |PLAYERNAME|." />
+    <parameter key="message_walkaway" value="You are gone." />  
+    <parameter key="message_alreadyfocused" value="Yes?" />
+    <parameter key="message_decline" value="No." />
+    <parameter key="message_placedinqueue" value="Can you wait just a moment?" />
+	</parameters>
+</npc>

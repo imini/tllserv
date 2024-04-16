@@ -1,0 +1,28 @@
+<npc name="Rocky" script="rocky.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="0" body="58" legs="82" feet="114" addons="2"/>
+	
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="flantania;hercules;name;offer;king arturo;king flantan;rooster;celeres;casteldine;lithaton;sword of fury" />
+		<parameter key="keyword_reply1" value="This is a remarkable island. Its inhabitants are friendly and peaceful." />
+    <parameter key="keyword_reply2" value="That's the local tanner. I heard he sells his leather to Rooster from Celeres." />
+    <parameter key="keyword_reply3" value="My name is Rocky. Not really suitable for a sage, but I can't change it, right?" />
+    <parameter key="keyword_reply4" value="I can offer you arrows." />
+    <parameter key="keyword_reply5" value="His Royal Highness is our great and just leader." />
+    <parameter key="keyword_reply6" value="King Flantan is no more, I'm afraid." />
+    <parameter key="keyword_reply7" value="Rooster is that fashion clothes seller from Celeres to whom Hercules sells his tanned leather." />
+    <parameter key="keyword_reply8" value="Celeres used to be the capital, but King Arturo moved to Casteldine instead." />
+    <parameter key="keyword_reply9" value="Casteldine is the capital of Lithaton. A grand city. I have been there." />
+    <parameter key="keyword_reply10" value="Lithaton is the main continent in the far east." />
+    <parameter key="keyword_reply11" value="I heard some witch from Lithaton was seeking it." />
+<parameter key="idletime" value="200" />
+<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="arrow, 2544, 2" />
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Greetings, adventurer. What brings you to my hut?" />
+		<parameter key="message_farewell" value="Farewell. May your journeys be safe, but adventurous." />
+		<parameter key="message_walkaway" value="Farewell, |PLAYERNAME|." />
+	</parameters>
+</npc>

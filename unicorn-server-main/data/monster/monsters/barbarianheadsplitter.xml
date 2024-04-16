@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Barbarian Headsplitter" nameDescription="a barbarian headsplitter" race="blood" experience="85" speed="180" manacost="0">
+  <health now="100" max="100"/>
+  <look type="253" head="132" body="105" legs="0" feet="132" corpse="3128"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-0" max="-50"/>
+     <attack name="physical" interval="1000" chance="16" range="7" min="-45" max="-60">
+      <attribute key="shootEffect" value="bolt"/>
+    </attack>
+  </attacks>
+  <defenses armor="19" defense="20"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="I will regain my honor with your blood!"/>
+    <voice sentence="Surrender is not option!"/>
+    <voice sentence="Its you or me!"/>
+  </voices>
+  <loot>
+<item id="1987" countmax="1">
+      <inside>
+    <item id="2050" chance="11111"/> --Torch
+    <item id="7449" chance="800"/> --Crystal Sword
+    <item id="5913" countmax="1" chance1="2555" chancemax="0"/> --Brown Piece of Cloth
+    <item id="2403" chance="8888"/> --Knife
+      </inside>
+    </item>
+    <item id="2148" countmax="35" chance1="60000" chancemax="0"/> --Gold Coins
+    <item id="2229" countmax="1" chance1="20000" chancemax="0"/> --Skull
+    <item id="2460" chance="6000"/> --Brass Helmet
+    <item id="7457" chance="700"/> --Fur Boots
+    <item id="2483" chance="5000"/> --scale armor
+           <item id="2473" chance="6555"/> --Viking Helmet
+           <item id="7461" chance="680"/> --Krimhorn Helmet
+    <item id="5913" countmax="1" chance="2500"/>
+  </loot>
+</monster>

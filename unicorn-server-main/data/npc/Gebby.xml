@@ -1,0 +1,33 @@
+<npc name="Gebby" script="gebby.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="139" head="6" body="115" legs="12" feet="114" addons="0"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;offer;lost lands;christopher;hercules;riona;edwyn;adanac;lithaton;casteldine;dustwit;quest;joan;rocky;sword of fury;task" />
+		<parameter key="keyword_reply1" value="I'm a simple salesman." />
+		<parameter key="keyword_reply2" value="I am a merchant, just a humble merchant. Read my black boards for information about my offers." />
+    <parameter key="keyword_reply3" value="The Lost Lands is a great world. It contains of two great continents, mainly. These are Lithaton and Dustwit." />
+    <parameter key="keyword_reply4" value="He serves some good food." />
+    <parameter key="keyword_reply5" value="Hercules is one of my brothers. The second one is Edwyn, who lives in Adanac." />
+    <parameter key="keyword_reply6" value="Riona is some girl down the street." />
+    <parameter key="keyword_reply7" value="Edwyn is my older brother from Adanac." />
+    <parameter key="keyword_reply8" value="Adanac is my home town. I moved here when I was given a job in this shop." />
+    <parameter key="keyword_reply9" value="Lithaton is the greatest continent in the Lost Lands. Its capital is Casteldine, and I daresay it's indeed a grand city." />
+    <parameter key="keyword_reply10" value="I have lived in Casteldine, but only for a few months. This was when my and Hercules had a fight." />
+    <parameter key="keyword_reply11" value="Dustwit is an impressive island. I have myself never been there, but one can only dream of the sand beaches." />
+    <parameter key="keyword_reply12" value="Believe it or not, but I lost my best helmet in store recently. I have no idea how it vanished, but one morning it was just gone from its locker. It was a very rare iron helmet." />
+    <parameter key="keyword_reply13" value="Bah - she thinks her backpack is fancy. It's just a piece of crap." />
+    <parameter key="keyword_reply14" value="That's the sage living on the small hill in the south of Flantania Isle." />
+    <parameter key="keyword_reply15" value="Apparently it is somehow connected to various creatures' gods. I don't really know, but that's what I heard." />
+	<parameter key="keyword_reply16" value="They say the {skeletons} provide a variety of treasures, it would be great if you could kill a few {skeletons} and let me know." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="sword, 2376, 25;short sword, 2406, 11;sabre, 2385, 12;mace, 2398, 25;hatchet, 2388, 25;hand axe, 2380, 5;chain armor, 2464, 32;brass helmet, 2460, 15;chain helmet, 2458, 10;brass shield, 2511, 22;viking helmet, 2473, 30;studded armor, 2484, 18" />
+		<parameter key="shop_buyable" value="mace, 2398, 55;short sword, 2406, 16;wooden shield, 2512, 20;studded shield, 2526, 65;leather legs, 2649, 10;chain helmet, 2458, 15;sword, 2376, 55;" />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello, hello |PLAYERNAME|. Please step inside my shop." />
+		<parameter key="message_farewell" value="Farewell, |PLAYERNAME|. Remember that I can serve you any day." />
+		<parameter key="message_walkaway" value="Next please!" />
+	</parameters>
+</npc>

@@ -1,0 +1,42 @@
+<npc name="Doc" script="doc.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="134" head="97" body="105" legs="97" feet="97" addons="3"/>
+	<parameters>
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;casteldine;offer;weapons;equipment;hobby;peace;glorious;times;rare;magic;name;famous;arturo;tommy;zertic;dallheim;dallrim;jooko;penim;terepido;emma;ashbere;riddle" />
+		<parameter key="keyword_reply1" value="I have left the glorious times and entered an era of peace. I now buy equipment... it's a hobby." />
+		<parameter key="keyword_reply2" value="Casteldine... it's like music in my ears. I love this town!" />
+		<parameter key="keyword_reply3" value="I would like to buy armors, weapons, shields, legs and helmets from you. Don't worry, I can afford it." />
+    <parameter key="keyword_reply4" value="Weapons have always meant much to me." />
+    <parameter key="keyword_reply5" value="Shiny equipment is always enjoyable to see." />
+    <parameter key="keyword_reply6" value="My hobby is to collect equipment and weapons. It helps me remember the glorious times. I actually have collected some real rare ones." />
+    <parameter key="keyword_reply7" value="Nowadays I live a life in peace." />
+    <parameter key="keyword_reply8" value="I remember back when I was a noble knight, fighting for the good. Many knew my name. It was a time of glory." />
+    <parameter key="keyword_reply9" value="I remember back when I was a noble knight, fighting for the good. Many knew my name. It was a time of glory." />
+    <parameter key="keyword_reply10" value="I have collected some real rarities through my days. I am actually the owner of a magic plate armor." />
+    <parameter key="keyword_reply11" value="Are you referring to the offer on the black board? Hah! That was just a silly joke..." />
+    <parameter key="keyword_reply12" value="Doc is of course not my real name. You see, I was quite famous back in the times, and I don't want people to recognize me anymore. " />
+    <parameter key="keyword_reply13" value="I have been a very famous knight." />
+    <parameter key="keyword_reply14" value="The king is a very nice man, truly worth his position." />
+    <parameter key="keyword_reply15" value="The king is a very nice man, truly worth his position." />
+    <parameter key="keyword_reply16" value="Haha! It's that strange fellow who believes I want to kill him. What a paranoid he is." />
+    <parameter key="keyword_reply17" value="I know this man. And I like this man." />
+		<parameter key="keyword_reply18" value="I knew Dallheim's father." />
+		<parameter key="keyword_reply19" value="Dallrim and I have done many glorious things together." />
+		<parameter key="keyword_reply20" value="Jooko is a nice guy, but sometimes his pranks gets excessive." />
+		<parameter key="keyword_reply21" value="I am curious what made him move here. I heard he came from Ashbere." />
+		<parameter key="keyword_reply22" value="He's a paranoid. But it is perhaps not very strange, knowing his past stories." />
+		<parameter key="keyword_reply23" value="Why do you mention her?" />
+		<parameter key="keyword_reply24" value="Ashbere is the home to an elven race who is known for their extremely aggressive behaviour towards humans." />
+		<parameter key="keyword_reply25" value="Yeh, I've heard of him. Lived long ago." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="two handed sword, 2377, 900;chain armor, 2464, 100;brass armor, 2465, 420;plate armor, 2463, 1100;chain helmet, 2458, 32;clerical mace, 2423, 550;iron helmet, 2459, 185;viking helmet, 2473, 94;brass helmet, 2460, 24;steel helmet, 2457, 395;dark helmet, 2490, 790;chain trousers, 2648, 260;brass legs, 2478, 440;plate shield, 2510, 105;steel shield, 2509, 495;dark shield, 2521, 840;hatchet, 2388, 55;battle axe, 2378, 285;double axe, 2387, 1045;halberd, 2381, 900;barbarian axe, 2429, 940;obsidian lance, 2425, 900;rapier, 2384, 22;short sword, 2406, 21;sabre, 2385, 23;sword, 2376, 75;carlin sword, 2395, 63;longsword, 2397, 151;broadsword, 2413, 950;mace, 2398, 75;crowbar, 2416, 260" />
+		<parameter key="shop_sellable" value="two handed sword, 2377, 400;chain armor, 2464, 40;brass armor, 2465, 120;plate armor, 2463, 400;crown armor, 2487, 6500;knight armor, 2476, 3500;chain helmet, 2458, 12;iron helmet, 2459, 85;viking helmet, 2473, 44;brass helmet, 2460, 14;steel helmet, 2457, 195;dark helmet, 2490, 190;crown helmet, 2491, 1200;devil helmet, 2462, 500;chain trousers, 2648, 60;brass legs, 2478, 40;plate legs, 2647, 450;knight legs, 2477, 6000;plate shield, 2510, 45;steel shield, 2509, 95;dark shield, 2521, 40;dwarven shield, 2525, 100;beholder shield, 2518, 1300;guardian shield, 2515, 1400;hatchet, 2388, 15;battle axe, 2378, 85;double axe, 2387, 245;halberd, 2381, 400;barbarian axe, 2429, 340;obsidian lance, 2425, 100;nagitana, 2426, 2000;rapier, 2384, 12;short sword, 2406, 11;sabre, 2385, 13;sword, 2376, 35;carlin sword, 2395, 13;longsword, 2397, 51;broadsword, 2413, 250;serpent sword, 2409, 2000;mace, 2398, 35;clerical mace, 2423, 150 " />
+
+		<parameter key="talkdelaytime = 2"/>
+		<parameter key="message_greet" value="Hello, dear |PLAYERNAME|. How can I help?" />
+		<parameter key="message_farewell" value="Are you leaving already?" />
+		<parameter key="message_walkaway" value="Farewell, |PLAYERNAME|." />
+	</parameters>
+</npc>
